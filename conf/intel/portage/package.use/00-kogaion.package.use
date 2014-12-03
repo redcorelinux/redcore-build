@@ -1,0 +1,1177 @@
+## If you dont want to organize it, put new entries in at the very end
+
+app-accessibility/dasher gnome
+# These two want either one of alsa pulseaudio, etc
+app-accessibility/julius -alsa pulseaudio -oss -portaudio
+app-accessibility/simon -alsa pulseaudio -oss -portaudio
+
+app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thinkpad weather-metar weather-xoap -ipv6
+# eselect-php now contains fpm init script and apache stuff
+app-admin/eselect-php fpm apache2
+app-admin/gnome-system-tools nfs
+# PackageKit, Kogaion config
+app-admin/packagekit entropy cron pm-utils -qt4 -gtk
+# PackageKit settings
+app-admin/packagekit-base pm-utils entropy -bash-completion
+app-admin/ulogd mysql
+
+app-arch/advancecomp mng
+# GNOME PackageKit support
+app-arch/file-roller -nautilus packagekit
+app-arch/engrampa caja
+app-arch/p7zip -kde -wxwidgets
+# vzctl and other packages now require xattr support in tar
+app-arch/tar xattr
+app-arch/unzip natspec
+
+# Disable KDE on backintime
+app-backup/backintime gnome -kde
+app-backup/bacula sqlite3
+app-backup/deja-dup nautilus
+app-backup/fsarchiver lzma
+
+app-benchmarks/phoronix-test-suite gd -gtk
+
+app-cdr/brasero nautilus
+app-cdr/cdrdao -gnome
+app-cdr/dvd95 sse sse2
+app-cdr/k3b taglib
+app-cdr/xfburn gstreamer
+
+# required by seahorse
+app-crypt/gcr vala
+# We really wanted USE=static in order
+# to not add many pkgs on 700Mb sized ISO
+# images but it turned out to be buggy,
+# see bug 2781
+app-crypt/gnupg -static bzip2 smartcard
+# required by app-backup/deja-dup
+app-crypt/libsecret vala
+app-crypt/mit-krb5 krb4 openldap
+# app-crypt/pinentry is now a meta-package
+# enable GTK2 by default, people complaining
+# about dependencies, should really use pinentry-base
+# instead
+app-crypt/pinentry gtk qt4
+
+app-editors/bluefish gnome
+app-editors/emacs xft
+app-editors/gedit-plugins terminal
+# USE=spell wants Python 3.2, doesn't allow 3.3
+app-editors/retext -spell
+app-editors/vim cscope ruby vim-pager
+app-editors/xemacs xft
+
+app-emacs/auctex preview-latex
+
+# virt stuff
+app-emulation/e-uae capslib
+app-emulation/emul-linux-x86-soundlibs esd
+app-emulation/ganeti kvm lxc htools
+app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
+app-emulation/qemu fdt spice -gtk virtfs xattr
+app-emulation/vice gnome
+app-emulation/virtualbox-bin additions vboxwebsrv -chm rdesktop-vrdp
+# Wine, more features
+app-emulation/wine fontconfig samba udisks
+app-emulation/winetricks -gtk
+# add HVM
+app-emulation/xen-tools hvm qemu
+
+# USE flag gtk3 enabled on app-i18n/ibus makes it depend on both slots of Gtk+; it shouldn't
+# be a real problem though since everyone nowadays has normally both of them installed.
+# Advantage is that it will be working for applications using either version of the toolkit
+# which also helps make it just work (bug 2518). It may be revisited in the future if needed.
+app-i18n/ibus gtk3 dconf
+app-i18n/skk-jisyo cdb
+
+app-laptop/pommed -gtk
+app-laptop/tp_smapi hdaps
+
+app-leechcraft/lc-lmp kde
+
+app-misc/ddccontrol -gtk -gnome
+app-misc/gcstar stats
+
+# Kernel drivers are unwanted for lirc, they're in-kernel
+app-misc/lirc -lirc_devices_audio -lirc_devices_audio_alsa -lirc_devices_serial
+
+app-misc/mc -slang
+# app-misc/recoll cannot use both inotify and fam, only one of them.
+app-misc/recoll -fam inotify
+app-misc/sphinx mysql
+app-misc/tuxcmd-modules gnome unrar
+
+app-mobilephone/gnokii sms -X
+app-mobilephone/kannel mysql
+
+app-office/abiword plugins
+app-office/calligra kdepim semantic-desktop
+app-office/dia gnome-print
+app-office/glabels doc
+app-office/gnucash chipcard hbci ofx quotes sqlite
+app-office/homebank ofx
+app-office/kmymoney hbci ofx
+app-office/libreoffice -nsplugin gnome java templates -kde pdfimport binfilter gtk3 gstreamer
+app-office/libreoffice-l10n-meta linguas_as linguas_as_IN linguas_ast linguas_be linguas_be_BY linguas_bo linguas_brx linguas_ca_XV linguas_dgo linguas_dz linguas_en_ZA linguas_fo linguas_gd linguas_gu linguas_hi_IN linguas_ia linguas_id linguas_ka linguas_kn linguas_kok linguas_ks linguas_ku linguas_ky linguas_lo linguas_mai linguas_mi linguas_ml linguas_ml_IN linguas_mni linguas_mr linguas_mr_IN linguas_my linguas_ne linguas_nr linguas_ns linguas_nso linguas_oc linguas_om linguas_or linguas_or_IN linguas_pa_IN linguas_pap linguas_ps linguas_sa_IN linguas_sat linguas_sd linguas_sh linguas_si linguas_sq linguas_st linguas_sw linguas_sw_TZ linguas_te linguas_te_IN linguas_th linguas_ti linguas_ti_ER linguas_tn linguas_ts linguas_ug linguas_ur_IN linguas_ve linguas_xh linguas_zu
+app-office/magicpoint mng
+
+app-pda/gtkpod gstreamer
+app-pda/libopensync-plugin-syncml obex
+
+app-portage/eix sqlite
+
+app-text/aspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_is -linguas_it -linguas_lt -linguas_nl -linguas_no -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
+app-text/hunspell -linguas_af -linguas_be -linguas_bg -linguas_br -linguas_ca -linguas_cs -linguas_cy -linguas_da -linguas_de -linguas_el -linguas_en -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fo -linguas_fr -linguas_ga -linguas_gl -linguas_he -linguas_hr -linguas_hu -linguas_is -linguas_it -linguas_lt -linguas_lv -linguas_mk -linguas_ms -linguas_nb -linguas_nl -linguas_nn -linguas_no -linguas_pl -linguas_pt -linguas_ro -linguas_ru -linguas_sk -linguas_sl -linguas_sr -linguas_sv -linguas_uk -linguas_vi
+app-text/djvu threads -nsplugin
+app-text/enchant aspell
+app-text/evince djvu dvi gnome-keyring nautilus
+app-text/fbreader -gtk
+app-text/ghostscript-gpl -cjk -gtk
+app-text/lcdf-typetools kpathsea
+app-text/atril caja djvu dvi mate mate-keyring
+app-text/stardict tools
+app-text/texlive -truetype
+app-text/texlive-core xetex
+
+# qt4 is a bit overkill for highlight
+# our servers don't want qt4 either.
+app-text/highlight -qt4
+app-text/qpdfview sqlite
+# qt4 is overkill for cmake as well
+dev-util/cmake -qt4
+
+# Since those are not linker deps, we
+# can drop then and let users decide
+# to install the fonts they want
+app-text/ghostscript-gpl -linguas_ja -linguas_ko -linguas_zh_CN -linguas_zh_TW
+
+# required for blender
+dev-cpp/glog gflags
+
+dev-db/freetds mssql
+# dev-db/mongodb should use V8. Allows to fix bug 3069
+# embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
+dev-db/mongodb v8 embedded-v8
+dev-db/postgresql-base threads
+# soundex required by Entropy
+# secure-delete required by xulrunner
+# unlock-notify required by dev-db/libzdb
+dev-db/sqlite soundex extensions unlock-notify
+# We don't have Oracle
+dev-db/tora -oracle
+
+dev-embedded/avr-libc -selinux
+dev-embedded/openocd ftdi
+
+dev-games/cegui devil
+dev-games/crystalspace mng
+dev-games/ode double-precision
+dev-games/ogre cg ois
+dev-games/physfs hog
+
+dev-java/antlr cxx script
+dev-java/bsh bsf
+dev-java/glazedlists java5
+dev-java/gnu-classpath gstreamer -qt4
+# micia: disable source inclusion in icedtea, save some space
+dev-java/icedtea -source
+# Needed for Netbeans ide
+dev-java/swing-layout source
+dev-java/swt cairo -xulrunner
+dev-java/swt -firefox
+# net-p2p/vuze requires swt[gnome] in order to work, see bug #3724
+dev-java/swt gnome
+dev-java/tomcat-servlet-api java5
+
+dev-lang/fpc source ide
+# icc doesn't like LINGUAS=ja on ifc
+dev-lang/ifc idb -linguas_ja
+dev-lang/lua deprecated
+dev-lang/mono moonlight
+dev-lang/ocaml tk
+dev-lang/parrot pcre
+dev-lang/php -threads apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap intl json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip sysvipc xslt
+dev-lang/python sqlite berkdb
+
+dev-libs/beecrypt threads
+# Needed by some lisp packages
+dev-libs/boehm-gc threads
+dev-libs/boost python threads icu
+# Enable threading support in botan
+dev-libs/botan threads
+dev-libs/crypto++ sse3
+# Needed by directvnc
+dev-libs/DirectFB dynload fbcon
+dev-libs/dbus-glib bash-completion
+# Required by terminology
+dev-libs/efl pulseaudio audio -xcb pixman sound X
+dev-libs/folks eds vala
+dev-libs/gdl gnome
+# 2010-04-6, trying to disable USE="mono" from gmime
+dev-libs/gmime -mono
+# Required by bitcoin-qt
+dev-libs/leveldb -snappy
+dev-libs/libassuan static-libs
+dev-libs/libf2c static-libs
+dev-libs/libgcrypt static-libs
+# Required by gnome-documents 3.6
+dev-libs/libgdata gnome
+dev-libs/libgpg-error static-libs
+dev-libs/libksba static-libs
+dev-libs/libmcs -kde
+dev-libs/libxml2 icu
+dev-libs/nss utils
+dev-libs/popt static-libs
+dev-libs/pth static-libs
+dev-libs/soprano clucene redland -java
+dev-libs/tinyxml stl
+dev-libs/tntnet sdk
+dev-libs/xerces-c xqilla icu
+dev-libs/xmlrpc-c curl
+dev-libs/xmlsec gcrypt
+
+# See Sabayon bug #1020
+dev-libs/openct pcsc-lite
+
+dev-ml/camlimages gs postscript
+dev-ml/lablgl glut
+dev-ml/lablgtk gnomecanvas
+
+dev-perl/PDL fftw
+
+dev-python/cgkit 3ds
+# Make possible to have dev-python/epydoc without python compiled with tk
+dev-python/epydoc -X
+dev-python/ipython -wxwidgets
+dev-python/matplotlib -wxwindows
+# Required by dev-python/graph-tool
+dev-python/numpy lapack
+# We want sqlite3 support in pypy
+dev-python/pypy sqlite
+dev-python/pyside script
+dev-python/pyudev pyqt4
+
+# don't require media-libs/alsa-lib[alisp]
+dev-python/pyglet -alsa
+
+dev-qt/qt-creator autotools cmake git subversion valgrind examples
+dev-qt/qt3support kde
+dev-qt/qthelp compat
+dev-qt/qtwebkit kde icu
+
+dev-scheme/guile regex discouraged networking
+dev-scheme/racket backtrace futures jit places threads
+
+dev-db/sqliteodbc sqlite3
+dev-db/mysql -berkdb embedded pic extraengine
+dev-db/mariadb -berkdb embedded extraengine
+virtual/mysql embedded
+
+dev-tcltk/tclxml expat
+
+dev-util/anjuta subversion
+dev-util/biew mmx sse
+dev-util/codeblocks contrib
+dev-util/eclipse-sdk java6
+dev-util/geany-plugins enchant gtkspell
+dev-util/glade -gnome
+dev-util/jay java
+dev-util/kdevelop php qthelp ruby
+dev-util/kdevplatform git subversion
+dev-util/nvidia-cuda-sdk opencl
+
+dev-vcs/bzr bash-completion curl sftp
+dev-vcs/git curl webdav -subversion -gtk
+dev-vcs/qct mercurial subversion
+dev-vcs/subversion -java -apache2 -dso -kde
+
+# use minimal so it doesn't depend on dev-python/imaging[tk]
+games-board/pysolfc minimal
+
+games-emulation/generator sdlaudio
+games-emulation/qmc2 sdlmess
+
+# Corsix USE=wxwidgets requires masked (dev) wxGTK 2.9
+games-engines/corsix-th -wxwidgets
+games-engines/stratagus mng
+
+games-fps/darkplaces textures
+games-fps/freedoom doomsday
+games-fps/nexuiz dedicated maps
+games-fps/worldofpadman maps
+
+games-rpg/eternal-lands-data music sound
+games-rpg/nwn-data videos
+
+games-strategy/0ad editor
+games-strategy/uqm voice
+games-strategy/warzone2100 videos
+
+games-util/springlobby bittorrent
+
+gnome-base/gconf policykit
+gnome-base/gnome-applets gnome networkmanager gstreamer
+gnome-base/gvfs ios samba gnome gdu fuse archive gnome-keyring udisks
+# Needed by net-analyzer/ehterape
+gnome-base/libgnomecanvas glade
+gnome-base/librsvg gnome
+gnome-base/nautilus gnome sendto
+
+gnome-extra/avant-window-navigator doc gnome xfce
+gnome-extra/avant-window-navigator-extras gnome
+gnome-extra/evolution-data-server ldap kerberos vala
+gnome-extra/gnome-games -sudoku
+gnome-extra/libgsf gnome
+gnome-extra/nautilus-sendto -cdr
+# nm-applet-gtk2 is the bloody version of nm-applet
+# used by non-gtk3 DEs, like LXDE, Xfce, E17, ...
+# Cannot enable bluetooth because gnome-bluetooth-3.x
+# is gtk3 as well
+gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
+# disable fts because gnome-extra/zeitgeist-extensions[fts] doesn't allow gnome-extra/zeitgeist[fts]
+gnome-extra/zeitgeist-extensions -fts
+
+# See bug 3619
+kde-base/ark lzma
+kde-base/dolphin semantic-desktop thumbnail
+kde-base/gwenview kipi semantic-desktop
+kde-base/kactivities semantic-desktop
+kde-base/ksnapshot kipi
+# move kde-base/kde-l10n-meta kde-base/kde-l10n
+kde-base/kde-l10n linguas_be linguas_csb linguas_ne linguas_th linguas_wa
+kde-base/kdebase-runtime-meta semantic-desktop
+kde-base/kde-meta -nls semantic-desktop
+kde-base/kdepim-meta -nls
+kde-base/kdepimlibs semantic-desktop
+kde-base/kdebase-kioslaves samba
+kde-base/kdelibs jpeg2k -pertty acl semantic-desktop
+# kill linguas on kdepim-runtime, we ship it in kde-l10n
+kde-base/kdepim-runtime -linguas_ar -linguas_be -linguas_ca -linguas_ca@valencia -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_en_GB -linguas_eo -linguas_es -linguas_et -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hr -linguas_hu -linguas_ia -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_ko -linguas_lt -linguas_lv -linguas_mai -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pa -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sv -linguas_th -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW google kolab
+kde-base/kdeplasma-addons desktopglobe json oauth semantic-desktop
+kde-base/kget bittorrent semantic-desktop
+kde-base/klipper prison
+kde-base/kopete addbookmarks alias autoreplace connectionstatus contactnotes gadu groupwise highlight history irc jingle -kdeenablefinal netmeeting nowlistening oscar otr qq sametime skype statistics texteffect translator webpresence winpopup yahoo
+kde-base/krdc vnc
+kde-base/krunner xcomposite
+kde-base/kwin captury xcomposite
+# Required by plasma-workspace
+kde-base/libplasmaclock semantic-desktop
+kde-base/marble plasma
+kde-base/okular chm djvu ebook crypt
+kde-base/phonon-kde -xine
+kde-base/plasma-workspace semantic-desktop python
+kde-base/pykde4 semantic-desktop
+kde-base/superkaramba python
+
+kde-misc/networkmanagement openvpn networksettings -linguas_ar -linguas_bs -linguas_ca -linguas_cs -linguas_da -linguas_de -linguas_el -linguas_es -linguas_et -linguas_fa -linguas_fi -linguas_fr -linguas_ga -linguas_gl -linguas_hu -linguas_it -linguas_ja -linguas_kk -linguas_km -linguas_lt -linguas_nb -linguas_nds -linguas_nl -linguas_nn -linguas_pl -linguas_pt -linguas_pt_BR -linguas_ro -linguas_ru -linguas_se -linguas_sk -linguas_sl -linguas_sr -linguas_sr@Latn -linguas_sv -linguas_tr -linguas_uk -linguas_zh_CN -linguas_zh_TW
+
+mail-client/claws-mail archive bogofilter calendar networkmanager pdf perl python rss spam-report webkit -kde -pda
+mail-client/evolution exchange
+mail-client/mail-notification mozilla pop mbox gmail
+mail-client/mutt sasl sidebar smtp
+mail-client/thunderbird lightning -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
+
+mail-filter/dovecot-antispam dspam
+mail-filter/maildrop authlib
+mail-filter/procmail mbox
+mail-filter/spamassassin-fuzzyocr gocr
+
+mail-mta/netqmail qmail-spp
+# More postfix features
+mail-mta/postfix mbox sasl
+
+# We want the MATE NetworkManager applet
+mate-base/mate-applets networkmanager
+mate-base/caja mate
+
+mate-extra/mate-file-manager-sendto -cdr
+
+media-fonts/baekmuk-fonts -X
+
+media-gfx/asymptote -latex
+# Blender uses Python 3
+media-gfx/blender python_single_target_python3_4 python_targets_python3_4
+media-gfx/exiv2 xmp
+# l10n issue is handled by entropy dep_rewrite
+media-gfx/digikam handbook semantic-desktop
+media-gfx/gimageview mng
+media-gfx/gimp aalib mng wmf smp
+media-gfx/gphoto2 aalib
+media-gfx/greycstoration fftw
+media-gfx/gthumb -cdr slideshow
+media-gfx/imagemagick fftw gs perl
+media-gfx/k3d 3ds
+media-gfx/kphotoalbum kipi
+# micia, add documentation for librecad, so that help menu works properly
+media-gfx/librecad doc
+# SSE2 required, otherwise it does not merge
+media-gfx/luminance-hdr sse2
+# required for some functionality of Inkscape - bug 2941
+media-gfx/pstoedit plotutils
+# Newer kernels do not provide vid4l
+media-gfx/sane-backends threads -v4l
+media-gfx/sane-frontends gimp
+media-gfx/splashutils mng fbcondecor
+media-gfx/xsane tiff
+media-gfx/zbar imagemagick v4l
+
+media-libs/blib aalib
+# required by media-sound/picard
+media-libs/chromaprint tools
+# Needed for gnome-shell
+media-libs/clutter opengl introspection
+# Needed by freecad
+media-libs/coin doc
+media-libs/devil mng
+# move x11-libs/evas media-libs/evas
+media-libs/evas fontconfig sse threads
+media-libs/freetype -X -auto-hinter adobe-cff
+media-libs/gd fontconfig
+# LibreOffice wants it
+media-libs/harfbuzz icu
+# In order to generate files in different formats, we need to enable imlib
+media-libs/libcaca imlib
+media-libs/libgphoto2 exif
+media-libs/libggi aalib
+media-libs/libgpod ios
+# Required by media-gfx/darktable
+media-libs/libraw demosaic
+media-libs/libsamplerate sndfile
+media-libs/libsdl aalib
+# 32bit libs on amd64, list them here
+media-libs/libsdl2 abi_x86_32
+media-libs/libsfml doc examples
+media-libs/libsoundtouch sse2
+media-libs/libxtract fftw
+media-libs/mediastreamer video
+# www-client/chromium wants media-libs/mesa[gles2]
+media-libs/mesa gbm g3dvl nptl openvg pic shared-dricore shared-glapi video_cards_i915 video_cards_i965 video_cards_intel video_cards_nouveau video_cards_r100 video_cards_r200 video_cards_r300 video_cards_r600 video_cards_radeon video_cards_via video_cards_vmware video_cards_radeonsi xa xorg gles2
+media-libs/ming php
+media-libs/mlt melt frei0r kdenlive quicktime python
+media-libs/openexr -video_cards_nvidia
+# on amd64, if ABI_X86=32 is set, exif must be unset
+media-libs/oyranos -exif
+media-libs/sdl-mixer midi timidity mod mikmod
+# required by games-engines/gargoyle:0
+# USE=mikmod required by gltron
+media-libs/sdl-sound modplug mikmod
+media-libs/svgalib -kernel-helper
+media-libs/swfdec gstreamer
+media-libs/tiff lzma
+media-libs/vigra fftw
+media-libs/vips fftw
+media-libs/urt gs
+media-libs/xine-lib aalib fbcon mng vidix dxr3 -win32codecs -gtk
+
+media-plugins/alsa-plugins libsamplerate pulseaudio
+media-plugins/audacious-plugins chardet cue gnome -gtk gtk3 icecast libsamplerate sndfile wavpack
+# Enable the http plugin
+media-plugins/gst-plugins-meta mms http
+media-plugins/kipi-plugins calendar gpssync
+media-plugins/vdr-weatherng dxr3
+
+media-radio/tucnak2 fftw
+
+media-sound/alsa-tools -gtk
+media-sound/amarok lastfm cdaudio ifp njb mtp musicbrainz -xmms mp4 embedded
+media-sound/ardour freesound
+media-sound/asunder wavpack
+media-sound/audacity ladspa vamp soundtouch id3tag midi -ffmpeg
+media-sound/audacious -gtk gtk3 wma timidity lirc dbus chardet
+media-sound/banshee podcast -ipod -zeroconf mtp njb
+media-sound/cantata replaygain taglib cdparanoia devices
+media-sound/clementine lastfm ios moodbar mtp
+media-sound/cmus mikmod
+media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack
+media-sound/gmusicbrowser gstreamer
+media-sound/gpodder gstreamer
+media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
+media-sound/lmms fftw fluidsynth 
+media-sound/mixxx shout
+media-sound/moc curl sndfile
+media-sound/mp3splt-gtk gstreamer
+media-sound/ncmpcpp curl
+media-sound/qtractor sse
+# Enable system-wide pulseaudio, also see bug #4009
+# Disable qt4
+# 2013-07-11: gtk3 is only used to set a proper window icon...
+media-sound/pulseaudio system-wide -qt4 -gtk
+# 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
+# gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
+media-sound/rhythmbox -cdr
+media-sound/snd fftw
+media-sound/sonic-visualiser fftw
+>=media-sound/soundkonverter-0.2.90-r1 lame
+media-sound/vagalume libproxy
+# Broken with latest libmp4v2
+media-sound/kid3 -mp4
+
+media-tv/freevo lirc matrox
+media-tv/xawtv aalib
+media-tv/xbmc airplay bluray css goom mysql pvr rtmp upnp webserver xrandr sftp nfs
+
+# Disable MMX due to compile failures
+media-tv/mythtv fftw
+
+media-video/blinkensim aalib
+media-video/dvgrab quicktime
+virtual/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx jpeg2k
+media-video/ffmpeg threads ogg vhook faac faad video_cards_nvidia amr cpudetection vpx
+media-video/jubler mplayer
+media-video/kino gstreamer quicktime
+media-video/libav amr cpudetection faac faad ogg rtmp threads vhook video_cards_nvidia vpx jpeg2k
+media-video/miro faac
+media-video/mplayer 3dnow 3dnowext aalib amr ass bl cddb cdparanoia cpudetection dvdnav -dxr3 faac rtmp ftp ladspa lirc -live md5sum mmxext mng mp2 openal pnm radio rar rtc sse sse2 ssse3 tga tivo vidix vpx x264 zoran
+# testing mplayer flags
+media-video/mplayer fbcon bs2b
+# Drop dead code, doesn't work with libav
+media-video/mplayer2 -xvmc
+# we have media-video/mkvtoolnix-gui
+media-video/mkvtoolnix -qt4 -wxwidgets
+media-video/ogmrip ogm mp4 srt
+media-video/totem xulrunner iplayer galago
+media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
+media-video/vlc aalib egl fontconfig httpd libass live lua rtsp samba skins taglib upnp vlm
+media-video/xine-ui aalib
+
+# Drop xine-ui from dvdrip, since
+# we don't want it on G ISO
+media-video/dvdrip -xine subtitles fping
+
+net-analyzer/nessus-core -gtk
+# Bluetooth dependency is unwanted on servers
+# It pulls in a lot of crap
+net-analyzer/netcat6 -bluetooth
+# No need to have USE=X on net-snmp
+# ucd-compat required by net-misc/vmpsd-1.4
+net-analyzer/net-snmp ucd-compat -X
+net-analyzer/snmptt mysql
+net-analyzer/snort dynamicplugin
+net-analyzer/smokeping apache2
+net-analyzer/wireshark python -qt4
+net-analyzer/zabbix frontend agent server mysql ssh snmp proxy -sqlite3
+
+# gtk part is provided by net-analyzer/zenmap
+net-analyzer/nmap -gtk ncat ndiff nping
+
+net-dialup/mgetty -fax
+net-dialup/ppp atm dhcp radius -gtk
+net-dialup/freeradius threads
+net-dialup/slmodem usb
+
+net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt4 introspection
+net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
+net-dns/avahi-gtk introspection
+net-dns/avahi-gtk3 introspection
+net-dns/avahi-mono introspection
+net-dns/avahi-qt introspection
+net-dns/dnsmasq -dbus tftp conntrack dhcp script dhcp-tools
+# We must choose between mysql and postgres
+net-dns/mydns mysql
+
+net-fs/cifs-utils ads upcall
+net-fs/samba ads acl oav swat winbind
+
+net-ftp/proftpd authfile openssl
+
+net-im/bitlbee twitter
+net-im/centerim gadu
+# ejabberd, more features!
+net-im/ejabberd mod_irc mod_muc mod_pubsub odbc web
+net-im/ekg2 gadu gpg xmpp
+net-im/empathy gnome
+net-im/gajim -avahi
+net-im/gyachi gpgme gtkspell gtkhtml -webkit
+net-im/jabberd2 mysql
+net-im/kadu xmpp
+net-im/pidgin bonjour console gadu groupwise meanwhile msn prediction qq sasl silc -zephyr
+net-im/psi jingle
+net-im/telepathy-connection-managers -icq -yahoo
+net-im/mcabber otr
+
+net-irc/inspircd mysql sqlite
+net-irc/kvirc -audiofile dcc_video
+net-irc/znc -python
+
+net-libs/aqbanking chipcard ofx
+net-libs/c-client chappa
+net-libs/glib-networking gnome
+net-libs/libgadu ssl threads
+# Required by XBMC 12.x
+net-libs/libmicrohttpd messages
+# libproxy is bloatware
+net-libs/libproxy -kde -gnome python
+net-libs/libsoup gnome
+net-libs/opal sip sipim h323
+net-libs/ptlib video stun wav pipechan dns http dtmf
+# Wants an old version of farstream stuff
+net-libs/telepathy-qt -farstream
+net-libs/wvstreams -qt3
+
+# Disable net-wireless/bluez for libpcap to avoid
+# having dbus, thus half X shit around pulled in
+net-libs/libpcap -bluetooth
+
+net-mail/dbmail sqlite3
+# Provide more dovecot features
+net-mail/dovecot managesieve mbox sieve sqlite
+net-mail/notmuch mutt
+net-mail/tpop3d mbox maildir
+
+# See bug 3118
+net-misc/dropbox librsync-bundled 
+
+net-misc/aria2 metalink bittorrent xmlrpc
+net-misc/asterisk jabber gtalk
+# Preffer openssl over nss and gnutls for curl
+# moreover, nss breaks git https:// checkouts
+net-misc/curl ssl -nss -gnutls
+# Hylafax features
+net-misc/hylafax mgetty
+net-misc/mediatomb thumbnail -javascript
+net-misc/minidlna netgear readynas
+net-misc/mosh ufw
+# bluetooth use flag is useless
+# wext due to bug 3283
+net-misc/networkmanager -bluetooth connection-sharing -dhclient dhcpcd -gnutls introspection modemmanager nss wext wimax
+# OLD: to make VPN working with networkmanager (nm-applet)
+# NEW: USE=gtk makes these plugins work properly with
+# newer nm-applet. Please, don't remove it and see
+# bug 3508
+net-misc/networkmanager-openvpn gtk
+net-misc/networkmanager-openswan gtk
+net-misc/networkmanager-openconnect gtk
+net-misc/networkmanager-pptp gtk
+net-misc/networkmanager-vpnc gnome
+net-misc/ntp -zeroconf
+net-misc/nxclient prebuilt
+net-misc/nxnode prebuilt vnc
+net-misc/openssh -X
+net-misc/openssh -ldap
+# No more spidermonkey
+net-misc/plowshare -javascript
+net-misc/ps3mediaserver multiuser tsmuxer
+net-misc/remmina vnc vte ssh freerdp
+# Add xattr support to rsync
+net-misc/rsync xattr
+net-misc/tightvnc -java server
+net-misc/tor threads
+net-misc/vinagre -avahi
+net-misc/x2goserver sqlite
+
+net-nds/openldap -minimal
+
+net-nntp/suck perl
+
+net-p2p/amule geoip stats remote upnp daemon
+net-p2p/deluge webinterface
+net-p2p/eiskaltdcpp json
+net-p2p/retroshare -cli
+net-p2p/vuze source
+
+net-print/cnijfilter-drivers e500 e510 e600 ip100 ip4700 ip4900 ip7200 mg2100 mg2200 mg3100 mg3200 mg4100 mg4200 mg5300 mg5400 mg6200 mg6300 mg8200 mp230 mp250 mp270 mp490 mp550 mp560 mp640 mx370 mx430 mx510 mx710 mx890
+net-print/cups -java
+net-print/gutenprint foomaticdb -gtk
+net-print/hplip -acl fax hpijs parport snmp static-ppds usb
+
+net-proxy/privoxy threads
+net-proxy/tsocks tordns
+
+net-voip/ekiga gstreamer
+
+net-wireless/bluez gstreamer obex
+net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
+
+# Razorqt lightdm plugin is lagging behind, disable
+razorqt-base/razorqt-meta -lightdm
+
+sci-astronomy/celestia -kde
+
+# workaround for https://bugs.gentoo.org/show_bug.cgi?id=361411
+sci-biology/transfac -emboss
+
+# temp. disable python support due to sip shit
+sci-chemistry/avogadro -python
+sci-chemistry/openbabel -perl -python
+sci-chemistry/xds-bin smp
+
+sci-electronics/geda doc stroke
+
+sci-geosciences/grass tcl tk fftw
+# doesn't build with tiff 4.0
+sci-geosciences/mapserver flash threads -tiff
+sci-geosciences/qgis grass
+
+# required by media-gfx/luminance-hdr
+sci-libs/fftw threads
+sci-libs/gdal curl geos
+# PQStego requires this USE, see bug 2751
+>=sci-libs/gsl-1.15 cblas-external
+sci-libs/hdf5 -cxx -fortran -mpi threads szip
+sci-libs/itpp fftw
+sci-libs/indilib nova
+sci-libs/netcdf -fortran hdf5
+sci-libs/plplot -wxwidgets
+# -ffmpeg because at this time, with latest libav, build fails
+sci-libs/vtk tk mpi -ffmpeg
+
+sci-mathematics/maxima latex
+sci-mathematics/octave fftw curl
+
+# htmldoc, doc, graphviz are required by app-doc/root-docs
+sci-physics/root htmldoc doc fftw graphviz
+
+sci-visualization/fityk gnuplot wxwindows
+sci-visualization/gnuplot gd wxwidgets
+sci-visualization/grace fftw
+sci-visualization/gwyddion fftw
+
+# Disable nautilus integration, it gets pulled in in XFCE spin
+sys-apps/gnome-disk-utility -nautilus -avahi
+sys-apps/groff -X
+sys-apps/hwdata-gentoo binary-drivers
+# Do we really want berkdb?
+sys-apps/man-db -berkdb
+sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
+sys-apps/pciutils -zlib
+# systemd support
+sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
+# Install tty helpers (like wall)
+sys-apps/util-linux tty-helpers
+
+sys-auth/consolekit -acl
+sys-auth/pambase -consolekit -kerberos
+
+sys-block/gparted -kde -gtk dmraid mdadm btrfs
+sys-block/parted device-mapper
+
+# Kernel modules not needed
+sys-block/open-iscsi -modules
+
+# grub2 must be slotted for a while
+>sys-boot/grub-1 multislot
+sys-boot/grub device-mapper libzfs
+
+sys-cluster/openmpi romio
+sys-cluster/torque server
+# We support both vanilla and vz kernels
+sys-cluster/vzctl vanilla-kernel vz-kernel ploop
+
+# Disable GTK for distcc, this is a server-side app
+# and it's better to not ship with gtk
+sys-devel/distcc -avahi -gtk
+sys-devel/gcc objc objc++ objc-gc graphite go -gtk
+sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
+
+# No fuck git by default!
+sys-devel/gettext -git
+# gdb tuning, we want XML
+sys-devel/gdb expat python
+# clang wants USE=clang for llvm
+sys-devel/llvm clang
+
+sys-fs/evms -gtk
+sys-fs/mtd-utils xattr
+sys-fs/ntfs3g suid ntfsprogs
+# USE=static static-libs must go together in order to have it compiling
+sys-fs/reiser4progs static static-libs
+sys-fs/udev extras
+# udisks, we want cryptsetup support
+sys-fs/udisks cryptsetup crypt
+# We use a builtin kernel module
+sys-fs/zfs kernel-builtin
+
+sys-apps/kmod lzma static-libs
+sys-libs/e2fsprogs-libs static-libs
+sys-fs/udev static-libs
+sys-apps/util-linux static-libs
+dev-libs/glib static-libs
+dev-libs/elfutils static-libs
+sys-libs/gpm static-libs
+
+sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog dracut_modules_crypt dracut_modules_crypt-gpg dracut_modules_crypt-loop dracut_modules_iscsi dracut_modules_systemd net
+sys-kernel/genkernel cryptsetup crypt
+sys-kernel/genkernel-next cryptsetup crypt
+sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
+<sys-kernel/linux-kogaion-3.13 splash
+sys-kernel/kogaion-sources symlink
+
+sys-libs/db -java
+sys-libs/zlib minizip
+
+virtual/mpi romio
+virtual/ooo java
+virtual/opencl video_cards_nvidia video_cards_fglrx
+
+# relevant flags must be kept in sync with dev-vcs/subversion
+www-apache/mod_dav_svn -dso
+
+www-apps/egroupware mysql
+www-apps/owncloud mysql postgres sqlite3
+www-apps/phprojekt mysql
+www-apps/postfixadmin mysql
+www-apps/rt mysql
+www-apps/trac mysql postgres vhosts sqlite
+
+# system-ffmpeg dependency pulls in ffmpeg, we use stable libav
+# which is not enough at this time, minimum req is 9.5
+www-client/chromium -system-ffmpeg
+www-client/firefox filepicker -gnome gstreamer mozbranding system-jpeg xforms
+www-client/firefox-bin linguas_be linguas_id linguas_ka linguas_ku linguas_pa_IN linguas_sq 
+www-client/midori sqlite
+www-client/rekonq semantic-desktop
+www-client/seamonkey -linguas_en_GB -linguas_es_AR -linguas_es_ES -linguas_fy -linguas_fy_NL -linguas_ga -linguas_ga_IE -linguas_gu_IN -linguas_ka -linguas_ku -linguas_nb -linguas_nb_NO -linguas_nn -linguas_nn_NO -linguas_pl -linguas_pt -linguas_pt_BR -linguas_pt_PT -linguas_sv_SE -linguas_zh_CN -linguas_zh_TW -pa_IN
+www-client/uget gstreamer
+
+# 32bit plugin is unwanted
+www-plugins/adobe-flash -32bit sse2
+www-plugins/gnash egl openvg ffmpeg -python -cairo -sdl -kde
+
+# Our Apache defaults
+www-servers/apache apache2_modules_asis apache2_modules_auth_digest apache2_modules_authn_dbd apache2_modules_cern_meta apache2_modules_cgi apache2_modules_cgid apache2_modules_charset_lite apache2_modules_dbd apache2_modules_dumpio apache2_modules_imagemap apache2_modules_log_forensic apache2_modules_proxy apache2_modules_proxy_ajp apache2_modules_proxy_balancer apache2_modules_proxy_connect apache2_modules_proxy_ftp apache2_modules_proxy_http apache2_modules_substitute apache2_modules_version ident suexec
+
+www-servers/cherokee admin
+
+# Inflate lighttpd
+www-servers/lighttpd fastcgi lua memcache xattr
+
+x11-apps/fusion-icon -qt4
+
+# X.Org stuff
+x11-base/xorg-server -ipv6 nptl kdrive xvfb
+x11-base/xorg-x11 intel
+x11-drivers/xf86-video-intel sna uxa
+
+x11-drivers/ati-drivers distribution -qt4 disable-watermark
+x11-drivers/nvidia-drivers distribution uvm
+x11-drivers/nvidia-drivers -gtk
+# Disable USE=multilib, it's way too much space on amd64
+# see Sept. 6 2012 discussion on staff ML
+# Update: since we cannot disable USE=multilib,
+# USE flag has been renamed to x-multilib
+x11-drivers/nvidia-userspace -x-multilib
+x11-drivers/ati-userspace -x-multilib
+
+x11-libs/cairo glitz -qt4
+# move x11-libs/ecore dev-libs/ecore
+dev-libs/ecore curl
+x11-libs/goffice gnome
+x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
+# libva coolness
+x11-libs/libva video_cards_dummy video_cards_intel
+
+dev-qt/qtgui mng private-headers raster gtkstyle
+
+dev-qt/qtcore private-headers
+dev-qt/qtscript private-headers
+dev-qt/qtdeclarative webkit private-headers
+x11-libs/wxGTK gstreamer
+
+# to make cinepaint work, enable threads on fltk
+# @cairo: doesn't compile if enabled, undefined ref -> fl_set_cairo_ctm()
+x11-libs/fltk threads xft -cairo
+
+# We want MT support for tcl and tk
+dev-lang/tcl threads
+dev-lang/tk threads
+dev-tcltk/tclx threads
+
+x11-terms/rxvt-unicode xft
+
+# Bumblebee stuff
+x11-misc/bumblebee video_cards_nvidia video_cards_nouveau -bbswitch
+x11-misc/cairo-dock xcomposite
+x11-misc/notification-daemon gstreamer
+x11-misc/obconf -lxde
+x11-misc/shutter drawing webphoto
+x11-misc/xaos aalib
+# Better support for xmobar, add xft USE flag
+x11-misc/xmobar xft
+# Disable new-login, pulls in gdm or kdm, which is bad
+x11-misc/xscreensaver -new-login
+
+x11-plugins/pidgin-sipe voice
+x11-plugins/cairo-dock-plugins alsa exif gmenu -kde terminal tomboy -webkit -xfce -xklavier
+x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisVert Ubuntu Verde Wood
+# Our artwork, blame Ian
+>=x11-themes/elementary-icon-theme-2.7.1 monochrome branding
+x11-themes/gnome-colors-common branding
+x11-themes/gtk-engines-murrine -themes
+x11-themes/gtk-engines-qtcurve -mozilla
+x11-themes/kogaion-artwork-kde ksplash
+x11-themes/skinenigmang-logos dxr3
+x11-themes/tango-icon-theme branding
+
+x11-wm/compiz -gnome -kde
+x11-wm/compiz-fusion -gnome -kde
+x11-wm/enlightenment xrandr -exchange 
+x11-wm/fluxbox imlib
+x11-wm/fvwm imlib
+x11-wm/icewm imlib
+x11-wm/openbox imlib
+
+xfce-base/thunar thumbnail
+xfce-base/xfdesktop thunar-vfs
+xfce-base/xfwm4 xcomposite
+
+xfce-extra/tumbler gstreamer raw
+
+# added for mythtv
+dev-qt/qtsql mysql
+dev-python/PyQt4 webkit sql assistant declarative examples script help
+
+# See Sabayon bug #890
+sys-devel/libperl ithreads
+dev-lang/perl ithreads
+
+# For safety (no particular reason, but grub requires ncurses) 
+# we also provide libncurses.a
+sys-libs/ncurses static-libs
+
+## Put new entries after this line if you dont want to organize it. ##
+######################################################################
+## Cleaned up 0600Z 10Jan2010 - Az
+
+# libdvdcss setup
+media-libs/libdvdread -css
+media-libs/xine-lib -css
+app-cdr/brasero -css
+media-tv/mythtv -css
+
+media-video/avidemux amr
+
+# Disable gtk dependency, unwanted for Core
+dev-python/python-meh -gtk
+app-admin/system-config-date -gtk
+dev-python/python-slip -gtk
+app-admin/firstboot -gtk
+app-admin/system-config-users -X
+
+# Pylons stuff
+dev-python/paste openid
+dev-python/pylons genshi jinja
+
+# openresolv support
+net-dns/bind dlz resolvconf
+net-misc/connman resolvconf
+net-misc/networkmanager resolvconf
+net-misc/vpnc resolvconf
+
+gnome-base/gnome-panel eds
+
+sys-auth/polkit -kde -gtk
+media-libs/libpng apng
+
+# New splashutils wants static-libs see Gentoo bug #356231
+media-libs/libpng static-libs
+media-libs/lcms static-libs 
+virtual/jpeg static-libs 
+media-libs/libjpeg-turbo static-libs
+media-libs/libmng static-libs
+app-arch/bzip2 static-libs
+media-libs/freetype static-libs
+sys-libs/zlib static-libs
+
+# We want packages with static-libs (add here)
+dev-libs/expat static-libs
+
+# Prepare for GNOME 3
+# cairo pulls in mesa in the end, which is bad for spinbase
+# however, we have split ebuilds now, so enable cairo
+dev-python/pygobject introspection cairo
+sys-auth/polkit introspection
+sys-power/upower introspection
+net-libs/libsoup introspection
+x11-libs/gtk+:2 introspection
+media-libs/gst-plugins-base introspection
+media-libs/gstreamer introspection
+dev-libs/glib introspection
+net-libs/libsoup-gnome introspection
+media-libs/babl introspection
+gnome-extra/polkit-gnome introspection
+gnome-base/libgtop introspection
+x11-libs/libnotify introspection
+dev-libs/libgee introspection
+gnome-base/gnome-panel introspection bonobo
+net-libs/gtk-vnc gtk3
+app-misc/tomboy -applet
+# our is a split package, who cares
+net-dns/avahi dbus gtk3
+# Do not pull in gnome-extra-apps meta package
+# Disable accessibility, since it's just a virtual dependency
+gnome-base/gnome -extras -accessibility
+# Enable some fancy stuff on gdm
+gnome-base/gdm gnome-keyring smartcard accessibility fprint
+# required by gnome-extra/synapse-0.2.6, required by gnome-extra/synapse (argument)
+>=gnome-extra/zeitgeist-0.7.1-r1 fts
+
+sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
+
+# Enable hardened USE flags
+sys-devel/base-gcc hardened
+sys-devel/gcc hardened
+# keep suid for a while, needs devpts mounted with gid=5 otherwise
+sys-libs/glibc hardened suid nscd
+
+# add Infinality patches to freetype-2
+# See bug 3360
+media-libs/freetype infinality
+
+# Super Google MySQL!
+dev-db/google-mysql -embedded
+~virtual/mysql-5.1 -embedded
+dev-libs/lzo static-libs
+
+# Enable USE=tk for the Python Imaging stack (and Python)
+# We will use our own crafted dev-python/imaging ebuild
+# that redirects the tk dependency to python-tk
+dev-python/imaging tk
+dev-python/pillow tk
+virtual/python-imaging tk
+dev-lang/python tk
+
+# This is while we wait for full true multilib support on libav
+# Please drop this as soon as the corresponding packages are fixed
+media-video/libav -gnutls openssl -test
+virtual/ffmpeg -gnutls openssl -test
+
+## GNOME 3.10 flags
+# required by gnome-music
+app-misc/tracker gstreamer -ffmpeg -xine
+# required by gnome-base/gnome-core-apps-3.10.1::gnome-next[cdr]
+# required by gnome-base/gnome-3.10.1::gnome-next
+# required by gnome-base/gnome (argument)
+app-cdr/brasero tracker
+# required by gnome-base/gnome-core-apps-3.10.1::gnome-next
+# required by gnome-base/gnome-3.10.1::gnome-next
+# required by gnome-base/gnome (argument)
+gnome-base/nautilus tracker
+
+# VAAPI/VDPAU support
+media-libs/avidemux-core vaapi vdpau
+media-libs/mesa vdpau
+# Disabling vaapi for now, see bug #2221, #4069
+# 2013-11-15: retry with USE=vaapi
+media-tv/xbmc vaapi vdpau
+media-tv/mythtv vaapi vdpau
+media-video/avidemux vaapi vdpau
+media-video/hwdecode-demos vaapi vdpau
+media-video/libav vaapi vdpau
+media-video/mplayer vaapi vdpau
+media-video/mplayer2 vaapi vdpau
+media-video/ffmpeg vaapi vdpau
+# TODO: vdpau requires libav-10. Sigh.
+media-video/vlc vaapi -vdpau
+virtual/ffmpeg vaapi vdpau
+www-plugins/gnash vaapi vdpau
+
+# Use Gtk3 for scim and spice-gtk
+app-i18n/scim gtk3
+net-misc/spice-gtk gtk3
+
+# Disable plymouth integration in gdm 3.10
+# Disable gdm integration in plymouth
+# If enabled, chvt() blocks on tty0 ioctl
+# VT_WAITACTIVE
+gnome-base/gdm -plymouth
+sys-boot/plymouth -gdm
+
+# This is disabled because the functionality conflicts with RigoDaemon
+# Maybe it's time to think about turning RigoDaemon into a PackageKit provider
+gnome-base/gnome-settings-daemon -packagekit
+gnome-base/nautilus packagekit
+gnome-extra/gnome-color-manager packagekit
+
+# USE=-ffmpeg due to libav-9.10+ requirements, not yet in chroots
+media-plugins/audacious-plugins -ffmpeg
+
+# required by net-analyzer/tcpreplay-4.0.2
+sys-devel/autogen libopts
+
+# gnome-music is Python3 only, prefer python 3.3 for now
+media-sound/gnome-music python_single_target_python3_3
+# same for gnome-sudoku and others
+games-puzzle/gnome-sudoku python_single_target_python3_3
+media-gfx/eog-plugins python_single_target_python3_3
+
+# required by media-gfx/gnome-photos-3.10.2
+# required by gnome-photos (argument)
+media-plugins/grilo-plugins upnp-av
+
+# required by reiser4progs
+sys-libs/readline static-libs
+
+# threads: required by gitg
+dev-libs/libgit2 ssh threads
+
+# required by media-plugins/grilo-plugins-0.2.10
+# required by media-sound/gnome-music-3.10.3
+# required by gnome-music (argument)
+>=media-libs/grilo-0.2.10 playlist
+# required by media-sound/gnome-music-3.10.3
+# required by gnome-music (argument)
+>=media-plugins/grilo-plugins-0.2.10 tracker
+
+# required by ktnef
+app-office/akonadi-server soprano
+
+# required by libteam
+dev-libs/libnl utils
+
+# Prefer gtk for media-libs/libmediaart
+media-libs/libmediaart gtk -qt4 -qt5
+
+# required by kde-base/artikulate-4.13.1[-gstreamer]
+# required by kde-base/kdeedu-meta-4.13.1
+# required by kde-base/kde-meta-4.13.1
+# required by kde-meta (argument)
+>=dev-qt/qt-mobility-1.2.2_p20130703 multimedia
+
+# required by kde-base/nepomuk-4.13.1
+# required by media-video/bangarang-2.1-r2
+# required by bangarang (argument)
+>=kde-base/kdelibs-4.13.1 nepomuk
+
+# prefer openssl instead of gnutls
+# because lib32 true multilib support in cups is broken
+net-print/cups -gnutls
+
+# commoncpp2 does not build with latest gnutls
+dev-cpp/commoncpp2 -gnutls ssl
+
+# Bug 4726, add UVM support
+x11-drivers/nvidia-userspace uvm
+
+# Use in-kernel modules
+app-emulation/vmware-modules -vmci -vsock
+
+# No modules, thanks. We're bleeding.
+net-firewall/ipset -modules
+
+# Add more docs to lxc
+app-emulation/lxc doc
+
+# Anaconda related USE deps
+dev-libs/libreport -gtk
+app-admin/anaconda -gtk -gui
+
+# required by dev-ruby/metasploit_data_models-0.17.2[ruby_targets_ruby19]
+# required by net-analyzer/metasploit-4.9.3[ruby_targets_ruby19]
+# required by metasploit (argument)
+dev-ruby/activerecord postgres
+
+# Blender Python 3.4 deps
+dev-python/setuptools python_targets_python3_4
+dev-python/requests python_targets_python3_4
+dev-python/numpy python_targets_python3_4
+dev-python/chardet python_targets_python3_4
+
+# Required by rkhunter
+sys-process/lsof rpc
+
+# Required by reiser4progs
+sys-libs/libaal static-libs
+
+# intel-gpu-tools is Python3 only
+x11-apps/intel-gpu-tools python_single_target_python3_3

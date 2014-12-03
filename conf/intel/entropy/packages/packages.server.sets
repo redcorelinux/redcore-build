@@ -1,0 +1,26 @@
+# List here Entropy Server package sets, organized per repository, that you
+# want to guarantee the availability. This list will be used inside Entropy
+# Server repository QA routines to ensure that vital package sets will be
+# removed and the action go unnoticed.
+
+# LINE CONSTRUCTION:
+# <repository> <package set> [<package set 2> ...]
+# See examples below, multiple repository lines are also accepted,
+# data will be concatenated.
+
+# EXAMPLES:
+# kogaion-testing entropy kde music
+# kogaion-testing gnome
+
+# Hardware
+kogaionlinux.ro wireless
+# Package management
+kogaionlinux.ro entropy packagekit
+# Sabayon stuff
+kogaionlinux.ro kogaion-artwork
+# Desktop environments
+kogaionlinux.ro X e17 xfce lxde fluxbox gnome
+# gst plugins for GNOME, KDE, Xfce
+kogaionlinux.ro gst-plugins gst-plugins-extra
+# IME fonts stuff
+kogaionlinux.ro ime-fonts-support ime-fonts

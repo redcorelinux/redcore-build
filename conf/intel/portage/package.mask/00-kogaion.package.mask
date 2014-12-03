@@ -1,0 +1,235 @@
+# Joost Ruis: Old as wolfden!
+x11-libs/gtk+:1
+
+### Blockers
+
+# 2010-10-29 Joost Ruis: Blocks sci-biology/emboss
+sys-devel/cons
+dev-java/emma
+
+# Joost Ruis: Blocks bash
+app-shells/bashdb
+
+# Joost Ruis: Blocks media-gfx/hugin
+dev-util/cocom
+
+# Joost Ruis: Requires mesa +motif
+media-libs/openinventor
+sci-biology/arb
+
+# Joost Ruis: needs pciutils with zlib, but we have it in package.use with -zlib no idea why.
+xfce-extra/xfce4-cellmodem-plugin
+
+### Temp masked due a bug
+
+### Slotted packages 
+<net-analyzer/metasploit-3.2_p6750
+app-editors/emacs:18
+
+### net-analyser
+
+# Joost Ruis: We have netcat6 in our tree
+net-analyzer/netcat
+app-forensics/air
+
+### net-p2p
+
+### www-client 
+
+# Joost Ruis: This requires x11-libs/fltk with -cairo, that ain't happening
+# Sławomir Nizio (30 Dec 2011): now fltk:2 is compiled with -cairo, and it's used by dillo 2 (3 wants fltk:1)
+>=www-client/dillo-3
+
+### net-misc 
+
+# Joost Ruis: This package cannot be in tree with distcc
+net-misc/pump
+
+# Joost Ruis: This package cannot be in tree with sys-apps/iproute2
+net-misc/arpd
+
+#Joost Ruis: Wants >=dev-lang/perl-5.6.1[-ithreads] never going to happen.
+net-irc/epic4
+
+# Joost Ruis: We use net-misc/ntp so we want to mask this
+net-misc/openntpd
+
+# Joost Ruis: We use net-misc/netkit-telnetd so we want to mask
+net-misc/telnet-bsd
+
+# Joost Ruis: Seems to be incompatible with latest net-misc/asterisk 
+=net-misc/asterisk-rate_engine-0.5.4
+
+# Joost Ruis: We use dev-texlive/texlive-latexextra so we want to mask this
+dev-tex/prosper
+
+# Joost Ruis: wants dev-python/imaging +tk compiled, ain't going to happen
+=media-sound/lilycomp-1.0.2-r1
+media-gfx/skencil
+media-gfx/asymptote
+
+### Games
+
+# Joost Ruis: Requires media-libs/sdl-mixer[timidity]
+games-rpg/xu4
+games-arcade/rocksndiamonds
+
+# Joost Ruis: Wants gd-external for PHP, not want
+net-analyzer/pnp4nagios
+
+# 2010-10-02 Joost Ruis: Needs PHP with +mssql
+dev-php/PEAR-MDB2_Driver_mssql
+
+# 2010-10-02 Joost Ruis: Needs PHP with +firebird
+dev-php/PEAR-MDB2_Driver_ibase
+
+# 2010-10-02 Joost Ruis: Needs PHP with +oci8
+dev-php/PEAR-MDB2_Driver_oci8
+
+# 2010-07-26 Joost Ruis: Needs PHP with +xsl
+# move dev-php5/phing dev-php/phing
+dev-php/phing
+dev-php/agavi
+
+# 2010-10-29 Joost Ruis: Needs media-libs/mesa +motif
+sci-chemistry/molmol
+
+# 2010-10-29 Joost Ruis: collision with sci-libs/gdal
+sci-astronomy/cpl
+sci-astronomy/esorex
+
+# 2010-11-16 Joost Ruis: Needs qt-gui with +gtk (What the hell??)
+media-sound/qtractor
+
+# 2010-11-18 Joost Ruis: Blocks media-fonts/jsmath-extra-dark 
+media-fonts/jsmath-extra-light
+
+# 2010-11-18 Joost Ruis: Blocks media-fonts/culmus
+media-fonts/culmus-ancient
+
+# 2010-11-26 Fabio Erculiani: Keep networkmanager from our overlay
+net-misc/networkmanager::gentoo
+
+# 2010-12-28 Joost Ruis: Needs vdr with -noepg
+media-plugins/vdr-noepgmenu
+
+# 2010-12-28 Joost Ruis: Needs vdr +setup, but we cannot enable that flag. 
+media-plugins/vdr-setup
+
+# 2011-08-16 Fabio Erculiani: Cruft we don't want
+dev-php/eaccelerator
+dev-php/xcache
+
+# udevadm settle bug on LiveCD boot
+# reported upstream...
+# Upstream is LAME
+# Kay Sievers !!
+# >=sys-fs/udev-168
+
+# 2011-08-17 Joost Ruis: Wants pulseaudio +gnome
+media-sound/paprefs
+
+# 2011-08-17 Fabio Erculiani: Conflicts with x11-terms/terminal
+gnustep-apps/terminal
+
+# 2012-12-14 Fabio Erculiani: it is causing annoying sh errors on chroots
+>=app-shells/autojump-21.1.0
+
+# 2013-01-13 Fabio Erculiani: we use media-video/libav
+media-video/ffmpeg
+
+# 2013-02-08 Fabio Erculiani: we use man-db
+sys-apps/man
+
+# 2013-04-03 Fabio Erculiani: we are currently supporting 1.14
+>=x11-base/xorg-server-1.15
+
+# 2013-06-26 Fabio Erculiani: migrated to logind
+sys-auth/consolekit
+
+# 2013-08-06 Fabio Erculiani: not sure why this may be pulled in
+# but you know, gamerlay...
+>=games-strategy/0ad-99999
+
+# 2013-08-12 Fabio Erculiani: oyranos 0.9.4 wants elektra 0.7
+# stop matter from bumping it for now.
+>=app-admin/elektra-0.8
+
+# 2013-08-12 Fabio Erculiani: dev-python/python-novaclient and 
+# dev-python/python-glanceclient want older prettytable and
+# matter keeps pulling it it.
+# 2013-04-18 Sławomir Nizio: bump masked version to avoid this
+# problem, even though 0.7 is the latest currently (relevant
+# mask is now: <dev-python/prettytable-0.8).
+>=dev-python/prettytable-0.8
+
+# 2013-08-12 Fabio Erculiani: dev-python/sqlalchemy-migrate-0.7
+# requires an older version of sqlalchemy (of course!)
+>=dev-python/sqlalchemy-0.8
+
+# 2013-08-12 Fabio Erculiani: dev-perl/math-pari wants exactly
+# sci-mathematics/pari-2.3.5
+<sci-mathematics/pari-2.3.5
+>sci-mathematics/pari-2.3.5
+
+# 2013-08-20 Fabio Erculiani: dev-python/warlock needs it and matter
+# keeps bumping it.
+>dev-python/jsonpatch-0.10
+
+# 2013-08-26 Fabio Erculiani: mask the gamerlay version of osg
+# osg has a very unstable API.
+dev-games/openscenegraph::gamerlay
+
+# 2013-09-16 Fabio Erculiani: wtf? live ebuild with keywords?
+>=dev-python/python-keystoneclient-9999
+
+# 2013-09-26 Fabio Erculiani: we're shipping with ruby:1.9 atm
+>=dev-lang/ruby-2.0
+
+# 2013-10-21 Fabio Erculiani: avoid libsdl from gamerlay, since
+# version 2 is in the main tree under a different PN (libsdl2).
+media-libs/libsdl::gamerlay
+games-util/steam-games-meta::gamerlay
+games-util/steam-client-meta::gamerlay
+
+# 2013-11-13 Sławomir Nizio: this package (v. 2013.1.4, 2013.2)
+# depends directly or indirectly on packages older than we already
+# provide. It cannot be supported properly (easily), and seems to
+# be unpopular.
+app-admin/glance
+
+# 2014-03-26 Fabui Erculiani: we now use systemd from kogaion-desktop
+sys-apps/systemd::systemd-love
+sys-apps/systemd::gentoo
+
+# 2014-03-31 Fabio Erculiani: causes build errors of reverse deps
+>=dev-lang/parrot-6.2
+
+# 2014-04-04 Fabio Erculiani: migrated to dev-python/pillow
+dev-python/imaging
+
+# 2014-04-15 Fabio Erculiani: no tomcat 7.0.53 yet
+~dev-java/tomcat-servlet-api-7.0.53
+
+# 2014-05-26 Fabio Erculiani: we are still using cpufrequtils
+sys-power/cpupower
+
+# 2014-06-01 Fabio Erculiani: always prefer stable chrome-binary-plugins
+www-plugins/chrome-binary-plugins:beta
+www-plugins/chrome-binary-plugins:unstable
+
+# 2014-07-01 Fabio Erculiani: broken reverse deps
+=razorqt-base/libqtxdg-0.5.3
+
+# 2014-07-24 Fabio Erculiani: mwlib wants an old pyparsing
+>=dev-python/pyparsing-1.6
+
+# 2014-08-02 Fabio Erculiani: plymouth 0.9.0 simply does not work
+>=sys-boot/plymouth-0.9.0
+>=sys-boot/plymouth-extras-0.9.0
+
+# 2014-08-15 Joost Ruis: Temp. mask the new stable perl
+>dev-lang/perl-5.16.3
+
+# 2014-08-31 Sławomir Nizio: we cannot support it properly, bug 3776
+app-portage/g-octave

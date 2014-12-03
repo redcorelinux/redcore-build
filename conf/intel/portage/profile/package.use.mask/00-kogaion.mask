@@ -1,0 +1,16 @@
+kde-base/solid -networkmanager
+
+# media-gfx/blender wants Python 3.3
+# need to unmask its use flag
+media-gfx/blender -python_single_target_python3_3 -python_targets_python3_3
+
+# http://bugs.kogaion.org/show_bug.cgi?id=4115
+media-sound/audacity -ffmpeg
+
+# USE=systemd unmasking, no need to keep them masked
+sys-auth/polkit -systemd
+sys-power/upower -systemd
+sys-fs/udisks -systemd
+
+# We use a builtin module for sys-fs/zfs
+sys-fs/zfs -kernel-builtin
