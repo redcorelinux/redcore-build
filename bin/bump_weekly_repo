@@ -1,0 +1,2 @@
+#!/bin/sh
+ssh entropy@pkg.kogaion.org /kogaion/bin/update-kogaion-weekly-repository
