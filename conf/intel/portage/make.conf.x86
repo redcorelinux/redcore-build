@@ -78,3 +78,8 @@ GRUB_PLATFORMS="pc"
 #   euse - bug #474574
 #   euses and ufed - bug #478318
 PORTDIR="/usr/portage"
+DISTDIR="${PORTDIR}/distfiles"
+
+INSTALL_MASK="/etc/init.d
+	      /etc/conf.d
+	      /etc/runlevels"
