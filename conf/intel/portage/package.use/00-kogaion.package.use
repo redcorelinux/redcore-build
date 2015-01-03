@@ -66,7 +66,6 @@ app-emacs/auctex preview-latex
 
 # virt stuff
 app-emulation/e-uae capslib
-app-emulation/emul-linux-x86-soundlibs esd
 app-emulation/ganeti kvm lxc htools
 app-emulation/libvirt kvm qemu virt-network lvm caps iscsi nfs parted uml python xen
 app-emulation/qemu fdt spice -gtk virtfs xattr
@@ -129,7 +128,7 @@ app-text/evince djvu dvi gnome-keyring nautilus
 app-text/fbreader -gtk
 app-text/ghostscript-gpl -cjk -gtk
 app-text/lcdf-typetools kpathsea
-app-text/atril caja djvu dvi mate mate-keyring
+app-text/atril caja djvu dvi gnome-keyring
 app-text/stardict tools
 app-text/texlive -truetype
 app-text/texlive-core xetex
@@ -385,7 +384,6 @@ mail-mta/postfix mbox sasl
 mate-base/mate-applets networkmanager
 mate-base/caja mate
 
-mate-extra/mate-file-manager-sendto -cdr
 
 media-fonts/baekmuk-fonts -X
 
@@ -634,7 +632,7 @@ net-misc/minidlna netgear readynas
 net-misc/mosh ufw
 # bluetooth use flag is useless
 # wext due to bug 3283
-net-misc/networkmanager -bluetooth connection-sharing -dhclient dhcpcd -gnutls introspection modemmanager nss wext wimax
+net-misc/networkmanager -bluetooth connection-sharing dhclient -dhcpcd -gnutls introspection modemmanager nss wext wimax
 # OLD: to make VPN working with networkmanager (nm-applet)
 # NEW: USE=gtk makes these plugins work properly with
 # newer nm-applet. Please, don't remove it and see
@@ -736,7 +734,7 @@ sys-apps/man-db -berkdb
 sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
 sys-apps/pciutils -zlib
 # systemd support
-sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
+sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap sysv-utils
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
 
@@ -857,9 +855,9 @@ x11-libs/cairo glitz -qt4
 # move x11-libs/ecore dev-libs/ecore
 dev-libs/ecore curl
 x11-libs/goffice gnome
-x11-libs/libdrm video_cards_intel video_cards_nouveau video_cards_radeon video_cards_vmware libkms
+x11-libs/libdrm video_cards_vmware libkms
 # libva coolness
-x11-libs/libva video_cards_dummy video_cards_intel
+x11-libs/libva video_cards_dummy
 
 dev-qt/qtgui mng private-headers raster gtkstyle
 
@@ -1006,7 +1004,7 @@ gnome-base/gdm gnome-keyring smartcard accessibility fprint
 # required by gnome-extra/synapse-0.2.6, required by gnome-extra/synapse (argument)
 >=gnome-extra/zeitgeist-0.7.1-r1 fts
 
-sys-boot/plymouth video_cards_intel video_cards_nouveau video_cards_radeon -openrc -gtk -pango static-libs
+sys-boot/plymouth -openrc -gtk -pango static-libs
 
 # Enable hardened USE flags
 sys-devel/base-gcc hardened
