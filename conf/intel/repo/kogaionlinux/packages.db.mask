@@ -1,0 +1,2 @@
+# Mask apache using MPM worker for now
+www-servers/apache[threads]
