@@ -760,7 +760,7 @@ sys-cluster/vzctl vanilla-kernel vz-kernel ploop
 # and it's better to not ship with gtk
 sys-devel/distcc -avahi -gtk
 sys-devel/gcc objc objc++ objc-gc graphite go -gtk
-sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
+sys-devel/base-gcc objc objc++ objc-gc graphite go -gtk
 
 # No fuck git by default!
 sys-devel/gettext -git
