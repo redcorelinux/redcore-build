@@ -11,7 +11,6 @@ LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 MAKEOPTS="-j16 -s"
 
 # Portage stuff
-ACCEPT_KEYWORDS="~amd64"
 FEATURES="parallel-fetch protect-owned compressdebug splitdebug"
 CCACHE_SIZE="2G"
 CCACHE_DIR="/var/ccache"
@@ -47,8 +46,6 @@ QEMU_USER_TARGETS="alpha arm armeb cris i386 m68k microblaze mips mipsel ppc ppc
 QEMU_SOFTMMU_TARGETS="x86_64 arm cris i386 m68k microblaze mips mips64 mips64el mipsel ppc ppc64 ppcemb sh4 sh4eb sparc sparc64"
 
 ## PORTAGE CONFIG ##
-PORTDIR_OVERLAY="/usr/local/portage"
-source /var/lib/layman/make.conf
 CONFIG_PROTECT="/usr/share/config/kdm /etc"
 # /lib/modules mask is useful for our internal tinderbox
 CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
@@ -84,3 +81,4 @@ INSTALL_MASK="/etc/init.d
 	      /etc/conf.d
 	      /etc/runlevels"
 
+source /var/lib/layman/make.conf
