@@ -4,7 +4,7 @@ kde-base/solid -networkmanager
 # need to unmask its use flag
 media-gfx/blender -python_single_target_python3_3 -python_targets_python3_3
 
-# http://bugs.kogaion.org/show_bug.cgi?id=4115
+# http://bugs.rogentos.ro/show_bug.cgi?id=4115
 media-sound/audacity -ffmpeg
 
 # USE=systemd unmasking, no need to keep them masked

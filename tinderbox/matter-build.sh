@@ -74,7 +74,7 @@ echo "Acquiring locks at ${LOCK_FILE} and ${LVM_LOCK_FILE} in blocking mode, wai
 	bzip2 -f -k "${LOG_FILE}"
 	# send mail
 	echo "Hello boys and girls,
-this is andromeda.kogaion.org informing you that a new matter run has been
+this is andromeda.rogentos.ro informing you that a new matter run has been
 eventually executed.
 
 Call : ${ARGS}
@@ -82,7 +82,7 @@ Exit : ${rc}
 Log  : ${LOG_FILE}.bz2
 
 Do not forget to check logs before touching repositories.
-Thanks for reading." | mutt -s "${schedule} matter run, $(basename ${LOG_FILE})" -a "${LOG_FILE}.bz2" -- entropy-team@lists.kogaion.org
+Thanks for reading." | mutt -s "${schedule} matter run, $(basename ${LOG_FILE})" -a "${LOG_FILE}.bz2" -- entropy-team@lists.rogentos.ro
 
 	# spawn GLSA and ignore any failures
 	/build/tinderbox/glsa-scheduler "${CHROOT_DIR}" "${CHROOT_NAME}" "${PRE_CHROOT}" > /dev/null
