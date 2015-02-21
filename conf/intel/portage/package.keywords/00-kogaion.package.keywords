@@ -1,0 +1,18 @@
+# use unstable qt to enable true multilib build
+dev-qt/qtchooser ~amd64 ~x86
+dev-qt/qtcore ~amd64 ~x86
+dev-qt/qtdbus ~amd64 ~x86
+dev-qt/qtgui ~amd64 ~x86
+dev-qt/qtscript ~amd64 ~x86
+dev-qt/qtsql  ~amd64 ~x86
+dev-qt/qttranslations ~amd64 ~x86
+dev-qt/qtwebkit ~amd64 ~x86
+dev-qt/qtxmlpatterns ~amd64 ~x86
+dev-qt/qt3support ~amd64 ~x86
+
+# install equo from OUR overlay
+=app-admin/equo-292::kogaion ~amd64 ~x86 
+=sys-apps/entropy-292::kogaion ~amd64 ~x86
+=sys-apps/entropy-server-292::kogaion ~amd64 ~x86
+=app-admin/matter-292::kogaion ~amd64 ~x86
+
