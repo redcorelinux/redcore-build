@@ -1,18 +1,31 @@
 # use unstable qt to enable true multilib build
 dev-qt/qtchooser ~amd64 ~x86
-dev-qt/qtcore ~amd64 ~x86
-dev-qt/qtdbus ~amd64 ~x86
-dev-qt/qtgui ~amd64 ~x86
-dev-qt/qtscript ~amd64 ~x86
-dev-qt/qtsql  ~amd64 ~x86
-dev-qt/qttranslations ~amd64 ~x86
-dev-qt/qtwebkit ~amd64 ~x86
-dev-qt/qtxmlpatterns ~amd64 ~x86
-dev-qt/qt3support ~amd64 ~x86
+dev-qt/assistant:4 ~amd64 ~x86
+dev-qt/designer:4 ~amd64 ~x86
+dev-qt/linguist:4 ~amd64 ~x86
+dev-qt/pixeltool:4 ~amd64 ~x86
+dev-qt/qdbusviewer:4 ~amd64 ~x86
+dev-qt/qt3support:4 ~amd64 ~x86
+dev-qt/qtbearer:4 ~amd64 ~x86
+dev-qt/qtcore:4 ~amd64 ~x86
+dev-qt/qtdbus:4 ~amd64 ~x86
+dev-qt/qtdeclarative:4 ~amd64 ~x86
+dev-qt/qtdemo:4 ~amd64 ~x86
+dev-qt/qtgui:4 ~amd64 ~x86
+dev-qt/qthelp:4 ~amd64 ~x86
+dev-qt/qtmultimedia:4 ~amd64 ~x86
+dev-qt/qtopengl:4 ~amd64 ~x86
+dev-qt/qtopenvg:4 ~amd64 ~x86
+dev-qt/qtphonon:4 ~amd64 ~x86
+dev-qt/qtscript:4 ~amd64 ~x86
+dev-qt/qtsql:4 ~amd64 ~x86
+dev-qt/qtsvg:4 ~amd64 ~x86
+dev-qt/qttest:4 ~amd64 ~x86
+dev-qt/qtwebkit:4 ~amd64 ~x86
+dev-qt/qtxmlpatterns:4 ~amd64 ~x86
 
 # install equo from OUR overlay
 =app-admin/equo-292::kogaion ~amd64 ~x86 
 =sys-apps/entropy-292::kogaion ~amd64 ~x86
 =sys-apps/entropy-server-292::kogaion ~amd64 ~x86
 =app-admin/matter-292::kogaion ~amd64 ~x86
-
