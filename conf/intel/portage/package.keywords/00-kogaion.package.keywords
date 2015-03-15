@@ -29,3 +29,9 @@ dev-qt/qtxmlpatterns:4 ~amd64 ~x86
 =sys-apps/entropy-292::kogaion ~amd64 ~x86
 =sys-apps/entropy-server-292::kogaion ~amd64 ~x86
 =app-admin/matter-292::kogaion ~amd64 ~x86
+
+# install grub2 with zfs support from OUR overlay
+=sys-boot/grub-2.00-r7::kogaion-desktop ~amd64 ~x86
+=x11-themes/kogaion-artwork-grub-2.1 ~amd64 ~x86
+=sys-fs/zfs-0.6.3-r2 ~amd64 ~x86
+
