@@ -848,7 +848,6 @@ x11-drivers/nvidia-userspace distribution uvm x-multilib -gtk -multilib
 # see Sept. 6 2012 discussion on staff ML
 # Update: since we cannot disable USE=multilib,
 # USE flag has been renamed to x-multilib
-x11-drivers/nvidia-userspace -x-multilib
 x11-drivers/ati-userspace -x-multilib
 
 x11-libs/cairo glitz -qt4
@@ -1139,7 +1138,6 @@ net-print/cups -gnutls
 dev-cpp/commoncpp2 -gnutls ssl
 
 # Bug 4726, add UVM support
-x11-drivers/nvidia-userspace uvm
 
 # Use in-kernel modules
 app-emulation/vmware-modules -vmci -vsock
