@@ -15,3 +15,6 @@
 
 # We want true multilib abi
 -abi_x86_32
+
+# calamares needs polkit-qt[qt5] so unmask qt5 useflag
+-qt5

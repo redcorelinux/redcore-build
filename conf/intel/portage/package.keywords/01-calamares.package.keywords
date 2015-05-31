@@ -1,0 +1,24 @@
+# required for calamares to build && run
+app-admin/calamares::kogaion-desktop ~amd64 ~x86
+dev-qt/qtcore:5 ~amd64 ~x86
+dev-qt/qtdbus:5 ~amd64 ~x86
+dev-qt/qtgui:5 ~amd64 ~x86
+dev-qt/qtsvg:5 ~amd64 ~x86
+dev-qt/qtwidgets:5 ~amd64 ~x86
+dev-qt/qtopengl:5 ~amd64 ~x86
+dev-qt/designer:5 ~amd64 ~x86
+dev-qt/qttest:5 ~amd64 ~x86
+dev-qt/qtxml:5 ~amd64 ~x86
+dev-qt/qtdeclarative:5 ~amd64 ~x86
+dev-qt/qtxmlpatterns:5 ~amd64 ~x86
+dev-qt/qtnetwork:5 ~amd64 ~x86
+dev-qt/qtscript:5 ~amd64 ~x86
+dev-qt/qtconcurrent:5 ~amd64 ~x86
+dev-qt/qtprintsupport:5 ~amd64 ~x86
+dev-qt/linguist-tools:5 ~amd64 ~x86
+kde-frameworks/kconfig:5 ~amd64 ~x86
+kde-frameworks/ki18n:5 ~amd64 ~x86
+kde-frameworks/kcoreaddons:5 ~amd64 ~x86
+kde-frameworks/solid:5 ~amd64 ~x86
+kde-frameworks/extra-cmake-modules:5 ~amd64 ~x86
+kde-frameworks/kf-env:5 ~amd64 ~x86
