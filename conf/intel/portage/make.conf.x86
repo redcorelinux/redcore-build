@@ -27,7 +27,7 @@ SAB_FILESYS="fat hfs jfs xfs ntfs reiserfs sysfs inotify"
 SAB_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
 SAB_XSYS="cairo X opengl gif gtk qt4 qt3support xpm tiff xinerama aiglx svg gphoto2 dga lcd openexr"
 ##NOTE## png is set in amd64 but not in i686
-SAB_DESKTOP="kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
+SAB_DESKTOP="gudev introspection kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
 SAB_BROWSER="nsplugin firefox mozdevelop xulrunner"
 SAB_COMMS="jabber msn yahoo icq irc aim rss slp mail imap"
 
