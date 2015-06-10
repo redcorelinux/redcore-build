@@ -1,0 +1,6 @@
+=x11-misc/lightdm-qt4-1.12.2 ~amd64 ~x86
+=x11-misc/lightdm-1.12.2 ~amd64 ~x86
+=x11-misc/lightdm-base-1.12.2 ~amd64 ~x86
+=app-eselect/eselect-lightdm-0.2 ~amd64 ~x86
+=x11-misc/lightdm-gtk-greeter-2.0.0 ~amd64 ~x86
+

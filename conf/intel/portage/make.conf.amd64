@@ -8,14 +8,14 @@ CFLAGS="-O2 -march=x86-64 -pipe" # -ftree-vectorize ${GRAPHITE}"
 CHOST="x86_64-pc-linux-gnu"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
-MAKEOPTS="-j16 -s"
+MAKEOPTS="-j9 -s"
 
 # Portage stuff
 FEATURES="parallel-fetch protect-owned compressdebug splitdebug"
 CCACHE_SIZE="2G"
 CCACHE_DIR="/var/ccache"
 
-LINGUAS="en en_US af ar az bg bn br bs ca cs cy da de el en_GB eo es et eu fa fi fr fy ga gl he hi hr hu is it ja kk km ko lt lv mk mn ms nb nds nl nn pa pl pt pt_BR ro ru rw se sk sl sr sr@Latn ss sv ta tg tr uk uz vi zh_CN zh_TW es_AR es_ES fy_NL ga_IE gu gu_IN nb_NO nn_NO pt_PT sv_SE zh"
+LINGUAS="en en_US ro"
 
 ## USE ##
 SAB_BAD="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss -branding -esd -libav"
@@ -32,8 +32,8 @@ SAB_COMMS="jabber msn yahoo icq irc aim rss slp mail imap"
 USE="${SAB_BAD} ${SAB_MEDIA} ${SAB_CODECS} ${SAB_SYSTEM} ${SAB_FILESYS} ${SAB_PRINT} ${SAB_XSYS} ${SAB_DESKTOP} ${SAB_BROWSER} ${SAB_COMMS}"	
 
 ## DEVICES ##
-INPUT_DEVICES="evdev void"
-VIDEO_CARDS="fbdev intel i915 i965 nouveau r100 r200 r300 r600 vesa vmware radeonsi radeon"
+INPUT_DEVICES="evdev void synaptics"
+VIDEO_CARDS="fbdev intel i915 i965 nouveau r100 r200 r300 r600 vesa vmware radeonsi radeon virtualbox"
 LIRC_DEVICES="audio audio_alsa serial pctv"
 ALSA_CARDS="emu10k1x darla20 darla24 emu10k1 gina20 gina24 hdsp hdspm ice1712 indigo indigoio layla20 layla24 mia mixart mona pcxhr rme32 rme96 sb16 sbawe sscape usbusx2y vx222 usb-usx2y"
 CAMERAS="agfa_cl20 casio_qv dimagev dimera3500 kodak_dc120 kodak_dc210 kodak_dc240 kodak_dc3200 kodak_ez200 konica_qm150 panasonic_coolshot panasonic_dc1000 panasonic_dc1580 panasonic_l859 polaroid_pdc320 polaroid_pdc640 polaroid_pdc700 ricoh_g3 sipix_blink sipix_blink2 sipix_web2 sony_dscf1 sony_dscf55 toshiba_pdrm11 adc65 aox barbie canon clicksmart310 digigr8 digita directory enigma13 fuji gsmart300 hp215 iclick jamcam jd11 konica largan lg_gsm mars mustek pccam300 pccam600 ptp2 ricoh samsung sierra smal sonix soundvision spca50x sq905 stv0674 stv0680 sx330z template"
@@ -57,7 +57,7 @@ PYTHON_TARGETS="python2_7 python3_3"
 
 # Some more forced targets
 PHP_TARGETS="php5-4"
-RUBY_TARGETS="ruby19"
+RUBY_TARGETS="ruby19 ruby20"
 
 # Apache suEXEC default UMASK
 # See bug 3544
