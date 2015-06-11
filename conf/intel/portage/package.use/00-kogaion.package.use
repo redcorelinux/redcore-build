@@ -1181,3 +1181,10 @@ dev-qt/qtwidgets:5 gtkstyle
 dev-libs/libpcre pcre16
 x11-libs/libxcb xkb
 sys-auth/polkit-qt qt5
+
+# required to disable libav
+media-video/ffmpeg jpeg2k
+virtual/ffmpeg jpeg2k
+
+# udisks support in thunar
+xfce-base/thunar udisks

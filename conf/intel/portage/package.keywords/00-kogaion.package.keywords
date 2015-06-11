@@ -13,6 +13,7 @@
 >=x11-themes/kogaion-artwork-isolinux-2.1 ~amd64 ~x86
 =x11-themes/kogaion-artwork-lxde-1.1-r2 ~amd64 ~x86
 =x11-themes/kogaion-dark-theme-2.1 ~amd64 ~x86
+=x11-themes/kogaion-light-theme-2.1 ~amd64 ~x86
 =x11-themes/kogaion-elementary-icons-1.0 ~amd64 ~x86
 =x11-themes/zukitwo-brave-0.1 ~amd64 ~x86
 =x11-themes/numix-icon-theme-9999 **
