@@ -1,6 +1,0 @@
-# required for calamares to build && run
-dev-qt/qtgui:5 gtkstyle
-dev-qt/qtwidgets:5 gtkstyle
-dev-libs/libpcre pcre16
-x11-libs/libxcb xkb
-sys-auth/polkit-qt qt5
