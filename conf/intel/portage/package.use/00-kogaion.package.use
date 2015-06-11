@@ -569,7 +569,7 @@ net-dns/dnsmasq -dbus tftp conntrack dhcp script dhcp-tools
 net-dns/mydns mysql
 
 net-fs/cifs-utils ads upcall
-net-fs/samba ads acl oav swat winbind
+net-fs/samba ads acl oav swat winbind ldap
 
 net-ftp/proftpd authfile openssl
 
@@ -1174,3 +1174,10 @@ x11-apps/intel-gpu-tools python_single_target_python3_3
 
 # enable kogaion branding on calamares-runtime
 app-misc/calamares-runtime branding
+
+# required for calamares to build && run
+dev-qt/qtgui:5 gtkstyle
+dev-qt/qtwidgets:5 gtkstyle
+dev-libs/libpcre pcre16
+x11-libs/libxcb xkb
+sys-auth/polkit-qt qt5
