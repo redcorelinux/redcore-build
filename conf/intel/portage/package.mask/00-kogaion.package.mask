@@ -1,3 +1,5 @@
 # we use grub from our overlay, mask the gentoo one
 sys-boot/grub:0::gentoo
 sys-boot/grub:2::gentoo
+# mask nvidia-drivers from gentoo
+x11-drivers/nvidia-drivers::gentoo
