@@ -3,3 +3,5 @@ sys-boot/grub:0::gentoo
 sys-boot/grub:2::gentoo
 # mask nvidia-drivers from gentoo
 x11-drivers/nvidia-drivers::gentoo
+# mask newer portage as it breaks entropy
+>=sys-apps/portage-2.2.14::gentoo
