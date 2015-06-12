@@ -5,7 +5,8 @@ sys-boot/grub:2::gentoo
 x11-drivers/nvidia-drivers::gentoo
 # mask newer portage as it breaks entropy
 >sys-apps/portage-2.2.14::gentoo
-#mask genkernel, we will use genkernel-next
-sys-kernel/genkernel
+#mask genkernel,&& genkernel next from gentoo
+sys-kernel/genkernel::gentoo
+sys-kernel/genkernel-next::gentoo
 # mask new dmraid
 >sys-fs/dmraid-1.0.0_rc14
