@@ -1,12 +1,19 @@
-# we use grub from our overlay, mask the gentoo one
+# mask grub from gentoo tree
 sys-boot/grub:0::gentoo
 sys-boot/grub:2::gentoo
-# mask nvidia-drivers from gentoo
+
+# mask nvidia-drivers from gentoo tree
 x11-drivers/nvidia-drivers::gentoo
-# mask newer portage as it breaks entropy
+
+# mask newer portage from gentoo tree due to entropy failures
 >sys-apps/portage-2.2.14::gentoo
-#mask genkernel,&& genkernel next from gentoo
+
+#mask genkernel,&& genkernel next from gentoo tree
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
-# mask new dmraid
+
+# mask newer dmraid from gentoo tree
 >sys-fs/dmraid-1.0.0_rc14
+
+# mask pinentry from gentoo tree, use splitted one from kogaion-desktop
+app-crypt/pinentry::gentoo
