@@ -17,3 +17,6 @@ sys-kernel/genkernel-next::gentoo
 
 # mask pinentry from gentoo tree, use splitted one from kogaion-desktop
 app-crypt/pinentry::gentoo
+
+# mask polkit-qt from gentoo tree, use splitted one from kogaion-desktop
+sys-auth/polkit-qt::gentoo
