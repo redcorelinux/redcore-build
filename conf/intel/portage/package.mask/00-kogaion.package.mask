@@ -12,9 +12,6 @@ x11-drivers/nvidia-drivers::gentoo
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
 
-# mask newer dmraid from gentoo tree
->sys-fs/dmraid-1.0.0_rc14
-
 # mask pinentry from gentoo tree, use splitted one from kogaion-desktop
 app-crypt/pinentry::gentoo
 
