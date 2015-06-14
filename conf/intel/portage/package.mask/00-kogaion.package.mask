@@ -20,3 +20,6 @@ sys-auth/polkit-qt::gentoo
 
 # mask open-iscsi from our overlay, use gentoo one
 sys-block/open-iscsi::kogaion
+
+# mask gentoo baselayout, user our own
+sys-apps/baselayout::gentoo
