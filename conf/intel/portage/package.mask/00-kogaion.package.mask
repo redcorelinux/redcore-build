@@ -17,3 +17,6 @@ app-crypt/pinentry::gentoo
 
 # mask polkit-qt from gentoo tree, use splitted one from kogaion-desktop
 sys-auth/polkit-qt::gentoo
+
+# mask open-iscsi from our overlay, use gentoo one
+sys-block/open-iscsi::kogaion
