@@ -32,7 +32,7 @@ SAB_COMMS="jabber msn yahoo icq irc aim rss slp mail imap"
 USE="${SAB_BAD} ${SAB_MEDIA} ${SAB_CODECS} ${SAB_SYSTEM} ${SAB_FILESYS} ${SAB_PRINT} ${SAB_XSYS} ${SAB_DESKTOP} ${SAB_BROWSER} ${SAB_COMMS}"	
 
 ## DEVICES ##
-INPUT_DEVICES="evdev void synaptics"
+INPUT_DEVICES="evdev keyboard mouse void synaptics"
 VIDEO_CARDS="fbdev intel i915 i965 nouveau r100 r200 r300 r600 vesa vmware radeonsi radeon virtualbox"
 LIRC_DEVICES="audio audio_alsa serial pctv"
 ALSA_CARDS="emu10k1x darla20 darla24 emu10k1 gina20 gina24 hdsp hdspm ice1712 indigo indigoio layla20 layla24 mia mixart mona pcxhr rme32 rme96 sb16 sbawe sscape usbusx2y vx222 usb-usx2y"
