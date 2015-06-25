@@ -6,6 +6,7 @@
 
 # Unmask Python 3.3 stuff
 -python_targets_python3_3
+-python_single_target_python3_3
 
 # Unmask systemd for everything
 -systemd
@@ -18,3 +19,6 @@
 
 # calamares needs polkit-qt[qt5] so unmask qt5 useflag
 -qt5
+
+# unmask pgo
+-pgo

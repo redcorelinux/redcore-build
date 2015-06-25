@@ -23,3 +23,6 @@ sys-block/open-iscsi::kogaion
 
 # mask gentoo baselayout, user our own
 sys-apps/baselayout::gentoo
+
+# mask firefox from gentoo, use our own as it builds with PGO
+www-client/firefox::gentoo
