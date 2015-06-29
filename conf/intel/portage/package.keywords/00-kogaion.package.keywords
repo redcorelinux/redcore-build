@@ -151,4 +151,4 @@ kde-frameworks/kf-env:5 ~amd64 ~x86
 <=sys-fs/dmraid-1.0.0_rc15
 =sys-libs/libuser-0.60-r1 ~amd64 ~x86
 =virtual/acl-0-r2 ~amd64 ~x86
-
+=dev-dotnet/libgdiplus-2.10.9-r2 ~amd64 ~x86
