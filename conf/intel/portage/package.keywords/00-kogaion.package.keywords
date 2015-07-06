@@ -24,6 +24,7 @@
 =app-misc/kogaion-skel-1 ~amd64 ~x86
 
 # kernel && drivers
+=sys-boot/plymouth-0.8.8-r2::kogaion-desktop ~amd64 ~x86
 =sys-kernel/kogaion-sources-3.14.30 ~amd64 ~x86
 =sys-kernel/linux-kogaion-3.14.30 ~amd64 ~x86
 >=sys-kernel/genkernel-next-63 ~amd64 ~x86
