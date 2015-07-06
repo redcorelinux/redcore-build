@@ -26,3 +26,7 @@ sys-apps/baselayout::gentoo
 
 # mask firefox from gentoo, use our own as it builds with PGO
 www-client/firefox::gentoo
+
+# mask our gcc until we split it properly
+sys-devel/gcc::kogaion-desktop
+sys-devel/base-gcc::kogaion-desktop
