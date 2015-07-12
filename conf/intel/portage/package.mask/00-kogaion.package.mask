@@ -30,6 +30,13 @@ sys-apps/baselayout::gentoo
 # mask firefox from gentoo, use our own as it builds with PGO
 www-client/firefox::gentoo
 
-# mask our gcc until we split it properly
-sys-devel/gcc::kogaion-desktop
-sys-devel/base-gcc::kogaion-desktop
+# mask gentoo gcc, use our splitted gcc
+sys-devel/gcc::gentoo
+
+# mask our avahi until is properly splitted
+net-dns/avahi::kogaion-desktop
+net-dns/avahi-gtk3::kogaion-desktop
+net-dns/avahi-base::kogaion-desktop
+net-dns/avahi-mono::kogaion-desktop
+net-dns/avahi-gtk::kogaion-desktop
+net-dns/avahi-qt::kogaion-desktop
