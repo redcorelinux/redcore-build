@@ -1190,8 +1190,8 @@ virtual/ffmpeg jpeg2k
 xfce-base/thunar udisks
 
 # our themes must be fully installerd
-x11-themes/kogaion-dark-theme cinnamon gnome-shell gtk2 gtk3 unity xfwm4
-x11-themes/kogaion-light-theme cinnamon gnome-shell gtk2 gtk3 unity xfwm4
-x11-themes/zukitwo-brave cinnamon gnome-shell gtk2 gtk3 unity xfwm4
+x11-themes/kogaion-dark-theme gnome-shell gtk2 gtk3 unity xfwm4
+x11-themes/kogaion-light-theme gnome-shell gtk2 gtk3 unity xfwm4
+x11-themes/zukitwo-brave gnome-shell gtk2 gtk3 unity xfwm4
 x11-themes/numix-gtk-theme gtk3 metacity openbox unity xfwm4
 x11-themes/numix-gtk-theme-dark gtk3 metacity openbox unity xfwm4
