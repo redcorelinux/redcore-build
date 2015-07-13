@@ -32,3 +32,6 @@ www-client/firefox::gentoo
 
 # mask gentoo gcc, use our splitted gcc
 sys-devel/gcc::gentoo
+
+# mask gentoo avahi, use our splitted avahi
+net-dns/avahi::gentoo
