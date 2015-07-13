@@ -32,11 +32,3 @@ www-client/firefox::gentoo
 
 # mask gentoo gcc, use our splitted gcc
 sys-devel/gcc::gentoo
-
-# mask our avahi until is properly splitted
-net-dns/avahi::kogaion-desktop
-net-dns/avahi-gtk3::kogaion-desktop
-net-dns/avahi-base::kogaion-desktop
-net-dns/avahi-mono::kogaion-desktop
-net-dns/avahi-gtk::kogaion-desktop
-net-dns/avahi-qt::kogaion-desktop
