@@ -74,7 +74,8 @@
 # required for calamares to build && run
 app-misc/calamares-runtime::kogaion-desktop ~amd64 ~x86
 app-misc/calamares-config-kogaion::kogaion-desktop ~amd64 ~x86
-x11-themes/kogaion-artwork-calamares::kogaion-desktop ~amd64
+x11-themes/kogaion-artwork-calamares::kogaion-desktop ~amd64 ~x86
+=x11-misc/xdg-utils-1.1.0_rc3_p20150119 ~amd64 ~x86
 dev-qt/qtcore:5 ~amd64 ~x86
 dev-qt/qtdbus:5 ~amd64 ~x86
 dev-qt/qtgui:5 ~amd64 ~x86
