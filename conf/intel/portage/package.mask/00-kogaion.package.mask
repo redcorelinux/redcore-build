@@ -35,3 +35,6 @@ sys-devel/gcc::gentoo
 
 # mask gentoo avahi, use our splitted avahi
 net-dns/avahi::gentoo
+
+# mask gentoo virtual/linux-sources, trying to hard to bring gentoo-sources in
+virtual/linux-sources::gentoo
