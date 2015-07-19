@@ -1,8 +1,3 @@
 # these are all the same
-http://dl.rogentos.ro/entropy
-http://best.rogentos.ro/entropy
-http://redir.rogentos.ro/entropy
-# This will be used as last resort, and must stay here
-http://pkg.rogentos.ro
 # this is in case our DNS goes down
-http:///mirrors/kogaionlinux/entropy
+http://buildserver.rogentos.ro/entropy
