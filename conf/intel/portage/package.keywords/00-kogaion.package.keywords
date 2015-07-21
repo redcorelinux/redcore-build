@@ -27,6 +27,7 @@
 =sys-boot/plymouth-0.8.8-r4::kogaion-desktop ~amd64 ~x86
 =sys-kernel/kogaion-sources-3.14.30 ~amd64 ~x86
 =sys-kernel/linux-kogaion-3.14.30 ~amd64 ~x86
+=sys-kernel/linux-kogaion-3.14.30 ~amd64 ~x86
 >=sys-kernel/genkernel-next-63 ~amd64 ~x86
 =sys-kernel/spl-0.6.3-r1 ~amd64 ~x86
 >=x11-drivers/nvidia-drivers-340.00::kogaion-desktop ~amd64 ~x86

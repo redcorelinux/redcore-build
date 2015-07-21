@@ -792,6 +792,7 @@ sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs 
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
 <sys-kernel/linux-kogaion-3.13 splash
 sys-kernel/kogaion-sources symlink
 
