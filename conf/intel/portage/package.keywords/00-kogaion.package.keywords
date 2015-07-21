@@ -26,6 +26,7 @@
 
 # kernel && drivers
 =sys-boot/plymouth-0.8.8-r4::kogaion-desktop ~amd64 ~x86
+=sys-boot/plymouth-extras-0.8.8-r1 ~amd64
 =sys-kernel/kogaion-sources-3.14.30 ~amd64 ~x86
 =sys-kernel/linux-kogaion-3.14.30 ~amd64 ~x86
 =sys-kernel/linux-live-brrc-3.14.30 ~amd64 ~x86
