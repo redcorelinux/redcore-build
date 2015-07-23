@@ -815,7 +815,9 @@ www-apps/trac mysql postgres vhosts sqlite
 
 # system-ffmpeg dependency pulls in ffmpeg, we use stable libav
 # which is not enough at this time, minimum req is 9.5
-www-client/chromium -system-ffmpeg postproc
+www-client/chromium -system-ffmpeg
+# cerut de chromium-43.0.2357
+>=media-libs/libvpx-1.4.0 postproc
 www-client/firefox pgo filepicker -gnome gstreamer mozbranding system-jpeg xforms
 www-client/firefox-bin linguas_be linguas_id linguas_ka linguas_ku linguas_pa_IN linguas_sq 
 www-client/midori sqlite
