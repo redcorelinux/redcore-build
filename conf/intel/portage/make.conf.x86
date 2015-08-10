@@ -25,7 +25,7 @@ KOG_CODECS="x264 gsm lame dv mp3 stream live openal theora ogg a52 win32codecs m
 KOG_SYSTEM="cjk icu xattr unicode gnutls nptl gcj udev systemd logind -consolekit kerberos acl dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi lm_sensors acpi usb pcmcia bluetooth irda ieee1394 perl python"
 KOG_FILESYS="fat hfs jfs xfs ntfs reiserfs sysfs inotify"
 KOG_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
-KOG_XSYS="cairo X opengl gif jpeg jpeg2k gtk qt4 qt3support xpm tiff xinerama aiglx svg gphoto2 dga lcd openexr"
+KOG_XSYS="cairo X opengl gif jpeg jpeg2k gtk qt4 qt3support xpm truetype tiff xinerama aiglx svg gphoto2 dga lcd openexr"
 ##NOTE## png is set in amd64 but not in i686
 KOG_DESKTOP="gudev introspection kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
 KOG_BROWSER="nsplugin firefox mozdevelop xulrunner"
