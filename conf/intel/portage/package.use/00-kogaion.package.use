@@ -1201,3 +1201,6 @@ x11-themes/numix-gtk-theme-dark gtk3 metacity openbox xfwm4
 
 # disabling lightdm-qt4 until it gets solved
 x11-misc/lightdm -qt4
+
+# disable mate-session-manager until it has support for newer upower
+mate-base/mate-session-manager -upower
