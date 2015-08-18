@@ -25,7 +25,7 @@ KOG_SYSTEM="cjk icu xattr unicode gnutls nptl gcj udev systemd logind -consoleki
 KOG_FILESYS="fat hfs jfs xfs ntfs reiserfs sysfs inotify"
 KOG_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
 KOG_XSYS="cairo X opengl png gif jpeg jpeg2k gtk qt4 qt3support xpm truetype tiff xinerama aiglx svg gphoto2 dga lcd openexr" 
-KOG_DESKTOP="gudev introspection kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
+KOG_DESKTOP="upower gudev introspection kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
 KOG_BROWSER="nsplugin firefox mozdevelop xulrunner"
 KOG_COMMS="jabber msn yahoo icq irc aim rss slp mail imap"
 
