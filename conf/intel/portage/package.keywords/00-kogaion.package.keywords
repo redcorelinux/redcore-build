@@ -117,6 +117,7 @@ kde-frameworks/kf-env:5 ~amd64 ~x86
 =xfce-extra/xfce4-composite-editor-0 ~amd64 ~x86
 =xfce-extra/xfce4-indicator-plugin-2.3.3 ~amd64 ~x86
 =x11-misc/alacarte-xfce-3.7.90 ~amd64 ~x86
+=xfce-extra/xfce4-indicator-plugin-2.3.3-r1 ~amd64 ~x86
 
 # misc
 =app-arch/xarchiver-0.5.4 ~amd64 ~x86
