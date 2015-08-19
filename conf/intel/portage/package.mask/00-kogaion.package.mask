@@ -38,3 +38,8 @@ net-dns/avahi::gentoo
 
 # mask gentoo virtual/linux-sources, trying to hard to bring gentoo-sources in
 virtual/linux-sources::gentoo
+
+# mask mate-session-manager && mate-power-manager from gentoo, as they can link against upower-pm-utils, and we really really want to link only against upower since we're systemd only
+# use our own ebuilds as they provide cherry picked upower1 api support, and they link only against upower
+mate-base/mate-session-manager::gentoo
+mate-extra/mate-power-manager::gentoo
