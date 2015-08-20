@@ -149,3 +149,6 @@ kde-frameworks/kf-env:5 ~amd64 ~x86
 
 # firefox useful keywords
 =dev-libs/nss-3.19.2 ~amd64 ~x86
+
+# nu sunt sigur ca e okay, dar hai sa bagam skype in schema
+=net-im/skype-4.3.0.37-r5 ~amd64 ~x86
