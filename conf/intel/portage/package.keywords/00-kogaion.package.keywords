@@ -160,3 +160,7 @@ kde-frameworks/kf-env:5 ~amd64 ~x86
 =media-video/obs-studio-0.11.2 ~amd64 ~x86
 =dev-qt/qtquickcontrols-5.4.2 ~amd64 ~x86
 =dev-qt/qtmultimedia-5.4.2 ~amd64 ~x86
+
+# driverele ati demascate
+=x11-drivers/ati-userspace-14.12-r3 ~amd64 ~x86
+=x11-drivers/ati-drivers-14.12-r3 ~amd64 ~x86
