@@ -43,3 +43,9 @@ virtual/linux-sources::gentoo
 # use our own ebuilds as they provide cherry picked upower1 api support, and they link only against upower
 mate-base/mate-session-manager::gentoo
 mate-extra/mate-power-manager::gentoo
+
+# mascam driverele video din gentoo
+x11-drivers/ati-userspace::gentoo
+x11-drivers/ati-drivers::gentoo
+x11-drivers/nvidia-drivers::gentoo
+x11-drivers/nvidia-userspace::gentoo
