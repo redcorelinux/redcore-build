@@ -164,3 +164,7 @@ dev-qt/qtmultimedia:5 ~amd64 ~x86
 # driverele ati demascate
 =x11-drivers/ati-userspace-14.12-r3 ~amd64 ~x86
 =x11-drivers/ati-drivers-14.12-r3 ~amd64 ~x86
+
+# bump e2fsprogs for calamares
+=sys-fs/e2fsprogs-1.42.13 ~amd64 ~x86
+=sys-libs/e2fsprogs-libs-1.42.13 ~amd64 ~x86
