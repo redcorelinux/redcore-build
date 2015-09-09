@@ -49,3 +49,6 @@ x11-drivers/ati-userspace::gentoo
 x11-drivers/ati-drivers::gentoo
 x11-drivers/nvidia-drivers::gentoo
 x11-drivers/nvidia-userspace::gentoo
+
+#mask sys-fs/xfsprogs newer than 3.2.2 as it causes huge crashes and unbootable xfs systems with calamares see bug : https://calamares.io/bugs/browse/CAL-263
+>sys-fs/xfsprogs-3.2.2
