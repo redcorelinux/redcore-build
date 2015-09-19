@@ -47,7 +47,7 @@
 =dev-util/molecule-plugins-1.0.2 ~amd64 ~x86
 
 #magneto
->=sys-apps/magneto-core-295 ~amd64 ~x86
+=sys-apps/magneto-core-296 ~amd64 ~x86
 =x11-misc/magneto-gtk-296 ~amd64 ~x86
 =app-misc/magneto-loader-296 ~amd64 ~x86
 
