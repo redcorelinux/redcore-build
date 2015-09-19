@@ -168,3 +168,6 @@ dev-qt/qtmultimedia:5 ~amd64 ~x86
 # bump e2fsprogs for calamares
 =sys-fs/e2fsprogs-1.42.13 ~amd64 ~x86
 =sys-libs/e2fsprogs-libs-1.42.13 ~amd64 ~x86
+
+# broadcom-sta
+=net-wireless/broadcom-sta-6.30.223.248-r3 ~amd64 ~x86
