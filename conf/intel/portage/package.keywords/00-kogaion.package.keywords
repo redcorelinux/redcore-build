@@ -5,7 +5,6 @@
 =app-admin/matter-296::kogaion ~amd64 ~x86
 =app-admin/rigo-296 ~amd64 ~x86
 =sys-apps/rigo-daemon-296 ~amd64 ~x86
-=app-admin/packagekit-base-0.8.15-r1 ~amd64 ~x86
 
 #artwork && skel
 >=x11-themes/kogaion-artwork-core-2.1 ~amd64 ~x86
