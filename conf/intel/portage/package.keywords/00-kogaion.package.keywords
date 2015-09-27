@@ -171,3 +171,7 @@ dev-qt/qtmultimedia:5 ~amd64 ~x86
 
 # broadcom-sta
 =net-wireless/broadcom-sta-6.30.223.248-r3 ~amd64 ~x86
+
+# packagekit demascat
+=app-admin/packagekit-gtk-0.8.15 ~amd64 ~x86
+=gnome-extra/gnome-packagekit-3.12.2 ~amd64 ~x86
