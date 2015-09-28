@@ -1204,3 +1204,6 @@ x11-misc/lightdm -qt4
 
 # libreoffice-bin cu java, pana ce-l compilam noi
 app-office/libreoffice-bin java
+
+# fara vala pentru packagekit, pentru moment
+app-admin/packagekit-base -vala
