@@ -1,5 +1,0 @@
-#!/bin/bash
-
-. /etc/profile
-
-exec /usr/bin/glsa-check --verbose --nocolor -t all

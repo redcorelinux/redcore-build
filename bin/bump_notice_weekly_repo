@@ -1,2 +1,0 @@
-#!/bin/sh
-ssh entropy@pkg.rogentos.ro /kogaion/bin/update-kogaion-weekly-notice
