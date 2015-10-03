@@ -28,7 +28,6 @@
 =sys-boot/plymouth-extras-0.8.8-r1 ~amd64
 =sys-kernel/kogaion-sources-3.14.30 ~amd64 ~x86
 =sys-kernel/linux-kogaion-3.14.30 ~amd64 ~x86
-=sys-kernel/linux-live-brrc-3.14.30 ~amd64 ~x86
 =sys-kernel/dracut-043 ~amd64 ~x86
 >=sys-kernel/genkernel-next-63 ~amd64 ~x86
 =sys-kernel/spl-0.6.3-r1 ~amd64 ~x86
@@ -69,10 +68,6 @@
 =app-admin/system-config-date-1.9.57-r1 ~amd64 ~x86
 =app-admin/system-config-users-1.2.96-r2 ~amd64 ~x86
 =app-admin/firstboot-1.110-r1 ~amd64 ~x86
-
-# anaconda
-=app-admin/anaconda-9999 **
-=app-misc/anaconda-runtime-1.1-r3 ~amd64 ~x86
 
 # required for calamares to build && run
 app-misc/calamares-runtime::kogaion-desktop ~amd64 ~x86
