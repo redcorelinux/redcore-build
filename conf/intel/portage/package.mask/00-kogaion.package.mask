@@ -6,9 +6,6 @@ sys-boot/grub:2::gentoo
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
 
-# mask pinentry from gentoo tree, use splitted one from kogaion-desktop
-app-crypt/pinentry::gentoo
-
 # mask polkit-qt from gentoo tree, use splitted one from kogaion-desktop
 sys-auth/polkit-qt::gentoo
 
@@ -26,9 +23,6 @@ www-client/firefox::gentoo
 
 # mask gentoo gcc, use our splitted gcc
 sys-devel/gcc::gentoo
-
-# mask gentoo avahi, use our splitted avahi
-net-dns/avahi::gentoo
 
 # mask gentoo virtual/linux-sources, trying to hard to bring gentoo-sources in
 virtual/linux-sources::gentoo
