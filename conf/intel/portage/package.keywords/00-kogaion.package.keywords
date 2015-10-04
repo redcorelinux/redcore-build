@@ -74,22 +74,6 @@ app-misc/calamares-runtime::kogaion-desktop ~amd64 ~x86
 app-misc/calamares-config-kogaion::kogaion-desktop ~amd64 ~x86
 x11-themes/kogaion-artwork-calamares::kogaion-desktop ~amd64 ~x86
 =x11-misc/xdg-utils-1.1.0_rc3_p20150119 ~amd64 ~x86
-dev-qt/qtcore:5 ~amd64 ~x86
-dev-qt/qtdbus:5 ~amd64 ~x86
-dev-qt/qtgui:5 ~amd64 ~x86
-dev-qt/qtsvg:5 ~amd64 ~x86
-dev-qt/qtwidgets:5 ~amd64 ~x86
-dev-qt/qtopengl:5 ~amd64 ~x86
-dev-qt/designer:5 ~amd64 ~x86
-dev-qt/qttest:5 ~amd64 ~x86
-dev-qt/qtxml:5 ~amd64 ~x86
-dev-qt/qtdeclarative:5 ~amd64 ~x86
-dev-qt/qtxmlpatterns:5 ~amd64 ~x86
-dev-qt/qtnetwork:5 ~amd64 ~x86
-dev-qt/qtscript:5 ~amd64 ~x86
-dev-qt/qtconcurrent:5 ~amd64 ~x86
-dev-qt/qtprintsupport:5 ~amd64 ~x86
-dev-qt/linguist-tools:5 ~amd64 ~x86
 kde-frameworks/kconfig:5 ~amd64 ~x86
 kde-frameworks/ki18n:5 ~amd64 ~x86
 kde-frameworks/kcoreaddons:5 ~amd64 ~x86
@@ -148,10 +132,6 @@ kde-frameworks/kf-env:5 ~amd64 ~x86
 =net-im/skype-4.3.0.37-r5 ~amd64 ~x86
 
 # asigurarea dependintelor lui obs-studio
-dev-qt/qtx11extras:5 ~amd64 ~x86
-dev-qt/qtsql:5 ~amd64 ~x86
-dev-qt/qtquickcontrols:5 ~amd64 ~x86
-dev-qt/qtmultimedia:5 ~amd64 ~x86
 =media-video/obs-studio-0.11.2 ~amd64 ~x86
 =dev-libs/jansson-2.7 ~amd64 ~x86
 
