@@ -2,12 +2,6 @@
 sys-boot/grub:0::gentoo
 sys-boot/grub:2::gentoo
 
-# mask nvidia-drivers from gentoo tree
-x11-drivers/nvidia-drivers::gentoo
-
-# mask newer portage from gentoo tree due to entropy failures
->sys-apps/portage-2.2.14::gentoo
-
 #mask genkernel,&& genkernel next from gentoo tree
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
@@ -44,11 +38,6 @@ virtual/linux-sources::gentoo
 mate-base/mate-session-manager::gentoo
 mate-extra/mate-power-manager::gentoo
 
-# mascam driverele video din gentoo
-x11-drivers/ati-userspace::gentoo
-x11-drivers/ati-drivers::gentoo
-x11-drivers/nvidia-drivers::gentoo
-x11-drivers/nvidia-userspace::gentoo
 
 #mask sys-fs/xfsprogs newer than 3.2.2 as it causes huge crashes and unbootable xfs systems with calamares see bug : https://calamares.io/bugs/browse/CAL-263
 >sys-fs/xfsprogs-3.2.2
