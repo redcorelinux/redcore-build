@@ -26,13 +26,9 @@
 # kernel && drivers
 =sys-boot/plymouth-0.8.8-r4::kogaion-desktop ~amd64 ~x86
 =sys-boot/plymouth-extras-0.8.8-r1 ~amd64
-=sys-kernel/kogaion-sources-3.14.30 ~amd64 ~x86
-=sys-kernel/linux-kogaion-3.14.30 ~amd64 ~x86
 =sys-kernel/dracut-043 ~amd64 ~x86
 >=sys-kernel/genkernel-next-63 ~amd64 ~x86
 =sys-kernel/spl-0.6.3-r1 ~amd64 ~x86
->=x11-drivers/nvidia-drivers-340.00::kogaion-desktop ~amd64 ~x86
->=x11-drivers/nvidia-userspace-340.00::kogaion-desktop ~amd64 ~x86
 =sys-fs/zfs-0.6.3-r2 ~amd64 ~x86
 >=sys-fs/zfs-kmod-0.6.3 ~amd64 ~x86
 
@@ -134,10 +130,6 @@ kde-frameworks/kf-env:5 ~amd64 ~x86
 # asigurarea dependintelor lui obs-studio
 =media-video/obs-studio-0.11.2 ~amd64 ~x86
 =dev-libs/jansson-2.7 ~amd64 ~x86
-
-# driverele ati demascate
-=x11-drivers/ati-userspace-14.12-r3 ~amd64 ~x86
-=x11-drivers/ati-drivers-14.12-r3 ~amd64 ~x86
 
 # bump e2fsprogs for calamares
 =sys-fs/e2fsprogs-1.42.13 ~amd64 ~x86
