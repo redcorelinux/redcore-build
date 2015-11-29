@@ -1,7 +1,3 @@
-# mask grub from gentoo tree
-sys-boot/grub:0::gentoo
-sys-boot/grub:2::gentoo
-
 #mask genkernel,&& genkernel next from gentoo tree
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo

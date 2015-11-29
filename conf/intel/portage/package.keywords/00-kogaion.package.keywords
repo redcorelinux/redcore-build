@@ -32,9 +32,6 @@
 =sys-fs/zfs-0.6.3-r2 ~amd64 ~x86
 >=sys-fs/zfs-kmod-0.6.3 ~amd64 ~x86
 
-# bootloader
-=sys-boot/grub-2.00-r7::kogaion-desktop ~amd64 ~x86
-
 #molecules
 =dev-util/molecule-2 ~amd64 ~x86
 =dev-util/molecule-core-1.0.2 ~amd64 ~x86
