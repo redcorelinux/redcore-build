@@ -64,7 +64,10 @@ RUBY_TARGETS="ruby19 ruby20"
 SUEXEC_UMASK=022
 
 # Setup GRUB platforms
-GRUB_PLATFORMS="efi-64 pc coreboot"
+GRUB_PLATFORMS="efi-64 pc"
+
+# Dracut modules
+DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop dash dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs plymouth ssh-client syslog systemd"
 
 # Support both 64bit and 32bit
 ABI_X86="64 32"

@@ -26,7 +26,7 @@
 # kernel && drivers
 =sys-boot/plymouth-0.8.8-r4::kogaion-desktop ~amd64 ~x86
 =sys-boot/plymouth-extras-0.8.8-r1 ~amd64
-=sys-kernel/dracut-043 ~amd64 ~x86
+sys-kernel/dracut ~amd64 ~x86
 >=sys-kernel/genkernel-next-63 ~amd64 ~x86
 =sys-kernel/spl-0.6.3-r1 ~amd64 ~x86
 =sys-fs/zfs-0.6.3-r2 ~amd64 ~x86

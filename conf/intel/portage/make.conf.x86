@@ -67,7 +67,10 @@ RUBY_TARGETS="ruby19 ruby20"
 SUEXEC_UMASK=022
 
 # Setup GRUB platforms
-GRUB_PLATFORMS="pc coreboot"
+GRUB_PLATFORMS="pc"
+
+# Dracut modules
+DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop dash dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs plymouth ssh-client syslog systemd"
 
 # Set PORTDIR for backward compatibility with various tools:
 #   gentoo-bashcomp - bug #478444
