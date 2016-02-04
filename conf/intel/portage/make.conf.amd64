@@ -8,7 +8,7 @@ CFLAGS="-O2 -march=x86-64 -pipe" # -ftree-vectorize ${GRAPHITE}"
 CHOST="x86_64-pc-linux-gnu"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
-MAKEOPTS="-j8"
+MAKEOPTS="-j8 -s"
 
 # Portage stuff
 FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug"
@@ -55,13 +55,7 @@ GENTOO_MIRRORS="ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ http://archive
 USE_PYTHON="2.7 3.3"
 PYTHON_TARGETS="python2_7 python3_3"
 
-# Some more forced targets
-PHP_TARGETS="php5-4"
 RUBY_TARGETS="ruby20 ruby21"
-
-# Apache suEXEC default UMASK
-# See bug 3544
-SUEXEC_UMASK=022
 
 # Setup GRUB platforms
 GRUB_PLATFORMS="efi-64 pc"
