@@ -1,1 +1,2 @@
 dev-util/cmake -qt4 -qt5
+dev-libs/libpcre pcre16
