@@ -25,7 +25,7 @@ USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETW
 
 ## DEVICES ##
 INPUT_DEVICES="evdev synaptics"
-VIDEO_CARDS="intel i915 i965 nouveau r100 r200 r300 r600 vesa amdgpu radeonsi radeon"
+VIDEO_CARDS="intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa vmware amdgpu radeonsi radeon"
 LIRC_DEVICES="audio audio_alsa serial pctv"
 
 ## OFFICE ##
