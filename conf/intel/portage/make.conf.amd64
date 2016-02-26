@@ -45,8 +45,8 @@ CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
 APACHE2_MPMS="prefork"
 GENTOO_MIRRORS="http://ftp.romnet.org/gentoo/ http://mirror.bytemark.co.uk/gentoo/"
 
-USE_PYTHON="2.7 3.3"
-PYTHON_TARGETS="python2_7 python3_3"
+USE_PYTHON="2.7 3.4"
+PYTHON_TARGETS="python2_7 python3_4"
 
 RUBY_TARGETS="ruby20 ruby21"
 

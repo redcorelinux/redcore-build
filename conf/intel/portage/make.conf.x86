@@ -47,8 +47,8 @@ CONFIG_PROTECT="/usr/share/config/kdm /etc"
 CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
 GENTOO_MIRRORS="http://ftp.romnet.org/gentoo/ http://mirror.bytemark.co.uk/gentoo/"
 
-USE_PYTHON="2.7 3.3"
-PYTHON_TARGETS="python2_7 python3_3"
+USE_PYTHON="2.7 3.4"
+PYTHON_TARGETS="python2_7 python3_4"
 
 # Other forced targets
 RUBY_TARGETS="ruby20 ruby21"
