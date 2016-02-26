@@ -1,4 +1,8 @@
-dev-util/cmake -qt4 -qt5
+app-text/poppler -qt5
 dev-libs/libpcre pcre16
-sys-apps/systemd sysv-utils
+dev-qt/qtgui:4 gtkstyle
+dev-qt/qtgui:5 gtkstyle
+dev-qt/qtwidgets:5 gtkstyle
+dev-util/cmake -qt4 -qt5
 media-libs/mesa d3d9
+sys-apps/systemd sysv-utils
