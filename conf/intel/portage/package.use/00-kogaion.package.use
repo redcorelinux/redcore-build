@@ -6,3 +6,4 @@ dev-qt/qtwidgets:5 gtkstyle
 dev-util/cmake -qt4 -qt5
 media-libs/mesa d3d9
 sys-apps/systemd sysv-utils
+x11-libs/libdrm libkms
