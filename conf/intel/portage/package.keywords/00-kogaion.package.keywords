@@ -20,9 +20,3 @@ kde-frameworks/kf-env:5 ~amd64 ~x86
 # tv-maxe useful keywords
 =media-tv/tv-maxe-0.11-r1 ~amd64 ~x86
 =media-tv/sopcast-3.2.6-r1 ~amd64 ~x86
-
-# nu sunt sigur ca e okay, dar hai sa bagam skype in schema
-=net-im/skype-4.3.0.37-r6 ~amd64 ~x86
-
-# broadcom-sta
-=net-wireless/broadcom-sta-6.30.223.248-r3 ~amd64 ~x86
