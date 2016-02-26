@@ -45,7 +45,7 @@ QEMU_SOFTMMU_TARGETS="x86_64 i386"
 CONFIG_PROTECT="/usr/share/config/kdm /etc"
 # /lib/modules mask is useful for our internal tinderbox
 CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
-GENTOO_MIRRORS="http://ftp.heanet.ie/pub/gentoo/ ftp://ftp.halifax.rwth-aachen.de/gentoo/ ftp://mirror.cambrium.nl/pub/os/linux/gentoo/ ftp://mirror.opteamax.de/gentoo/ http://ftp.heanet.ie/pub/gentoo/"
+GENTOO_MIRRORS="http://ftp.romnet.org/gentoo/ http://mirror.bytemark.co.uk/gentoo/"
 
 USE_PYTHON="2.7 3.3"
 PYTHON_TARGETS="python2_7 python3_3"
