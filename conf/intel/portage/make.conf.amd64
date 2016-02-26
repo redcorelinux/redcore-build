@@ -40,8 +40,8 @@ LIRC_DEVICES="audio audio_alsa serial pctv"
 LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport wiki-publisher"
 
 ## QEMU ##
-QEMU_USER_TARGETS="alpha arm armeb cris i386 m68k microblaze mips mipsel ppc ppc64 ppc64abi32 sh4 sh4eb sparc sparc32plus sparc64 x86_64"
-QEMU_SOFTMMU_TARGETS="x86_64 arm cris i386 m68k microblaze mips mips64 mips64el mipsel ppc ppc64 ppcemb sh4 sh4eb sparc sparc64"
+QEMU_USER_TARGETS="x86_64 i386"
+QEMU_SOFTMMU_TARGETS="x86_64 i386"
 
 ## PORTAGE CONFIG ##
 CONFIG_PROTECT="/usr/share/config/kdm /etc"
