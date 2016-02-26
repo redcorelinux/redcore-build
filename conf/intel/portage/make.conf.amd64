@@ -13,18 +13,16 @@ FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug"
 LINGUAS="en en_US ro"
 
 ## USE ##
-KOG_BAD="-kdeprefix -arts -qt3 -beagle -gnome -evo -mono -eds -apm -oss -branding -esd -libav"
-KOG_MEDIA="musicbrainz sdl pulseaudio wmf fame cdr dvi mp3rtp xine cddb alsa dvb dvd bluray network dvdread ipod audiofile artswrappersuid dvdr jack dri cdda mjpeg mmx joystick xvmc cpudetection v4l v4l2"
-KOG_CODECS="x264 gsm lame dv mp3 stream live openal theora ogg a52 win32codecs matroska xvid flac ffmpeg aac speex real dts musepack"
-KOG_SYSTEM="cjk icu xattr unicode gnutls nptl gcj udev systemd logind -consolekit kerberos acl dbus bash-completion lzo rar policykit xcb bzip2 bidi wifi lm_sensors acpi usb pcmcia bluetooth irda ieee1394 perl python"
-KOG_FILESYS="fat hfs jfs xfs ntfs reiserfs sysfs inotify"
-KOG_PRINT="cups ppds foomatic-db gimpprint freetype xprint scanner"
-KOG_XSYS="cairo X opengl png gif jpeg jpeg2k gtk qt4 qt3support xpm truetype tiff xinerama aiglx svg gphoto2 dga lcd openexr" 
-KOG_DESKTOP="upower gudev introspection kdehiddenvisibility gmp libnotify rdesktop pda zeroconf kdeenablefinal visualization avahi startup-notification accessibility"
-KOG_BROWSER="nsplugin firefox mozdevelop xulrunner"
-KOG_COMMS="jabber msn yahoo icq irc aim rss slp mail imap"
+SYSTEM_USE="X glamor systemd udev dbus policykit polkit upower udisks python perl icu xattr acl introspection gudev threads truetype fontconfig curl cups openssl libnotify sqlite"
+CODECS_USE="a52 aac aacplus faac webp mms mp3 mpg123 flac gsm vorbis theora lame ogg opus xvid vpx x264 x265 mpeg"
+MEDIA_USE="cairo drm dri dri3 vaapi vdpau xvmc v4l dvd bluray bluetooth matroska libass xml xcb xkb"
+IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf"
+TOOLKIT_USE="gtk gtk3 gnome gnome-keyring qt4 qt3support qt5"
+NETWORK_USE="ipv6 networkmanager modemmanager"
+SOUND_USE="alsa pulseaudio gstreamer ffmpeg openal"
+DONT_USE="-kde -connman -libav -tracker -mysql -consolekit -openrc -sysvinit -branding"
 
-USE="${KOG_BAD} ${KOG_MEDIA} ${KOG_CODECS} ${KOG_SYSTEM} ${KOG_FILESYS} ${KOG_PRINT} ${KOG_XSYS} ${KOG_DESKTOP} ${KOG_BROWSER} ${KOG_COMMS}"	
+USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
 
 ## DEVICES ##
 INPUT_DEVICES="evdev synaptics"
