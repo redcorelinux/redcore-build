@@ -2,9 +2,7 @@
 # Please consult /etc/make.conf.example for a more detailed example
 
 # Compiler stuff
-GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
-# Only enable Graphite via package.env
-CFLAGS="-O2 -march=x86-64 -pipe" # -ftree-vectorize ${GRAPHITE}"
+CFLAGS="-O2 -march=x86-64 -mtune=generic -pipe"
 CHOST="x86_64-pc-linux-gnu"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
@@ -12,9 +10,6 @@ MAKEOPTS="-j8 -s"
 
 # Portage stuff
 FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug"
-CCACHE_SIZE="2G"
-CCACHE_DIR="/var/ccache"
-
 LINGUAS="en en_US ro"
 
 ## USE ##
