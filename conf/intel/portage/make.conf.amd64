@@ -1,12 +1,14 @@
-# Compiler stuff
+## COMPILER STUFF ##
 CFLAGS="-O2 -march=x86-64 -mtune=generic -pipe"
 CHOST="x86_64-pc-linux-gnu"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 MAKEOPTS="-j8 -s"
 
-# Portage stuff
+## PORTAGE FEATURES ##
 FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug"
+
+## SYSTEM LANGUAGES ##
 LINGUAS="en en_US ro"
 
 ## USE ##
@@ -36,18 +38,20 @@ QEMU_SOFTMMU_TARGETS="x86_64 i386"
 ## MIRRORS ##
 GENTOO_MIRRORS="http://ftp.romnet.org/gentoo/ http://mirror.bytemark.co.uk/gentoo/"
 
+## PYTHON TARGETS ##
 USE_PYTHON="2.7 3.4"
 PYTHON_TARGETS="python2_7 python3_4"
 
+## RUBY TARGETS ##
 RUBY_TARGETS="ruby20 ruby21"
 
-# Setup GRUB platforms
+## GRUB PLATFORMS ##
 GRUB_PLATFORMS="efi-64 pc"
 
-# Dracut modules
+## DRACUT MODULES ##
 DRACUT_MODULES="biosdevname bootchart btrfs caps cifs crypt crypt-gpg crypt-loop dash dmraid dmsquash-live gensplash iscsi livenet lvm mdraid multipath nbd nfs plymouth ssh-client syslog systemd"
 
-# Support both 64bit and 32bit
+## ABI SUPPORT ##
 ABI_X86="64 32"
 
 # Set PORTDIR for backward compatibility with various tools:
