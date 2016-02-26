@@ -27,8 +27,8 @@ KOG_COMMS="jabber msn yahoo icq irc aim rss slp mail imap"
 USE="${KOG_BAD} ${KOG_MEDIA} ${KOG_CODECS} ${KOG_SYSTEM} ${KOG_FILESYS} ${KOG_PRINT} ${KOG_XSYS} ${KOG_DESKTOP} ${KOG_BROWSER} ${KOG_COMMS}"	
 
 ## DEVICES ##
-INPUT_DEVICES="evdev keyboard mouse void synaptics"
-VIDEO_CARDS="fbdev intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa vmware amdgpu radeonsi radeon virtualbox"
+INPUT_DEVICES="evdev synaptics"
+VIDEO_CARDS="intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa vmware amdgpu radeonsi radeon"
 LIRC_DEVICES="audio audio_alsa serial pctv"
 
 ## OFFICE ##
