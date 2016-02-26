@@ -1,6 +1,3 @@
-# These settings were set by the catalyst build script that automatically built this stage
-# Please consult /etc/make.conf.example for a more detailed example
-
 # Compiler stuff
 CFLAGS="-O2 -march=i686 -mtune=generic -pipe"
 CHOST="i686-pc-linux-gnu"
@@ -37,10 +34,7 @@ LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport wiki-pub
 QEMU_USER_TARGETS="x86_64 i386"
 QEMU_SOFTMMU_TARGETS="x86_64 i386"
 
-## PORTAGE CONFIG ##
-CONFIG_PROTECT="/usr/share/config/kdm /etc"
-# /lib/modules mask is useful for our internal tinderbox
-CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
+## MIRRORS ##
 GENTOO_MIRRORS="http://ftp.romnet.org/gentoo/ http://mirror.bytemark.co.uk/gentoo/"
 
 USE_PYTHON="2.7 3.4"
