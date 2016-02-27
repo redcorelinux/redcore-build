@@ -7,4 +7,8 @@ dev-util/cmake -qt4 -qt5
 media-libs/mesa d3d9
 sys-apps/systemd sysv-utils
 sys-devel/gcc go
+sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-kernel/kogaion-sources symlink
 x11-libs/libdrm libkms
