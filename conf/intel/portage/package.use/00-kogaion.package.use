@@ -18,3 +18,4 @@ sys-kernel/kogaion-sources symlink
 x11-libs/libdrm libkms
 x11-drivers/nvidia-drivers gtk2 -gtk3
 x11-drivers/xf86-video-intel uxa
+xfce-base/libxfce4ui -gtk3
