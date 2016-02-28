@@ -4,6 +4,7 @@ dev-qt/qtgui:4 gtkstyle
 dev-qt/qtgui:5 gtkstyle
 dev-qt/qtwidgets:5 gtkstyle
 dev-util/cmake -qt4 -qt5
+gnome-extra/nm-applet -bluetooth
 media-libs/mesa d3d9
 net-misc/networkmanager connection-sharing resolvconf
 net-wireless/wpa_supplicant -qt4 -qt5
