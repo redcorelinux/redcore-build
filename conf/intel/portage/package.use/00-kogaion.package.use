@@ -5,7 +5,7 @@ dev-qt/qtgui:5 gtkstyle
 dev-qt/qtwidgets:5 gtkstyle
 dev-util/cmake -qt4 -qt5
 media-libs/mesa d3d9
-net-misc/networkmanager connection-sharing gnutls resolvconf
+net-misc/networkmanager connection-sharing resolvconf
 net-wireless/wpa_supplicant -qt4 -qt5
 sys-apps/systemd sysv-utils
 sys-devel/gcc go
