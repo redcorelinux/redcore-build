@@ -30,3 +30,6 @@ mate-extra/mate-power-manager::gentoo
 
 # mask x11-base/xorg-drivers from gentoo, user our dummy one
 x11-base/xorg-drivers::gentoo
+
+# nvidia-kms introduces hangs, freezes and some other nasty things, avoid it till issues are fixed
+>=x11-drivers/nvidia-drivers-355.11-r4::gentoo
