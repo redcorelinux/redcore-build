@@ -1,0 +1,10 @@
+app-arch/rar
+app-arch/unrar
+app-arch/xarchiver
+gnome-extra/nm-applet
+net-misc/networkmanager
+x11-misc/notify-osd-customizable
+xfce-base/xfce4-meta
+xfce-extra/thunar-archive-plugin
+xfce-extra/thunar-volman
+xfce-extra/xfce4-power-manager
