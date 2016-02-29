@@ -1,35 +1,14 @@
-#mask genkernel,&& genkernel next from gentoo tree
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
-
-# mask polkit-qt from gentoo tree, use splitted one from kogaion-desktop
 sys-auth/polkit-qt::gentoo
-
-# mask open-iscsi from our overlay, use gentoo one
 sys-block/open-iscsi::kogaion
-
-# mask plymouth from gentoo, use our own
 sys-boot/plymouth::gentoo
-
-# mask gentoo baselayout, user our own
 sys-apps/baselayout::gentoo
-
-# mask firefox from gentoo, use our own as it builds with PGO
 www-client/firefox::gentoo
-
-# mask gentoo virtual/linux-sources, trying to hard to bring gentoo-sources in
 virtual/linux-sources::gentoo
-
-# mask mate-session-manager && mate-power-manager from gentoo, as they can link against upower-pm-utils, and we really really want to link only against upower since we're systemd only
-# use our own ebuilds as they provide cherry picked upower1 api support, and they link only against upower
 mate-base/mate-session-manager::gentoo
 mate-extra/mate-power-manager::gentoo
-
-#mask sys-fs/xfsprogs newer than 3.2.2 as it causes huge crashes and unbootable xfs systems with calamares see bug : https://calamares.io/bugs/browse/CAL-263
 >sys-fs/xfsprogs-3.2.2
-
-# mask x11-base/xorg-drivers from gentoo, user our dummy one
 x11-base/xorg-drivers::gentoo
-
-# nvidia-kms introduces hangs, freezes and some other nasty things, avoid it till issues are fixed
 >=x11-drivers/nvidia-drivers-355.11-r4::gentoo
+>xfce-extra/xfce4-power-manager-1.4.4::gentoo
