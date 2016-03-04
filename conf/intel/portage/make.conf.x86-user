@@ -8,7 +8,7 @@ MAKEOPTS="-j8 -s"
 ## PORTAGE FEATURES ##
 FEATURES="parallel-fetch protect-owned candy compressdebug splitdebug"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries"
-PORTAGE_BINHOST="http://pkg.rogentos.ro/kogaion/"
+PORTAGE_BINHOST="http://pkg.rogentos.ro/binhost/x86/"
 
 ## SYSTEM LANGUAGES ##
 LINGUAS="en en_US ro"
