@@ -1,4 +1,5 @@
 app-text/poppler -qt5
+dev-db/sqlite secure-delete
 dev-libs/libpcre pcre16
 dev-qt/qtgui:4 gtkstyle
 dev-qt/qtgui:5 gtkstyle
@@ -6,6 +7,7 @@ dev-qt/qtwidgets:5 gtkstyle
 dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
 media-libs/mesa d3d9
+net-irc/hexchat libcanberra plugins-checksum plugins-doat plugins-fishlim plugins-sysinfo
 net-misc/networkmanager connection-sharing resolvconf
 net-wireless/wpa_supplicant -qt4 -qt5
 sys-apps/systemd sysv-utils
@@ -13,8 +15,9 @@ sys-devel/gcc go
 sys-fs/cryptsetup -gcrypt
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
-sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-kernel/kogaion-sources symlink
-x11-libs/libdrm libkms
+sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
+www-client/firefox pgo system-icu system-jpeg system-libvpx system-sqlite wifi
 x11-drivers/nvidia-drivers gtk2 -gtk3
 x11-drivers/xf86-video-intel uxa
+x11-libs/libdrm libkms
