@@ -6,6 +6,7 @@ dev-qt/qtgui:5 gtkstyle
 dev-qt/qtwidgets:5 gtkstyle
 dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
+media-libs/libvpx postproc
 media-libs/mesa d3d9
 net-irc/hexchat libcanberra plugins-checksum plugins-doat plugins-fishlim plugins-sysinfo
 net-misc/networkmanager connection-sharing resolvconf
@@ -18,6 +19,7 @@ sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/kogaion-sources symlink
 sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
 www-client/firefox pgo system-icu system-jpeg system-libvpx system-sqlite wifi
+x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -gtk3
 x11-drivers/xf86-video-intel uxa
 x11-libs/libdrm libkms
