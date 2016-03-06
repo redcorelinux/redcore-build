@@ -1,2 +1,3 @@
 # unmask perl-Module-Build
 virtual/perl-Module-Build::gentoo
+app-admin/calamares::kogaion-desktop

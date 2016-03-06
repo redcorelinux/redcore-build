@@ -1,3 +1,4 @@
+app-admin/calamares::gentoo
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
 sys-auth/polkit-qt::gentoo
