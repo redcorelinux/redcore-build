@@ -20,6 +20,7 @@ sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/kogaion-sources symlink
 sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-libs/zlib minizip
 www-client/firefox pgo system-icu system-jpeg system-libvpx system-sqlite wifi
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -gtk3
