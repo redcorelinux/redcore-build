@@ -8,6 +8,7 @@ dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
 media-libs/libvpx postproc
 media-libs/mesa d3d9
+media-video/mpv libmpv
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-misc/networkmanager connection-sharing resolvconf
 net-wireless/wpa_supplicant -qt4 -qt5
