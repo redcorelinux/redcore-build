@@ -23,6 +23,7 @@ sys-kernel/kogaion-sources symlink
 sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/zlib minizip
 www-client/firefox pgo system-icu system-jpeg system-libvpx system-sqlite wifi
+www-client/chromium widevine
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -gtk3
 x11-drivers/xf86-video-intel uxa
