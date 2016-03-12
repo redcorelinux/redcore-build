@@ -11,6 +11,7 @@ media-video/mpv
 media-video/vlc
 net-irc/hexchat
 net-misc/networkmanager
+www-client/chromium
 x11-misc/notify-osd-customizable
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin
