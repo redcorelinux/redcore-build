@@ -4,10 +4,7 @@ sys-kernel/dracut ~amd64 ~x86
 #crypt
 =app-crypt/shim-signed-0.2 ~amd64 ~x86
 
-# required for calamares to build && run
-app-misc/calamares-runtime::kogaion-desktop ~amd64 ~x86
-app-misc/calamares-config-kogaion::kogaion-desktop ~amd64 ~x86
-x11-themes/kogaion-artwork-calamares::kogaion-desktop ~amd64 ~x86
+# frameworks required by calamares 1.1 to build && run
 x11-misc/xdg-utils ~amd64 ~x86
 kde-frameworks/kconfig:5 ~amd64 ~x86
 kde-frameworks/ki18n:5 ~amd64 ~x86
