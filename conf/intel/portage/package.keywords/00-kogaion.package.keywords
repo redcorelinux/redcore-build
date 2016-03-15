@@ -15,6 +15,32 @@ kde-frameworks/kcoreaddons:5 ~amd64 ~x86
 kde-frameworks/solid:5 ~amd64 ~x86
 kde-frameworks/extra-cmake-modules:5 ~amd64 ~x86
 kde-frameworks/kf-env:5 ~amd64 ~x86
+# additional frameworks required by calamares 2.1
+kde-frameworks/kwindowsystem:5 ~amd64 ~x86
+kde-frameworks/kinit:5 ~amd64 ~x86
+kde-frameworks/knotifications:5 ~amd64 ~x86
+kde-frameworks/kservice:5 ~amd64 ~x86
+kde-frameworks/kitemviews:5 ~amd64 ~x86
+kde-frameworks/kdoctools:5 ~amd64 ~x86
+kde-frameworks/kglobalaccel:5 ~amd64 ~x86
+kde-frameworks/kbookmarks:5 ~amd64 ~x86
+kde-frameworks/kdbusaddons:5 ~amd64 ~x86
+kde-frameworks/kconfigwidgets:5 ~amd64 ~x86
+kde-frameworks/kwidgetaddons:5 ~amd64 ~x86
+kde-frameworks/karchive:5 ~amd64 ~x86
+kde-frameworks/kxmlgui:5 ~amd64 ~x86
+kde-frameworks/kded:5 ~amd64 ~x86
+kde-frameworks/sonnet:5 ~amd64 ~x86
+kde-frameworks/kio:5 ~amd64 ~x86
+kde-frameworks/kcompletion:5 ~amd64 ~x86
+kde-frameworks/kwallet:5 ~amd64 ~x86
+kde-frameworks/ktextwidgets:5 ~amd64 ~x86
+kde-frameworks/kiconthemes:5 ~amd64 ~x86
+kde-frameworks/kauth:5 ~amd64 ~x86
+kde-frameworks/kcrash:5 ~amd64 ~x86
+kde-frameworks/kcodecs:5 ~amd64 ~x86
+kde-frameworks/kjobwidgets:5 ~amd64 ~x86
+kde-frameworks/kguiaddons:5 ~amd64 ~x86
 sys-libs/kpmcore:5 ~amd64 ~x86
 
 # tv-maxe useful keywords
