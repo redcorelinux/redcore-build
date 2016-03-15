@@ -26,7 +26,7 @@ kde-frameworks/kglobalaccel:5 ~amd64 ~x86
 kde-frameworks/kbookmarks:5 ~amd64 ~x86
 kde-frameworks/kdbusaddons:5 ~amd64 ~x86
 kde-frameworks/kconfigwidgets:5 ~amd64 ~x86
-kde-frameworks/kwidgetaddons:5 ~amd64 ~x86
+kde-frameworks/kwidgetsaddons:5 ~amd64 ~x86
 kde-frameworks/karchive:5 ~amd64 ~x86
 kde-frameworks/kxmlgui:5 ~amd64 ~x86
 kde-frameworks/kded:5 ~amd64 ~x86
