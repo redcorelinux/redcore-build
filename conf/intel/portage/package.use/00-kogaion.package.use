@@ -6,6 +6,7 @@ dev-libs/libpcre pcre16
 dev-qt/qtgui:4 gtkstyle
 dev-qt/qtgui:5 gtkstyle
 dev-qt/qtwidgets:5 gtkstyle
+dev-libs/libdbusmenu-qt -qt4
 dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
 media-libs/libvpx postproc
