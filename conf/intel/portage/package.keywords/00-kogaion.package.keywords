@@ -38,7 +38,7 @@ kde-frameworks/kcrash:5 ~amd64 ~x86
 kde-frameworks/kcodecs:5 ~amd64 ~x86
 kde-frameworks/kjobwidgets:5 ~amd64 ~x86
 kde-frameworks/kguiaddons:5 ~amd64 ~x86
-kde-plasma/kde-polkit-agent:5 ~amd64 ~x86
+kde-plasma/polkit-kde-agent:5 ~amd64 ~x86
 sys-libs/kpmcore:5 ~amd64 ~x86
 
 # tv-maxe useful keywords
