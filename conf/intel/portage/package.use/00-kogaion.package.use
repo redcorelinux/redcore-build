@@ -10,12 +10,16 @@ dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
 media-libs/libvpx postproc
 media-libs/mesa d3d9
+media-libs/phonon -qt4
+media-libs/phonon-gstreamer -qt4
+media-libs/phonon-vlc -qt4
 media-video/mpv libmpv
 media-video/vlc -qt5
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-misc/networkmanager connection-sharing resolvconf
 net-wireless/wpa_supplicant -qt4 -qt5
 sys-apps/systemd sysv-utils
+sys-auth/polkit-qt -qt4
 sys-devel/gcc go
 sys-fs/cryptsetup -gcrypt
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
