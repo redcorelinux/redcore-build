@@ -9,6 +9,7 @@ dev-qt/qtwidgets:5 gtkstyle
 dev-libs/libdbusmenu-qt -qt4
 dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
+lxde-base/lxdm -gtk3
 media-libs/libvpx postproc
 media-libs/mesa d3d9
 media-libs/phonon -qt4
