@@ -3,7 +3,6 @@ sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
 sys-auth/polkit-qt::gentoo
 sys-apps/openrc::gentoo
-sys-block/open-iscsi::kogaion
 sys-boot/plymouth::gentoo
 sys-apps/baselayout::gentoo
 www-client/firefox::gentoo
