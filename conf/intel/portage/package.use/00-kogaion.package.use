@@ -36,3 +36,4 @@ x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -gtk3
 x11-drivers/xf86-video-intel uxa
 x11-libs/libdrm libkms
+x11-misc/lightdm -qt4
