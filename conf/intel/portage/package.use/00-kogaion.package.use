@@ -1,5 +1,6 @@
 app-text/poppler -qt5
 app-text/qpdfview -qt5
+app-emulation/docker aufs overlay
 app-misc/calamares-runtime branding
 dev-db/sqlite secure-delete
 dev-libs/libpcre pcre16
@@ -36,5 +37,4 @@ x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -gtk3
 x11-drivers/xf86-video-intel uxa
 x11-libs/libdrm libkms
-x11-misc/lightdm -qt4
 app-emulation/docker aufs overlay
