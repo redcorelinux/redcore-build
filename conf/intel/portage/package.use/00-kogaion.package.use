@@ -1,3 +1,4 @@
+app-admin/sudo -sendmail
 app-text/poppler -qt5
 app-text/qpdfview -qt5
 app-emulation/docker aufs overlay
