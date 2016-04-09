@@ -18,6 +18,7 @@ net-im/pidgin
 net-irc/hexchat
 net-misc/networkmanager
 net-p2p/transmission
+sys-block/gparted
 www-client/chromium
 x11-misc/notify-osd-customizable
 xfce-base/xfce4-meta
