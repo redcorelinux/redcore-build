@@ -1,6 +1,6 @@
 # virtualbox guest
 app-emulation/virtualbox-guest-additions ~amd64 ~x86
-app-emulation/xf86-video-virtualbox ~amd64 ~x86
+x11-drivers/xf86-video-virtualbox ~amd64 ~x86
 
 # kernel related stuff
 sys-kernel/dracut ~amd64 ~x86
