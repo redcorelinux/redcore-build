@@ -1,3 +1,8 @@
+# virtualbox guest
+app-emulation/virtualbox-guest-additions ~amd64 ~x86
+app-emulation/xf86-video-virtualbox ~amd64 ~x86
+
+# kernel related stuff
 sys-kernel/dracut ~amd64 ~x86
 >=sys-kernel/genkernel-next-63 ~amd64 ~x86
 
@@ -45,4 +50,5 @@ sys-libs/kpmcore:5 ~amd64 ~x86
 =media-tv/tv-maxe-0.11-r1 ~amd64 ~x86
 =media-tv/sopcast-3.2.6-r1 ~amd64 ~x86
 
+# old power manager is better (in this particular case)
 =xfce-extra/xfce4-power-manager-1.4.4 ~amd64 ~x86
