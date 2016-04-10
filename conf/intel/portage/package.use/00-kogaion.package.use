@@ -8,7 +8,7 @@ dev-libs/libpcre pcre16
 dev-qt/qtgui:4 gtkstyle
 dev-qt/qtgui:5 gtkstyle
 dev-qt/qtwidgets:5 gtkstyle
-dev-libs/libdbusmenu-qt -qt4
+dev-libs/libdbusmenu-qt qt4
 dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
 lxde-base/lxdm -gtk3
@@ -20,6 +20,7 @@ media-libs/phonon-vlc -qt4
 media-video/mpv libmpv
 media-video/vlc -qt5
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
+net-irc/quassel -qt5 -server -crypt
 net-misc/networkmanager connection-sharing resolvconf
 net-p2p/transmission -qt4 -qt5
 net-wireless/wpa_supplicant -qt4 -qt5
