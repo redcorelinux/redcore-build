@@ -1,6 +1,7 @@
 # virtualbox guest
 app-emulation/virtualbox-bin ~amd64 ~x86
 app-emulation/virtualbox-guest-additions ~amd64 ~x86
+app-emulation/virtualbox-modules ~amd64 ~x86
 x11-drivers/xf86-video-virtualbox ~amd64 ~x86
 
 #steam ;)
