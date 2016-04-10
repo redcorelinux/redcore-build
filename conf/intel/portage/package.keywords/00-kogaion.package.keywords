@@ -2,6 +2,9 @@
 app-emulation/virtualbox-guest-additions ~amd64 ~x86
 x11-drivers/xf86-video-virtualbox ~amd64 ~x86
 
+#steam ;)
+app-emulation/steam ~amd64 ~x86
+
 # kernel related stuff
 sys-kernel/dracut ~amd64 ~x86
 >=sys-kernel/genkernel-next-63 ~amd64 ~x86
