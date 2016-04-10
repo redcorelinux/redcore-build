@@ -43,3 +43,4 @@ x11-misc/lightdm -qt4
 x11-misc/lightdm-gtk-greeter branding
 x11-libs/gksu -gnome
 x11-libs/libdrm libkms
+xfce-extra/tumbler -ffmpeg -gstreamer
