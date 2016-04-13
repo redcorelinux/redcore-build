@@ -8,7 +8,7 @@ dev-libs/libpcre pcre16
 dev-qt/qtgui:4 gtkstyle
 dev-qt/qtgui:5 gtkstyle
 dev-qt/qtwidgets:5 gtkstyle
-dev-qt/qtwebkit:4 -exceptions
+dev-qt/qtwebkit:4 -gstreamer -exceptions
 dev-libs/libdbusmenu-qt -qt4
 dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
@@ -44,4 +44,5 @@ x11-misc/lightdm -gnome -qt4 -qt5
 x11-misc/lightdm-gtk-greeter branding
 x11-libs/gksu -gnome
 x11-libs/libdrm libkms
+x11-libs/wxGTK -gstreamer
 xfce-extra/tumbler -ffmpeg -gstreamer
