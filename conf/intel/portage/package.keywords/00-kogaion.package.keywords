@@ -57,3 +57,6 @@ sys-libs/kpmcore:5 ~amd64 ~x86
 
 # old power manager is better (in this particular case)
 =xfce-extra/xfce4-power-manager-1.4.4 ~amd64 ~x86
+
+# skype 
+net-im/skype ~amd64 ~x86
