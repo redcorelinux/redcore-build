@@ -2,6 +2,7 @@ app-admin/sudo -sendmail
 app-text/poppler -qt5
 app-text/qpdfview -qt5
 app-emulation/docker aufs overlay
+app-emulation/wine d3d9 -mono -realtime -prelink -vaapi
 app-misc/calamares-runtime branding
 dev-db/sqlite secure-delete
 dev-libs/libpcre pcre16
