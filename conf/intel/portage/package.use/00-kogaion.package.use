@@ -47,3 +47,4 @@ x11-libs/gksu -gnome
 x11-libs/libdrm libkms
 x11-libs/wxGTK -gstreamer
 xfce-extra/tumbler -ffmpeg -gstreamer
+x11-terms/terminator -gnome
