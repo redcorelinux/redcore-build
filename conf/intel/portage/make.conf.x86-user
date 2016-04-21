@@ -31,7 +31,7 @@ VIDEO_CARDS="intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa amdgpu rade
 LIRC_DEVICES="audio audio_alsa serial pctv"
 
 ## OFFICE ##
-LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport wiki-publisher"
+LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport"
 
 ## QEMU ##
 QEMU_USER_TARGETS="x86_64 i386"
