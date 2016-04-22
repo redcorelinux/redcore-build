@@ -1,8 +1,8 @@
 =app-crypt/shim-signed-0.2 ~amd64 ~x86
 app-emulation/steam ~amd64 ~x86
-app-emulation/virtualbox-bin ~amd64 ~x86
-app-emulation/virtualbox-guest-additions ~amd64 ~x86
-app-emulation/virtualbox-modules ~amd64 ~x86
+=app-emulation/virtualbox-bin-5.0.16.105871 ~amd64 ~x86
+=app-emulation/virtualbox-guest-additions-5.0.16 ~amd64 ~x86
+=app-emulation/virtualbox-modules-5.0.16 ~amd64 ~x86
 media-video/mpv ~amd64 ~x86
 media-tv/sopcast ~amd64 ~x86
 media-tv/tv-maxe ~amd64 ~x86
@@ -10,6 +10,6 @@ net-im/skype ~amd64 ~x86
 sys-kernel/dracut ~amd64 ~x86
 sys-kernel/genkernel-next ~amd64 ~x86
 sys-libs/kpmcore:5 ~amd64 ~x86
-x11-drivers/xf86-video-virtualbox ~amd64 ~x86
+=x11-drivers/xf86-video-virtualbox-5.0.16 ~amd64 ~x86
 x11-misc/xdg-utils ~amd64 ~x86
 =xfce-extra/xfce4-power-manager-1.4.4 ~amd64 ~x86
