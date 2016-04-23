@@ -1,4 +1,5 @@
 =app-crypt/shim-signed-0.2 ~amd64 ~x86
+app-editors/atom ~amd64 ~x86
 app-emulation/steam ~amd64 ~x86
 =app-emulation/virtualbox-bin-5.0.16.105871 ~amd64 ~x86
 =app-emulation/virtualbox-guest-additions-5.0.16 ~amd64 ~x86
