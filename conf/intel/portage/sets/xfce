@@ -14,7 +14,6 @@ media-sound/volumeicon
 media-tv/tv-maxe
 media-video/mpv
 media-video/vlc
-net-im/pidgin
 net-irc/hexchat
 net-misc/networkmanager
 net-p2p/transmission
@@ -28,5 +27,4 @@ xfce-extra/xfce4-power-manager
 xfce-extra/xfce4-screenshooter
 xfce-extra/xfce4-whiskermenu-plugin
 xfce-extra/xfce4-xkb-plugin
-x11-misc/redshift
 x11-terms/xfce4-terminal
