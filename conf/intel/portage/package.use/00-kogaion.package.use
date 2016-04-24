@@ -15,6 +15,7 @@ dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
 lxde-base/lxdm -gtk3
 mail-client/thunderbird system-icu system-jpeg system-libvpx system-sqlite wifi
+mate-base/mate -themes
 media-libs/libvpx postproc
 media-libs/mesa d3d9
 media-libs/phonon -qt4
