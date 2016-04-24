@@ -14,5 +14,4 @@ mate-base/mate-session-manager::gentoo
 mate-extra/mate-power-manager::gentoo
 >sys-fs/xfsprogs-3.2.2
 x11-base/xorg-drivers::gentoo
->=x11-drivers/nvidia-drivers-355.11-r4::gentoo
 >xfce-extra/xfce4-power-manager-1.4.4::gentoo
