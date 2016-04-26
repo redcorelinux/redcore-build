@@ -17,6 +17,7 @@ media-video/vlc
 net-irc/hexchat
 net-misc/networkmanager
 net-p2p/transmission
+sys-auth/polkit-gnome
 sys-block/gparted
 www-client/chromium
 x11-misc/notify-osd-customizable

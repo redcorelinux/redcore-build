@@ -1,2 +1,3 @@
 mate-base/mate
+sys-auth/mate-polkit
 x11-misc/notify-osd-customizable
