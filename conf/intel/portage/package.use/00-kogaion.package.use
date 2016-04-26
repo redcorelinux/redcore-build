@@ -50,4 +50,6 @@ x11-libs/libdrm libkms
 x11-libs/wxGTK -gstreamer
 xfce-extra/tumbler -ffmpeg -gstreamer
 x11-themes/gtk-engines-murrine -themes
+x11-themes/numix-gtk-theme metacity
+x11-themes/numix-gtk-theme-dark metacity
 x11-terms/terminator -gnome
