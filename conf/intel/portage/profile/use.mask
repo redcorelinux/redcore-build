@@ -18,3 +18,6 @@
 
 # unmask pgo
 -pgo
+
+#sometimes Gentoo developers sleep
+-opus
