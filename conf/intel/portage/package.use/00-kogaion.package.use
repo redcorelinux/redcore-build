@@ -26,6 +26,7 @@ media-video/vlc -qt5
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-irc/quassel -qt5 -server -crypt
 net-misc/networkmanager connection-sharing resolvconf
+net-misc/youtube-dl offensive
 net-p2p/transmission -qt4 -qt5
 net-wireless/wpa_supplicant -qt4 -qt5
 sys-apps/systemd sysv-utils
