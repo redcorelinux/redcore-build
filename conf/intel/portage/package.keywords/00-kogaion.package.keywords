@@ -9,6 +9,7 @@ media-video/mpv ~amd64
 media-tv/sopcast ~amd64
 media-tv/tv-maxe ~amd64
 net-im/skype ~amd64
+net-misc/youtube-dl ~amd64
 sys-kernel/dracut ~amd64
 sys-kernel/genkernel-next ~amd64
 sys-libs/kpmcore:5 ~amd64
