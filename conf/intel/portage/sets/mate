@@ -1,3 +1,17 @@
+app-admin/calamares
+app-arch/rar
+app-arch/unrar
+gnome-extra/nm-applet
 mate-base/mate
+media-gfx/gimp
+media-sound/deadbeef
+media-tv/tv-maxe
+media-video/mpv
+media-video/vlc
+net-irc/hexchat
+net-misc/networkmanager
+net-p2p/transmission
+sys-block/gparted
+www-client/chromium
 sys-auth/mate-polkit
 x11-misc/notify-osd-customizable
