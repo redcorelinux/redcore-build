@@ -14,7 +14,7 @@ dev-libs/libdbusmenu-qt -qt4
 dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
 lxde-base/lxdm -gtk3
-mail-client/thunderbird system-icu system-jpeg system-libvpx system-sqlite wifi
+mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
 mate-base/mate -themes
 media-libs/libvpx postproc
 media-libs/mesa d3d9
@@ -39,7 +39,7 @@ sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/kogaion-sources symlink
 sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/zlib minizip
-www-client/firefox pgo system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
+www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
 www-client/chromium widevine
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -gtk3
