@@ -16,6 +16,7 @@ gnome-extra/nm-applet -bluetooth
 lxde-base/lxdm -gtk3
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
 mate-base/mate -themes
+mate-extra/caja-extensions cdr upnp image-converter -mail
 media-libs/libvpx postproc
 media-libs/mesa d3d9
 media-libs/phonon -qt4
