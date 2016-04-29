@@ -21,6 +21,7 @@ net-misc/networkmanager
 net-p2p/transmission
 sys-block/gparted
 www-client/chromium
+x11-misc/lightdm
 x11-misc/notify-osd-customizable
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin
