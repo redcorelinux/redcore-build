@@ -4,6 +4,7 @@ app-arch/rar
 app-arch/unrar
 gnome-extra/nm-applet
 mate-base/mate
+mate-extra/mate-polkit
 media-gfx/gimp
 media-sound/deadbeef
 media-tv/tv-maxe
@@ -14,5 +15,4 @@ net-misc/networkmanager
 net-p2p/transmission
 sys-block/gparted
 www-client/chromium
-sys-auth/mate-polkit
 x11-misc/notify-osd-customizable
