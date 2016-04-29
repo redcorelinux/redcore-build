@@ -4,6 +4,7 @@ app-arch/rar
 app-arch/unrar
 gnome-extra/nm-applet
 mate-base/mate
+mate-extra/caja-extensions
 mate-extra/mate-polkit
 media-gfx/gimp
 media-sound/deadbeef
