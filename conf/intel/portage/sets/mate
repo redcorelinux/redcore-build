@@ -2,6 +2,7 @@ app-admin/calamares
 app-admin/system-config-printer
 app-arch/rar
 app-arch/unrar
+app-emulation/steam
 gnome-extra/nm-applet
 mate-base/mate
 mate-extra/caja-extensions
