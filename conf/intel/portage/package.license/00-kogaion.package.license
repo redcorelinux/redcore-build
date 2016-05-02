@@ -32,6 +32,7 @@ games-simulation/bcs-demo       	BCS
 media-sound/google-musicmanager		Google-TOS
 net-wireless/broadcom-sta		Broadcom
 app-emulation/virtualbox-bin		PUEL
+media-libs/fdk-aac			FraunhoferFDK
 media-sound/google-musicmanager		google-talkplugin Apache-2.0 MIT LGPL-2.1 gSOAP BSD FDL-1.2 MPL-1.1 openssl ZLIB as-is
 media-sound/neroaac			Nero-AAC-EULA
 media-tv/livestation			Livestation-EULA
