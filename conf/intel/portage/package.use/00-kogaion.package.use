@@ -13,6 +13,7 @@ dev-qt/qtwebkit:4 -gstreamer -exceptions
 dev-libs/libdbusmenu-qt -qt4
 dev-util/cmake -qt4 -qt5
 gnome-extra/nm-applet -bluetooth
+gnome-extra/nm-applet-gtk2 -bluetooth
 lxde-base/lxdm -gtk3
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
 mate-base/mate -themes
