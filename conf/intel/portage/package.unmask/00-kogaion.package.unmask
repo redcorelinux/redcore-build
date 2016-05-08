@@ -1,3 +1,5 @@
 # unmask perl-Module-Build
 virtual/perl-Module-Build::gentoo
 app-admin/calamares::kogaion-desktop
+sys-firmware/b43-firmware::gentoo
+sys-firmware/b43legacy-firmware::gentoo
