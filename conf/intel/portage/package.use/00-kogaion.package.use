@@ -26,6 +26,7 @@ media-libs/phonon-vlc -qt4
 media-video/mpv libmpv
 media-video/vlc -qt5
 net-firewall/firewalld gui
+net-fs/samba client
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-irc/quassel -qt5 -server -crypt
 net-misc/networkmanager connection-sharing resolvconf
