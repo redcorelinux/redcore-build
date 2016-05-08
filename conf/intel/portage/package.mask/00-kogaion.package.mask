@@ -1,5 +1,6 @@
 app-admin/calamares::gentoo
 app-emulation/docker::gentoo
+dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
