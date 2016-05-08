@@ -15,6 +15,8 @@ net-im/skype ~amd64
 net-misc/teamviewer ~amd64
 net-misc/youtube-dl ~amd64
 sys-apps/inxi ~amd64
+sys-firmware/b43-firmware ~amd64
+sys-firmware/b43legacy-firmware ~amd64
 sys-kernel/dracut ~amd64
 sys-kernel/genkernel-next ~amd64
 sys-libs/kpmcore:5 ~amd64
