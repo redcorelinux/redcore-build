@@ -1,4 +1,6 @@
 app-admin/sudo -sendmail
+app-arch/bzip2 static static-libs
+app-arch/xz-utils static-libs
 app-text/poppler -qt5
 app-text/qpdfview -qt5
 app-emulation/docker aufs overlay
@@ -18,6 +20,7 @@ lxde-base/lxdm -gtk3
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
 mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
+media-libs/freetype static-libs
 media-libs/libvpx postproc
 media-libs/mesa d3d9
 media-libs/phonon -qt4
@@ -36,13 +39,14 @@ net-wireless/wpa_supplicant -qt4 -qt5
 sys-apps/systemd sysv-utils
 sys-auth/polkit-qt -qt4
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
+sys-boot/grub static
 sys-devel/gcc go
 sys-fs/cryptsetup -gcrypt
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/kogaion-sources symlink
 sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
-sys-libs/zlib minizip
+sys-libs/zlib minizip static-libs
 www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
 www-client/chromium widevine
 x11-base/xorg-server xvfb
