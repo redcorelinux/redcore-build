@@ -1,5 +1,5 @@
 app-admin/sudo -sendmail
-app-arch/bzip2 static static-libs
+app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
 app-text/poppler -qt5
 app-text/qpdfview -qt5
@@ -21,6 +21,10 @@ mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx sys
 mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
 media-libs/freetype static-libs
+media-libs/libpng static-libs
+media-libs/libmng static-libs
+media-libs/libjpeg static-libs
+media-libs/libjpeg-turbo static-libs
 media-libs/libvpx postproc
 media-libs/mesa d3d9
 media-libs/phonon -qt4
