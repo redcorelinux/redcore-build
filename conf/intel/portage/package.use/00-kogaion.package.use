@@ -30,6 +30,7 @@ media-libs/mesa d3d9
 media-libs/phonon -qt4
 media-libs/phonon-gstreamer -qt4
 media-libs/phonon-vlc -qt4
+media-video/guvcview -qt5
 media-video/mpv libmpv
 media-video/vlc -qt5
 net-firewall/firewalld gui
