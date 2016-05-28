@@ -5,6 +5,7 @@ dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 sys-kernel/genkernel::gentoo
 sys-kernel/genkernel-next::gentoo
+sys-auth/polkit::gentoo
 sys-auth/polkit-qt::gentoo
 sys-apps/openrc::gentoo
 sys-apps/gentoo-systemd-integration::gentoo
