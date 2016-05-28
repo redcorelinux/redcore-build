@@ -3,7 +3,7 @@ app-crypt/asedriveiiie-usb ~amd64
 app-editors/atom ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/steam ~amd64
-=app-emulation/virtualbox-bin-5.0.16.105871 ~amd64
+=app-emulation/virtualbox-bin-5.0.16.105871-r1 ~amd64
 =app-emulation/virtualbox-guest-additions-5.0.16 ~amd64
 =app-emulation/virtualbox-modules-5.0.16 ~amd64
 =mail-client/thunderbird-45.0 ~amd64
