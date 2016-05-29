@@ -16,7 +16,7 @@ dev-libs/libdbusmenu-qt -qt4
 dev-util/cmake -qt4 -qt5
 dev-util/geany -gtk3
 gnome-extra/nm-applet-gtk2 -bluetooth
-mail-client/claws-mail webkit -libindicate
+mail-client/claws-mail -webkit -libindicate
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
 mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
