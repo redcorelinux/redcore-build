@@ -3,7 +3,7 @@ app-admin/system-config-printer
 app-arch/rar
 app-arch/unrar
 app-emulation/steam
-gnome-extra/nm-applet
+gnome-extra/nm-applet-gtk2
 mate-base/mate
 mate-extra/caja-extensions
 mate-extra/mate-polkit
