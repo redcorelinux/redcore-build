@@ -15,6 +15,7 @@ dev-qt/qtwebkit:4 -gstreamer -exceptions
 dev-libs/libdbusmenu-qt -qt4
 dev-util/cmake -qt4 -qt5
 dev-util/geany -gtk3
+games-action/armagetronad dedicated sound
 gnome-extra/nm-applet-gtk2 -bluetooth
 mail-client/claws-mail -webkit -libindicate
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
