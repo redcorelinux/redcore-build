@@ -25,6 +25,7 @@ media-libs/libpng static-libs
 media-libs/libmng static-libs
 media-libs/libjpeg static-libs
 media-libs/libjpeg-turbo static-libs
+media-libs/libsdl -sound
 media-libs/libvpx postproc
 media-libs/mesa d3d9
 media-libs/phonon -qt4
