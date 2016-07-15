@@ -25,7 +25,7 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libsdl -sound
 media-libs/libvpx postproc
 media-libs/mesa d3d9
-media-video/guvcview -qt5
+media-video/ffmpeg fdk
 media-video/mpv libmpv
 net-firewall/firewalld gui
 net-fs/samba client
