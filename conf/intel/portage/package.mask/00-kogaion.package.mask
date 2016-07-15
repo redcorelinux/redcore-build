@@ -15,6 +15,7 @@ www-client/firefox::gentoo
 virtual/linux-sources::gentoo
 mate-base/mate-session-manager::gentoo
 mate-extra/mate-power-manager::gentoo
+net-misc/teamviewer::gentoo
 >sys-fs/xfsprogs-3.2.2
 x11-base/xorg-drivers::gentoo
 >xfce-extra/xfce4-power-manager-1.4.4::gentoo
