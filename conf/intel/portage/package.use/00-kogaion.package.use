@@ -1,8 +1,6 @@
 app-admin/sudo -sendmail
 app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
-app-text/poppler -qt5
-app-text/qpdfview -qt5
 app-emulation/docker aufs overlay
 app-emulation/wine d3d9 -gstreamer -mono -realtime -prelink -vaapi
 app-misc/calamares-runtime branding
@@ -12,8 +10,7 @@ dev-qt/qtgui:4 gtkstyle
 dev-qt/qtgui:5 gtkstyle
 dev-qt/qtwidgets:5 gtkstyle
 dev-qt/qtwebkit:4 -gstreamer -exceptions
-dev-libs/libdbusmenu-qt -qt4
-dev-util/cmake -qt4 -qt5
+dev-util/cmake -qt5
 dev-util/geany -gtk3
 gnome-extra/nm-applet-gtk2 -bluetooth
 mail-client/claws-mail -webkit -libindicate
@@ -28,23 +25,18 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libsdl -sound
 media-libs/libvpx postproc
 media-libs/mesa d3d9
-media-libs/phonon -qt4
-media-libs/phonon-gstreamer -qt4
-media-libs/phonon-vlc -qt4
 media-video/guvcview -qt5
 media-video/mpv libmpv
-media-video/vlc -qt5
 net-firewall/firewalld gui
 net-fs/samba client
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
-net-irc/quassel -qt5 -server -crypt
+net-irc/quassel -server -crypt
 net-misc/networkmanager connection-sharing resolvconf
 net-misc/teamviewer -system-wine
 net-misc/youtube-dl offensive
-net-p2p/transmission -qt4 -qt5
-net-wireless/wpa_supplicant -qt4 -qt5
+net-p2p/transmission -qt5
+net-wireless/wpa_supplicant -qt5
 sys-apps/systemd sysv-utils
-sys-auth/polkit-qt -qt4
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
 sys-boot/grub static -truetype
 sys-devel/gcc go
@@ -59,7 +51,7 @@ www-client/chromium widevine
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -gtk3
 x11-drivers/xf86-video-intel uxa
-x11-misc/lightdm -gnome -qt4 -qt5
+x11-misc/lightdm -gnome -qt5
 x11-misc/lightdm-gtk-greeter branding
 x11-libs/gksu -gnome
 x11-libs/libdrm libkms

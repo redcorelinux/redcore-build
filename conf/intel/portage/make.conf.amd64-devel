@@ -16,10 +16,10 @@ SYSTEM_USE="X glamor systemd udev dbus policykit polkit upower udisks python per
 CODECS_USE="a52 aac aacplus faac webp mms mp3 mpg123 flac gsm vorbis theora lame ogg opus xvid vpx x264 x265 mpeg"
 MEDIA_USE="cairo drm dri dri3 vaapi vdpau opengl xvmc v4l mtp rtmp dvd bluray bluetooth matroska libass xml xcb xkb"
 IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf"
-TOOLKIT_USE="gtk gtk3 gnome gnome-keyring qt4 qt3support qt5"
+TOOLKIT_USE="gtk gtk3 gnome gnome-keyring qt3support qt5"
 NETWORK_USE="ipv6 networkmanager modemmanager"
 SOUND_USE="alsa pulseaudio gstreamer ffmpeg openal"
-DONT_USE="-bindist -kde -connman -libav -tracker -mysql -consolekit -openrc -sysvinit -branding"
+DONT_USE="-bindist -kde -qt4 -connman -libav -tracker -mysql -consolekit -openrc -sysvinit -branding"
 
 USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
 
