@@ -12,6 +12,7 @@ dev-qt/qtwidgets:5 gtkstyle
 dev-qt/qtwebkit:4 -gstreamer -exceptions
 dev-util/cmake -qt5
 dev-util/geany -gtk3
+dev-util/glade:3 -gnome
 gnome-extra/nm-applet-gtk2 -bluetooth
 mail-client/claws-mail -webkit -libindicate
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
