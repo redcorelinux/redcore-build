@@ -38,7 +38,7 @@ QEMU_USER_TARGETS="x86_64 i386"
 QEMU_SOFTMMU_TARGETS="x86_64 i386"
 
 ## MIRRORS ##
-GENTOO_MIRRORS="http://ftp.romnet.org/gentoo/ http://mirror.bytemark.co.uk/gentoo/"
+GENTOO_MIRRORS="http://mirror.bytemark.co.uk/gentoo/"
 
 ## PYTHON TARGETS ##
 USE_PYTHON="2.7 3.4"
