@@ -7,7 +7,6 @@ app-office/wps-office ~amd64
 =app-emulation/virtualbox-bin-5.0.16.105871-r1 ~amd64
 =app-emulation/virtualbox-guest-additions-5.0.16 ~amd64
 =app-emulation/virtualbox-modules-5.0.16 ~amd64
-=mail-client/thunderbird-45.0 ~amd64
 =media-gfx/graphite2-1.3.8 ~amd64
 media-video/guvcview ~amd64
 media-video/handbrake ~amd64
