@@ -1,7 +1,6 @@
 =dev-libs/libqtxdg-1.3.0 ~amd64
 =lxqt-base/liblxqt-0.10.0 ~amd64
 =lxqt-base/lxqt-about-0.10.0 ~amd64
-=lxqt-base/lxqt-admin-0.10.0 ~amd64
 =lxqt-base/lxqt-common-0.10.0 ~amd64
 =lxqt-base/lxqt-config-0.10.0 ~amd64
 =lxqt-base/lxqt-globalkeys-0.10.0 ~amd64
