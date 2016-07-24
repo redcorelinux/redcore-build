@@ -7,6 +7,8 @@ app-office/wps-office ~amd64
 =app-emulation/virtualbox-bin-5.0.16.105871-r1 ~amd64
 =app-emulation/virtualbox-guest-additions-5.0.16 ~amd64
 =app-emulation/virtualbox-modules-5.0.16 ~amd64
+dev-lang/tcl ~amd64
+dev-lang/tk ~amd64
 dev-ruby/paint ~amd64
 dev-ruby/trollop ~amd64
 games-misc/lolcat ~amd64
