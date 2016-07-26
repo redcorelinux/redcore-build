@@ -3,6 +3,7 @@ app-admin/calamares::gentoo
 app-emulation/docker::gentoo
 dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
+lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo
 mate-base/mate-session-manager::gentoo
 mate-extra/mate-power-manager::gentoo
