@@ -5,8 +5,6 @@ dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo
-mate-base/mate-session-manager::gentoo
-mate-extra/mate-power-manager::gentoo
 net-misc/teamviewer::gentoo
 sys-apps/baselayout::gentoo
 sys-apps/gentoo-systemd-integration::gentoo
