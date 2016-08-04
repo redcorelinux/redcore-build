@@ -30,7 +30,7 @@ media-libs/mesa d3d9
 media-video/ffmpeg fdk
 media-video/mpv libmpv
 net-firewall/firewalld gui
-net-fs/samba client ldap
+net-fs/samba client ldap syslog
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-irc/quassel -server -crypt
 net-misc/networkmanager connection-sharing resolvconf
