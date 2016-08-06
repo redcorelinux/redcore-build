@@ -5,6 +5,7 @@ app-arch/unrar
 app-emulation/steam
 app-text/qpdfview
 gnome-extra/nm-applet-gtk2
+kde-apps/ark
 lxqt-base/lxqt-meta
 media-gfx/gimp
 media-sound/pavucontrol
