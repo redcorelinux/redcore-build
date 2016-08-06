@@ -15,6 +15,7 @@ dev-util/geany -gtk3
 dev-util/glade:3 -gnome
 gnome-extra/nm-applet-gtk2 -bluetooth
 gnome-extra/synapse -zeitgeist
+lxqt-base/lxqt-meta branding
 mail-client/claws-mail -webkit -libindicate
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
 mate-base/mate -themes
