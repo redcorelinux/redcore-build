@@ -2,6 +2,7 @@ app-crypt/asedriveiiie-usb ~amd64
 =app-crypt/shim-signed-0.2 ~amd64
 app-editors/atom ~amd64
 app-emulation/playonlinux ~amd64
+app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
 =app-emulation/virtualbox-bin-5.0.16.105871-r1 ~amd64
 =app-emulation/virtualbox-guest-additions-5.0.16 ~amd64
