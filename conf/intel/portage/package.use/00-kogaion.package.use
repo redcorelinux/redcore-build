@@ -35,7 +35,7 @@ media-video/mpv libmpv
 net-firewall/firewalld gui
 net-fs/samba client ldap syslog
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
-net-irc/quassel -server -crypt
+net-irc/quassel phonon -server -crypt
 net-misc/networkmanager connection-sharing resolvconf
 net-misc/teamviewer -system-wine
 net-misc/youtube-dl offensive
