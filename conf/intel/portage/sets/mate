@@ -16,6 +16,7 @@ media-tv/tv-maxe
 media-video/mpv
 media-video/vlc
 mail-client/thunderbird
+net-ftp/filezilla
 net-irc/hexchat
 net-misc/networkmanager
 net-p2p/transmission
