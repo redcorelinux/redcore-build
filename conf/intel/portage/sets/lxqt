@@ -9,6 +9,7 @@ app-text/qpdfview
 gnome-extra/nm-applet-gtk2
 kde-apps/ark
 lxqt-base/lxqt-meta
+mail-client/trojita
 media-gfx/gimp
 media-sound/pavucontrol
 media-sound/qmmp

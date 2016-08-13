@@ -12,6 +12,7 @@ app-text/qpdfview
 sci-calculators/galculator
 gnome-extra/nm-applet-gtk2
 gnome-extra/polkit-gnome
+mail-client/thunderbird
 media-gfx/gimp
 media-gfx/gpicview
 media-sound/deadbeef
@@ -24,7 +25,7 @@ net-irc/hexchat
 net-misc/networkmanager
 net-p2p/transmission
 sys-block/gparted
-www-client/chromium
+www-client/firefox
 x11-misc/lightdm
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin
