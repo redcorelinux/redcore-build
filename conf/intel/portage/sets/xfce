@@ -19,6 +19,7 @@ media-sound/deadbeef
 media-sound/pavucontrol
 media-sound/volumeicon
 media-tv/tv-maxe
+media-video/guvcview
 media-video/mpv
 media-video/vlc
 net-ftp/filezilla

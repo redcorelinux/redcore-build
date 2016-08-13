@@ -13,6 +13,7 @@ mate-extra/mate-polkit
 media-gfx/gimp
 media-sound/deadbeef
 media-tv/tv-maxe
+media-video/guvcview
 media-video/mpv
 media-video/vlc
 mail-client/thunderbird

@@ -14,6 +14,7 @@ media-gfx/gimp
 media-sound/pavucontrol
 media-sound/qmmp
 media-tv/tv-maxe
+media-video/guvcview
 media-video/mpv
 media-video/vlc
 net-ftp/filezilla
