@@ -4,6 +4,7 @@ app-arch/rar
 app-arch/unrar
 app-arch/xarchiver
 app-cdr/brasero
+app-crypt/seahorse
 app-editors/leafpad
 app-emulation/steam
 app-text/qpdfview
