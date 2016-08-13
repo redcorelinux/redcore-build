@@ -4,6 +4,7 @@ app-arch/rar
 app-arch/unrar
 app-editors/notepadqq
 app-emulation/steam
+app-office/libreoffice
 app-text/qpdfview
 gnome-extra/nm-applet-gtk2
 kde-apps/ark

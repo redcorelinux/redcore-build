@@ -5,6 +5,7 @@ app-arch/unrar
 app-cdr/brasero
 app-crypt/seahorse
 app-emulation/steam
+app-office/libreoffice
 gnome-extra/nm-applet-gtk2
 mate-base/mate
 mate-extra/caja-extensions

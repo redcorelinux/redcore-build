@@ -7,6 +7,7 @@ app-cdr/brasero
 app-crypt/seahorse
 app-editors/leafpad
 app-emulation/steam
+app-office/libreoffice
 app-text/qpdfview
 sci-calculators/galculator
 gnome-extra/nm-applet-gtk2
