@@ -2,6 +2,7 @@ app-admin/calamares
 app-admin/system-config-printer
 app-arch/rar
 app-arch/unrar
+app-cdr/brasero
 app-emulation/steam
 gnome-extra/nm-applet-gtk2
 mate-base/mate

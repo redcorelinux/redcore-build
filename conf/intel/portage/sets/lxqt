@@ -14,9 +14,11 @@ media-sound/qmmp
 media-tv/tv-maxe
 media-video/mpv
 media-video/vlc
+net-irc/konversation
 net-misc/networkmanager
 net-p2p/transmission
 sys-block/gparted
 www-client/qupzilla
+x11-misc/compton
 x11-misc/lightdm
 x11-terms/qterminal
