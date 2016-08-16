@@ -59,6 +59,7 @@ x11-drivers/xf86-video-intel uxa
 x11-misc/lightdm -gnome
 x11-misc/lightdm-gtk-greeter branding
 x11-libs/gksu -gnome
+x11-libs/goffice -gnome
 x11-libs/libdrm libkms
 x11-libs/wxGTK:2.8 -gnome -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
