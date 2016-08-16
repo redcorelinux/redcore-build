@@ -52,6 +52,7 @@ sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/zlib minizip static-libs
 www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
 www-client/chromium widevine
+www-plugins/freshplayerplugin -gtk3
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -gtk3
 x11-drivers/xf86-video-intel uxa
