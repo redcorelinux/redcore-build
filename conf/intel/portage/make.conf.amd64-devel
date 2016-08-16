@@ -17,9 +17,9 @@ CODECS_USE="a52 aac aacplus faac webp mms mp3 mpg123 flac gsm vorbis theora lame
 MEDIA_USE="cairo drm dri dri3 vaapi vdpau opengl xvmc v4l mtp rtmp dvd bluray bluetooth matroska libass xml xcb xkb"
 IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf"
 TOOLKIT_USE="gtk gtk3 gnome gnome-keyring qt3support qt5"
-NETWORK_USE="ipv6 networkmanager modemmanager"
+NETWORK_USE="ipv6"
 SOUND_USE="alsa pulseaudio gstreamer ffmpeg openal"
-DONT_USE="-bindist -kde -qt4 -connman -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook"
+DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -tracker -mysql -consolekit -openrc -sysvinit -branding -handbook"
 
 USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
 

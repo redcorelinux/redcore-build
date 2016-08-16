@@ -13,7 +13,7 @@ dev-qt/qtwebengine:5 widgets
 dev-util/cmake -qt5
 dev-util/geany -gtk3
 dev-util/glade:3 -gnome
-gnome-extra/nm-applet-gtk2 -bluetooth
+gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 gnome-extra/synapse -zeitgeist
 kde-frameworks/kio -kwallet
 lxqt-base/lxqt-meta branding
@@ -36,7 +36,7 @@ net-firewall/firewalld gui
 net-fs/samba client ldap syslog
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-irc/quassel phonon -server -crypt
-net-misc/networkmanager connection-sharing resolvconf
+net-misc/networkmanager connection-sharing resolvconf modemmanager
 net-misc/teamviewer -system-wine
 net-misc/youtube-dl offensive
 net-wireless/wpa_supplicant -qt5
