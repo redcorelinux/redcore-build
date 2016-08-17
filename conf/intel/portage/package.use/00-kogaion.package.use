@@ -36,7 +36,7 @@ net-firewall/firewalld gui
 net-fs/samba client ldap syslog
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-irc/quassel phonon -server -crypt
-net-misc/connman ofono openconnect openvpn
+net-misc/connman ofono openconnect openvpn pptp
 net-misc/networkmanager connection-sharing resolvconf modemmanager
 net-misc/teamviewer -system-wine
 net-misc/youtube-dl offensive
