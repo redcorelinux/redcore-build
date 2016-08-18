@@ -6,7 +6,6 @@ app-editors/notepadqq
 app-emulation/steam
 app-office/libreoffice
 app-text/qpdfview
-gnome-extra/nm-applet-gtk2
 kde-apps/ark
 lxqt-base/lxqt-meta
 mail-client/trojita
@@ -19,7 +18,8 @@ media-video/mpv
 media-video/vlc
 net-ftp/filezilla
 net-irc/konversation
-net-misc/networkmanager
+net-misc/cmst
+net-misc/connman
 net-p2p/transmission
 sys-block/gparted
 www-client/qupzilla
