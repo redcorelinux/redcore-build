@@ -20,5 +20,6 @@ sys-kernel/genkernel-next::gentoo
 virtual/linux-sources::gentoo
 www-client/firefox::gentoo
 x11-base/xorg-drivers::gentoo
+x11-misc/qps::gentoo
 xfce-base/thunar::gentoo
 >xfce-extra/xfce4-power-manager-1.4.4::gentoo
