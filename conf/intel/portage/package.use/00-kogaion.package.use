@@ -21,6 +21,7 @@ mail-client/claws-mail -webkit -libindicate
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
 mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
+media-gfx/sane-backends usb
 media-libs/freetype static-libs
 media-libs/libpng static-libs
 media-libs/libmng static-libs
