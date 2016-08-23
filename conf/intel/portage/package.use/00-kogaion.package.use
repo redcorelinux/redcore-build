@@ -22,6 +22,7 @@ mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx sys
 mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
 media-gfx/sane-backends usb
+media-gfx/scangearmp usb e610 mx390 mx450 mx520 mx720 mx920
 media-libs/freetype static-libs
 media-libs/libpng static-libs
 media-libs/libmng static-libs
