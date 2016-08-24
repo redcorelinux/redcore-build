@@ -35,7 +35,8 @@ media-sound/qmmp qsui
 media-video/ffmpeg fdk
 media-video/mpv libmpv
 net-firewall/firewalld gui
-net-print/cnijfilter backends canon_printers_e400 canon_printers_e560 canon_printers_ip2800 canon_printers_ip8700 canon_printers_ix6700 canon_printers_ix6800 canon_printers_mx470 canon_printers_mx530 servicetools
+net-print/cnijfilter net servicetools
+net-print/cnijfilter-drivers servicetools e510 ip7200 mg2200 mg3200 mg4200 mg5400 mg6300 mp230
 net-fs/samba client ldap syslog
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-irc/quassel phonon -server -crypt
