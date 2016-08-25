@@ -6,6 +6,7 @@ app-emulation/wine staging s3tc -gstreamer -mono -realtime -prelink -vaapi
 app-misc/calamares-runtime branding
 dev-db/sqlite secure-delete
 dev-libs/libpcre pcre16
+dev-libs/libgusb vala
 dev-qt/qtgui:5 gtkstyle
 dev-qt/qtwidgets:5 gtkstyle
 dev-qt/qtwebchannel:5 qml
@@ -23,6 +24,7 @@ mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
 media-gfx/sane-backends usb
 media-gfx/scangearmp usb e610 mx390 mx450 mx520 mx720 mx920
+media-gfx/xsane gimp lcms ocr
 media-libs/freetype static-libs
 media-libs/libpng static-libs
 media-libs/libmng static-libs
