@@ -56,7 +56,7 @@ sys-fs/cryptsetup -gcrypt
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/kogaion-sources symlink
-sys-kernel/linux-kogaion dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/zlib minizip static-libs
 www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
 www-client/chromium widevine
