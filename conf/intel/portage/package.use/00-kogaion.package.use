@@ -2,7 +2,7 @@ app-admin/sudo -sendmail
 app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
 app-emulation/docker aufs overlay
-app-emulation/wine staging s3tc vaapi -gstreamer -mono -realtime -prelink
+app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
 dev-db/sqlite secure-delete
 dev-libs/libpcre pcre16
