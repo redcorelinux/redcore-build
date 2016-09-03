@@ -14,6 +14,7 @@ dev-qt/qtwebengine:5 widgets
 dev-util/cmake -qt5
 dev-util/geany -gtk3
 dev-util/glade:3 -gnome
+games-fps/urbanterror smp -sdl
 gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 gnome-extra/synapse -zeitgeist
 kde-frameworks/kio -kwallet
