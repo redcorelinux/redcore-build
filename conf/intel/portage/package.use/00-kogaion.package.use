@@ -14,7 +14,8 @@ dev-qt/qtwebengine:5 widgets
 dev-util/cmake -qt5
 dev-util/geany -gtk3
 dev-util/glade:3 -gnome
-games-fps/urbanterror smp -sdl
+games-fps/urbanterror smp sdl
+games-fps/xonotic sdl
 gnome-extra/nm-applet-gtk2 -bluetooth modemmanager
 gnome-extra/synapse -zeitgeist
 kde-frameworks/kio -kwallet
@@ -31,7 +32,7 @@ media-libs/libpng static-libs
 media-libs/libmng static-libs
 media-libs/libjpeg static-libs
 media-libs/libjpeg-turbo static-libs
-media-libs/libsdl -sound
+media-libs/libsdl sound
 media-libs/libvpx postproc
 media-libs/mesa d3d9 gles1 gles2
 media-sound/qmmp qsui
