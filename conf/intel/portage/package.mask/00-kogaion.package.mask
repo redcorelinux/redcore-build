@@ -21,5 +21,6 @@ virtual/linux-sources::gentoo
 www-client/firefox::gentoo
 x11-base/xorg-drivers::gentoo
 x11-misc/qps::gentoo
+x11-misc/bumblebee::gentoo
 xfce-base/thunar::gentoo
 xfce-extra/xfce4-power-manager::gentoo
