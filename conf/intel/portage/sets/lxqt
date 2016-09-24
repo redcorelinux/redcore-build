@@ -10,7 +10,7 @@ kde-apps/ark
 lxqt-base/lxqt-meta
 mail-client/trojita
 media-gfx/gimp
-media-sound/pavucontrol
+media-sound/pavucontrol-qt
 media-sound/qmmp
 media-tv/tv-maxe
 media-video/guvcview
