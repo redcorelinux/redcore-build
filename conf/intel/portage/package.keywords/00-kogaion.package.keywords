@@ -1,3 +1,4 @@
+app-admin/keepassx ~amd64
 app-crypt/asedriveiiie-usb ~amd64
 =app-crypt/shim-signed-0.2 ~amd64
 app-editors/atom ~amd64
