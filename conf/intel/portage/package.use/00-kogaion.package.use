@@ -77,8 +77,7 @@ x11-libs/gksu -gnome
 x11-libs/libdrm libkms
 x11-libs/wxGTK:2.8 -gnome -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
-xfce-base/thunar exif
-xfce-extra/tumbler -gstreamer
+xfce-base/xfdesktop -thunar
 x11-themes/gtk-engines-murrine -themes
 x11-themes/numix-gtk-theme metacity
 x11-themes/numix-gtk-theme-dark metacity
