@@ -29,10 +29,9 @@ net-p2p/transmission
 sys-block/gparted
 www-client/firefox
 x11-misc/lightdm
+x11-misc/pcmanfm
 x11-misc/redshift
 xfce-base/xfce4-meta
-xfce-extra/thunar-archive-plugin
-xfce-extra/thunar-volman
 xfce-extra/xfce4-notifyd
 xfce-extra/xfce4-power-manager
 xfce-extra/xfce4-places-plugin
