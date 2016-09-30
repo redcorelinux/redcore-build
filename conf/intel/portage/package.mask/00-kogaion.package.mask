@@ -1,4 +1,5 @@
 app-admin/calamares::gentoo
+>app-arch/tar-1.27.1-r2
 >app-editors/atom-1.7.2
 app-emulation/docker::gentoo
 dev-libs/icu::gentoo
