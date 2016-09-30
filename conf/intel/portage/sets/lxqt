@@ -2,11 +2,12 @@ app-admin/calamares
 app-admin/system-config-printer
 app-arch/rar
 app-arch/unrar
-app-editors/notepadqq
+app-editors/featherpad
 app-emulation/steam
 app-office/libreoffice
 app-text/qpdfview
 kde-apps/ark
+kde-apps/kcalc
 lxqt-base/lxqt-meta
 mail-client/trojita
 media-gfx/gimp
@@ -20,7 +21,7 @@ net-ftp/filezilla
 net-irc/konversation
 net-misc/cmst
 net-misc/connman
-net-p2p/transmission
+net-p2p/qbittorrent
 sys-block/gparted
 www-client/qupzilla
 x11-misc/compton
