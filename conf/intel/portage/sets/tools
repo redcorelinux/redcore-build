@@ -4,5 +4,6 @@ app-misc/kogaion-skel
 sys-apps/usbutils
 sys-boot/os-prober
 x11-apps/mesa-progs
+x11-apps/setxkbmap
 x11-misc/xdg-user-dirs
 x11-terms/xterm
