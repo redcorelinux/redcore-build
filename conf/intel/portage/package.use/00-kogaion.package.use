@@ -42,6 +42,7 @@ media-sound/qmmp qsui
 media-video/bomi cdda youtube-dl
 media-video/ffmpeg fdk
 media-video/mpv libmpv
+net-dns/dnsmasq script
 net-firewall/firewalld gui
 net-print/cnijfilter net servicetools
 net-print/cnijfilter-drivers servicetools e510 ip7200 mg2200 mg3200 mg4200 mg5400 mg6300 mp230
