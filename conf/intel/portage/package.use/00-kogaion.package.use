@@ -1,6 +1,7 @@
 app-admin/sudo -sendmail
 app-arch/bzip2 static-libs
 app-arch/xz-utils static-libs
+app-emulation/aqemu vnc
 app-emulation/docker aufs overlay
 app-emulation/libvirt numa virt-network
 app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
