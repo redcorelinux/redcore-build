@@ -3,7 +3,7 @@ CFLAGS="-O2 -march=x86-64 -mtune=generic -pipe"
 CHOST="x86_64-pc-linux-gnu"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
-MAKEOPTS="-j"${nproc}" -s"
+MAKEOPTS="-j8 -s"
 
 ## PORTAGE FEATURES ##
 FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug"
