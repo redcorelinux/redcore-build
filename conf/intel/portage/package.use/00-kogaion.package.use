@@ -16,6 +16,7 @@ dev-qt/qtgui:5 gtkstyle
 dev-qt/qtwidgets:5 gtkstyle
 dev-qt/qtwebchannel:5 qml
 dev-qt/qtwebengine:5 widgets
+dev-qt/qtwebkit geolocation multimedia orientation printsupport webchannel
 dev-util/cmake -qt5
 dev-util/geany -gtk3
 dev-util/glade:3 -gnome
