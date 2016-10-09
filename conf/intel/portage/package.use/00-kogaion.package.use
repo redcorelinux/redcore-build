@@ -12,7 +12,7 @@ dev-db/sqlite secure-delete
 dev-lang/fpc source
 dev-libs/libpcre pcre16
 dev-libs/libgusb vala
-dev-qt/qtgui:5 gtkstyle
+dev-qt/qtgui:5 gtkstyle evdev
 dev-qt/qtmultimedia:5 widgets
 dev-qt/qtpositioning:5 geoclue
 dev-qt/qtwidgets:5 gtkstyle
