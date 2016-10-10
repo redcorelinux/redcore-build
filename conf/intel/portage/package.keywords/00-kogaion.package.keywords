@@ -20,6 +20,7 @@ dev-scheme/guile ~amd64
 games-misc/lolcat ~amd64
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
+media-gfx/blender ~amd64
 media-gfx/scangearmp ~amd64
 media-tv/sopcast ~amd64
 media-tv/tv-maxe ~amd64
