@@ -8,6 +8,7 @@ app-emulation/libvirt numa virt-network
 app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
+app-office/scribus graphicsmagick osg
 app-text/atril epub
 dev-db/sqlite secure-delete
 dev-lang/fpc source
@@ -35,6 +36,7 @@ mail-client/claws-mail -webkit -libindicate
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
 mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
+media-gfx/graphicsmagick imagemagick
 media-gfx/sane-backends usb snmp
 media-gfx/scangearmp usb e610 mx390 mx450 mx520 mx720 mx920
 media-gfx/xsane gimp lcms ocr
