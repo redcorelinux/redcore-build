@@ -52,6 +52,7 @@ media-video/bomi cdda youtube-dl
 media-video/ffmpeg fdk
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk
+net-dns/avahi mdnsresponder-compat utils -gtk3
 net-dns/dnsmasq script
 net-firewall/firewalld gui
 net-print/cnijfilter net servicetools
