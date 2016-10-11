@@ -36,7 +36,6 @@ mail-client/claws-mail -webkit -libindicate
 mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
 mate-base/mate -themes
 mate-extra/caja-extensions cdr upnp image-converter -mail
-media-gfx/graphicsmagick imagemagick
 media-gfx/sane-backends usb snmp
 media-gfx/scangearmp usb e610 mx390 mx450 mx520 mx720 mx920
 media-gfx/xsane gimp lcms ocr
