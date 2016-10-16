@@ -1,7 +1,5 @@
 app-admin/sudo -sendmail
 app-admin/testdisk ewf ntfs
-app-arch/bzip2 static-libs
-app-arch/xz-utils static-libs
 app-emulation/aqemu vnc
 app-emulation/docker overlay -aufs -btrfs
 app-emulation/libvirt numa virt-network
@@ -37,11 +35,6 @@ mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx sys
 media-gfx/sane-backends usb snmp
 media-gfx/scangearmp usb e610 mx390 mx450 mx520 mx720 mx920
 media-gfx/xsane gimp lcms ocr
-media-libs/freetype static-libs
-media-libs/libpng static-libs
-media-libs/libmng static-libs
-media-libs/libjpeg static-libs
-media-libs/libjpeg-turbo static-libs
 media-libs/libsdl sound
 media-libs/libsdl2 gles
 media-libs/libvpx postproc svc
@@ -68,7 +61,7 @@ net-wireless/wpa_supplicant -qt5
 sys-apps/smartmontools minimal
 sys-apps/systemd sysv-utils
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
-sys-boot/grub static -truetype
+sys-boot/grub device-mapper mount truetype
 sys-devel/llvm clang
 sys-devel/gcc go
 sys-fs/cryptsetup -gcrypt
@@ -77,7 +70,7 @@ sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/kogaion-sources symlink
 sys-kernel/linux-kogaion dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/libseccomp static-libs
-sys-libs/zlib minizip static-libs
+sys-libs/zlib minizip
 www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
 www-client/chromium widevine
 www-plugins/freshplayerplugin -gtk3
