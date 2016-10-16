@@ -6,7 +6,7 @@ LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 MAKEOPTS="-j8 -s"
 
 ## PORTAGE FEATURES ##
-FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug"
+FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug -userpriv"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkg --rebuilt-binaries"
 #PORTAGE_NICENESS="-19"
 
