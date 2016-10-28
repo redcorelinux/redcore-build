@@ -65,6 +65,7 @@ sys-boot/grub device-mapper mount truetype
 sys-devel/llvm clang
 sys-devel/gcc go
 sys-fs/cryptsetup -gcrypt
+sys-fs/dosfstools compat
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/kogaion-sources symlink
