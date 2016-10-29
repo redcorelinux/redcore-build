@@ -1,5 +1,4 @@
 app-admin/calamares::gentoo
->app-arch/tar-1.27.1-r2::gentoo
 >app-editors/atom-1.7.2
 dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
