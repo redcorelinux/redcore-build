@@ -9,13 +9,13 @@ app-portage/portage-utils
 dev-libs/openssl
 dev-vcs/git
 net-misc/openssh
-sys-apps/baselayout::kogaion-desktop
+sys-apps/baselayout::redcore-desktop
 sys-apps/dbus
 sys-apps/mlocate
 sys-apps/systemd
 sys-boot/grub
 sys-kernel/dracut
-sys-kernel/kogaion-sources
-sys-kernel/linux-kogaion
+sys-kernel/redcore-sources
+sys-kernel/linux-redcore
 sys-process/htop
 sys-process/lsof

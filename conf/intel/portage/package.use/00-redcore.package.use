@@ -68,8 +68,8 @@ sys-fs/cryptsetup -gcrypt
 sys-fs/dosfstools compat
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
-sys-kernel/kogaion-sources symlink
-sys-kernel/linux-kogaion dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-kernel/redcore-sources symlink
+sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip
 www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3

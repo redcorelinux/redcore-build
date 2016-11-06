@@ -1,6 +1,6 @@
 app-emulation/virtualbox-guest-additions
-app-misc/kogaion-live
-app-misc/kogaion-skel
+app-misc/redcore-live
+app-misc/redcore-skel
 sys-apps/usbutils
 sys-boot/os-prober
 sys-kernel/dkms

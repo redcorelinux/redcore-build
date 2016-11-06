@@ -1,6 +1,6 @@
 # unmask perl-Module-Build
 virtual/perl-Module-Build::gentoo
-app-admin/calamares::kogaion-desktop
+app-admin/calamares::redcore-desktop
 net-firewall/ufw-frontends::gentoo
 net-wireless/broadcom-sta::gentoo
 sys-firmware/b43-firmware::gentoo
