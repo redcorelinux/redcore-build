@@ -25,9 +25,9 @@ media-video/vlc
 net-ftp/filezilla
 net-irc/hexchat
 net-misc/networkmanager
-net-p2p/transmission
+net-p2p/deluge
 sys-block/gparted
-www-client/firefox
+www-client/google-chrome
 x11-misc/lightdm
 x11-misc/pcmanfm
 x11-misc/redshift
