@@ -1,7 +1,6 @@
 app-admin/keepassx ~amd64
 app-arch/tar ~amd64
 app-crypt/asedriveiiie-usb ~amd64
-=app-crypt/shim-signed-0.2 ~amd64
 app-editors/atom ~amd64
 app-emulation/aqemu ~amd64
 app-emulation/playonlinux ~amd64
@@ -17,6 +16,7 @@ dev-lang/tk ~amd64
 dev-ruby/paint ~amd64
 dev-ruby/trollop ~amd64
 dev-scheme/guile ~amd64
+dev-util/cmake ~amd64
 games-misc/lolcat ~amd64
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
