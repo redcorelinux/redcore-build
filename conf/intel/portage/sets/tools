@@ -3,6 +3,7 @@ app-misc/redcore-live
 app-misc/redcore-skel
 sys-apps/usbutils
 sys-boot/os-prober
+sys-boot/unetbootin-static
 sys-kernel/dkms
 x11-apps/mesa-progs
 x11-apps/setxkbmap
