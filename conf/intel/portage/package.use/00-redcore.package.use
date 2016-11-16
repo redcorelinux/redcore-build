@@ -53,6 +53,7 @@ net-print/hplip fax scanner snmp
 net-fs/samba client ldap syslog
 net-irc/hexchat libcanberra plugin-checksum plugin-doat plugin-fishlim plugin-sysinfo
 net-irc/quassel phonon -server -crypt
+net-libs/libproxy webkit
 net-misc/connman ofono openconnect openvpn pptp l2tp vpnc
 net-misc/networkmanager connection-sharing resolvconf modemmanager
 net-misc/teamviewer -system-wine
@@ -73,7 +74,6 @@ sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs ply
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip
 www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
-www-client/chromium widevine
 www-plugins/freshplayerplugin -gtk3
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm -gtk3
