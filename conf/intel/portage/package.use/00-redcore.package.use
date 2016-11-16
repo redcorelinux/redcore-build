@@ -22,6 +22,7 @@ dev-qt/qtwebengine:5 widgets
 dev-qt/qtwebkit:5 geolocation multimedia orientation printsupport webchannel -gstreamer
 dev-util/cmake -qt5
 dev-util/geany -gtk3
+dev-util/geany-plugins -gtk3
 dev-util/glade:3 -gnome
 games-fps/urbanterror smp sdl
 games-fps/xonotic sdl
