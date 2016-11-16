@@ -35,6 +35,7 @@ net-im/skypeforlinux ~amd64
 net-libs/libiscsi ~amd64
 net-libs/rb_libtorrent ~amd64
 net-misc/cmst ~amd64
+net-misc/dropbox ~amd64
 net-misc/teamviewer ~amd64
 net-misc/youtube-dl ~amd64
 net-p2p/qbittorrent ~amd64
