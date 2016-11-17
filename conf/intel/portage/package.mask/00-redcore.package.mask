@@ -8,6 +8,7 @@ mate-base/mate::gentoo
 >media-gfx/blender-2.72b-r4::gentoo
 net-firewall/firewalld::gentoo
 net-misc/teamviewer::gentoo
+net-news/liferea::gentoo
 sys-apps/baselayout::gentoo
 sys-apps/gentoo-systemd-integration::gentoo
 sys-apps/openrc::gentoo
