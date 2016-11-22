@@ -69,6 +69,7 @@ sys-devel/llvm clang libedit -sanitize -static-analyzer
 sys-devel/gcc go
 sys-fs/cryptsetup -gcrypt -nettle
 sys-fs/dosfstools compat
+sys-kernel/dracut -systemd
 sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/redcore-sources symlink
