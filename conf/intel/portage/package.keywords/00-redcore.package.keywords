@@ -6,8 +6,6 @@ app-emulation/aqemu ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
-app-emulation/virtualbox-bin ~amd64
-app-emulation/virtualbox-guest-additions ~amd64
 app-office/wps-office ~amd64
 dev-lang/fpc ~amd64
 dev-lang/lazarus ~amd64
@@ -52,7 +50,6 @@ www-client/google-chrome ~amd64
 www-client/qupzilla ~amd64
 x11-apps/copyq ~amd64
 x11-apps/radeontop ~amd64
-x11-drivers/xf86-video-virtualbox ~amd64
 x11-libs/qtermwidget ~amd64
 x11-misc/arandr ~amd64
 x11-misc/primus ~amd64
