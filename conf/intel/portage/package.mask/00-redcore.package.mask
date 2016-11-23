@@ -1,4 +1,7 @@
 app-admin/calamares::gentoo
+app-emulation/virtualbox-modules::gentoo
+app-emulation/virtualbox-guest-additions::gentoo
+app-emulation/virtualbox-bin::gentoo
 >app-editors/atom-1.7.2
 dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
@@ -22,6 +25,7 @@ sys-kernel/genkernel-next::gentoo
 virtual/linux-sources::gentoo
 www-client/firefox::gentoo
 x11-base/xorg-drivers::gentoo
+x11-drivers/xf86-video-virtualbox::gentoo
 x11-misc/qps::gentoo
 x11-misc/bumblebee::gentoo
 xfce-extra/xfce4-power-manager::gentoo
