@@ -2,6 +2,7 @@ app-admin/calamares::gentoo
 app-emulation/virtualbox-modules::gentoo
 app-emulation/virtualbox-guest-additions::gentoo
 app-emulation/virtualbox-bin::gentoo
+app-emulation/virtualbox::gentoo
 >app-editors/atom-1.7.2
 dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
