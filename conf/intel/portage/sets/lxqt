@@ -3,13 +3,14 @@ app-admin/system-config-printer
 app-arch/rar
 app-arch/unrar
 app-editors/featherpad
+app-editors/notepadqq
 app-emulation/steam
 app-office/libreoffice
 app-text/qpdfview
+dev-qt/qt5ct
 kde-apps/ark
 kde-apps/kcalc
 lxqt-base/lxqt-meta
-mail-client/trojita
 media-gfx/gimp
 media-sound/pavucontrol-qt
 media-sound/qmmp
