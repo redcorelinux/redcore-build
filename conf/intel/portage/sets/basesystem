@@ -1,7 +1,6 @@
 app-admin/vasile
 app-editors/vim
 app-misc/mc
-app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
@@ -9,11 +8,12 @@ app-portage/portage-utils
 dev-libs/openssl
 dev-vcs/git
 net-misc/openssh
-sys-apps/baselayout::redcore-desktop
+sys-apps/baselayout
 sys-apps/dbus
 sys-apps/mlocate
 sys-apps/systemd
 sys-boot/grub
+sys-kernel/dkms
 sys-kernel/dracut
 sys-kernel/redcore-sources
 sys-kernel/linux-redcore
