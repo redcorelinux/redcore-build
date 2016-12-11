@@ -32,7 +32,7 @@ gnome-extra/synapse -zeitgeist
 kde-frameworks/kio -kwallet
 lxqt-base/lxqt-meta branding
 mail-client/claws-mail -webkit -libindicate
-mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi
+mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite -wifi
 media-gfx/sane-backends usb snmp
 media-gfx/scangearmp usb e610 mx390 mx450 mx520 mx720 mx920
 media-gfx/xsane gimp lcms ocr
@@ -77,7 +77,7 @@ sys-kernel/redcore-sources symlink
 sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip
-www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite wifi -gtk3
+www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite -wifi -gtk3
 www-plugins/freshplayerplugin -gtk3
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm -gtk3
