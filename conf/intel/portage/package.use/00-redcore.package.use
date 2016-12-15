@@ -23,7 +23,6 @@ dev-qt/qtwebkit:5 geolocation multimedia orientation printsupport webchannel -gs
 dev-util/cmake -qt5
 dev-util/geany -gtk3
 dev-util/geany-plugins -gtk3
-dev-util/glade:3 -gnome
 games-fps/urbanterror smp sdl
 games-fps/xonotic sdl
 games-strategy/0ad sound
@@ -42,7 +41,6 @@ media-libs/libvpx postproc svc
 media-libs/mesa d3d9 gles1 gles2 vulkan xa
 media-sound/qmmp qsui
 media-sound/spotify -gnome
-media-video/bomi cdda youtube-dl
 media-video/ffmpeg fdk
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk
