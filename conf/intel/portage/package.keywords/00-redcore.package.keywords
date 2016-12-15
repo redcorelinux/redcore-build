@@ -1,5 +1,4 @@
 app-admin/keepassx ~amd64
-app-arch/tar ~amd64
 app-crypt/asedriveiiie-usb ~amd64
 app-editors/atom ~amd64
 app-emulation/aqemu ~amd64
@@ -12,7 +11,6 @@ dev-lang/lazarus ~amd64
 dev-lang/tcl ~amd64
 dev-lang/tk ~amd64
 dev-ruby/paint ~amd64
-dev-ruby/trollop ~amd64
 dev-scheme/guile ~amd64
 dev-util/kbuild ~amd64
 dev-util/cmake ~amd64
@@ -20,7 +18,6 @@ games-misc/lolcat ~amd64
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
 media-gfx/blender ~amd64
-media-gfx/inkscape ~amd64
 media-gfx/scangearmp ~amd64
 media-tv/sopcast ~amd64
 media-tv/tv-maxe ~amd64
@@ -38,15 +35,11 @@ net-misc/dropbox ~amd64
 net-misc/teamviewer ~amd64
 net-misc/youtube-dl ~amd64
 net-p2p/qbittorrent ~amd64
-net-wireless/blueman ~amd64
 sys-apps/inxi ~amd64
-sys-block/partitionmanager ~amd64
 sys-firmware/b43-firmware ~amd64
 sys-firmware/b43legacy-firmware ~amd64
 sys-fs/cryptsetup ~amd64
 sys-kernel/dracut ~amd64
-sys-kernel/genkernel-next ~amd64
-sys-libs/kpmcore:5 ~amd64
 www-client/google-chrome ~amd64
 www-client/qupzilla ~amd64
 www-plugins/google-talkplugin ~amd64
