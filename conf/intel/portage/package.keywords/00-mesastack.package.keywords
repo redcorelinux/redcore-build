@@ -2,6 +2,6 @@
 =sys-devel/clang-3.9.0-r100 ~amd64
 =sys-devel/clang-runtime-3.9.0 ~amd64
 =media-libs/mesa-13.0.2 ~amd64
-=x11-libs/libdrm-2.4.73 ~amd64
+=x11-libs/libdrm-2.4.74 ~amd64
 =x11-libs/libva-1.7.3 ~amd64
 =x11-libs/libva-intel-driver-1.7.3 ~amd64
