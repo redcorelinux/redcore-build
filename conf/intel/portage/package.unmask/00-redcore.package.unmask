@@ -1,5 +1,3 @@
-# unmask perl-Module-Build
-virtual/perl-Module-Build::gentoo
 app-admin/calamares::redcore-desktop
 net-firewall/ufw-frontends::gentoo
 net-wireless/broadcom-sta::gentoo
