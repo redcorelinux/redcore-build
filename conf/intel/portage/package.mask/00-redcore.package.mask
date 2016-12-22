@@ -9,7 +9,6 @@ dev-libs/libdbusmenu-qt::gentoo
 lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo
 mate-base/mate::gentoo
->media-gfx/blender-2.72b-r4::gentoo
 net-firewall/firewalld::gentoo
 net-misc/teamviewer::gentoo
 net-news/liferea::gentoo
