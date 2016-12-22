@@ -1,6 +1,1 @@
 app-admin/calamares::redcore-desktop
-net-firewall/ufw-frontends::gentoo
-net-wireless/broadcom-sta::gentoo
-sys-firmware/b43-firmware::gentoo
-sys-firmware/b43legacy-firmware::gentoo
-www-plugins/google-talkplugin::gentoo
