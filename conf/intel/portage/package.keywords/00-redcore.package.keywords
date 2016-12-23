@@ -5,6 +5,7 @@ app-emulation/aqemu ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
+app-eselect/eselect-electron ~amd64
 app-office/wps-office ~amd64
 dev-lang/fpc ~amd64
 dev-lang/lazarus ~amd64
@@ -14,6 +15,7 @@ dev-ruby/paint ~amd64
 dev-scheme/guile ~amd64
 dev-util/kbuild ~amd64
 dev-util/cmake ~amd64
+dev-util/electron ~amd64
 games-misc/lolcat ~amd64
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64

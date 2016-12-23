@@ -10,6 +10,7 @@ app-office/libreoffice -gtk3
 app-text/atril epub
 dev-db/sqlite secure-delete
 dev-lang/fpc source
+dev-libs/libgit2 ssh
 dev-libs/libpcre pcre16
 dev-libs/libgusb vala
 dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
