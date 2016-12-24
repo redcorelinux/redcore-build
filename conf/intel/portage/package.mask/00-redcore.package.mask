@@ -21,6 +21,7 @@ sys-boot/plymouth::gentoo
 sys-kernel/genkernel-next::gentoo
 virtual/linux-sources::gentoo
 www-client/firefox::gentoo
+>www-client/vivaldi-1.6.689.46_p1::gentoo
 x11-base/xorg-drivers::gentoo
 x11-drivers/xf86-video-virtualbox::gentoo
 x11-misc/qps::gentoo
