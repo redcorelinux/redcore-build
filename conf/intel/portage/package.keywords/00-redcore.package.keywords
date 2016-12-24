@@ -41,6 +41,7 @@ sys-firmware/b43legacy-firmware ~amd64
 sys-fs/cryptsetup ~amd64
 sys-kernel/dracut ~amd64
 www-client/google-chrome ~amd64
+www-client/opera ~amd64
 www-client/qupzilla ~amd64
 www-plugins/google-talkplugin ~amd64
 x11-apps/copyq ~amd64
