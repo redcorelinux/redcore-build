@@ -26,6 +26,9 @@ DONT_USE="-bindist -kde -qt4 -connman -networkmanager -modemmanager -libav -trac
 
 USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
 
+## CPU OPTIMISATIONS ##
+CPU_FLAGS_X86="mmx mmxext sse sse2 sse3"
+
 ## DEVICES ##
 INPUT_DEVICES="evdev synaptics"
 VIDEO_CARDS="intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa amdgpu radeonsi radeon vmware"
