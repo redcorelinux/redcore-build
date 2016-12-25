@@ -26,4 +26,5 @@ x11-base/xorg-drivers::gentoo
 x11-drivers/xf86-video-virtualbox::gentoo
 x11-misc/qps::gentoo
 x11-misc/bumblebee::gentoo
+x11-misc/lightdm::gentoo
 xfce-extra/xfce4-power-manager::gentoo
