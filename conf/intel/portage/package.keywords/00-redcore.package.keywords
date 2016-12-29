@@ -26,7 +26,6 @@ media-tv/tv-maxe ~amd64
 media-tv/v4l-utils ~amd64
 media-video/guvcview ~amd64
 media-video/handbrake ~amd64
-media-video/mpv ~amd64
 media-video/obs-studio ~amd64
 net-firewall/ufw-frontends ~amd64
 net-im/skypeforlinux ~amd64
