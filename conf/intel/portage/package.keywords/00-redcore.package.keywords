@@ -36,6 +36,7 @@ net-misc/dropbox ~amd64
 net-misc/teamviewer ~amd64
 net-misc/youtube-dl ~amd64
 net-p2p/qbittorrent ~amd64
+net-wireless/blueman ~amd64
 sys-apps/inxi ~amd64
 sys-firmware/b43-firmware ~amd64
 sys-firmware/b43legacy-firmware ~amd64
