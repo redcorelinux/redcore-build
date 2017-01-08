@@ -51,7 +51,6 @@ media-sound/spotify -gnome
 media-video/ffmpeg fdk
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk
-net-analyzer/nmap zenmap
 net-dns/avahi mdnsresponder-compat utils -gtk3
 net-dns/dnsmasq script
 net-firewall/firewalld gui
