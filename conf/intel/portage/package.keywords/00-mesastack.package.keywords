@@ -1,4 +1,4 @@
-=sys-devel/llvm-3.9.1 ~amd64
+=sys-devel/llvm-3.9.1-r1 ~amd64
 =sys-devel/clang-3.9.1-r100 ~amd64
 =sys-devel/clang-runtime-3.9.1 ~amd64
 =media-libs/mesa-13.0.3 ~amd64
