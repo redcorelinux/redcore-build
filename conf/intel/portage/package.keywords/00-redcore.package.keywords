@@ -2,7 +2,6 @@ app-admin/keepassx ~amd64
 app-crypt/asedriveiiie-usb ~amd64
 app-editors/atom ~amd64
 app-emulation/aqemu ~amd64
-app-emulation/containerd ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
@@ -52,5 +51,4 @@ x11-libs/qtermwidget ~amd64
 x11-misc/primus ~amd64
 x11-misc/qarma ~amd64
 x11-misc/qlipper ~amd64
-x11-misc/xdg-utils ~amd64
 x11-terms/qterminal ~amd64
