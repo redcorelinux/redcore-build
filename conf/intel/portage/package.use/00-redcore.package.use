@@ -49,6 +49,7 @@ media-libs/phonon -gstreamer -vlc
 media-libs/sdl-mixer smpeg
 media-sound/qmmp qsui
 media-sound/spotify -gnome
+media-tv/kodi -samba
 media-video/ffmpeg fdk
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk
