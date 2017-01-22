@@ -97,6 +97,7 @@ x11-libs/gksu -gnome
 x11-libs/libdrm libkms
 x11-libs/wxGTK:2.8 -gnome -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
+x11-themes/arc-theme mate xfce
 x11-themes/gtk-engines-murrine -themes
 x11-terms/rxvt-unicode -perl
 x11-terms/terminator -gnome
