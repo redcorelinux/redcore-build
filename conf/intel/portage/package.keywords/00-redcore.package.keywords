@@ -32,7 +32,6 @@ net-libs/libiscsi ~amd64
 net-libs/rb_libtorrent ~amd64
 net-libs/tox ~amd64
 net-misc/cmst ~amd64
-net-misc/dropbox ~amd64
 net-misc/owncloud-client ~amd64
 net-misc/teamviewer ~amd64
 net-misc/youtube-dl ~amd64
