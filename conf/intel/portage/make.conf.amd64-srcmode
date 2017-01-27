@@ -10,8 +10,8 @@ FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug -
 #PORTAGE_NICENESS="-19"
 
 ## SYSTEM LANGUAGES ##
-LINGUAS="en en_US en_GB uk ro_RO ro"
-L10N="en en-US en-GB uk ro-RO ro"
+LINGUAS="en en_US en_GB ro_RO ro"
+L10N="en en-US en-GB ro-RO ro"
 
 ## USE FLAGS ##
 SYSTEM_USE="X wayland glamor systemd udev dbus policykit polkit upower udisks python perl icu xattr acl introspection gudev threads truetype fontconfig curl cups openssl nettle gcrypt libnotify sqlite"
