@@ -2,6 +2,7 @@ app-emulation/virtualbox-modules::gentoo
 app-emulation/virtualbox-guest-additions::gentoo
 app-emulation/virtualbox::gentoo
 app-laptop/tp_smapi::gentoo
+app-office/gnucash::gentoo
 dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 lxqt-base/lxqt-meta::gentoo
