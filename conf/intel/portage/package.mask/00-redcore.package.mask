@@ -1,3 +1,4 @@
+app-doc/gnucash-docs::gentoo
 app-emulation/virtualbox-modules::gentoo
 app-emulation/virtualbox-guest-additions::gentoo
 app-emulation/virtualbox::gentoo
