@@ -5,6 +5,7 @@ net-news/liferea
 sys-apps/usbutils
 sys-boot/os-prober
 sys-boot/unetbootin-static
+sys-fs/dosfstools
 sys-fs/xfsprogs
 x11-apps/mesa-progs
 x11-apps/setxkbmap
