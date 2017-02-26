@@ -4,13 +4,11 @@ app-crypt/heimdal -ssl
 app-emulation/aqemu vnc
 app-emulation/docker overlay -aufs -btrfs
 app-emulation/libvirt numa virt-network
-app-emulation/qemu gtk2 iscsi numa usb usbredir virgl spice ssh
+app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
-app-office/libreoffice -gtk3
 app-text/xmlto text
 dev-db/sqlite secure-delete
-dev-java/swt -gnome
 dev-lang/fpc source
 dev-libs/libgit2 ssh
 dev-libs/libpcre pcre16
@@ -24,9 +22,6 @@ dev-qt/qtwidgets:5 gtkstyle
 dev-qt/qtwebchannel:5 qml
 dev-qt/qtwebengine:5 widgets
 dev-qt/qtwebkit:5 geolocation multimedia orientation printsupport webchannel -gstreamer
-dev-util/cmake -qt5
-dev-util/geany -gtk3
-dev-util/geany-plugins -gtk3
 games-action/armagetronad sound
 games-fps/urbanterror smp sdl
 games-fps/xonotic sdl
@@ -48,12 +43,12 @@ media-libs/mesa d3d9 gles1 gles2 vulkan xa
 media-libs/phonon -gstreamer -vlc
 media-libs/sdl-mixer smpeg
 media-sound/qmmp qsui
-media-sound/spotify -gnome
 media-tv/kodi airplay css upnp -samba
+media-video/handbrake gtk
 media-video/ffmpeg fdk
 media-video/mpv libmpv
 media-video/obs-studio imagemagick fdk
-net-dns/avahi mdnsresponder-compat utils -gtk3
+net-dns/avahi mdnsresponder-compat -utils
 net-dns/dnsmasq script
 net-firewall/firewalld gui
 net-print/cnijfilter net servicetools
@@ -66,7 +61,6 @@ net-misc/connman ofono openconnect openvpn pptp l2tp vpnc
 net-misc/networkmanager connection-sharing resolvconf modemmanager
 net-misc/teamviewer -system-wine
 net-misc/youtube-dl offensive
-net-wireless/wpa_supplicant -qt5
 sys-apps/systemd sysv-utils cryptsetup -http
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
 sys-boot/grub device-mapper mount truetype
@@ -82,19 +76,16 @@ sys-kernel/redcore-sources symlink
 sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip
-www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite -wifi -gtk3
-www-plugins/freshplayerplugin -gtk3
+www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite -wifi
 x11-base/xorg-server xvfb
-x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm -gtk3
+x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm
 x11-drivers/xf86-video-intel uxa
 x11-drivers/xf86-video-qxl xspice
 x11-misc/gtkdialog glade vte
-x11-misc/lightdm -gnome
+x11-misc/lightdm gtk
 x11-misc/lightdm-gtk-greeter branding
-x11-misc/spacefm gtk2 -gtk3
-x11-libs/gksu -gnome
 x11-libs/libdrm libkms
-x11-libs/wxGTK:2.8 -gnome -gstreamer
+x11-libs/wxGTK:2.8 -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
 x11-themes/arc-theme mate xfce
 x11-themes/gtk-engines-murrine -themes
