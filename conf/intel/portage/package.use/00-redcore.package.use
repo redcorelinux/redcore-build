@@ -61,6 +61,7 @@ net-misc/connman ofono openconnect openvpn pptp l2tp vpnc
 net-misc/networkmanager connection-sharing resolvconf modemmanager
 net-misc/teamviewer -system-wine
 net-misc/youtube-dl offensive
+net-wireless/wpa_supplicant -qt5
 sys-apps/systemd sysv-utils cryptsetup -http
 sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
 sys-boot/grub device-mapper mount truetype
@@ -87,5 +88,5 @@ x11-misc/lightdm-gtk-greeter branding
 x11-libs/libdrm libkms
 x11-libs/wxGTK:2.8 -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
-x11-themes/arc-theme mate xfce
+x11-themes/arc-theme gtk3
 x11-themes/gtk-engines-murrine -themes
