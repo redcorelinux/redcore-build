@@ -11,7 +11,7 @@ dev-qt/qt5ct
 kde-apps/ark
 kde-apps/kcalc
 lxqt-base/lxqt-meta
-mail-client/trojita
+mail-client/wmail
 media-gfx/gimp
 media-sound/pavucontrol-qt
 media-sound/qmmp
