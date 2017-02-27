@@ -1,7 +1,6 @@
 app-admin/sudo -sendmail
 app-admin/testdisk ewf ntfs
 app-crypt/heimdal -ssl
-app-crypt/pinentry gnome-keyring
 app-emulation/aqemu vnc
 app-emulation/docker overlay -aufs -btrfs
 app-emulation/libvirt numa virt-network
