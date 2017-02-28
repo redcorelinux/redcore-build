@@ -6,6 +6,7 @@ app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
 app-eselect/eselect-electron ~amd64
 app-office/wps-office ~amd64
+dev-qt/qt-creator ~amd64
 dev-lang/fpc ~amd64
 dev-lang/lazarus ~amd64
 dev-libs/libclc ~amd64
