@@ -17,6 +17,7 @@ games-strategy/0ad-data ~amd64
 mail-client/trojita ~amd64
 media-gfx/librecad ~amd64
 media-gfx/rawtherapee ~amd64
+media-libs/libbluray ~amd64
 media-tv/sopcast ~amd64
 media-tv/tv-maxe ~amd64
 media-tv/v4l-utils ~amd64
