@@ -13,6 +13,7 @@ kde-apps/kcalc
 lxqt-base/lxqt-meta
 mail-client/wmail
 media-gfx/gimp
+media-gfx/inkscape
 media-sound/pavucontrol-qt
 media-sound/qmmp
 media-tv/tv-maxe
@@ -23,6 +24,7 @@ net-ftp/filezilla
 net-irc/konversation
 net-misc/cmst
 net-misc/connman
+net-news/quiterss
 net-p2p/qbittorrent
 sys-block/partitionmanager
 www-client/qupzilla
