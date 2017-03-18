@@ -13,7 +13,7 @@ dev-lang/fpc source
 dev-libs/libgit2 ssh
 dev-libs/libpcre pcre16
 dev-libs/libgusb vala
-dev-python/PyQt5 declarative designer gui multimedia network positioning printsupport sensors sql webchannel webkit websockets x11extras xmlpatterns widgets
+dev-python/PyQt5 bluetooth declarative designer gui multimedia network positioning printsupport sensors sql webchannel webengine webkit websockets x11extras xmlpatterns widgets
 dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
 dev-qt/qtgui:5 gtkstyle evdev
 dev-qt/qtmultimedia:5 widgets
