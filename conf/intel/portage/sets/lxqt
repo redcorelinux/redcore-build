@@ -21,6 +21,8 @@ media-sound/qmmp
 media-tv/tv-maxe
 media-video/guvcview
 media-video/mpv
+media-video/simplescreenrecorder
+media-video/vidcutter
 media-video/vlc
 net-ftp/filezilla
 net-irc/konversation
