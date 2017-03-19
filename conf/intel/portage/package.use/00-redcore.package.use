@@ -31,6 +31,7 @@ kde-frameworks/kio -kwallet
 lxqt-base/lxqt-meta branding
 mail-filter/clamassassin clamd
 media-gfx/blender -ffmpeg
+media-gfx/krita qtmedia vc
 media-gfx/sane-backends usb snmp
 media-gfx/xsane gimp lcms ocr
 media-libs/libsdl sound
