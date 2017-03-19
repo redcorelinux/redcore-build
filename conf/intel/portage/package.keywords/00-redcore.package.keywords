@@ -15,6 +15,7 @@ games-misc/lolcat ~amd64
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
 mail-client/trojita ~amd64
+media-gfx/krita ~amd64
 media-gfx/librecad ~amd64
 media-gfx/rawtherapee ~amd64
 media-libs/libbluray ~amd64
