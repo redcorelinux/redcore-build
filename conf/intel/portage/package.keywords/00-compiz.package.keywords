@@ -1,0 +1,10 @@
+dev-python/compizconfig-python ~amd64
+x11-libs/compiz-bcop ~amd64
+x11-libs/libcompizconfig ~amd64
+x11-misc/ccsm ~amd64
+x11-plugins/compiz-plugins-extra ~amd64
+x11-plugins/compiz-plugins-main ~amd64
+x11-themes/emerald-themes ~amd64
+x11-wm/compiz ~amd64
+x11-wm/compiz-fusion ~amd64
+x11-wm/emerald ~amd64
