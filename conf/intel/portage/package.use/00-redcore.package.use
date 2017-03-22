@@ -26,7 +26,7 @@ games-action/armagetronad sound
 games-fps/urbanterror smp sdl
 games-fps/xonotic sdl
 games-strategy/0ad sound
-kde-apps/k3b encode
+kde-apps/k3b encode mad
 lxqt-base/lxqt-meta branding
 mail-filter/clamassassin clamd
 media-gfx/blender -ffmpeg
