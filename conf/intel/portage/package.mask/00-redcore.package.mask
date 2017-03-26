@@ -4,6 +4,7 @@ app-emulation/virtualbox::gentoo
 app-emulation/wine::gentoo
 app-laptop/tp_smapi::gentoo
 app-office/gnucash::gentoo
+app-office/wps-office::gentoo
 >app-portage/layman-2.0.0-r3::gentoo
 dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
@@ -21,6 +22,7 @@ sys-auth/polkit-qt::gentoo
 >sys-apps/portage-2.2.28::gentoo
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
+sys-fs/vhba::gentoo
 sys-kernel/genkernel-next::gentoo
 virtual/linux-sources::gentoo
 www-client/firefox::gentoo
