@@ -73,7 +73,7 @@ sys-kernel/redcore-sources symlink
 sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip
-www-client/firefox pgo system-harfbuzz system-icu system-jpeg system-libvpx system-sqlite -wifi
+www-client/firefox pgo system-icu system-jpeg system-libvpx -wifi
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm
 x11-drivers/xf86-video-intel uxa
