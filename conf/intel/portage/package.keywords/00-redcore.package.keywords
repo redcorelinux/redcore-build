@@ -8,6 +8,7 @@ dev-qt/qt-creator ~amd64
 dev-lang/fpc ~amd64
 dev-lang/lazarus ~amd64
 dev-libs/libclc ~amd64
+dev-libs/nss ~amd64
 dev-ruby/paint ~amd64
 dev-scheme/guile ~amd64
 dev-util/kbuild ~amd64
