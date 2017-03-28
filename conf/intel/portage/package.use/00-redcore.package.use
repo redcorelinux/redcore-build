@@ -59,7 +59,6 @@ net-misc/teamviewer -system-wine
 net-misc/youtube-dl offensive
 net-wireless/wpa_supplicant -qt5
 sys-apps/systemd sysv-utils cryptsetup -http
-sys-block/gparted btrfs dmraid f2fs fat hfs jfs mdadm ntfs reiser4 reiserfs 
 sys-boot/grub device-mapper mount truetype
 sys-devel/clang-runtime -openmp
 sys-devel/clang -static-analyzer
