@@ -4,6 +4,7 @@ app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
 app-office/wps-office ~amd64
+dev-db/sqlitebrowser ~amd64
 dev-db/sqlitestudio ~amd64
 dev-qt/qt-creator ~amd64
 dev-lang/fpc ~amd64
@@ -46,7 +47,7 @@ www-client/opera ~amd64
 www-plugins/google-talkplugin ~amd64
 x11-apps/copyq ~amd64
 x11-apps/radeontop ~amd64
-x11-libs/qtermwidget ~amd64
+x11-libs/qscintilla ~amd64
 x11-misc/primus ~amd64
 x11-misc/qarma ~amd64
 x11-misc/qlipper ~amd64
