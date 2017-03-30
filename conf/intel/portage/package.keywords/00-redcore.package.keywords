@@ -4,7 +4,7 @@ app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
 app-office/wps-office ~amd64
-dev-db/sqlite-studio ~amd64
+dev-db/sqlitestudio ~amd64
 dev-qt/qt-creator ~amd64
 dev-lang/fpc ~amd64
 dev-lang/lazarus ~amd64
