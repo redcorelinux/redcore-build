@@ -2,6 +2,8 @@ app-admin/calamares
 app-admin/system-config-printer
 app-arch/rar
 app-arch/unrar
+app-cdr/k3b
+app-cdr/kcdemu
 app-editors/featherpad
 app-editors/notepadqq
 app-emulation/steam
