@@ -1,11 +1,14 @@
 app-admin/calamares
+app-admin/keepassx
 app-admin/system-config-printer
 app-arch/rar
 app-arch/unrar
+app-backup/qt5-fsarchiver
 app-cdr/k3b
 app-cdr/kcdemu
 app-editors/featherpad
 app-editors/notepadqq
+app-emulation/aqemu
 app-emulation/steam
 app-misc/redcore-live
 app-misc/redcore-skel
