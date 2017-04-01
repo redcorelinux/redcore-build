@@ -1,5 +1,12 @@
-x11-themes/redcore-artwork-grub
-x11-themes/redcore-theme
+media-fonts/noto
+media-fonts/ttf-bitstream-vera
+x11-themes/arc-icon-theme
+x11-themes/arc-theme
+x11-themes/faba-icon-theme
+x11-themes/moka-icon-theme
 x11-themes/numix-icon-theme
 x11-themes/numix-icon-theme-circle
-media-fonts/ttf-bitstream-vera
+x11-themes/redcore-artwork-community
+x11-themes/redcore-artwork-grub
+x11-themes/redcore-theme
+x11-themes/redcore-theme-lxqt
