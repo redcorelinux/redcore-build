@@ -4,5 +4,5 @@
 =sys-devel/clang-runtime-4.0.0 ~amd64
 =sys-libs/compiler-rt-4.0.0 ~amd64
 =sys-libs/compiler-rt-sanitizers-4.0.0 ~amd64
-=media-libs/mesa-17.0.2 ~amd64
+=media-libs/mesa-17.0.3 ~amd64
 =x11-libs/libdrm-2.4.76 ~amd64
