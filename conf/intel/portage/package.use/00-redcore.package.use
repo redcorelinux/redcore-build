@@ -81,6 +81,7 @@ x11-misc/gtkdialog glade vte
 x11-misc/lightdm gtk
 x11-misc/lightdm-gtk-greeter branding
 x11-libs/libdrm libkms
+x11-libs/libva utils
 x11-libs/wxGTK:2.8 -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
 x11-themes/arc-theme gtk3
