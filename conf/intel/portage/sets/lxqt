@@ -4,7 +4,6 @@ app-admin/system-config-printer
 app-arch/rar
 app-arch/unrar
 app-backup/qt5-fsarchiver
-app-cdr/k3b
 app-cdr/kcdemu
 app-editors/featherpad
 app-editors/notepadqq
@@ -16,6 +15,7 @@ app-office/libreoffice
 app-text/qpdfview
 dev-qt/qt5ct
 kde-apps/ark
+kde-apps/k3b
 kde-apps/kcalc
 lxqt-base/lxqt-meta
 mail-client/wmail
