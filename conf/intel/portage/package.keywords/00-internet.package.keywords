@@ -1,0 +1,11 @@
+mail-client/trojita ~amd64
+net-im/qtox ~amd64
+net-libs/tox ~amd64
+net-misc/cmst ~amd64
+net-misc/owncloud-client ~amd64
+net-misc/teamviewer ~amd64
+net-misc/youtube-dl ~amd64
+net-p2p/qbittorrent ~amd64
+www-client/google-chrome ~amd64
+www-client/opera ~amd64
+www-plugins/google-talkplugin ~amd64

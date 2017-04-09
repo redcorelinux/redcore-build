@@ -1,0 +1,6 @@
+dev-db/sqlitebrowser ~amd64
+dev-db/sqlitestudio ~amd64
+dev-lang/fpc ~amd64
+dev-lang/lazarus ~amd64
+dev-qt/qt-creator ~amd64
+=sys-devel/gcc-5.4.0 ~amd64
