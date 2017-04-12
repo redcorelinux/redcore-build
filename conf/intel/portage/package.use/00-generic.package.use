@@ -66,13 +66,12 @@ sys-devel/llvm libedit
 sys-devel/gcc go
 sys-fs/cryptsetup -gcrypt -nettle
 sys-fs/dosfstools compat
-sys-kernel/genkernel cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
 sys-kernel/redcore-sources symlink
 sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip
-www-client/firefox hwaccel pgo system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
+www-client/firefox hwaccel nsplugin pgo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm
 x11-drivers/xf86-video-intel uxa
