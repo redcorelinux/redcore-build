@@ -8,6 +8,7 @@ app-office/wps-office::gentoo
 >app-portage/layman-2.0.0-r3::gentoo
 dev-libs/icu::gentoo
 dev-libs/libdbusmenu-qt::gentoo
+kde-apps/kget::gentoo
 lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo
 mate-base/mate::gentoo
