@@ -1,10 +1,6 @@
 app-admin/sudo -sendmail
 app-admin/testdisk ewf ntfs
 app-crypt/heimdal -ssl
-app-emulation/aqemu vnc
-app-emulation/docker overlay -aufs -btrfs
-app-emulation/libvirt numa virt-network
-app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
 app-text/xmlto text
@@ -14,22 +10,6 @@ dev-libs/libpcre pcre16
 dev-libs/libgusb vala
 kde-apps/k3b encode mad
 lxqt-base/lxqt-meta branding
-mail-filter/clamassassin clamd
-sys-apps/systemd sysv-utils cryptsetup -http
-sys-boot/grub device-mapper mount truetype
-sys-devel/gcc go
-sys-fs/cryptsetup -gcrypt -nettle
 sys-fs/dosfstools compat
-sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
-sys-kernel/redcore-sources symlink
-sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip
-x11-misc/gtkdialog glade vte
-x11-misc/lightdm gtk
-x11-misc/lightdm-gtk-greeter branding
-x11-libs/wxGTK:2.8 -gstreamer
-x11-libs/wxGTK:3.0 -gstreamer
-x11-themes/arc-theme gtk3
-x11-themes/gtk-engines-murrine -themes
-x11-wm/compiz-fusion emerald

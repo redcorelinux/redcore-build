@@ -1,0 +1,12 @@
+app-emulation/aqemu vnc
+app-emulation/docker overlay -aufs -btrfs
+app-emulation/libvirt numa virt-network
+app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh
+sys-apps/systemd sysv-utils cryptsetup -http
+sys-boot/grub device-mapper mount truetype
+sys-devel/gcc go
+sys-fs/cryptsetup -gcrypt -nettle
+sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/redcore-sources symlink
+sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+
