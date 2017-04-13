@@ -1,0 +1,11 @@
+media-libs/mesa d3d9 gles1 gles2 vulkan xa
+sys-devel/clang-runtime -openmp
+sys-devel/clang -static-analyzer
+sys-devel/llvm libedit
+x11-base/xorg-server xvfb
+x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm
+x11-drivers/xf86-video-intel uxa
+x11-drivers/xf86-video-qxl xspice
+x11-libs/libdrm libkms
+x11-libs/libva utils
+
