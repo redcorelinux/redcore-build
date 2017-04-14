@@ -4,7 +4,7 @@ app-crypt/heimdal -ssl
 app-emulation/aqemu vnc
 app-emulation/docker overlay -aufs -btrfs
 app-emulation/libvirt numa virt-network
-app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh
+app-emulation/qemu iscsi numa usb usbredir virgl spice ssh
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
 app-text/xmlto text

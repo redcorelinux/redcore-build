@@ -10,5 +10,5 @@ media-libs/sdl-mixer smpeg
 media-sound/qmmp qsui
 media-tv/kodi airplay css upnp -samba
 media-video/handbrake gtk
-media-video/mpv libmpv
+media-video/mpv libmpv -sdl
 media-video/obs-studio imagemagick
