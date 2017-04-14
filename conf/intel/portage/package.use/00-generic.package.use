@@ -1,15 +1,9 @@
 app-admin/sudo -sendmail
 app-admin/testdisk ewf ntfs
 app-crypt/heimdal -ssl
-app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
 app-text/xmlto text
 dev-db/sqlite secure-delete
 dev-lang/fpc source
 dev-libs/libpcre pcre16
 dev-libs/libgusb vala
-kde-apps/k3b encode mad
-lxqt-base/lxqt-meta branding
-sys-fs/dosfstools compat
-sys-libs/libseccomp static-libs
-sys-libs/zlib minizip

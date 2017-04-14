@@ -1,4 +1,5 @@
 mail-client/trojita ~amd64
+net-firewall/ufw-frontends ~amd64
 net-im/qtox ~amd64
 net-libs/tox ~amd64
 net-misc/cmst ~amd64
