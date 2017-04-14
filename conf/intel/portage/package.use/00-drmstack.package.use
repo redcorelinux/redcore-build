@@ -1,6 +1,0 @@
-media-libs/mesa d3d9 gles1 gles2 vulkan xa
-sys-devel/clang-runtime -openmp
-sys-devel/clang -static-analyzer
-sys-devel/llvm libedit
-x11-libs/libdrm libkms
-x11-libs/libva utils

@@ -1,4 +1,0 @@
-x11-base/xorg-server xvfb
-x11-drivers/nvidia-drivers gtk2 -driver -kms -uvm
-x11-drivers/xf86-video-intel uxa
-x11-drivers/xf86-video-qxl xspice

@@ -1,10 +1,13 @@
 sys-apps/systemd sysv-utils cryptsetup -http
 sys-boot/grub device-mapper mount truetype
+sys-devel/clang-runtime -openmp
+sys-devel/clang -static-analyzer
 sys-devel/gcc go
+sys-devel/llvm libedit
 sys-fs/cryptsetup -gcrypt -nettle
-sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
-sys-kernel/redcore-sources symlink
-sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-fs/dosfstools compat
+sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
+sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-kernel/redcore-sources symlink
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip

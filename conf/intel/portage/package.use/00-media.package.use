@@ -4,6 +4,7 @@ media-gfx/sane-backends usb snmp
 media-gfx/xsane gimp lcms ocr
 media-libs/libsdl2 gles
 media-libs/libvpx postproc svc
+media-libs/mesa d3d9 gles1 gles2 vulkan xa
 media-libs/phonon -gstreamer -vlc
 media-libs/sdl-mixer smpeg
 media-sound/qmmp qsui

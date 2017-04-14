@@ -1,9 +1,0 @@
-app-admin/sudo -sendmail
-app-admin/testdisk ewf ntfs
-app-crypt/heimdal -ssl
-app-misc/calamares-runtime branding
-app-text/xmlto text
-dev-db/sqlite secure-delete
-dev-lang/fpc source
-dev-libs/libpcre pcre16
-dev-libs/libgusb vala

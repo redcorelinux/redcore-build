@@ -1,5 +1,3 @@
-dev-libs/libgit2 ssh
-mail-filter/clamassassin clamd
 net-dns/avahi mdnsresponder-compat -utils
 net-dns/dnsmasq script
 net-firewall/firewalld gui
@@ -12,4 +10,3 @@ net-misc/connman ofono openconnect openvpn pptp l2tp vpnc
 net-misc/teamviewer -system-wine
 net-misc/youtube-dl offensive
 net-wireless/wpa_supplicant -qt5
-www-client/firefox hwaccel nsplugin pgo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
