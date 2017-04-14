@@ -1,4 +1,3 @@
-dev-libs/libqtxdg ~amd64
 lxqt-base/liblxqt ~amd64
 lxqt-base/lxqt-about ~amd64
 lxqt-base/lxqt-admin ~amd64
@@ -13,7 +12,3 @@ lxqt-base/lxqt-powermanagement ~amd64
 lxqt-base/lxqt-qtplugin ~amd64
 lxqt-base/lxqt-runner ~amd64
 lxqt-base/lxqt-session ~amd64
-media-gfx/lximage-qt ~amd64
-x11-libs/libfm-qt ~amd64
-x11-misc/obconf-qt ~amd64
-x11-misc/pcmanfm-qt ~amd64

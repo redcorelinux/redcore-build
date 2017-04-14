@@ -1,9 +1,12 @@
 media-gfx/librecad ~amd64
+media-gfx/lximage-qt ~amd64
 media-gfx/rawtherapee ~amd64
 media-libs/libbluray ~amd64
+media-libs/mesa ~amd64
 media-tv/sopcast ~amd64
 media-tv/tv-maxe ~amd64
 media-tv/v4l-utils ~amd64
 media-video/guvcview ~amd64
 media-video/handbrake ~amd64
+media-video/libva-utils ~amd64
 media-video/obs-studio ~amd64

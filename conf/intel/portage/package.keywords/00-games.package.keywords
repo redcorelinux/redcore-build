@@ -1,6 +1,4 @@
-app-emulation/playonlinux ~amd64
-app-emulation/q4wine ~amd64
-app-emulation/steam ~amd64
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
+games-misc/lolcat ~amd64
 games-strategy/warzone2100 ~amd64

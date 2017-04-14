@@ -1,0 +1,10 @@
+sys-apps/inxi ~amd64
+sys-devel/clang ~amd64
+sys-devel/clang-runtime ~amd64
+=sys-devel/gcc-5.4.0 ~amd64
+sys-devel/llvm ~amd64
+sys-firmware/b43-firmware ~amd64
+sys-firmware/b43legacy-firmware ~amd64
+sys-fs/cryptsetup ~amd64
+sys-libs/compiler-rt ~amd64
+sys-libs/compiler-rt-sanitizers ~amd64
