@@ -23,6 +23,7 @@ sys-auth/polkit-qt::gentoo
 >sys-apps/portage-2.2.28::gentoo
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
+sys-devel/gcc:6.3.0::gentoo
 sys-fs/vhba::gentoo
 sys-kernel/genkernel-next::gentoo
 virtual/linux-sources::gentoo
