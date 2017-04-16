@@ -5,7 +5,7 @@ dev-libs/libgusb vala
 dev-libs/libpcre pcre16
 dev-python/PyQt5 bluetooth declarative designer gui multimedia network positioning printsupport sensors sql webchannel webengine webkit websockets x11extras xmlpatterns widgets
 dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
-dev-qt/qtgui:5 gtkstyle evdev
+dev-qt/qtgui:5 accessibility gtkstyle evdev
 dev-qt/qtmultimedia:5 widgets
 dev-qt/qtpositioning:5 geoclue
 dev-qt/qtwebchannel:5 qml
