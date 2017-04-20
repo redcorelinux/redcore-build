@@ -1,3 +1,4 @@
+sys-apps/openrc -netifrc
 sys-apps/systemd sysv-utils cryptsetup -http
 sys-boot/grub device-mapper mount truetype
 sys-devel/clang-runtime -openmp
