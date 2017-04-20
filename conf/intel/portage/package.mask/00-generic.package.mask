@@ -17,7 +17,6 @@ net-misc/dropbox::gentoo
 net-misc/teamviewer::gentoo
 sys-apps/baselayout::gentoo
 sys-apps/gentoo-systemd-integration::gentoo
-sys-apps/openrc::gentoo
 sys-auth/polkit::gentoo
 sys-auth/polkit-qt::gentoo
 >sys-apps/portage-2.2.28::gentoo
