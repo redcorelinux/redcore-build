@@ -12,11 +12,9 @@ x11-misc/obconf-qt ~amd64
 x11-misc/pcmanfm-qt ~amd64
 x11-misc/primus ~amd64
 x11-misc/qarma ~amd64
-x11-misc/qlipper ~amd64
 x11-misc/simple-ccsm ~amd64
 x11-plugins/compiz-plugins-extra ~amd64
 x11-plugins/compiz-plugins-main ~amd64
-x11-terms/qterminal ~amd64
 x11-themes/arc-theme ~amd64
 x11-themes/emerald-themes ~amd64
 x11-wm/compiz ~amd64
