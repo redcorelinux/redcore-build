@@ -7,4 +7,6 @@ app-emulation/libvirt numa virt-network
 app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh -sdl -sdl2
 app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
+app-pda/libimobiledevice -python
+app-pda/libplist -python
 app-text/xmlto text
