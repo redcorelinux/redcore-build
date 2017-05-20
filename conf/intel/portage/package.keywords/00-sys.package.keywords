@@ -1,4 +1,5 @@
 sys-apps/inxi ~amd64
+sys-auth/consolekit ~amd64
 sys-devel/clang ~amd64
 sys-devel/clang-runtime ~amd64
 sys-devel/llvm ~amd64
