@@ -1,6 +1,6 @@
 sys-apps/openrc -netifrc
 sys-apps/systemd cryptsetup -sysv-utils -http
-sys-auth/consolekit cgroups pm-utils
+sys-auth/consolekit cgroups pm-utils evdev
 sys-boot/grub device-mapper mount truetype
 sys-devel/clang-runtime -openmp
 sys-devel/clang -static-analyzer
