@@ -1,4 +1,4 @@
-app-admin/sudo -sendmail
+app-admin/sudo -sendmail -gcrypt
 app-admin/testdisk ewf ntfs
 app-crypt/heimdal -ssl
 app-emulation/aqemu vnc
