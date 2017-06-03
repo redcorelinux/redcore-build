@@ -13,3 +13,4 @@ sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs ply
 sys-kernel/redcore-sources symlink
 sys-libs/libseccomp static-libs
 sys-libs/zlib minizip
+sys-process/lsof rpc
