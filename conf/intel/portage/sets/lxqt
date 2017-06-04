@@ -9,6 +9,7 @@ app-editors/featherpad
 app-editors/notepadqq
 app-emulation/aqemu
 app-emulation/steam
+app-emulation/virtualbox-guest-additions
 app-misc/redcore-live
 app-misc/redcore-skel
 app-office/libreoffice
