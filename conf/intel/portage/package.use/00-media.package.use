@@ -7,9 +7,9 @@ media-libs/libvpx postproc svc
 media-libs/mesa d3d9 gles1 gles2 vulkan xa
 media-libs/phonon -gstreamer -vlc
 media-libs/sdl-mixer smpeg
-media-sound/pulseaudio native-headset ofono-headset
+media-sound/pulseaudio native-headset
 media-sound/qmmp qsui
-media-tv/kodi airplay css upnp -samba
+media-tv/kodi airplay css caps nonfree upnp sftp -samba
 media-video/handbrake gtk
 media-video/minitube download
 media-video/mpv libmpv -sdl
