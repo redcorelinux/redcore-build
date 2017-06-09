@@ -7,6 +7,7 @@ app-office/gnucash::gentoo
 app-office/wps-office::gentoo
 >app-portage/layman-2.0.0-r3::gentoo
 dev-libs/icu::gentoo
+dev-libs/icu-layoutex::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 kde-apps/k3b::gentoo
 kde-apps/kget::gentoo
