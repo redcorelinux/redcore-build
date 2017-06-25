@@ -4,11 +4,11 @@ x11-drivers/xf86-video-intel uxa
 x11-drivers/xf86-video-qxl xspice
 x11-libs/libdrm libkms
 x11-libs/libva utils
-x11-libs/wxGTK:2.8 -gstreamer
 x11-libs/wxGTK:3.0 -gstreamer
 x11-misc/gtkdialog glade vte
 x11-misc/lightdm gtk
 x11-misc/lightdm-gtk-greeter branding
 x11-themes/arc-theme gtk3
+x11-themes/light-themes gtk3
 x11-themes/gtk-engines-murrine -themes
 x11-wm/compiz-fusion emerald
