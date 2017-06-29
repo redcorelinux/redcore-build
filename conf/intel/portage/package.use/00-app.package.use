@@ -1,3 +1,4 @@
+app-admin/conky hddtemp imlib iostats irc lua-cairo lua-imlib lua-rsvg math mpd rss thinkpad weather-metar weather-xoap wifi
 app-admin/sudo -sendmail -gcrypt
 app-admin/testdisk ewf ntfs
 app-crypt/heimdal -ssl
