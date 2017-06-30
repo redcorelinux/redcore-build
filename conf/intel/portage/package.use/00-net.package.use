@@ -3,6 +3,7 @@ net-dns/dnsmasq script
 net-firewall/firewalld gui
 net-print/cnijfilter net servicetools
 net-print/cnijfilter-drivers servicetools e510 ip7200 mg2200 mg3200 mg4200 mg5400 mg6300 mp230
+net-print/gutenprint ppds
 net-print/hplip fax scanner snmp
 net-fs/samba addc ads client fam gnutls ldap syslog -system-mitkrb5
 net-irc/quassel phonon -server -crypt
