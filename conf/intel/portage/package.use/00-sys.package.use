@@ -6,6 +6,7 @@ sys-devel/clang-runtime -openmp
 sys-devel/clang -static-analyzer
 sys-devel/gcc go
 sys-devel/llvm libedit
+sys-firmware/intel-microcode monolithic
 sys-fs/cryptsetup -gcrypt -nettle
 sys-fs/dosfstools compat
 sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
