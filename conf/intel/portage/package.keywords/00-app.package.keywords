@@ -4,4 +4,3 @@ app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
 app-office/wps-office ~amd64
-app-vim/llvm-vim ~amd64
