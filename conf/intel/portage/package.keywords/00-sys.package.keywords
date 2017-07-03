@@ -9,3 +9,7 @@ sys-firmware/b43legacy-firmware ~amd64
 sys-fs/cryptsetup ~amd64
 sys-libs/compiler-rt ~amd64
 sys-libs/compiler-rt-sanitizers ~amd64
+sys-libs/libcxxabi ~amd64
+sys-libs/libcxx ~amd64
+sys-libs/libomp ~amd64
+sys-libs/llvm-libunwind ~amd64
