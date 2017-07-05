@@ -8,6 +8,7 @@ dev-libs/libqtxdg ~amd64
 dev-libs/nss ~amd64
 dev-python/compizconfig-python ~amd64
 dev-python/git-python ~amd64
+dev-qt/qt5-styleplugins ~amd64
 =dev-qt/qt-creator-4.2.0 ~amd64
 dev-ruby/paint ~amd64
 dev-util/kbuild ~amd64
