@@ -9,7 +9,6 @@ app-office/wps-office::gentoo
 dev-libs/icu::gentoo
 dev-libs/icu-layoutex::gentoo
 dev-libs/libdbusmenu-qt::gentoo
-kde-apps/k3b::gentoo
 kde-apps/kget::gentoo
 lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo

@@ -1,1 +1,13 @@
+kde-apps/ark ~amd64
+kde-apps/ffmpegthumbs ~amd64
 kde-apps/k3b ~amd64
+kde-apps/kcalc ~amd64
+kde-apps/kdialog ~amd64
+kde-apps/keditbookmarks ~amd64
+kde-apps/kio-extras ~amd64
+kde-apps/kwave ~amd64
+kde-apps/libkcddb ~amd64
+kde-apps/libkexiv2 ~amd64
+kde-apps/okular ~amd64
+kde-apps/poxml ~amd64
+kde-apps/thumbnailers ~amd64
