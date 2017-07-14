@@ -2,6 +2,7 @@ kde-apps/ark ~amd64
 kde-apps/ffmpegthumbs ~amd64
 kde-apps/k3b ~amd64
 kde-apps/kcalc ~amd64
+kde-apps/kdenlive ~amd64
 kde-apps/kdialog ~amd64
 kde-apps/keditbookmarks ~amd64
 kde-apps/kio-extras ~amd64
