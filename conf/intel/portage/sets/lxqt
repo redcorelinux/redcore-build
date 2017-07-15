@@ -34,6 +34,7 @@ net-ftp/filezilla
 net-irc/konversation
 net-misc/cmst
 net-misc/connman
+net-misc/ntp
 net-news/quiterss
 net-p2p/qbittorrent
 sys-apps/usbutils
@@ -42,6 +43,7 @@ sys-boot/os-prober
 sys-boot/unetbootin-static
 sys-fs/dosfstools
 sys-fs/xfsprogs
+sys-power/acpi
 www-client/qupzilla
 x11-apps/mesa-progs
 x11-apps/setxkbmap
