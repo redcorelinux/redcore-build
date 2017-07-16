@@ -39,6 +39,7 @@ net-news/quiterss
 net-p2p/qbittorrent
 sys-apps/usbutils
 sys-block/partitionmanager
+sys-boot/isowriter
 sys-boot/os-prober
 sys-boot/unetbootin-static
 sys-fs/dosfstools
