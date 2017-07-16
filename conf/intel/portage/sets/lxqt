@@ -43,7 +43,7 @@ sys-boot/os-prober
 sys-boot/unetbootin-static
 sys-fs/dosfstools
 sys-fs/xfsprogs
-sys-power/acpi
+sys-power/acpid
 www-client/qupzilla
 x11-apps/mesa-progs
 x11-apps/setxkbmap
