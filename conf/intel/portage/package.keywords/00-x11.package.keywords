@@ -15,6 +15,7 @@ x11-misc/qarma ~amd64
 x11-misc/simple-ccsm ~amd64
 x11-plugins/compiz-plugins-extra ~amd64
 x11-plugins/compiz-plugins-main ~amd64
+x11-themes/adwaita-qt ~amd64
 x11-themes/arc-theme ~amd64
 x11-themes/emerald-themes ~amd64
 x11-themes/light-themes ~amd64
