@@ -6,7 +6,6 @@ x11-libs/libdrm ~amd64
 x11-libs/libfm-qt ~amd64
 x11-libs/libva ~amd64
 x11-libs/libva-intel-driver ~amd64
-x11-libs/qscintilla ~amd64
 x11-misc/ccsm ~amd64
 x11-misc/obconf-qt ~amd64
 x11-misc/pcmanfm-qt ~amd64
