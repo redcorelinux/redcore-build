@@ -1,4 +1,3 @@
-net-firewall/fwbuilder ~amd64
 net-firewall/ufw-frontends ~amd64
 net-im/qtox ~amd64
 net-im/skypeforlinux ~amd64
