@@ -17,7 +17,6 @@ x11-plugins/compiz-plugins-main ~amd64
 x11-themes/adwaita-qt ~amd64
 x11-themes/arc-theme ~amd64
 x11-themes/emerald-themes ~amd64
-x11-themes/light-themes ~amd64
 x11-wm/compiz ~amd64
 x11-wm/compiz-fusion ~amd64
 x11-wm/emerald ~amd64
