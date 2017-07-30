@@ -10,3 +10,4 @@ net-p2p/qbittorrent ~amd64
 net-print/cnijfilter ~amd64
 net-print/hplip ~amd64
 net-print/hplip-plugin ~amd64
+net-wireless/bluemoon ~amd64
