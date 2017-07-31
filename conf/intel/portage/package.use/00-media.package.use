@@ -8,6 +8,7 @@ media-libs/mesa d3d9 gles1 gles2 vulkan xa
 media-libs/mlt frei0r lua melt kdenlive fftw
 media-libs/phonon -gstreamer -vlc
 media-libs/sdl-mixer smpeg
+media-sound/cantata cdda cddb musicbrainz replaygain taglib
 media-sound/pulseaudio native-headset
 media-sound/qmmp qsui
 media-tv/kodi airplay css caps nonfree upnp sftp -samba
