@@ -10,4 +10,5 @@ app-emulation/wine d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
 app-pda/libimobiledevice -python
 app-pda/libplist -python
+app-text/mupdf -opengl
 app-text/xmlto text
