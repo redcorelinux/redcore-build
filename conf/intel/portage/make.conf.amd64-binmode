@@ -64,5 +64,12 @@ ABI_X86="64 32"
 PORTDIR="/usr/portage"
 DISTDIR="${PORTDIR}/distfiles"
 
+INSTALL_MASK="/etc/systemd
+              /usr/lib/systemd
+              /usr/lib64/systemd
+              /usr/lib/debug
+              /usr/lib64/debug"
+
+
 source /var/lib/layman/make.conf
 source /etc/portage/binhost.conf
