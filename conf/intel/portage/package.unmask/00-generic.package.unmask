@@ -1,2 +1,3 @@
 media-fonts/ttf-bitstream-vera::redcore-desktop
 sys-apps/v86d::redcore-desktop
+sys-kernel/plymouth::redcore-desktop
