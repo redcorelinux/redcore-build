@@ -70,6 +70,5 @@ INSTALL_MASK="/etc/systemd
               /usr/lib/debug
               /usr/lib64/debug"
 
-
 source /var/lib/layman/make.conf
 source /etc/portage/binhost.conf
