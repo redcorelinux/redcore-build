@@ -2,7 +2,6 @@
 -introspection
 -pgo
 -opus
--plymouth
 # mask
 qt4
 systemd
