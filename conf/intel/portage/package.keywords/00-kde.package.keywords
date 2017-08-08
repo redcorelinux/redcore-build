@@ -13,6 +13,7 @@ kde-apps/ksystemlog ~amd64
 kde-apps/kwave ~amd64
 kde-apps/libkcddb ~amd64
 kde-apps/libkexiv2 ~amd64
+kde-apps/libksane ~amd64
 kde-apps/okular ~amd64
 kde-apps/poxml ~amd64
 kde-apps/spectacle ~amd64
