@@ -1,74 +1,20 @@
-## COMPILER STUFF ##
-CFLAGS="-O2 -march=x86-64 -mtune=generic -pipe"
-CHOST="x86_64-pc-linux-gnu"
-CXXFLAGS="${CFLAGS}"
-LDFLAGS="-Wl,-O1 -Wl,--as-needed"
-MAKEOPTS="-j8 -s"
-
 ## PORTAGE FEATURES ##
 FEATURES="parallel-fetch protect-owned candy compressdebug splitdebug -userpriv"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries"
-#PORTAGE_NICENESS="-19"
-
-## SYSTEM LANGUAGES ##
-LINGUAS="en en_US en_GB uk ro_RO ro"
-L10N="en en-US en-GB uk ro-RO ro"
-
-## USE FLAGS ##
-SYSTEM_USE="X wayland glamor openrc sysvinit consolekit cryptsetup udev dbus policykit polkit upower udisks python perl icu xattr acl introspection gudev threads truetype fontconfig curl cups openssl nettle gcrypt libnotify sqlite designer static-libs"
-CODECS_USE="a52 aac aacplus faac webp mms mp3 mpg123 fdk flac gsm vorbis theora lame ogg opus xvid vpx x264 x265 mpeg"
-MEDIA_USE="cairo drm dri dri3 vaapi vdpau egl opengl opencl xvmc v4l mtp rtmp dvd bluray bluetooth matroska libass xml xcb xkb"
-IMAGE_USE="jpeg jpeg2k png apng mng tiff gif svg pdf gphoto2 xmp"
-TOOLKIT_USE="qt5 sdl sdl2"
-NETWORK_USE="ipv6 avahi zeroconf http"
-SOUND_USE="alsa pulseaudio gstreamer ffmpeg openal sound"
-DONT_USE="-bindist -kde -qt4 -qt3support -gtk -gtk3 -gnome -gnome-keyring -connman -networkmanager -modemmanager -libav -tracker -mysql -systemd -branding -handbook"
-
-USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${DONT_USE}"
-
-## CPU OPTIMISATIONS ##
-CPU_FLAGS_X86="mmx mmxext sse sse2 sse3"
-
-## DEVICES ##
-INPUT_DEVICES="evdev synaptics"
-VIDEO_CARDS="intel i915 i965 nouveau nvidia r100 r200 r300 r600 vesa amdgpu radeonsi radeon vmware"
-LIRC_DEVICES="audio audio_alsa serial pctv"
-
-## OFFICE ##
-LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer pdfimport"
-
-## QEMU ##
-QEMU_USER_TARGETS="x86_64 i386"
-QEMU_SOFTMMU_TARGETS="x86_64 i386"
-
-## MIRRORS ##
-GENTOO_MIRRORS="http://mirror.bytemark.co.uk/gentoo/"
-
-## PYTHON TARGETS ##
-USE_PYTHON="2.7 3.4"
-PYTHON_TARGETS="python2_7 python3_4"
-
-## RUBY TARGETS ##
-RUBY_TARGETS="ruby22"
-
-## GRUB PLATFORMS ##
-GRUB_PLATFORMS="efi-32 efi-64 pc"
-
-## ABI SUPPORT ##
-ABI_X86="64 32"
-
-# Set PORTDIR for backward compatibility with various tools:
-#   gentoo-bashcomp - bug #478444
-#   euse - bug #474574
-#   euses and ufed - bug #478318
-PORTDIR="/usr/portage"
-DISTDIR="${PORTDIR}/distfiles"
-
-INSTALL_MASK="/etc/systemd
-              /usr/lib/systemd
-              /usr/lib64/systemd
-              /usr/lib/debug
-              /usr/lib64/debug"
 
 source /var/lib/layman/make.conf
-source /etc/portage/binhost.conf
+
+source /etc/portage/global.conf/abi.conf
+source /etc/portage/global.conf/binhost.conf
+source /etc/portage/global.conf/cflags.conf
+source /etc/portage/global.conf/cpuflags.conf
+source /etc/portage/global.conf/devices.conf
+source /etc/portage/global.conf/distfiles.conf
+source /etc/portage/global.conf/grub.conf
+source /etc/portage/global.conf/languages.conf
+source /etc/portage/global.conf/layout.conf
+source /etc/portage/global.conf/libreoffice.conf
+source /etc/portage/global.conf/python.conf
+source /etc/portage/global.conf/qemu.conf
+source /etc/portage/global.conf/ruby.conf
+source /etc/portage/global.conf/useflags.conf
