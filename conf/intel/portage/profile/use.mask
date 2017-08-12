@@ -4,4 +4,5 @@
 -opus
 # mask
 qt4
+plymouth
 systemd
