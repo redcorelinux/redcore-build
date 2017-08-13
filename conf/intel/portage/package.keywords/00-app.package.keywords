@@ -4,6 +4,6 @@ app-crypt/asedriveiiie-usb ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
-app-emulation/wine ~amd64
+app-emulation/wine-any ~amd64
 app-misc/neofetch ~amd64
 app-office/wps-office ~amd64
