@@ -7,7 +7,7 @@ app-emulation/aqemu vnc
 app-emulation/docker overlay -aufs -btrfs
 app-emulation/libvirt numa virt-network
 app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh -sdl -sdl2
-app-emulation/wine-any d3d9 staging s3tc vaapi -gstreamer -mono -realtime -prelink
+app-emulation/wine d3d9 staging s3tc vaapi -abi_x86_64 -opencl  -gstreamer -mono -realtime -prelink
 app-misc/calamares-runtime branding
 app-pda/libimobiledevice -python
 app-pda/libplist -python

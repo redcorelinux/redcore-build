@@ -1,4 +1,2 @@
-app-eselect/eselect-wine::redcore-desktop
-app-emulation/wine-any::redcore-desktop
 media-fonts/ttf-bitstream-vera::redcore-desktop
 sys-boot/plymouth::redcore-desktop
