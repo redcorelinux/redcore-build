@@ -4,6 +4,7 @@ lxqt-base/lxqt-admin ~amd64
 lxqt-base/lxqt-common ~amd64
 lxqt-base/lxqt-config ~amd64
 lxqt-base/lxqt-globalkeys ~amd64
+lxqt-base/lxqt-l10n ~amd64
 lxqt-base/lxqt-notificationd ~amd64
 lxqt-base/lxqt-openssh-askpass ~amd64
 lxqt-base/lxqt-panel ~amd64
