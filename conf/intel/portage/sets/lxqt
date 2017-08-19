@@ -18,11 +18,11 @@ kde-apps/ark
 kde-apps/k3b
 kde-apps/kcalc
 lxqt-base/lxqt-meta
-mail-client/wmail
+mail-client/thunderbird
 media-gfx/gimp
 media-gfx/inkscape
+media-sound/cantata
 media-sound/pavucontrol-qt
-media-sound/qmmp
 media-tv/tv-maxe
 media-video/guvcview
 media-video/mpv
@@ -44,7 +44,7 @@ sys-boot/unetbootin-static
 sys-fs/dosfstools
 sys-fs/xfsprogs
 sys-power/acpid
-www-client/qupzilla
+www-client/firefox
 x11-apps/mesa-progs
 x11-apps/setxkbmap
 x11-misc/compton
