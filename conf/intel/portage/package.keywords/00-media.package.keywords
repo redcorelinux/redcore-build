@@ -4,7 +4,6 @@ media-gfx/rawtherapee ~amd64
 media-libs/libbluray ~amd64
 media-libs/libv4l ~amd64
 media-libs/mesa ~amd64
-media-libs/vulkan-loader ~amd64
 media-sound/cantata ~amd64
 media-tv/sopcast ~amd64
 media-tv/tv-maxe ~amd64
