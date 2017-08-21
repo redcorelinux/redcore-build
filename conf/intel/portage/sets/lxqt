@@ -3,7 +3,6 @@ app-admin/keepassxc
 app-admin/system-config-printer
 app-arch/rar
 app-arch/unrar
-app-backup/qt5-fsarchiver
 app-cdr/kcdemu
 app-editors/featherpad
 app-editors/notepadqq
@@ -42,6 +41,7 @@ sys-boot/isowriter
 sys-boot/os-prober
 sys-boot/unetbootin-static
 sys-fs/dosfstools
+sys-fs/ntfs3g
 sys-fs/xfsprogs
 sys-power/acpid
 www-client/firefox
