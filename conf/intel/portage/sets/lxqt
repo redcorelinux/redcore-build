@@ -17,7 +17,7 @@ kde-apps/ark
 kde-apps/k3b
 kde-apps/kcalc
 lxqt-base/lxqt-meta
-mail-client/thunderbird
+mail-client/wmail
 media-gfx/gimp
 media-gfx/inkscape
 media-sound/cantata
@@ -44,7 +44,7 @@ sys-fs/dosfstools
 sys-fs/ntfs3g
 sys-fs/xfsprogs
 sys-power/acpid
-www-client/firefox
+www-client/qupzilla
 x11-apps/mesa-progs
 x11-apps/setxkbmap
 x11-misc/compton
