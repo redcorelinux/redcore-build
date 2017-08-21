@@ -1,6 +1,7 @@
 net-firewall/ufw-frontends ~amd64
 net-im/qtox ~amd64
 net-im/skypeforlinux ~amd64
+net-libs/gloox ~amd64
 net-libs/tox ~amd64
 net-misc/cmst ~amd64
 net-misc/grive ~amd64
