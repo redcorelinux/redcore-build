@@ -1,0 +1,24 @@
+pkg_postinst() {
+	# By default, binary mode portage downloads binary packages from repository and saves 
+	# them in /usr/portage/packages. This saves bandwidth in case of reinstalls/downgrades, 
+	# but will eat up lots of HDD space, possibly preventing further installs/upgrades.
+
+	# To address this issue, we check if /usr/portage/packages directory is on its own partition
+	# case in which we do nothing assuming that user gave it plenty space anyway. But if its
+	# not the case, and /usr/portage/packages is just a directory in the system / root hierarchy,
+	# then we make sure we remove downloaded binary packages after every installation.
+
+	# This function hooks into the pkg_postinst() phase, after the package files are written 
+	# into the filesystem and registered into the database, and just removes the content of
+	# /usr/portage/packages directory (which is the binary package cache).
+
+	# In orther for this to work PORTDIR (/usr/portage) and PKGDIR(/usr/portage/packages)
+	# must be on the same filesystem, which is 99% the case. If they are on different
+	# filesystems, package cache is always saved, as mentioned above.
+
+	export local PORTDIRDEV=$(find /usr/portage -maxdepth 0 -printf "%D")
+	export local PKGDIRDEV=$(find /usr/portage/packages -maxdepth 0 -printf "%D")
+	if [ $PORTDIRDEV = $PKGDIRDEV ]; then
+		rm -rf /usr/portage/packages/*
+	fi
+}
