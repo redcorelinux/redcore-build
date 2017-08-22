@@ -14,7 +14,7 @@ media-sound/cantata cdda cddb musicbrainz taglib
 media-sound/pulseaudio native-headset
 media-sound/qmmp qsui
 media-sound/yarock phonon mpv
-media-tv/kodi airplay css caps nonfree upnp sftp -samba
+media-tv/kodi css caps nonfree upnp sftp -airplay -samba
 media-video/handbrake gtk
 media-video/minitube download
 media-video/mpv libmpv -sdl
