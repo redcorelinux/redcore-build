@@ -19,6 +19,6 @@ pkg_postinst() {
 	export local PORTDIRDEV=$(find /usr/portage -maxdepth 0 -printf "%D")
 	export local PKGDIRDEV=$(find /usr/portage/packages -maxdepth 0 -printf "%D")
 	if [ $PORTDIRDEV = $PKGDIRDEV ]; then
-		rm -rf /usr/portage/packages/*
+		rm -rf /usr/portage/packages/"${CATEGORY}"/"${P}"*.tbz2
 	fi
 }
