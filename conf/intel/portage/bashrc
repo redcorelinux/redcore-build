@@ -1,4 +1,4 @@
-pkg_postinst() {
+cleancache() {
 	# By default, binary mode portage downloads binary packages from repository and saves 
 	# them in /usr/portage/packages. This saves bandwidth in case of reinstalls/downgrades, 
 	# but will eat up lots of HDD space, possibly preventing further installs/upgrades.
@@ -22,3 +22,11 @@ pkg_postinst() {
 		rm -rf /usr/portage/packages/"${CATEGORY}"/"${P}"*.tbz2
 	fi
 }
+
+main() {
+	if [ "${EBUILD_PHASE}" == "postinst" ]; then
+		cleancache
+	fi
+}
+
+main
