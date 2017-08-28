@@ -7,6 +7,7 @@ app-cdr/kcdemu
 app-editors/featherpad
 app-editors/notepadqq
 app-emulation/aqemu
+app-emulation/playonlinux
 app-emulation/steam
 app-emulation/virtualbox-guest-additions
 app-misc/redcore-live
