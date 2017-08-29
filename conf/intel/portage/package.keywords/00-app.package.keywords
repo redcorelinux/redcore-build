@@ -1,5 +1,6 @@
 app-admin/keepassxc ~amd64
 app-crypt/asedriveiiie-usb ~amd64
+app-crypt/veracrypt ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/q4wine ~amd64
 app-emulation/steam ~amd64
