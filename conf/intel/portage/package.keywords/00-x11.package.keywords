@@ -11,6 +11,7 @@ x11-misc/obconf-qt ~amd64
 x11-misc/pcmanfm-qt ~amd64
 x11-misc/primus ~amd64
 x11-misc/qarma ~amd64
+x11-misc/redshift-qt ~amd64
 x11-misc/simple-ccsm ~amd64
 x11-plugins/compiz-plugins-extra ~amd64
 x11-plugins/compiz-plugins-main ~amd64
