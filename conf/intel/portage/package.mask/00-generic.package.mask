@@ -9,7 +9,6 @@ dev-libs/icu-layoutex::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo
-net-firewall/firewalld::gentoo
 net-misc/dropbox::gentoo
 net-misc/teamviewer::gentoo
 >net-print/hplip-3.17.6::gentoo
