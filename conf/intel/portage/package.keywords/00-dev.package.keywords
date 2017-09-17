@@ -15,6 +15,5 @@ dev-python/git-python ~amd64
 dev-python/gitdb2 ~amd64
 dev-python/smmap2 ~amd64
 dev-qt/qt5-styleplugins ~amd64
-dev-qt/qt-creator ~amd64
 dev-ruby/paint ~amd64
 dev-util/kbuild ~amd64

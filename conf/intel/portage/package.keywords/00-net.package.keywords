@@ -8,7 +8,6 @@ net-libs/tox ~amd64
 net-misc/cmst ~amd64
 net-misc/grive ~amd64
 net-misc/owncloud-client ~amd64
-net-misc/smb4k ~amd64
 net-misc/teamviewer ~amd64
 net-misc/youtube-dl ~amd64
 net-p2p/qbittorrent ~amd64
