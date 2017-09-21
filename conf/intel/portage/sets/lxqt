@@ -31,11 +31,15 @@ media-video/vidcutter
 media-video/vlc
 net-ftp/filezilla
 net-irc/konversation
-net-misc/cmst
-net-misc/connman
+net-misc/networkmanager
+net-misc/nm-applet-gtk2
 net-misc/ntp
 net-news/quiterss
 net-p2p/qbittorrent
+net-print/cnijfilter
+net-print/gutenprint
+net-print/hplip
+net-print/hplip-plugin
 sys-apps/usbutils
 sys-block/partitionmanager
 sys-boot/isowriter
