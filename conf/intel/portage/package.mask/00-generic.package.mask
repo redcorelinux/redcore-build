@@ -11,8 +11,6 @@ lxqt-base/lxqt-meta::gentoo
 mail-client/thunderbird::gentoo
 net-misc/dropbox::gentoo
 net-misc/teamviewer::gentoo
->net-print/hplip-3.17.6::gentoo
->net-print/hplip-plugin-3.17.6::gentoo
 sys-apps/baselayout::gentoo
 sys-auth/polkit::gentoo
 sys-auth/polkit-qt::gentoo
