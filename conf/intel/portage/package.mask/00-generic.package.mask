@@ -1,5 +1,6 @@
 app-emulation/virtualbox-modules::gentoo
 app-emulation/virtualbox-guest-additions::gentoo
+app-emulation/virtualbox-extpack-oracle::gentoo
 app-emulation/virtualbox::gentoo
 app-emulation/wine::gentoo
 app-office/wps-office::gentoo
