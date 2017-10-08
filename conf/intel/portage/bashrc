@@ -16,10 +16,10 @@ cleancache() {
 	# must be on the same filesystem, which is 99% the case. If they are on different
 	# filesystems, package cache is always saved, as mentioned above.
 
-	export local PORTDIRDEV=$(find /usr/portage -maxdepth 0 -printf "%D")
-	export local PKGDIRDEV=$(find /usr/portage/packages -maxdepth 0 -printf "%D")
+	export local PORTDIRDEV=$(find /usr/ports/gentoo -maxdepth 0 -printf "%D")
+	export local PKGDIRDEV=$(find /usr/ports/gentoo/packages -maxdepth 0 -printf "%D")
 	if [ $PORTDIRDEV = $PKGDIRDEV ]; then
-		rm -rf /usr/portage/packages/"${CATEGORY}"/"${P}"*.tbz2
+		rm -rf /usr/ports/gentoo/packages/"${CATEGORY}"/"${P}"*.tbz2
 	fi
 }
 
