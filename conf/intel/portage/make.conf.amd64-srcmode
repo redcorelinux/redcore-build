@@ -1,8 +1,6 @@
 ## PORTAGE FEATURES ##
 FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug -userpriv"
 
-source /var/lib/layman/make.conf
-
 source /etc/portage/global.conf/abi.conf
 source /etc/portage/global.conf/binhost.conf
 source /etc/portage/global.conf/cflags.conf
