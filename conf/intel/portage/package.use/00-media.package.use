@@ -10,7 +10,7 @@ media-libs/mlt frei0r lua melt kdenlive fftw
 media-libs/phonon -gstreamer -vlc
 media-libs/sdl-mixer mad
 media-libs/sdl-sound -mpeg
-media-sound/cantata cdda cddb musicbrainz taglib
+media-sound/cantata cdda cddb musicbrainz taglib replaygain
 media-sound/pulseaudio native-headset
 media-sound/qmmp qsui
 media-sound/yarock phonon mpv
