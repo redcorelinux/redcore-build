@@ -51,6 +51,7 @@ kde-frameworks/kidletime ~amd64
 kde-frameworks/kimageformats ~amd64
 kde-frameworks/kinit ~amd64
 kde-frameworks/kio ~amd64
+kde-frameworks/kirigami ~amd64
 kde-frameworks/kitemmodels ~amd64
 kde-frameworks/kitemviews ~amd64
 kde-frameworks/kjobwidgets ~amd64
