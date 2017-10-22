@@ -1,4 +1,5 @@
 lxqt-base/liblxqt ~amd64
+lxqt-base/libsysstat ~amd64
 lxqt-base/lxqt-about ~amd64
 lxqt-base/lxqt-admin ~amd64
 lxqt-base/lxqt-build-tools ~amd64
