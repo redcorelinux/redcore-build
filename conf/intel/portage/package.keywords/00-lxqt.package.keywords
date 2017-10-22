@@ -1,7 +1,7 @@
 lxqt-base/liblxqt ~amd64
 lxqt-base/lxqt-about ~amd64
 lxqt-base/lxqt-admin ~amd64
-lxqt-base/lxqt-common ~amd64
+lxqt-base/lxqt-build-tools ~amd64
 lxqt-base/lxqt-config ~amd64
 lxqt-base/lxqt-globalkeys ~amd64
 lxqt-base/lxqt-l10n ~amd64
@@ -13,3 +13,4 @@ lxqt-base/lxqt-powermanagement ~amd64
 lxqt-base/lxqt-qtplugin ~amd64
 lxqt-base/lxqt-runner ~amd64
 lxqt-base/lxqt-session ~amd64
+lxqt-base/lxqt-themes ~amd64
