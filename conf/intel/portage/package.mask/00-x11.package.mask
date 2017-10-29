@@ -1,0 +1,4 @@
+x11-base/xorg-drivers::gentoo
+x11-drivers/nvidia-drivers::gentoo
+x11-drivers/xf86-video-virtualbox::gentoo
+x11-misc/bumblebee::gentoo
