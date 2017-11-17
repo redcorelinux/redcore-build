@@ -1,6 +1,8 @@
+dev-db/sqlite ~amd64
 dev-db/sqlitestudio ~amd64
 dev-lang/fpc ~amd64
 dev-lang/lazarus ~amd64
+dev-lang/rust ~amd64
 dev-libs/d0_blind_id ~amd64
 dev-libs/flatbuffers ~amd64
 dev-libs/kasync ~amd64
@@ -17,4 +19,5 @@ dev-python/sip ~amd64
 dev-python/smmap2 ~amd64
 dev-qt/qt5-styleplugins ~amd64
 dev-ruby/paint ~amd64
+dev-util/cargo ~amd64
 dev-util/kbuild ~amd64
