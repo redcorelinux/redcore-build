@@ -1,7 +1,5 @@
 media-gfx/darktable ~amd64
-media-gfx/exiv2 ~amd64
 media-gfx/krita ~amd64
-media-gfx/librecad ~amd64
 media-gfx/lximage-qt ~amd64
 media-gfx/rawtherapee ~amd64
 media-libs/libbluray ~amd64

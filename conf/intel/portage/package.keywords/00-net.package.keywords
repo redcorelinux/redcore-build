@@ -10,7 +10,6 @@ net-misc/grive ~amd64
 net-misc/owncloud-client ~amd64
 net-misc/teamviewer ~amd64
 net-misc/youtube-dl ~amd64
-net-p2p/qbittorrent ~amd64
 net-print/cnijfilter ~amd64
 net-print/hplip ~amd64
 net-print/hplip-plugin ~amd64
