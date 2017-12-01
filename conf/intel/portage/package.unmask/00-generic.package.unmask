@@ -1,2 +1,3 @@
+app-emulation/wine::redcore-desktop
 net-misc/teamviewer::redcore-desktop
 x11-base/xorg-server::redcore-desktop
