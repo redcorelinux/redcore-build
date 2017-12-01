@@ -6,3 +6,4 @@
 qt4
 plymouth
 systemd
+python_targets_python3_4
