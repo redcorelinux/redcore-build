@@ -4,4 +4,5 @@ app-crypt/veracrypt ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/steam ~amd64
 app-misc/neofetch ~amd64
+app-office/scribus ~amd64
 app-office/wps-office ~amd64
