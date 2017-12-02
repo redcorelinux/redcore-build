@@ -6,3 +6,4 @@ app-emulation/steam ~amd64
 app-misc/neofetch ~amd64
 app-office/scribus ~amd64
 app-office/wps-office ~amd64
+app-text/cutemarked ~amd64
