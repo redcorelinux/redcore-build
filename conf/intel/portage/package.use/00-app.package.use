@@ -11,5 +11,5 @@ app-emulation/wine d3d9 osmesa staging s3tc vaapi mono themes -realtime -prelink
 app-misc/calamares-runtime branding
 app-office/libreoffice gtk gnome
 app-portage/layman sync-plugin-portage
-app-text/mupdf -opengl
+app-text/mupdf -X -opengl
 app-text/xmlto text
