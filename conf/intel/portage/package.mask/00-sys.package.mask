@@ -3,6 +3,7 @@ sys-auth/polkit::gentoo
 sys-auth/polkit-qt::gentoo
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
+sys-fs/cryptsetup::gentoo
 sys-fs/vhba::gentoo
 sys-kernel/dracut::gentoo
 sys-kernel/genkernel-next::gentoo

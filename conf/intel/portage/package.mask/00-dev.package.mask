@@ -1,3 +1,4 @@
+dev-lang/python:3.6::gentoo
 dev-libs/icu::gentoo
 dev-libs/icu-layoutex::gentoo
 dev-libs/libdbusmenu-qt::gentoo
