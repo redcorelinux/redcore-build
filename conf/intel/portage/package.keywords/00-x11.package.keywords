@@ -4,8 +4,6 @@ x11-apps/radeontop ~amd64
 x11-libs/compiz-bcop ~amd64
 x11-libs/libcompizconfig ~amd64
 x11-libs/libdrm ~amd64
-x11-libs/libfm ~amd64
-x11-libs/libfm-extra ~amd64
 x11-libs/libfm-qt ~amd64
 x11-libs/libva ~amd64
 x11-libs/libva-intel-driver ~amd64
