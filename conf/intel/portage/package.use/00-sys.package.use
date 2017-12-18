@@ -1,5 +1,4 @@
 sys-apps/openrc -netifrc
-sys-apps/systemd cryptsetup -sysv-utils -http
 sys-auth/consolekit cgroups pm-utils evdev
 sys-boot/grub device-mapper mount truetype multislot
 sys-devel/clang-runtime compiler-rt sanitize libcxx openmp
@@ -14,6 +13,5 @@ sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs ply
 sys-kernel/linux-redcore-lts dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
 sys-kernel/redcore-sources symlink
 sys-kernel/redcore-lts-sources symlink
-sys-libs/libseccomp static-libs
 sys-libs/zlib minizip
 sys-process/lsof rpc

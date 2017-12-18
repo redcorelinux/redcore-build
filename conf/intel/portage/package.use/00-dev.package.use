@@ -15,4 +15,4 @@ dev-qt/qtpositioning:5 geoclue
 dev-qt/qtwebchannel:5 qml
 dev-qt/qtwebengine:5 widgets
 dev-qt/qtwebkit:5 geolocation multimedia orientation printsupport webchannel -gstreamer
-dev-util/cmake server -qt5
+dev-util/cmake server

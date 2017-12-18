@@ -9,6 +9,5 @@ app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh -sdl -sdl2
 app-emulation/wine d3d9 osmesa staging s3tc vaapi mono themes -realtime -prelink
 app-misc/calamares-runtime branding
 app-office/libreoffice gtk gnome
-app-portage/layman sync-plugin-portage
 app-text/mupdf -X -opengl
 app-text/xmlto text
