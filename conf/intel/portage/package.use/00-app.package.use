@@ -2,7 +2,6 @@ app-admin/conky hddtemp imlib iostats irc lua-cairo lua-imlib lua-rsvg math mpd 
 app-admin/keepassxc autotype http yubikey
 app-admin/sudo -sendmail -gcrypt
 app-admin/testdisk ewf ntfs
-app-crypt/pinentry gtk
 app-emulation/aqemu vnc
 app-emulation/docker overlay -aufs -btrfs
 app-emulation/libvirt numa virt-network
