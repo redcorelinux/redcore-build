@@ -1,4 +1,4 @@
-media-gfx/blender -ffmpeg
+media-gfx/blender cycles openimageio player
 media-gfx/krita qtmedia vc
 media-gfx/sane-backends usb snmp
 media-gfx/splashutils fbcondecor gpm
