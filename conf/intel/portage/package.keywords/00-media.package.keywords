@@ -7,6 +7,7 @@ media-libs/libpng ~amd64
 media-libs/libv4l ~amd64
 media-libs/mesa ~amd64
 media-libs/openexr ~amd64
+media-libs/openimageio ~amd64
 media-plugins/audacious-plugins ~amd64
 media-plugins/gst-plugins-vaapi ~amd64
 media-sound/audacious ~amd64
