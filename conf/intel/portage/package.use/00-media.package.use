@@ -1,5 +1,4 @@
 media-gfx/blender cycles openimageio player
-media-gfx/darktable -opencl
 media-gfx/krita qtmedia vc
 media-gfx/sane-backends usb snmp
 media-gfx/splashutils fbcondecor gpm
