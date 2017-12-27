@@ -38,6 +38,8 @@ kde-frameworks/kcrash ~amd64
 kde-frameworks/kdbusaddons ~amd64
 kde-frameworks/kdeclarative ~amd64
 kde-frameworks/kded ~amd64
+kde-frameworks/kdelibs4support ~amd64
+kde-frameworks/kdesignerplugin ~amd64
 kde-frameworks/kdesu ~amd64
 kde-frameworks/kdnssd ~amd64
 kde-frameworks/kdoctools ~amd64
@@ -62,9 +64,11 @@ kde-frameworks/knotifications ~amd64
 kde-frameworks/knotifyconfig ~amd64
 kde-frameworks/kpackage ~amd64
 kde-frameworks/kparts ~amd64
+kde-frameworks/kplotting ~amd64
 kde-frameworks/kpty ~amd64
 kde-frameworks/kservice ~amd64
 kde-frameworks/ktextwidgets ~amd64
+kde-frameworks/kunitconversion ~amd64
 kde-frameworks/kwallet ~amd64
 kde-frameworks/kwayland ~amd64
 kde-frameworks/kwidgetsaddons ~amd64
