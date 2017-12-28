@@ -74,7 +74,6 @@ kde-frameworks/kwayland ~amd64
 kde-frameworks/kwidgetsaddons ~amd64
 kde-frameworks/kwindowsystem ~amd64
 kde-frameworks/kxmlgui ~amd64
-kde-frameworks/modemmanager-qt ~amd64
 kde-frameworks/networkmanager-qt ~amd64
 kde-frameworks/oxygen-icons ~amd64
 kde-frameworks/plasma ~amd64

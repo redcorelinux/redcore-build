@@ -11,7 +11,6 @@ lxqt-base/lxqt-openssh-askpass ~amd64
 lxqt-base/lxqt-panel ~amd64
 lxqt-base/lxqt-policykit ~amd64
 lxqt-base/lxqt-powermanagement ~amd64
-lxqt-base/lxqt-qtplugin ~amd64
 lxqt-base/lxqt-runner ~amd64
 lxqt-base/lxqt-session ~amd64
 lxqt-base/lxqt-themes ~amd64
