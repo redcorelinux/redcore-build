@@ -8,10 +8,5 @@ sys-devel/llvm libedit
 sys-firmware/intel-microcode monolithic
 sys-fs/cryptsetup -gcrypt -nettle
 sys-fs/dosfstools compat
-sys-kernel/genkernel-next cryptsetup crypt mdadm dmraid plymouth iscsi
-sys-kernel/linux-redcore dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
-sys-kernel/linux-redcore-lts dmraid dracut symlink grub iscsi mdadm luks lvm zfs plymouth
-sys-kernel/redcore-sources symlink
-sys-kernel/redcore-lts-sources symlink
 sys-libs/zlib minizip
 sys-process/lsof rpc
