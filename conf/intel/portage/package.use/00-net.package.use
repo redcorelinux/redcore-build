@@ -4,6 +4,7 @@ net-fs/samba addc ads client fam gnutls syslog winbind -system-mitkrb5
 net-irc/quassel phonon -server -crypt
 net-misc/connman ofono openconnect openvpn pptp l2tp vpnc
 net-misc/dhcp -server
+net-misc/iputils -gcrypt -nettle
 net-misc/modemmanager mbim
 net-misc/networkmanager connection-sharing modemmanager ofono resolvconf
 net-misc/nm-applet-gtk2 modemmanager
