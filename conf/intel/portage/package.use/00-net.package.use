@@ -1,6 +1,6 @@
 net-dns/avahi mdnsresponder-compat -utils
 net-dns/dnsmasq script
-net-fs/samba addc ads client fam gnutls syslog winbind -system-mitkrb5
+net-fs/samba ads client fam gnutls syslog winbind system-mitkrb5
 net-irc/quassel phonon -server -crypt
 net-misc/connman ofono openconnect openvpn pptp l2tp vpnc
 net-misc/dhcp -server
