@@ -1,8 +1,9 @@
-# unmasks
+# USE flag unmasks
+-elogind
 -introspection
 -pgo
 -opus
-# mask
+# USE flag masks
 qt4
 plymouth
 systemd
