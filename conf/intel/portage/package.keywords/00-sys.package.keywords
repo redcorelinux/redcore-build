@@ -1,6 +1,7 @@
 sys-apps/crazydiskinfo ~amd64
 sys-apps/inxi ~amd64
 sys-apps/firetools ~amd64
+sys-auth/elogind ~amd64
 sys-auth/libyubikey ~amd64
 sys-auth/ykpers ~amd64
 sys-devel/clang ~amd64
