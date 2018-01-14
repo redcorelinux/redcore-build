@@ -13,8 +13,9 @@ app-text/qpdfview
 kde-apps/ark
 kde-apps/k3b
 kde-apps/kcalc
+kde-apps/kget
 lxqt-base/lxqt-meta
-mail-client/wmail
+mail-client/trojita
 media-gfx/gimp
 media-gfx/inkscape
 media-sound/cantata
@@ -34,7 +35,6 @@ sys-block/partitionmanager
 sys-boot/isowriter
 sys-boot/unetbootin-static
 www-client/qupzilla
-x11-misc/compton
 x11-misc/qlipper
 x11-misc/qps
 x11-misc/sddm
