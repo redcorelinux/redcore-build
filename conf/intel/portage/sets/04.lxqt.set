@@ -26,6 +26,7 @@ media-video/mpv
 media-video/simplescreenrecorder
 media-video/vidcutter
 media-video/vlc
+net-firewall/ufw-frontends
 net-irc/konversation
 net-misc/networkmanager
 net-misc/nm-tray
