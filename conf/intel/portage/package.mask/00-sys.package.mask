@@ -1,4 +1,5 @@
 sys-apps/baselayout::gentoo
+sys-auth/elogind::gentoo
 sys-auth/polkit-qt::gentoo
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
