@@ -8,7 +8,6 @@ x11-misc/obconf-qt ~amd64
 x11-misc/pcmanfm-qt ~amd64
 x11-misc/primus ~amd64
 x11-misc/qarma ~amd64
-x11-misc/qps ~amd64
 x11-misc/redshift-qt ~amd64
 x11-themes/arc-theme ~amd64
 x11-themes/audacious-themes ~amd64
