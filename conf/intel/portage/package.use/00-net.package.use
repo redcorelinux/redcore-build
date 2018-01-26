@@ -9,6 +9,7 @@ net-misc/modemmanager mbim
 net-misc/networkmanager connection-sharing modemmanager ofono resolvconf
 net-misc/nm-applet-gtk2 modemmanager
 net-misc/youtube-dl offensive
+net-misc/youtube-viewer gtk
 net-print/cnijfilter net servicetools canon_printers_e400 canon_printers_e560 canon_printers_ip2800 canon_printers_ip8700 canon_printers_ix6700 canon_printers_ix6800 canon_printers_mx470 canon_printers_mx530
 net-print/gutenprint ppds
 net-print/hplip fax scanner snmp
