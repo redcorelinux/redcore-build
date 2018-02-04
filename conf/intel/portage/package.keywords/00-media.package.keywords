@@ -2,6 +2,7 @@ media-gfx/blender ~amd64
 media-gfx/darktable ~amd64
 media-gfx/lximage-qt ~amd64
 media-libs/libbluray ~amd64
+media-libs/libebur128 ~amd64
 media-libs/libpng ~amd64
 media-libs/libv4l ~amd64
 media-libs/mesa ~amd64
