@@ -1,3 +1,4 @@
+sys-apps/busybox mdev
 sys-apps/openrc -netifrc
 sys-auth/consolekit cgroups pm-utils evdev
 sys-boot/grub device-mapper mount truetype multislot
