@@ -1,8 +1,10 @@
 sys-apps/baselayout::gentoo
 sys-auth/elogind::gentoo
 sys-auth/polkit-qt::gentoo
+sys-block/partitionmanager::gentoo
 sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
 sys-fs/cryptsetup::gentoo
 sys-fs/vhba::gentoo
 sys-kernel/dracut::gentoo
+sys-libs/kpmcore::gentoo
