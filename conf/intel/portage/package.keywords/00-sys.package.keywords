@@ -15,6 +15,7 @@ sys-fs/cryptsetup ~amd64
 sys-kernel/linux-firmware ~amd64
 sys-libs/compiler-rt ~amd64
 sys-libs/compiler-rt-sanitizers ~amd64
+sys-libs/glibc ~amd64
 sys-libs/libcxxabi ~amd64
 sys-libs/libcxx ~amd64
 sys-libs/libomp ~amd64
