@@ -1,4 +1,4 @@
-net-dns/avahi mdnsresponder-compat -utils
+net-dns/avahi mdnsresponder-compat -utils -python
 net-dns/dnsmasq script
 net-fs/samba ads client fam gnutls syslog winbind system-mitkrb5
 net-irc/quassel phonon -server -crypt
