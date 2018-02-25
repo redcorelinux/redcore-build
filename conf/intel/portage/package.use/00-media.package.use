@@ -18,6 +18,6 @@ media-sound/yarock phonon mpv
 media-tv/kodi css caps nonfree upnp -airplay
 media-video/handbrake gtk
 media-video/minitube download
-media-video/mpv libmpv -sdl
+media-video/mpv cdda cli libmpv -sdl
 media-video/obs-studio -imagemagick
 media-video/vlc cdda cddb faad gnutls libcaca lua modplug musepack schroedinger skins twolame upnp vlm
