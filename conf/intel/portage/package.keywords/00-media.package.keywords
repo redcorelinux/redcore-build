@@ -16,6 +16,5 @@ media-tv/tv-maxe ~amd64
 media-tv/v4l-utils ~amd64
 media-video/handbrake ~amd64
 media-video/libva-utils ~amd64
-media-video/mpv ~amd64
 media-video/obs-studio ~amd64
 media-video/shotcut ~amd64
