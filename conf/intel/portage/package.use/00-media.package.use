@@ -1,7 +1,6 @@
 media-gfx/blender cycles openimageio player
 media-gfx/krita qtmedia vc
 media-gfx/sane-backends usb snmp
-media-gfx/splashutils fbcondecor gpm
 media-gfx/xsane gimp lcms ocr
 media-libs/libsdl2 gles
 media-libs/libvpx postproc svc
@@ -19,5 +18,4 @@ media-tv/kodi css caps nonfree upnp -airplay
 media-video/handbrake gtk
 media-video/minitube download
 media-video/mpv cdda cli libmpv -sdl
-media-video/obs-studio -imagemagick
 media-video/vlc cdda cddb faad gnutls libcaca lua modplug musepack schroedinger skins twolame upnp vlm
