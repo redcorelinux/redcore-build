@@ -1,3 +1,4 @@
+app-admin/conky ~amd64
 app-admin/keepassxc ~amd64
 app-crypt/argon ~amd64
 app-crypt/asedriveiiie-usb ~amd64
