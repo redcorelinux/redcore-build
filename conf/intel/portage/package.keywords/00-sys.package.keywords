@@ -1,7 +1,6 @@
 sys-apps/crazydiskinfo ~amd64
 sys-apps/inxi ~amd64
 sys-apps/firetools ~amd64
-sys-auth/libyubikey ~amd64
 sys-auth/ykpers ~amd64
 sys-devel/binutils ~amd64
 sys-devel/clang ~amd64
@@ -11,7 +10,6 @@ sys-devel/llvm-common ~amd64
 sys-devel/gcc ~amd64
 sys-firmware/b43-firmware ~amd64
 sys-firmware/b43legacy-firmware ~amd64
-sys-firmware/intel-microcode ~amd64
 sys-fs/cryptsetup ~amd64
 sys-kernel/linux-firmware ~amd64
 sys-libs/binutils-libs ~amd64

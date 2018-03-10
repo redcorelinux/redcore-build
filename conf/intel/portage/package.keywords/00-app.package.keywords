@@ -1,7 +1,6 @@
 app-admin/conky ~amd64
 app-admin/keepassxc ~amd64
 app-crypt/argon2 ~amd64
-app-crypt/asedriveiiie-usb ~amd64
 app-crypt/veracrypt ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/steam ~amd64

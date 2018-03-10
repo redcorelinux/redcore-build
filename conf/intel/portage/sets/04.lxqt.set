@@ -3,7 +3,6 @@ app-admin/keepassxc
 app-admin/system-config-printer
 app-cdr/kcdemu
 app-editors/featherpad
-app-editors/notepadqq
 app-emulation/aqemu
 app-emulation/playonlinux
 app-emulation/steam
@@ -33,7 +32,6 @@ net-misc/nm-tray
 net-news/quiterss
 net-p2p/qbittorrent
 sys-block/partitionmanager
-sys-boot/isowriter
 sys-boot/unetbootin-static
 www-client/qupzilla
 x11-misc/qlipper
