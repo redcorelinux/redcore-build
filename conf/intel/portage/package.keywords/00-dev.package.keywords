@@ -12,12 +12,9 @@ dev-libs/nss ~amd64
 dev-libs/sink ~amd64
 dev-python/git-python ~amd64
 dev-python/gitdb2 ~amd64
-dev-python/PyQt5 ~amd64
 dev-python/pynacl ~amd64
-dev-python/sip ~amd64
 dev-python/smmap2 ~amd64
 dev-qt/qt5-styleplugins ~amd64
-dev-qt/qtwebkit ~amd64
 dev-ruby/paint ~amd64
 dev-util/cargo ~amd64
 dev-util/kbuild ~amd64
