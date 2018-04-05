@@ -5,6 +5,7 @@ sys-auth/ykpers ~amd64
 sys-boot/plymouth-openrc-plugin ~amd64
 sys-devel/binutils ~amd64
 sys-devel/clang ~amd64
+sys-devel/clang-common ~amd64
 sys-devel/clang-runtime ~amd64
 sys-devel/llvm ~amd64
 sys-devel/llvm-common ~amd64
