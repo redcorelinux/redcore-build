@@ -1,1 +1,1 @@
-gnome-base/gvfs archive cdda -ios
+gnome-base/gvfs archive cdda fuse -ios
