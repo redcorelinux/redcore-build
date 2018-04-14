@@ -18,6 +18,7 @@ x11-libs/libfm-qt ~amd64
 x11-libs/libva ~amd64
 x11-libs/libva-intel-driver ~amd64
 x11-misc/obconf-qt ~amd64
+x11-misc/obmenu-generator ~amd64
 x11-misc/pcmanfm-qt ~amd64
 x11-misc/primus ~amd64
 x11-misc/qarma ~amd64
