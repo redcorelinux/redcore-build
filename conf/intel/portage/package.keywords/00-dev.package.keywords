@@ -17,3 +17,4 @@ dev-python/smmap2 ~amd64
 dev-qt/qt5-styleplugins ~amd64
 dev-ruby/paint ~amd64
 dev-util/cargo ~amd64
+dev-util/pycharm-community ~amd64
