@@ -1,5 +1,6 @@
 dev-db/sqlite secure-delete
 dev-lang/fpc source
+dev-lang/perl gdbm
 dev-libs/glib utils
 dev-libs/leveldb -tcmalloc
 dev-libs/libgusb vala
