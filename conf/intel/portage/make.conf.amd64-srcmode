@@ -12,6 +12,7 @@ source /etc/portage/global.conf/grub.conf
 source /etc/portage/global.conf/languages.conf
 source /etc/portage/global.conf/layout.conf
 source /etc/portage/global.conf/libreoffice.conf
+source /etc/portage/global.conf/makeopts.conf
 source /etc/portage/global.conf/python.conf
 source /etc/portage/global.conf/qemu.conf
 source /etc/portage/global.conf/ruby.conf
