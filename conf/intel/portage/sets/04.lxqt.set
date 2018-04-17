@@ -33,7 +33,7 @@ net-news/quiterss
 net-p2p/qbittorrent
 sys-block/partitionmanager
 sys-boot/unetbootin-static
-www-client/qupzilla
+www-client/falkon
 x11-misc/qlipper
 x11-misc/qps
 x11-misc/sddm
