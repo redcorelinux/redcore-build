@@ -1,5 +1,6 @@
 net-dns/avahi mdnsresponder-compat -utils -python
 net-dns/dnsmasq script
+net-dns/getdns stubby
 net-fs/samba ads client fam gnutls syslog winbind system-mitkrb5
 net-irc/quassel phonon -server -crypt
 net-misc/connman iptables ofono openconnect openvpn pptp l2tp vpnc
