@@ -13,6 +13,7 @@ dev-libs/sink ~amd64
 dev-python/git-python ~amd64
 dev-python/gitdb2 ~amd64
 dev-python/pynacl ~amd64
+dev-python/python-evdev ~amd64
 dev-python/smmap2 ~amd64
 dev-qt/qt5-styleplugins ~amd64
 dev-ruby/paint ~amd64
