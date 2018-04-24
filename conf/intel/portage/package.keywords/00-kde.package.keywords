@@ -1,6 +1,8 @@
+kde-apps/akregator ~amd64
 kde-apps/ark ~amd64
 kde-apps/ffmpegthumbs ~amd64
 kde-apps/k3b ~amd64
+kde-apps/kbackup ~amd64
 kde-apps/kcalc ~amd64
 kde-apps/kcontacts ~amd64
 kde-apps/kdenlive ~amd64
