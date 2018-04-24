@@ -18,3 +18,4 @@ media-video/handbrake ~amd64
 media-video/libva-utils ~amd64
 media-video/obs-studio ~amd64
 media-video/shotcut ~amd64
+media-video/vlc ~amd64
