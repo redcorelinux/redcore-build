@@ -28,6 +28,7 @@ dev-qt/qttranslations::gentoo
 dev-qt/qtwayland::gentoo
 dev-qt/qtwebchannel::gentoo
 dev-qt/qtwebengine::gentoo
+dev-qt/qtwebkit::gentoo
 dev-qt/qtwebsockets::gentoo
 dev-qt/qtwidgets::gentoo
 dev-qt/qtx11extras::gentoo
