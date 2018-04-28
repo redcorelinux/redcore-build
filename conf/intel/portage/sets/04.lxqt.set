@@ -4,10 +4,10 @@ app-admin/system-config-printer
 app-cdr/kcdemu
 app-editors/featherpad
 app-emulation/aqemu
-app-emulation/playonlinux
 app-emulation/steam
 app-office/libreoffice
 app-text/qpdfview
+games-util/lutris
 kde-apps/ark
 kde-apps/k3b
 kde-apps/kcalc
