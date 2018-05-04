@@ -1,9 +1,11 @@
+dev-cpp/glibmm ~amd64
 dev-db/sqlitestudio ~amd64
 dev-lang/fpc ~amd64
 dev-lang/lazarus ~amd64
 dev-lang/rust ~amd64
 dev-libs/d0_blind_id ~amd64
 dev-libs/flatbuffers ~amd64
+dev-libs/glib ~amd64
 dev-libs/kasync ~amd64
 dev-libs/libclc ~amd64
 dev-libs/libqtxdg ~amd64
@@ -18,5 +20,6 @@ dev-python/smmap2 ~amd64
 dev-qt/qt5-styleplugins ~amd64
 dev-ruby/paint ~amd64
 dev-util/cargo ~amd64
+dev-util/gdbus-codegen ~amd64
 dev-util/patchelf ~amd64
 dev-util/pycharm-community ~amd64
