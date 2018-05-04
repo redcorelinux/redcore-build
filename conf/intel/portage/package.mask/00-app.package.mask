@@ -1,5 +1,4 @@
 app-arch/snappy:0/1::gentoo
 app-emulation/virtualbox-modules::gentoo
-app-emulation/virtualbox-guest-additions::gentoo
 app-emulation/virtualbox::gentoo
 app-office/wps-office::gentoo
