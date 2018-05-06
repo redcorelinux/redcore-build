@@ -20,7 +20,7 @@ media-sound/spotify ~amd64
 media-tv/sopcast ~amd64
 media-tv/tv-maxe ~amd64
 media-tv/v4l-utils ~amd64
-media-vide/ffmpeg ~amd64
+media-video/ffmpeg ~amd64
 media-video/handbrake ~amd64
 media-video/libva-utils ~amd64
 media-video/obs-studio ~amd64
