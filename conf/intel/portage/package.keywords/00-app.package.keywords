@@ -4,6 +4,9 @@ app-crypt/argon2 ~amd64
 app-crypt/veracrypt ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/steam ~amd64
+app-emulation/wine-d3d9 ~amd64
+app-emulation/wine-staging ~amd64
+app-emulation/wine-vanilla ~amd64
 app-office/libreoffice ~amd64
 app-office/libreoffice-l10n ~amd64
 app-office/wps-office ~amd64
