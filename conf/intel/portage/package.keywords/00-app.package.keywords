@@ -4,6 +4,7 @@ app-crypt/argon2 ~amd64
 app-crypt/veracrypt ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/steam ~amd64
+app-emulation/wine-any ~amd64
 app-emulation/wine-d3d9 ~amd64
 app-emulation/wine-mono ~amd64
 app-emulation/wine-staging ~amd64
