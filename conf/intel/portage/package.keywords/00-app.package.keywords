@@ -5,6 +5,7 @@ app-crypt/veracrypt ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/steam ~amd64
 app-emulation/wine-d3d9 ~amd64
+app-emulation/wine-mono ~amd64
 app-emulation/wine-staging ~amd64
 app-emulation/wine-vanilla ~amd64
 app-office/libreoffice ~amd64
