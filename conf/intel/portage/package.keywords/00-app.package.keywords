@@ -9,6 +9,7 @@ app-emulation/wine-d3d9 ~amd64
 app-emulation/wine-mono ~amd64
 app-emulation/wine-staging ~amd64
 app-emulation/wine-vanilla ~amd64
+app-emulation/winetricks ~amd64
 app-office/libreoffice ~amd64
 app-office/libreoffice-l10n ~amd64
 app-office/wps-office ~amd64
