@@ -9,6 +9,7 @@ media-libs/mesa d3d9 gles1 gles2 openmax osmesa vulkan xa
 media-libs/mlt frei0r lua melt kdenlive fftw
 media-libs/phonon -gstreamer -vlc
 media-libs/sdl-mixer mad
+media-libs/sdl2-mixer mad
 media-libs/sdl-sound -mpeg
 media-plugins/audacious-plugins -libnotify
 media-sound/cantata cdda cddb musicbrainz taglib replaygain
