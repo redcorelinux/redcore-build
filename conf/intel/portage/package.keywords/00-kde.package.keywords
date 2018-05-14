@@ -1,2 +1,3 @@
 kde-apps/* ~amd64
 kde-frameworks/* ~amd64
+kde-plasma/* ~amd64
