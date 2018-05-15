@@ -2,6 +2,7 @@ app-admin/conky hddtemp imlib iostats irc lua-cairo lua-imlib lua-rsvg math mpd 
 app-admin/keepassxc autotype http yubikey
 app-admin/sudo -sendmail -gcrypt
 app-admin/testdisk ntfs -ewf
+app-editors/emacs imagemagick xft
 app-editors/vim vim-pager
 app-emulation/aqemu vnc
 app-emulation/docker btrfs overlay -aufs
