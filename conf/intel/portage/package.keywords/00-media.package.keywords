@@ -1,5 +1,6 @@
 media-gfx/darktable ~amd64
 media-gfx/gimp ~amd64
+media-gfx/krita ~amd64
 media-gfx/mypaint-brushes ~amd64
 media-libs/babl ~amd64
 media-libs/gegl:0.4 ~amd64
