@@ -1,2 +1,2 @@
 mail-filter/clamassassin clamd
-mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
+mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -crypt -wifi
