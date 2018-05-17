@@ -12,7 +12,7 @@ media-libs/sdl2-mixer mad
 media-libs/sdl-sound -mpeg
 media-plugins/audacious-plugins -libnotify
 media-sound/cantata cdda cddb musicbrainz taglib replaygain
-media-sound/pulseaudio native-headset
+media-sound/pulseaudio gnome native-headset
 media-sound/qmmp qsui
 media-tv/kodi css caps nonfree upnp -airplay
 media-video/handbrake gtk
