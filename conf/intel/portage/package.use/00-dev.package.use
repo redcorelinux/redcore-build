@@ -11,8 +11,9 @@ dev-libs/xmlsec nss
 dev-python/PyQt5 bluetooth declarative designer gui multimedia network positioning printsupport sensors sql webchannel webengine webkit websockets x11extras xmlpatterns widgets
 dev-qt/qt-creator autotools android baremetal bazaar clang cmake cvs git ios mercurial subversion webkit winrt
 dev-qt/qtgui:5 accessibility evdev
-dev-qt/qtmultimedia:5 widgets
+dev-qt/qtmultimedia:5 widgets qml
 dev-qt/qtpositioning:5 geoclue
+dev-qt/qtscript:5 scripttools
 dev-qt/qtwebchannel:5 qml
 dev-qt/qtwebengine:5 widgets
 dev-qt/qtwebkit:5 geolocation multimedia orientation printsupport webchannel -gstreamer

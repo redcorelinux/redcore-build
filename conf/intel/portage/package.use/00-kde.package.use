@@ -1,4 +1,5 @@
-kde-apps/k3b encode mad taglib
 kde-apps/ark zip
+kde-apps/k3b encode mad taglib
+kde-apps/ktp-common-internals otr
 kde-apps/okular epub
 kde-frameworks/kfilemetadata taglib
