@@ -13,8 +13,8 @@ dev-libs/liborcus ~amd64
 dev-libs/nspr ~amd64
 dev-libs/nss ~amd64
 dev-libs/sink ~amd64
-dev-python/git-python ~amd64
 dev-python/gitdb2 ~amd64
+dev-python/git-python ~amd64
 dev-python/pynacl ~amd64
 dev-python/python-evdev ~amd64
 dev-python/smmap2 ~amd64
