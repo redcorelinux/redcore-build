@@ -8,8 +8,6 @@ dev-libs/flatbuffers ~amd64
 dev-libs/glib ~amd64
 dev-libs/kasync ~amd64
 dev-libs/libclc ~amd64
-dev-libs/libixion ~amd64
-dev-libs/liborcus ~amd64
 dev-libs/nspr ~amd64
 dev-libs/nss ~amd64
 dev-libs/sink ~amd64

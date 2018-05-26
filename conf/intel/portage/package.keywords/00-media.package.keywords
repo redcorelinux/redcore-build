@@ -4,7 +4,6 @@ media-gfx/krita ~amd64
 media-gfx/mypaint-brushes ~amd64
 media-libs/babl ~amd64
 media-libs/gegl:0.4 ~amd64
-media-libs/libbluray ~amd64
 media-libs/libmypaint ~amd64
 media-libs/libv4l ~amd64
 media-libs/mesa ~amd64
