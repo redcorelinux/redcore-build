@@ -3,21 +3,7 @@ FEATURES="parallel-fetch protect-owned candy compressdebug splitdebug -userpriv"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries"
 
 ## PORTAGE FLAGS ##
-source /etc/portage/global.conf/abi.conf
-source /etc/portage/global.conf/cflags.conf
-source /etc/portage/global.conf/cpuflags.conf
-source /etc/portage/global.conf/devices.conf
-source /etc/portage/global.conf/distfiles.conf
-source /etc/portage/global.conf/generic.conf
-source /etc/portage/global.conf/grub.conf
-source /etc/portage/global.conf/languages.conf
-source /etc/portage/global.conf/layout.conf
-source /etc/portage/global.conf/libreoffice.conf
-source /etc/portage/global.conf/llvm.conf
-source /etc/portage/global.conf/python.conf
-source /etc/portage/global.conf/qemu.conf
-source /etc/portage/global.conf/ruby.conf
-source /etc/portage/global.conf/useflags.conf
+source /etc/portage/global.conf/*.conf
 
 ## SISYPHUS MIRRORS ##
 source /etc/sisyphus/mirrors.conf
