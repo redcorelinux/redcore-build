@@ -19,6 +19,7 @@ source /etc/portage/global.conf/python.conf
 source /etc/portage/global.conf/qemu.conf
 source /etc/portage/global.conf/ruby.conf
 source /etc/portage/global.conf/useflags.conf
+source /etc/portage/global.conf/zz-custom.conf
 
 ## SISYPHUS MIRRORS ##
 source /etc/sisyphus/mirrors.conf
