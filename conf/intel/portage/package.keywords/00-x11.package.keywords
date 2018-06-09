@@ -20,6 +20,5 @@ x11-misc/obmenu-generator ~amd64
 x11-misc/primus ~amd64
 x11-misc/qarma ~amd64
 x11-misc/redshift-qt ~amd64
-x11-themes/arc-theme ~amd64
 x11-themes/audacious-themes ~amd64
 x11-themes/kvantum ~amd64
