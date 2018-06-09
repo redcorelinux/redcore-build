@@ -3,7 +3,6 @@ sys-apps/firetools ~amd64
 sys-apps/inxi ~amd64
 sys-auth/ykpers ~amd64
 sys-boot/plymouth-openrc-plugin ~amd64
-sys-devel/binutils ~amd64
 sys-devel/clang ~amd64
 sys-devel/clang-common ~amd64
 sys-devel/clang-runtime ~amd64
@@ -14,7 +13,6 @@ sys-firmware/b43-firmware ~amd64
 sys-firmware/b43legacy-firmware ~amd64
 sys-fs/cryptsetup ~amd64
 sys-kernel/linux-firmware **
-sys-libs/binutils-libs ~amd64
 sys-libs/compiler-rt ~amd64
 sys-libs/compiler-rt-sanitizers ~amd64
 sys-libs/glibc ~amd64
