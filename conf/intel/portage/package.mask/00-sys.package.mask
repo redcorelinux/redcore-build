@@ -7,4 +7,5 @@ sys-boot/plymouth::gentoo
 sys-fs/cryptsetup::gentoo
 sys-fs/vhba::gentoo
 sys-kernel/dracut::gentoo
+sys-libs/glibc::gentoo
 sys-libs/kpmcore::gentoo
