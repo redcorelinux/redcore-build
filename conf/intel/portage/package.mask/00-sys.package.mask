@@ -1,4 +1,5 @@
 sys-apps/baselayout::gentoo
+>sys-apps/portage-2.3.24-r1::gentoo
 sys-auth/elogind::gentoo
 sys-auth/polkit-qt::gentoo
 sys-block/partitionmanager::gentoo
