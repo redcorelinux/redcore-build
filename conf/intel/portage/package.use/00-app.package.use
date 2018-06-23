@@ -2,7 +2,6 @@ app-admin/conky hddtemp imlib iostats irc lua-cairo lua-imlib lua-rsvg math mpd 
 app-admin/keepassxc autotype http yubikey
 app-admin/sudo -sendmail -gcrypt
 app-admin/testdisk ntfs -ewf
-app-arch/rpm PYTHON_SINGLE_TARGET: python2_7
 app-crypt/pinentry -qt5
 app-editors/emacs imagemagick libxml2 xft
 app-editors/vim vim-pager
@@ -15,6 +14,5 @@ app-emulation/wine-staging osmesa s3tc -realtime -prelink
 app-emulation/wine-vanilla osmesa -realtime -prelink 
 app-misc/calamares-runtime branding
 app-office/libreoffice gtk gtk2
-app-text/asciidoc PYTHON_SINGLE_TARGET: python2_7
 app-text/mupdf -X -opengl
 app-text/xmlto text
