@@ -11,6 +11,7 @@ net-misc/meganz-sdk freeimage fuse inotify libuv mediainfo
 net-misc/modemmanager mbim
 net-misc/networkmanager connection-sharing modemmanager ofono resolvconf
 net-misc/nm-applet-gtk2 modemmanager
+net-misc/openssh -ldap
 net-misc/youtube-dl offensive
 net-misc/youtube-viewer gtk
 net-nds/openldap minimal
