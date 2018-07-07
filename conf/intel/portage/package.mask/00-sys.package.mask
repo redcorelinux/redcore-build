@@ -7,6 +7,9 @@ sys-boot/grub::gentoo
 sys-boot/plymouth::gentoo
 sys-fs/cryptsetup::gentoo
 sys-fs/vhba::gentoo
+sys-fs/zfs::gentoo
 sys-kernel/dracut::gentoo
+sys-kernel/spl::gentoo
+sys-kernel/zfs-kmod::gentoo
 sys-libs/glibc::gentoo
 sys-libs/kpmcore::gentoo
