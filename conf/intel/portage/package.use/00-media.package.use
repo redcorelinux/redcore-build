@@ -15,6 +15,7 @@ media-sound/cantata cdda cddb musicbrainz taglib replaygain
 media-sound/pulseaudio native-headset
 media-sound/qmmp qsui
 media-tv/kodi css caps nonfree upnp -airplay
+media-video/ffmpeg amr amrenc chromium frei0r libdrm librtmp libv4l openh264 snappy twolame
 media-video/handbrake gtk
 media-video/minitube download
 media-video/mpv cdda cli libmpv -sdl
