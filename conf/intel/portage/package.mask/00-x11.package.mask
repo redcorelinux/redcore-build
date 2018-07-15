@@ -1,4 +1,6 @@
 x11-base/xorg-drivers::gentoo
 x11-drivers/nvidia-drivers::gentoo
+x11-libs/gtk+:2::gentoo
+x11-libs/gtk+:3::gentoo
 x11-misc/bumblebee::gentoo
 x11-misc/sddm::gentoo
