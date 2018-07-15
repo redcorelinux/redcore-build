@@ -24,3 +24,4 @@ dev-util/cargo ~amd64
 dev-util/gdbus-codegen ~amd64
 dev-util/patchelf ~amd64
 dev-util/pycharm-community ~amd64
+dev-util/vulkan-headers ~amd64
