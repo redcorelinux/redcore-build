@@ -1,2 +1,4 @@
-lxqt-base/lxqt-meta branding
+lxqt-base/lxqt-config gtk
+lxqt-base/lxqt-meta branding gtk
 lxqt-base/lxqt-panel colorpicker cpuload networkmonitor sensors statusnotifier sysstat worldclock
+lxqt-base/lxqt-session gtk
