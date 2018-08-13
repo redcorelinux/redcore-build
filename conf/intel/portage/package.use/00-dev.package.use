@@ -16,5 +16,5 @@ dev-qt/qtpositioning:5 geoclue
 dev-qt/qtscript:5 scripttools
 dev-qt/qtwebchannel:5 qml
 dev-qt/qtwebengine:5 widgets -system-ffmpeg
-dev-qt/qtwebkit:5 geolocation multimedia orientation printsupport webchannel -gstreamer
+dev-qt/qtwebkit:5 geolocation multimedia orientation printsupport webchannel
 dev-util/cmake server -qt5
