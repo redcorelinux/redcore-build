@@ -1,5 +1,6 @@
 dev-lang/python:3.6::gentoo
 dev-libs/icu::gentoo
 dev-libs/icu-layoutex::gentoo
+dev-libs/icu-le-hb::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 dev-qt/*::gentoo
