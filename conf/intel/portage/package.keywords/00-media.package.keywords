@@ -7,6 +7,7 @@ media-libs/gegl:0.4 ~amd64
 media-libs/libmypaint ~amd64
 media-libs/libv4l ~amd64
 media-libs/mesa ~amd64
+media-libs/mlt ~amd64
 media-libs/openimageio ~amd64
 media-libs/vulkan-loader ~amd64
 media-plugins/audacious-plugins ~amd64
@@ -21,6 +22,5 @@ media-video/ffmpeg ~amd64
 media-video/handbrake ~amd64
 media-video/libva-utils ~amd64
 media-video/obs-studio ~amd64
-media-video/shotcut ~amd64
 media-video/smplayer ~amd64
 media-video/vlc ~amd64
