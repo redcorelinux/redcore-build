@@ -11,4 +11,5 @@ app-emulation/wine-vanilla ~amd64
 app-office/libreoffice ~amd64
 app-office/libreoffice-l10n ~amd64
 app-office/wps-office ~amd64
+app-text/calibre ~amd64
 app-text/cutemarked ~amd64
