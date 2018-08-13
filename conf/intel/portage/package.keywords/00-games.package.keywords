@@ -1,22 +1,22 @@
-games-action/chromium-bsu ~amd64
-games-action/supertuxkart ~amd64
-games-action/teeworlds ~amd64
-games-emulation/snes9x ~amd64
-games-emulation/zsnes ~amd64
-games-fps/urbanterror ~amd64
-games-fps/urbanterror-data ~amd64
-games-fps/xonotic ~amd64
-games-misc/lolcat ~amd64
-games-misc/opengfx ~amd64
-games-misc/openmsx ~amd64
-games-misc/opensfx ~amd64
-games-puzzle/zaz ~amd64
-games-simulation/openttd ~amd64
-games-strategy/0ad ~amd64
-games-strategy/0ad-data ~amd64
-games-strategy/warzone2100 ~amd64
-games-strategy/wesnoth ~amd64
-games-util/catcodec ~amd64
-games-util/grfcodec ~amd64
-games-util/lutris ~amd64
-games-util/nml ~amd64
+games-action/chromium-bsu
+games-action/supertuxkart
+games-action/teeworlds
+games-emulation/snes9x
+games-emulation/zsnes
+games-fps/urbanterror
+games-fps/urbanterror-data
+games-fps/xonotic
+games-misc/lolcat
+games-misc/opengfx
+games-misc/openmsx
+games-misc/opensfx
+games-puzzle/zaz
+games-simulation/openttd
+games-strategy/0ad
+games-strategy/0ad-data
+games-strategy/warzone2100
+games-strategy/wesnoth
+games-util/catcodec
+games-util/grfcodec
+games-util/lutris
+games-util/nml

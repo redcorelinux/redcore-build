@@ -1,15 +1,15 @@
-app-admin/keepassxc ~amd64
-app-crypt/argon2 ~amd64
-app-emulation/playonlinux ~amd64
-app-emulation/steam ~amd64
-app-emulation/wine-any ~amd64
-app-emulation/wine-d3d9 ~amd64
-app-emulation/wine-mono ~amd64
-app-emulation/wine-staging ~amd64
-app-emulation/winetricks ~amd64
-app-emulation/wine-vanilla ~amd64
-app-office/libreoffice ~amd64
-app-office/libreoffice-l10n ~amd64
-app-office/wps-office ~amd64
-app-text/calibre ~amd64
-app-text/cutemarked ~amd64
+app-admin/keepassxc
+app-crypt/argon2
+app-emulation/playonlinux
+app-emulation/steam
+app-emulation/wine-any
+app-emulation/wine-d3d9
+app-emulation/wine-mono
+app-emulation/wine-staging
+app-emulation/winetricks
+app-emulation/wine-vanilla
+app-office/libreoffice
+app-office/libreoffice-l10n
+app-office/wps-office
+app-text/calibre
+app-text/cutemarked

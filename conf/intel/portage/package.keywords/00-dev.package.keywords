@@ -1,27 +1,27 @@
-dev-cpp/glibmm ~amd64
-dev-db/sqlitestudio ~amd64
-dev-lang/fpc ~amd64
-dev-lang/lazarus ~amd64
-dev-lang/rust ~amd64
-dev-libs/d0_blind_id ~amd64
-dev-libs/flatbuffers ~amd64
-dev-libs/glib ~amd64
-dev-libs/kasync ~amd64
-dev-libs/libclc ~amd64
-dev-libs/nspr ~amd64
-dev-libs/nss ~amd64
-dev-libs/sink ~amd64
-dev-libs/wayland ~amd64
-dev-libs/wayland-protocols ~amd64
-dev-python/gitdb2 ~amd64
-dev-python/git-python ~amd64
-dev-python/pynacl ~amd64
-dev-python/python-evdev ~amd64
-dev-python/smmap2 ~amd64
-dev-qt/qt5-styleplugins ~amd64
-dev-ruby/paint ~amd64
-dev-util/cargo ~amd64
-dev-util/gdbus-codegen ~amd64
-dev-util/patchelf ~amd64
-dev-util/pycharm-community ~amd64
-dev-util/vulkan-headers ~amd64
+dev-cpp/glibmm
+dev-db/sqlitestudio
+dev-lang/fpc
+dev-lang/lazarus
+dev-lang/rust
+dev-libs/d0_blind_id
+dev-libs/flatbuffers
+dev-libs/glib
+dev-libs/kasync
+dev-libs/libclc
+dev-libs/nspr
+dev-libs/nss
+dev-libs/sink
+dev-libs/wayland
+dev-libs/wayland-protocols
+dev-python/gitdb2
+dev-python/git-python
+dev-python/pynacl
+dev-python/python-evdev
+dev-python/smmap2
+dev-qt/qt5-styleplugins
+dev-ruby/paint
+dev-util/cargo
+dev-util/gdbus-codegen
+dev-util/patchelf
+dev-util/pycharm-community
+dev-util/vulkan-headers

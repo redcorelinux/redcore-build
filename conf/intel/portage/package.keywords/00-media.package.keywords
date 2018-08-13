@@ -1,27 +1,27 @@
-media-gfx/darktable ~amd64
-media-gfx/gimp ~amd64
-media-gfx/krita ~amd64
-media-gfx/mypaint-brushes ~amd64
-media-libs/babl ~amd64
-media-libs/gegl:0.4 ~amd64
-media-libs/libmypaint ~amd64
-media-libs/libv4l ~amd64
-media-libs/mesa ~amd64
-media-libs/mlt ~amd64
-media-libs/openimageio ~amd64
-media-libs/vulkan-loader ~amd64
-media-plugins/audacious-plugins ~amd64
-media-sound/audacious ~amd64
-media-sound/cantata ~amd64
-media-sound/pavucontrol-qt ~amd64
-media-sound/spotify ~amd64
-media-tv/sopcast ~amd64
-media-tv/tv-maxe ~amd64
-media-tv/v4l-utils ~amd64
-media-video/ffmpeg ~amd64
-media-video/handbrake ~amd64
-media-video/libva-utils ~amd64
-media-video/obs-studio ~amd64
-media-video/shotcut ~amd64
-media-video/smplayer ~amd64
-media-video/vlc ~amd64
+media-gfx/darktable
+media-gfx/gimp
+media-gfx/krita
+media-gfx/mypaint-brushes
+media-libs/babl
+media-libs/gegl:0.4
+media-libs/libmypaint
+media-libs/libv4l
+media-libs/mesa
+media-libs/mlt
+media-libs/openimageio
+media-libs/vulkan-loader
+media-plugins/audacious-plugins
+media-sound/audacious
+media-sound/cantata
+media-sound/pavucontrol-qt
+media-sound/spotify
+media-tv/sopcast
+media-tv/tv-maxe
+media-tv/v4l-utils
+media-video/ffmpeg
+media-video/handbrake
+media-video/libva-utils
+media-video/obs-studio
+media-video/shotcut
+media-video/smplayer
+media-video/vlc
