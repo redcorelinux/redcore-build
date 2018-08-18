@@ -1,3 +1,5 @@
+sys-apps/apparmor
+sys-apps/apparmor-utils
 sys-apps/crazydiskinfo
 sys-apps/firetools
 sys-apps/inxi
