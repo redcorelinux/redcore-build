@@ -60,6 +60,7 @@ dev-qt/qtxmlpatterns
 dev-ruby/paint
 dev-util/cargo
 dev-util/gdbus-codegen
+dev-util/glib-utils
 dev-util/patchelf
 dev-util/pycharm-community
 dev-util/vulkan-headers
