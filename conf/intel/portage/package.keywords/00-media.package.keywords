@@ -11,9 +11,11 @@ media-libs/mlt
 media-libs/openimageio
 media-libs/vulkan-loader
 media-plugins/audacious-plugins
+media-plugins/qmmp-plugin-pack
 media-sound/audacious
 media-sound/cantata
 media-sound/pavucontrol-qt
+media-sound/qmmp
 media-sound/spotify
 media-tv/sopcast
 media-tv/tv-maxe
