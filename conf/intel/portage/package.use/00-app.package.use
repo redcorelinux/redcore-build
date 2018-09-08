@@ -3,7 +3,7 @@ app-admin/keepassxc autotype http yubikey
 app-admin/sudo -sendmail -gcrypt
 app-admin/testdisk ntfs -ewf
 app-crypt/pinentry -qt5
-app-editors/emacs imagemagick libxml2 xft
+app-editors/emacs libxml2 xft -imagemagick
 app-editors/vim vim-pager
 app-emulation/aqemu vnc
 app-emulation/docker btrfs overlay -aufs
