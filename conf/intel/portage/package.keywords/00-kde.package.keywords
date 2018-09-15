@@ -101,6 +101,7 @@ kde-apps/kimap
 kde-apps/kio-extras
 kde-apps/kiriki
 kde-apps/kiten
+kde-apps/kitinerary
 kde-apps/kjumpingcube
 kde-apps/kldap
 kde-apps/kleopatra
@@ -135,6 +136,7 @@ kde-apps/kopete
 kde-apps/korganizer
 kde-apps/kpat
 kde-apps/kpimtextedit
+kde-apps/kpkpass
 kde-apps/kqtquickcharts
 kde-apps/krdc
 kde-apps/kreversi
@@ -197,7 +199,6 @@ kde-apps/spectacle
 kde-apps/step
 kde-apps/svgpart
 kde-apps/sweeper
-kde-apps/syndication
 kde-apps/thumbnailers
 kde-apps/umbrello
 kde-apps/zeroconf-ioslave
@@ -274,5 +275,6 @@ kde-frameworks/purpose
 kde-frameworks/qqc2-desktop-style
 kde-frameworks/solid
 kde-frameworks/sonnet
+kde-frameworks/syndication
 kde-frameworks/syntax-highlighting
 kde-frameworks/threadweaver
