@@ -1,0 +1,24 @@
+## PORTAGE FEATURES ##
+FEATURES="parallel-fetch protect-owned candy buildpkg compressdebug splitdebug -userpriv"
+
+## PORTAGE FLAGS ##
+source /etc/portage/global.conf/abi.conf
+source /etc/portage/global.conf/cflags.conf
+source /etc/portage/global.conf/cpuflags.conf
+source /etc/portage/global.conf/devices.conf
+source /etc/portage/global.conf/distfiles.conf
+source /etc/portage/global.conf/generic.conf
+source /etc/portage/global.conf/grub.conf
+source /etc/portage/global.conf/languages.conf
+source /etc/portage/global.conf/layout.conf
+source /etc/portage/global.conf/libreoffice.conf
+source /etc/portage/global.conf/llvm.conf
+source /etc/portage/global.conf/makeopts.conf
+source /etc/portage/global.conf/python.conf
+source /etc/portage/global.conf/qemu.conf
+source /etc/portage/global.conf/ruby.conf
+source /etc/portage/global.conf/useflags.conf
+source /etc/portage/global.conf/zz-custom.conf
+
+## SISYPHUS MIRRORS ##
+source /etc/sisyphus/mirrors.conf
