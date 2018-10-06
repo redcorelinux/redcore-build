@@ -58,7 +58,6 @@ dev-qt/qtx11extras
 dev-qt/qtxml
 dev-qt/qtxmlpatterns
 dev-ruby/paint
-dev-util/cargo
 dev-util/gdbus-codegen
 dev-util/glib-utils
 dev-util/patchelf
