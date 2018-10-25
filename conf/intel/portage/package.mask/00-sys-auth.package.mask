@@ -1,0 +1,2 @@
+sys-auth/elogind::gentoo
+sys-auth/polkit-qt::gentoo

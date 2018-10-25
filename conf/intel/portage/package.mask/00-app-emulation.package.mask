@@ -1,3 +1,2 @@
 app-emulation/virtualbox-modules::gentoo
 app-emulation/virtualbox::gentoo
-app-office/wps-office::gentoo

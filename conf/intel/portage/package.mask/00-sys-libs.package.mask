@@ -1,0 +1,2 @@
+sys-libs/glibc::gentoo
+sys-libs/kpmcore::gentoo

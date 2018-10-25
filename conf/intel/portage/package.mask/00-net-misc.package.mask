@@ -1,3 +1,2 @@
-net-fs/samba::gentoo
 net-misc/dropbox::gentoo
 net-misc/teamviewer::gentoo
