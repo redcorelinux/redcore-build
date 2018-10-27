@@ -21,6 +21,7 @@ kde-plasma/kwin
 kde-plasma/kwrited
 kde-plasma/libkscreen
 kde-plasma/libksysguard
+kde-plasma/libkworkspace
 kde-plasma/milou
 kde-plasma/oxygen
 kde-plasma/plasma-browser-integration
@@ -37,3 +38,4 @@ kde-plasma/powerdevil
 kde-plasma/sddm-kcm
 kde-plasma/systemsettings
 kde-plasma/user-manager
+kde-plasma/xembed-sni-proxy
