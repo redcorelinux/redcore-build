@@ -1,3 +1,4 @@
+dev-util/cbindgen
 dev-util/cmake
 dev-util/gdbus-codegen
 dev-util/glib-utils
