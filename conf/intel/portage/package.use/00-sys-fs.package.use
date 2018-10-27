@@ -1,0 +1,2 @@
+sys-fs/cryptsetup -gcrypt -nettle
+sys-fs/dosfstools compat

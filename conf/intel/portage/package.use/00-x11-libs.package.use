@@ -1,0 +1,3 @@
+x11-libs/libdrm libkms
+x11-libs/libva utils
+x11-libs/wxGTK:3.0 -gstreamer

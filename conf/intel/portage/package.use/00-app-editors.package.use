@@ -1,0 +1,2 @@
+app-editors/emacs libxml2 xft -imagemagick
+app-editors/vim vim-pager

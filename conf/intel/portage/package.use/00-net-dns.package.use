@@ -1,0 +1,3 @@
+net-dns/avahi mdnsresponder-compat -utils -python
+net-dns/dnsmasq script
+net-dns/getdns stubby

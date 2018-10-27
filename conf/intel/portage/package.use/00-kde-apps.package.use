@@ -4,6 +4,3 @@ kde-apps/k3b encode mad taglib
 kde-apps/kdenetwork-meta -telepathy
 kde-apps/okular epub
 kde-apps/print-manager gtk
-kde-frameworks/kfilemetadata taglib
-kde-plasma/plasma-desktop touchpad
-kde-plasma/plasma-meta gtk networkmanager

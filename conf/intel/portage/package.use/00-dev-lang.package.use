@@ -1,0 +1,3 @@
+dev-lang/fpc source
+dev-lang/perl gdbm ithreads
+dev-lang/rust cargo rls rustfmt
