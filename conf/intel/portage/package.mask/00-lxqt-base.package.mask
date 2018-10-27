@@ -11,7 +11,5 @@ lxqt-base/lxqt-openssh-askpass::gentoo
 lxqt-base/lxqt-panel::gentoo
 lxqt-base/lxqt-policykit::gentoo
 lxqt-base/lxqt-powermanagement::gentoo
-lxqt-base/lxqt-qtplugin::gentoo
 lxqt-base/lxqt-runner::gentoo
 lxqt-base/lxqt-session::gentoo
-lxqt-base/lxqt-sudo::gentoo
