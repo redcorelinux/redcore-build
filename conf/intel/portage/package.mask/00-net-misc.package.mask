@@ -1,2 +1,0 @@
-net-misc/dropbox::gentoo
-net-misc/teamviewer::gentoo
