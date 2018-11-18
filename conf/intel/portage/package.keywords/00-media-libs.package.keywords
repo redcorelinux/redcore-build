@@ -1,5 +1,6 @@
 media-libs/babl
 media-libs/gegl:0.4
+media-libs/libmtp
 media-libs/libmypaint
 media-libs/libv4l
 media-libs/mesa
