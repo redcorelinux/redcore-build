@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 x11-base/xorg-server
 x11-drivers/xf86-input-evdev
 x11-drivers/xf86-input-joystick

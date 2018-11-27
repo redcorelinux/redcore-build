@@ -1,1 +1,3 @@
+# This file has been automatically generated, do not edit.
+
 >media-video/ffmpeg-3.4.5

@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 cleancache() {
 	# By default, binary mode portage downloads binary packages from repository and saves 
 	# them in /var/cache/packages. This saves bandwidth in case of reinstalls/downgrades, 

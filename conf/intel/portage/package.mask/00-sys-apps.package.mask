@@ -1,2 +1,4 @@
+# This file has been automatically generated, do not edit.
+
 sys-apps/baselayout::gentoo
 sys-apps/openrc::gentoo

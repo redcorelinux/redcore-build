@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 dev-qt/designer::gentoo
 dev-qt/linguist-tools::gentoo
 dev-qt/qdbus::gentoo

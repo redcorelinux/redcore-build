@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 app-emulation/aqemu vnc
 app-emulation/docker btrfs overlay -aufs
 app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh -sdl -sdl2

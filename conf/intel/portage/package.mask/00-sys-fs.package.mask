@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 sys-fs/cryptsetup::gentoo
 sys-fs/vhba::gentoo
 sys-fs/zfs::gentoo

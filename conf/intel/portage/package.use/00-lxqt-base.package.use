@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 lxqt-base/lxqt-config gtk
 lxqt-base/lxqt-meta branding gtk
 lxqt-base/lxqt-panel colorpicker cpuload networkmonitor sensors statusnotifier sysstat worldclock

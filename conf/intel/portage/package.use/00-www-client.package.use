@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 www-client/chromium widevine -system-ffmpeg
 www-client/firefox gmp-autoupdate hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
 www-client/w3m imlib

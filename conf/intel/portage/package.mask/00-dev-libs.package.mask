@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 dev-libs/icu::gentoo
 dev-libs/icu-layoutex::gentoo
 dev-libs/icu-le-hb::gentoo

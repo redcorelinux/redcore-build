@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 x11-misc/bumblebee::gentoo
 x11-misc/pcmanfm-qt::gentoo
 x11-misc/sddm::gentoo

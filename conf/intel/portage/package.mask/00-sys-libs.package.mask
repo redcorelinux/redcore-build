@@ -1,2 +1,4 @@
+# This file has been automatically generated, do not edit.
+
 sys-libs/glibc::gentoo
 sys-libs/kpmcore::gentoo

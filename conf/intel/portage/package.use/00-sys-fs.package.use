@@ -1,2 +1,4 @@
+# This file has been automatically generated, do not edit.
+
 sys-fs/cryptsetup -gcrypt -nettle
 sys-fs/dosfstools compat

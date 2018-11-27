@@ -1,3 +1,5 @@
+# This file has been automatically generated, do not edit.
+
 sys-devel/clang-runtime compiler-rt sanitize libcxx openmp
 sys-devel/clang default-compiler-rt default-libcxx -static-analyzer
 sys-devel/gcc go

@@ -1,1 +1,3 @@
+# This file has been automatically generated, do not edit.
+
 x11-drivers/nvidia-drivers::gentoo
