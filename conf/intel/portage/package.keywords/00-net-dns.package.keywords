@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 net-dns/getdns
+net-dns/libidn2
