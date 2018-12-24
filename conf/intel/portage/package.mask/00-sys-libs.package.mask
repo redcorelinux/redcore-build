@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
+sys-libs/binutils-libs::gentoo
 sys-libs/glibc::gentoo
 sys-libs/kpmcore::gentoo
