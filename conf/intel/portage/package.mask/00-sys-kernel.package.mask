@@ -1,5 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 sys-kernel/dracut::gentoo
-sys-kernel/linux-headers:gentoo
+sys-kernel/linux-headers::gentoo
 sys-kernel/spl::gentoo
