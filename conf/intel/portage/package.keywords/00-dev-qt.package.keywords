@@ -16,6 +16,7 @@ dev-qt/qthelp
 dev-qt/qtimageformats
 dev-qt/qtmultimedia
 dev-qt/qtnetwork
+dev-qt/qtnetworkauth
 dev-qt/qtopengl
 dev-qt/qtpaths
 dev-qt/qtpositioning
