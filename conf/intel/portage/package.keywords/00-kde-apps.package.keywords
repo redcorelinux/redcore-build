@@ -31,6 +31,7 @@ kde-apps/grantleetheme
 kde-apps/gwenview
 kde-apps/incidenceeditor
 kde-apps/juk
+kde-apps/kate
 kde-apps/k3b
 kde-apps/kaccounts-integration
 kde-apps/kaddressbook
@@ -124,6 +125,7 @@ kde-apps/kmouth
 kde-apps/kmplot
 kde-apps/knavalbattle
 kde-apps/knetwalk
+kde-apps/knights
 kde-apps/knotes
 kde-apps/kolf
 kde-apps/kollision
