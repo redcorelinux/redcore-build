@@ -8,3 +8,4 @@ sys-devel/gcc
 sys-devel/libtool
 sys-devel/llvm
 sys-devel/llvm-common
+sys-devel/m4
