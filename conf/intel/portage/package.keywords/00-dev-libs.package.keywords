@@ -5,6 +5,7 @@ dev-libs/flatbuffers
 dev-libs/glib
 dev-libs/kasync
 dev-libs/libclc
+dev-libs/libunistring
 dev-libs/nspr
 dev-libs/nss
 dev-libs/ocl-icd
