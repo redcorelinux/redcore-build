@@ -6,10 +6,6 @@ app-misc/redcore-live
 app-misc/redcore-skel
 app-portage/sisyphus
 net-misc/ntp
-net-print/cnijfilter
-net-print/gutenprint
-net-print/hplip
-net-print/hplip-plugin
 sys-apps/usbutils
 sys-boot/os-prober
 sys-fs/dosfstools
@@ -18,5 +14,4 @@ sys-fs/xfsprogs
 sys-power/acpid
 x11-apps/mesa-progs
 x11-apps/setxkbmap
-x11-apps/xkill
 x11-misc/xdg-user-dirs
