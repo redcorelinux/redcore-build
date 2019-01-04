@@ -1,14 +1,15 @@
 # This file has been automatically generated, do not edit.
 
 app-admin/keepassxc
-app-editors/featherpad
 app-emulation/steam
 app-office/libreoffice
-app-text/qpdfview
 games-util/lutris
 kde-apps/ark
+kde-apps/gwenview
 kde-apps/k3b
 kde-apps/kcalc
+kde-apps/kwrite
+kde-apps/okular
 mail-client/thunderbird
 media-gfx/gimp
 media-sound/cantata
@@ -23,5 +24,3 @@ net-p2p/qbittorrent
 sys-block/partitionmanager
 sys-boot/unetbootin-static
 www-client/firefox
-x11-misc/qlipper
-x11-misc/xscreensaver
