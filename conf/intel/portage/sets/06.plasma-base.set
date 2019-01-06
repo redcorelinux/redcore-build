@@ -3,6 +3,5 @@
 app-admin/calamares
 kde-apps/kdecore-meta
 kde-plasma/plasma-meta
-media-sound/pavucontrol-qt
 net-misc/networkmanager
 x11-misc/sddm
