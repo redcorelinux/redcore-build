@@ -6,10 +6,15 @@ app-misc/redcore-live
 app-misc/redcore-skel
 app-portage/sisyphus
 net-misc/ntp
+net-wireless/b43-fwcutter
+net-wireless/broadcom-sta
 sys-apps/usbutils
 sys-boot/os-prober
+sys-firmware/b43-firmware
+sys-firmware/b43legacy-firmware
 sys-fs/dosfstools
 sys-fs/ntfs3g
+sys-fs/vhba
 sys-fs/xfsprogs
 sys-power/acpid
 x11-apps/mesa-progs
