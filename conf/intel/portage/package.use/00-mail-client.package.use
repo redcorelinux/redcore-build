@@ -1,3 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -crypt -wifi
+mail-client/thunderbird clang system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -crypt -wifi
