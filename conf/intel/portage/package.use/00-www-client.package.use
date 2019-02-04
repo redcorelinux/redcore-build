@@ -1,4 +1,4 @@
 # This file has been automatically generated, do not edit.
 
-www-client/firefox hwaccel lto system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -wifi
+www-client/firefox hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -lto -pgo -wifi
 www-client/w3m imlib
