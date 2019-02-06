@@ -1,0 +1,30 @@
+# This file has been automatically generated, do not edit.
+
+cleancache() {
+	# By default, binary mode portage downloads binary packages from repository and saves 
+	# them in /var/cache/packages. This saves bandwidth in case of reinstalls/downgrades, 
+	# but will eat up lots of HDD space, possibly preventing further installs/upgrades.
+
+	# To address this issue, we check if /var/cache/packages directory is on its own partition
+	# case in which we do nothing assuming that user gave it plenty space anyway. But if its
+	# not the case, and /var/cache/packages is just a directory in the system / root hierarchy,
+	# then we make sure we remove downloaded binary packages after every installation.
+
+	# This function hooks into the pkg_postinst() phase, after the package files are written 
+	# into the filesystem and registered into the database, and just removes the content of
+	# /var/cache/packages directory (which is the binary package cache).
+
+	export local PORTDIRDEV=$(find /var/cache -maxdepth 0 -printf "%D")
+	export local PKGDIRDEV=$(find /var/cache/packages -maxdepth 0 -printf "%D")
+	if [ $PORTDIRDEV = $PKGDIRDEV ] ; then
+		rm -rf /var/cache/packages/"${CATEGORY}"/"${P}"*.tbz2
+	fi
+}
+
+main() {
+	if [ "${EBUILD_PHASE}" == "postinst" ]; then
+		cleancache
+	fi
+}
+
+main
