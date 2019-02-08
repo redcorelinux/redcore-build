@@ -2,3 +2,4 @@
 
 x11-misc/gtkdialog glade vte
 x11-misc/sddm branding
+x11-misc/tint2 tint2conf
