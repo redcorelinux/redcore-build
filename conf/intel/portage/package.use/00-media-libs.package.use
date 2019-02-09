@@ -7,3 +7,4 @@ media-libs/mlt frei0r lua melt kdenlive fftw
 media-libs/phonon -gstreamer -vlc
 media-libs/sdl2-mixer mad
 media-libs/sdl-sound -mpeg
+media-libs/vulkan-loader layers
