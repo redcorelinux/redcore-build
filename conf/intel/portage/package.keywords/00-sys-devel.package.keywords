@@ -6,7 +6,6 @@ sys-devel/clang-common
 sys-devel/clang-runtime
 sys-devel/gcc
 sys-devel/libtool
-sys-devel/lld
 sys-devel/llvm
 sys-devel/llvmgold
 sys-devel/llvm-common
