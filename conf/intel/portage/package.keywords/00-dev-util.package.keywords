@@ -7,3 +7,4 @@ dev-util/glib-utils
 dev-util/patchelf
 dev-util/pycharm-community
 dev-util/vulkan-headers
+dev-util/vulkan-tools
