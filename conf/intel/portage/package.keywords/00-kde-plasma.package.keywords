@@ -40,4 +40,5 @@ kde-plasma/powerdevil
 kde-plasma/sddm-kcm
 kde-plasma/systemsettings
 kde-plasma/user-manager
+kde-plasma/xdg-desktop-portal-kde
 kde-plasma/xembed-sni-proxy

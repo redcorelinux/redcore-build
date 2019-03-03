@@ -6,3 +6,4 @@ sys-apps/coreutils
 sys-apps/crazydiskinfo
 sys-apps/firetools
 sys-apps/inxi
+sys-apps/xdg-desktop-portal
