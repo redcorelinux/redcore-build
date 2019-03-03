@@ -6,7 +6,7 @@ dev-qt/qdbus:5/5.12
 dev-qt/qtbluetooth:5/5.12
 dev-qt/qtcharts:5/5.12
 dev-qt/qtconcurrent:5/5.12
-dev-qt/qtcore:5/5.12-r2
+dev-qt/qtcore:5/5.12
 dev-qt/qtdbus:5/5.12
 dev-qt/qtdeclarative:5/5.12
 dev-qt/qtgraphicaleffects:5/5.12
