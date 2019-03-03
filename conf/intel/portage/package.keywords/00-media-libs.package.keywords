@@ -10,5 +10,3 @@ media-libs/libwebp
 media-libs/mesa
 media-libs/mlt
 media-libs/openimageio
-media-libs/vulkan-layers
-media-libs/vulkan-loader
