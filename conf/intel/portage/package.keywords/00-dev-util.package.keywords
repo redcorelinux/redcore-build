@@ -6,5 +6,7 @@ dev-util/gdbus-codegen
 dev-util/glib-utils
 dev-util/patchelf
 dev-util/pycharm-community
+dev-util/spirv-headers
+dev-util/spirv-tools
 dev-util/vulkan-headers
 dev-util/vulkan-tools
