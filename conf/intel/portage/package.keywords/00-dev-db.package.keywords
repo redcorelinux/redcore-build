@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
+dev-db/sqlite
 dev-db/sqlitebrowser
 dev-db/sqlitestudio
