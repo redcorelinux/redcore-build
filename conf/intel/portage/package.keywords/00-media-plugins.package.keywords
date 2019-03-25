@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 media-plugins/audacious-plugins
+media-plugins/gst-plugins-libav
 media-plugins/qmmp-plugin-pack
