@@ -2,7 +2,9 @@
 
 media-libs/alsa-lib
 media-libs/babl
+media-libs/dav1d
 media-libs/gegl
+media-libs/libaom
 media-libs/libmtp
 media-libs/libmypaint
 media-libs/libv4l
