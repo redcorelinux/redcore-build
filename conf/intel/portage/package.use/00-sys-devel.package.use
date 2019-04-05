@@ -3,4 +3,4 @@
 sys-devel/clang-runtime -libcxx
 sys-devel/clang -static-analyzer
 sys-devel/gcc go
-sys-devel/llvm gold libedit
+sys-devel/llvm libedit
