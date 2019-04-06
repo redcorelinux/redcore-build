@@ -2,8 +2,6 @@
 
 dev-util/cbindgen
 dev-util/cmake
-dev-util/gdbus-codegen
-dev-util/glib-utils
 dev-util/mdds
 dev-util/patchelf
 dev-util/pycharm-community

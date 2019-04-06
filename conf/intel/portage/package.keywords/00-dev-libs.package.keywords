@@ -1,16 +1,11 @@
 # This file has been automatically generated, do not edit.
 
 dev-libs/d0_blind_id
-dev-libs/flatbuffers
-dev-libs/glib
 dev-libs/kasync
 dev-libs/libclc
 dev-libs/libixion
 dev-libs/liborcus
-dev-libs/libunistring
 dev-libs/nspr
 dev-libs/nss
-dev-libs/ocl-icd
 dev-libs/sink
 dev-libs/wayland
-dev-libs/wayland-protocols
