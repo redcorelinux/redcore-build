@@ -1,3 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-net-irc/quassel phonon -server -crypt
+net-irc/quassel phonon -ldap -server -crypt
