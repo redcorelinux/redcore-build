@@ -1,3 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-sys-libs/readline amd64
+sys-libs/readline -~amd64
