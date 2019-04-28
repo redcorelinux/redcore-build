@@ -1,8 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-sys-libs/binutils-libs
-sys-libs/compiler-rt
-sys-libs/compiler-rt-sanitizers
-sys-libs/glibc
-sys-libs/libapparmor
-sys-libs/libomp

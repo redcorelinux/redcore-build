@@ -1,9 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-sys-apps/apparmor
-sys-apps/apparmor-utils
-sys-apps/coreutils
-sys-apps/crazydiskinfo
-sys-apps/firetools
-sys-apps/inxi
-sys-apps/xdg-desktop-portal
