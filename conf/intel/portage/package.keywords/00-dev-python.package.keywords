@@ -2,5 +2,7 @@
 
 dev-python/gitdb2
 dev-python/git-python
+dev-python/pysol_cards
 dev-python/python-evdev
+dev-python/random2
 dev-python/smmap2
