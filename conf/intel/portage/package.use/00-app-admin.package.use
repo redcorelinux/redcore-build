@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
 app-admin/conky hddtemp imlib iostats irc lua-cairo lua-imlib lua-rsvg math mpd rss thinkpad weather-metar weather-xoap wifi
-app-admin/keepassxc autotype http yubikey
+app-admin/keepassxc autotype http
 app-admin/sudo -sendmail -gcrypt
 app-admin/testdisk ntfs -ewf
