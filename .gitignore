@@ -1,0 +1,7 @@
+conf/intel/portage/make.conf/10-highprio-custom.conf
+conf/intel/portage/package.env/10-highprio-custom.package.env
+conf/intel/portage/package.keywords/10-highprio-custom.package.keywords
+conf/intel/portage/package.license/10-highprio-custom.package.license
+conf/intel/portage/package.mask/10-highprio-custom.package.mask
+conf/intel/portage/package.unmask/10-highprio-custom.package.unmask
+conf/intel/portage/package.use/10-highprio-custom.package.use
