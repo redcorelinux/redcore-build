@@ -1,5 +1,6 @@
 # This file has been automatically generated, do not edit.
 
+>dev-libs/boost-1.69.0::gentoo
 dev-libs/mpc::gentoo
 dev-libs/mpfr::gentoo
 dev-libs/libdbusmenu-qt::gentoo
