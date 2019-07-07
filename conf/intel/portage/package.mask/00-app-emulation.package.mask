@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 app-emulation/virtualbox-modules::gentoo
+app-emulation/virtualbox-bin::gentoo
 app-emulation/virtualbox::gentoo
