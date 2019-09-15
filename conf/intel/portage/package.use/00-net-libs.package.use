@@ -2,3 +2,4 @@
 
 net-libs/telepathy-qt farstream
 net-libs/gnutls dane
+net-libs/nodejs inspector
