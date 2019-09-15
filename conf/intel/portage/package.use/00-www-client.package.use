@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
+www-client/chromium widevine
 www-client/firefox hwaccel system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -lto -pgo -wifi
 www-client/w3m imlib
