@@ -6,7 +6,6 @@ lxqt-base/lxqt-about::gentoo
 lxqt-base/lxqt-admin::gentoo
 lxqt-base/lxqt-config::gentoo
 lxqt-base/lxqt-globalkeys::gentoo
-lxqt-base/lxqt-l10n::gentoo
 lxqt-base/lxqt-meta::gentoo
 lxqt-base/lxqt-notificationd::gentoo
 lxqt-base/lxqt-openssh-askpass::gentoo
