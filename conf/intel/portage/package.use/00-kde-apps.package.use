@@ -5,5 +5,6 @@ kde-apps/dolphin thumbnail
 kde-apps/k3b encode mad taglib
 kde-apps/kdecore-meta -webengine -webkit
 kde-apps/kdenetwork-meta -telepathy
+kde-apps/ktp-common-internals otr
 kde-apps/okular epub
 kde-apps/print-manager gtk
