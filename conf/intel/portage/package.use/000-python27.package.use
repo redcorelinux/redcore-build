@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
-app-emulation/playonlinux PYTHON_TARGETS: python2_7 PYTHON_SINGLE_TARGET: python2_7
-media-tv/kodi PYTHON_TARGETS: python2_7 PYTHON_SINGLE_TARGET: python2_7
+app-emulation/playonlinux PYTHON_SINGLE_TARGET: python2_7
+app-office/scribus PYTHON_SINGLE_TARGET: python2_7
+media-tv/kodi PYTHON_SINGLE_TARGET: python2_7
