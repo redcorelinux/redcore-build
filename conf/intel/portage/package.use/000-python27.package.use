@@ -1,5 +1,6 @@
 # This file has been automatically generated, do not edit.
 
+app-antivirus/clamtk PYTHON_SINGLE_TARGET: python2_7
 app-emulation/playonlinux PYTHON_SINGLE_TARGET: python2_7
 app-office/scribus PYTHON_SINGLE_TARGET: python2_7
 app-text/calibre PYTHON_SINGLE_TARGET: python2_7
