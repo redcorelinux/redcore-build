@@ -1,4 +1,4 @@
 # This file has been automatically generated, do not edit.
 
-dev-java/openjdk gentoo-vm -webstart
+dev-java/openjdk-bin gentoo-vm -webstart
 dev-java/openjdk-jre-bin gentoo-vm -webstart
