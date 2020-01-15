@@ -1,10 +1,5 @@
 # This file has been automatically generated, do not edit.
 
->sys-devel/clang-9.0.0::gentoo
->sys-devel/clang-common-9.0.0::gentoo
->sys-devel/clang-runtime-9.0.0::gentoo
->sys-devel/llvm-9.0.0::gentoo
->sys-devel/llvm-common-9.0.0::gentoo
 sys-devel/binutils::gentoo
 sys-devel/gcc::gentoo
 sys-devel/libtool::gentoo
