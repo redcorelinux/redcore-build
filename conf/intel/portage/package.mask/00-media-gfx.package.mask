@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
+>media-gfx/darktable-2.99::gentoo
 media-gfx/lximage-qt::gentoo
