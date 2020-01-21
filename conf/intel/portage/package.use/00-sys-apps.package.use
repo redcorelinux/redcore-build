@@ -3,4 +3,5 @@
 sys-apps/busybox mdev
 sys-apps/firejail suid
 sys-apps/openrc sysv-utils -netifrc
+sys-apps/util-linux -cryptsetup
 sys-apps/xdg-desktop-portal screencast
