@@ -10,7 +10,7 @@ dev-qt/qtcore:5/5.14
 dev-qt/qtdbus:5/5.14
 dev-qt/qtdeclarative:5/5.14
 dev-qt/qtgraphicaleffects:5/5.14
-dev-qt/qtgui:5/5.14
+dev-qt/qtgui:5/5.14.1
 dev-qt/qthelp:5/5.14
 dev-qt/qtimageformats:5/5.14
 dev-qt/qtmultimedia:5/5.14
