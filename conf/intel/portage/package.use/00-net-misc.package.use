@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
-net-misc/connman iptables ofono openconnect openvpn pptp l2tp vpnc
+net-misc/connman iptables ofono openconnect openvpn pptp l2tp vpnc -nftables
 net-misc/curl http2
 net-misc/dhcp -server
 net-misc/iputils -gcrypt -nettle
