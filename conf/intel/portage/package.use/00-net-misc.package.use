@@ -10,5 +10,6 @@ net-misc/networkmanager connection-sharing modemmanager ofono resolvconf
 net-misc/nm-applet-gtk2 modemmanager
 net-misc/openssh -ldap
 net-misc/putty gtk
+net-misc/spice-gtk gtk3 usbredir
 net-misc/youtube-dl offensive
 net-misc/youtube-viewer gtk
