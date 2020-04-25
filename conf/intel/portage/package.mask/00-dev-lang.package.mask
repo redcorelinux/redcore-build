@@ -1,5 +1,6 @@
 # This file has been automatically generated, do not edit.
 
 dev-lang/python:3.7::gentoo
+dev-lang/python:3.8::gentoo
 dev-lang/python:3.9::gentoo
 dev-lang/rust::gentoo
