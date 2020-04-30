@@ -1,3 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-net-libs/mbedtls:0/13
