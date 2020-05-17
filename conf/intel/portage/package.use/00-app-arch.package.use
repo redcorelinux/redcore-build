@@ -1,3 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-app-arch/rpm PYTHON_SINGLE_TARGET: python2_7 -python3_5 -python3_6
