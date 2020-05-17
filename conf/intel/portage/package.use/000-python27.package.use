@@ -8,4 +8,5 @@ media-gfx/gimp PYTHON_SINGLE_TARGET: python2_7
 media-libs/libcaca PYTHON_SINGLE_TARGET: python2_7
 media-tv/kodi PYTHON_SINGLE_TARGET: python2_7
 net-analyzer/nmap PYTHON_SINGLE_TARGET: python2_7
+net-analyzer/net-snmp PYTHON_SINGLE_TARGET: python2_7
 x11-drivers/xf86-video-qxl PYTHON_SINGLE_TARGET: python2_7
