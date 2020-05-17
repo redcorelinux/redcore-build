@@ -1,4 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 virtual/libcrypt static-libs
-virtual/wireguard -modules
+virtual/wireguard -module
