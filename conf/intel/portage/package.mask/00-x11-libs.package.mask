@@ -2,5 +2,3 @@
 
 x11-libs/gtk+:2::gentoo
 x11-libs/gtk+:3::gentoo
-x11-libs/libfm-extra::gentoo
-x11-libs/libfm-qt::gentoo
