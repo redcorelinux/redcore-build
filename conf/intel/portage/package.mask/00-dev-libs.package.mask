@@ -3,4 +3,3 @@
 dev-libs/mpc::gentoo
 dev-libs/mpfr::gentoo
 dev-libs/libdbusmenu-qt::gentoo
-dev-libs/libqtxdg::gentoo
