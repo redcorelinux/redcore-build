@@ -9,6 +9,7 @@ dev-qt/qtconcurrent:5/5.15
 dev-qt/qtcore:5/5.15.0
 dev-qt/qtdbus:5/5.15
 dev-qt/qtdeclarative:5/5.15
+dev-qt/qtdiag:5/5.15
 dev-qt/qtgraphicaleffects:5/5.15
 dev-qt/qtgui:5/5.15.0
 dev-qt/qthelp:5/5.15
