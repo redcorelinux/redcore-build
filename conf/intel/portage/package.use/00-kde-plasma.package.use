@@ -2,4 +2,4 @@
 
 kde-plasma/kde-cli-tools kdesu
 kde-plasma/plasma-desktop touchpad
-kde-plasma/plasma-meta gtk networkmanager
+kde-plasma/plasma-meta gtk qrcode networkmanager thunderbold
