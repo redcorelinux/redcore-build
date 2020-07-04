@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
-dev-qt/qt-creator autotools android baremetal bazaar cmake cvs git ios lsp mercurial subversion webkit winrt -clang
+dev-qt/qt-creator autotools android baremetal bazaar cmake cvs git ios lsp mercurial subversion webkit winrt -clang -qmldesigner
 dev-qt/qtdeclarative localstorage
 dev-qt/qtgui:5 accessibility evdev
 dev-qt/qtmultimedia:5 widgets qml
