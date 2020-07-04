@@ -1,5 +1,5 @@
 # This file has been automatically generated, do not edit.
 
-www-client/chromium widevine -closure-compile
+www-client/chromium widevine -closure-compile -system-ffmpeg
 www-client/firefox hwaccel system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-sqlite -lto -pgo -system-libvpx -wifi
 www-client/w3m imlib
