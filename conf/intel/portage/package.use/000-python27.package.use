@@ -1,10 +1,8 @@
 # This file has been automatically generated, do not edit.
 
-app-antivirus/clamtk PYTHON_SINGLE_TARGET: python2_7
 dev-lang/yasm PYTHON_SINGLE_TARGET: python2_7
 kde-apps/kross-interpreters PYTHON_SINGLE_TARGET: python2_7
 media-gfx/gimp PYTHON_SINGLE_TARGET: python2_7
 media-libs/libcaca PYTHON_SINGLE_TARGET: python2_7
-net-analyzer/nmap PYTHON_SINGLE_TARGET: python2_7
 net-analyzer/net-snmp PYTHON_SINGLE_TARGET: python2_7
 x11-drivers/xf86-video-qxl PYTHON_SINGLE_TARGET: python2_7
