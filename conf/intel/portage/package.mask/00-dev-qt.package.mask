@@ -7,11 +7,13 @@ dev-qt/qtbluetooth:5/5.15
 dev-qt/qtcharts:5/5.15
 dev-qt/qtconcurrent:5/5.15
 dev-qt/qtcore:5/5.15.0
+dev-qt/qtcore:5/5.15.1
 dev-qt/qtdbus:5/5.15
 dev-qt/qtdeclarative:5/5.15
 dev-qt/qtdiag:5/5.15
 dev-qt/qtgraphicaleffects:5/5.15
 dev-qt/qtgui:5/5.15.0
+dev-qt/qtgui:5/5.15.1
 dev-qt/qthelp:5/5.15
 dev-qt/qtimageformats:5/5.15
 dev-qt/qtmultimedia:5/5.15
@@ -27,6 +29,7 @@ dev-qt/qtscript:5/5.15
 dev-qt/qtsensors:5/5.15
 dev-qt/qtspeech:5/5.15
 dev-qt/qtsql:5/5.15.0
+dev-qt/qtsql:5/5.15.1
 dev-qt/qtsvg:5/5.15
 dev-qt/qttest:5/5.15
 dev-qt/qttranslations:5/5.15
