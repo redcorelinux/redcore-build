@@ -1,4 +1,3 @@
 # This file has been automatically generated, do not edit.
 
->www-client/chromium-86.0.0.0::gentoo
-www-client/firefox:0/81::gentoo
+>www-client/chromium-88.0.0.0::gentoo
