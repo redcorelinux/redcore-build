@@ -2,3 +2,4 @@
 
 dev-lang/python:3.8::gentoo
 dev-lang/python:3.9::gentoo
+dev-lang/python:3.10::gentoo
