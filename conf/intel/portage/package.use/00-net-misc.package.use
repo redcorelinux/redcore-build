@@ -1,6 +1,5 @@
 # This file has been automatically generated, do not edit.
 
-net-misc/connman iptables ofono openconnect openvpn pptp l2tp vpnc -nftables
 net-misc/curl http2
 net-misc/dhcp -server
 net-misc/iputils -gcrypt -nettle
@@ -10,4 +9,3 @@ net-misc/openssh -ldap
 net-misc/putty gtk
 net-misc/spice-gtk gtk3 usbredir
 net-misc/youtube-dl offensive
-net-misc/youtube-viewer gtk
