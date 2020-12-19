@@ -3,4 +3,4 @@
 kde-plasma/discover flatpak
 kde-plasma/kde-cli-tools kdesu
 kde-plasma/plasma-desktop touchpad
-kde-plasma/plasma-meta discover gtk qrcode networkmanager thunderbolt
+kde-plasma/plasma-meta discover gtk qrcode thunderbolt
