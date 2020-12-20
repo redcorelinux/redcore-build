@@ -1,8 +1,7 @@
 # This file has been automatically generated, do not edit.
 
 app-emulation/aqemu vnc
-app-emulation/docker btrfs overlay -aufs
-app-emulation/containerd btrfs
+app-emulation/docker overlay -aufs
 app-emulation/libvirt libssh lvm numa parted virt-network
 app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh -sdl -sdl2
 app-emulation/virt-manager gtk
