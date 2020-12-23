@@ -4,7 +4,6 @@ app-arch/rar
 app-arch/unrar
 app-misc/redcore-live
 app-misc/redcore-skel
-app-portage/sisyphus
 net-misc/ntp
 net-wireless/b43-fwcutter
 net-wireless/broadcom-sta
