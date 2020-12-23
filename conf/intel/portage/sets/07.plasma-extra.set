@@ -15,8 +15,6 @@ media-video/guvcview
 media-video/mpv
 media-video/simplescreenrecorder
 media-video/vidcutter
-media-video/vlc
-net-firewall/ufw-frontends
 net-irc/konversation
 net-p2p/qbittorrent
 sys-block/partitionmanager
