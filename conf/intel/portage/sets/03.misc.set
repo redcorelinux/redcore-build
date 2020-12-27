@@ -4,6 +4,7 @@ app-arch/rar
 app-arch/unrar
 app-misc/redcore-live
 app-misc/redcore-skel
+app-emulation/spice-vdagent
 net-misc/ntp
 net-wireless/b43-fwcutter
 net-wireless/broadcom-sta
