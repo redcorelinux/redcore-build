@@ -1,4 +1,4 @@
 # This file has been automatically generated, do not edit.
 
-app-editors/emacs libxml2 xft -imagemagick
+app-editors/emacs gsettings gtk gui harfbuzz imagemagick libxml2 xft
 app-editors/vim vim-pager
