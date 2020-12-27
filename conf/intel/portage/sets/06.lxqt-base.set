@@ -1,9 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-app-admin/calamares
-lxqt-base/lxqt-meta
-media-sound/pavucontrol-qt
-net-misc/networkmanager
-net-misc/nm-applet-gtk2
-x11-misc/sddm
-x11-terms/qterminal
