@@ -1,4 +1,4 @@
 # This file has been automatically generated, do not edit.
 
-net-dns/avahi mdnsresponder-compat -utils -python
+net-dns/avahi mdnsresponder-compat -gtk -utils -python
 net-dns/dnsmasq script
