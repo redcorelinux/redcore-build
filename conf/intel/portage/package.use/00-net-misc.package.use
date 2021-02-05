@@ -6,6 +6,5 @@ net-misc/iputils -gcrypt -nettle
 net-misc/modemmanager mbim
 net-misc/networkmanager connection-sharing dhclient ofono resolvconf
 net-misc/openssh -ldap
-net-misc/putty gtk
-net-misc/spice-gtk gtk3 usbredir
+net-misc/spice-gtk usbredir
 net-misc/youtube-dl offensive

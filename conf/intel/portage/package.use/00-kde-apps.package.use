@@ -8,4 +8,3 @@ kde-apps/kdecore-meta -webengine -webkit
 kde-apps/kdenetwork-meta dropbox -webengine
 kde-apps/kdesdk-meta -python
 kde-apps/okular epub
-kde-apps/print-manager gtk

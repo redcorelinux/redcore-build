@@ -3,8 +3,7 @@
 app-emulation/aqemu vnc
 app-emulation/docker overlay -aufs
 app-emulation/libvirt libssh lvm numa parted virt-network
-app-emulation/qemu gtk gtk2 iscsi numa usb usbredir virgl spice ssh -sdl -sdl2
-app-emulation/virt-manager gtk
+app-emulation/qemu iscsi numa usb usbredir virgl spice ssh -sdl -sdl2
 app-emulation/wine-staging osmesa s3tc vkd3d vulkan -realtime -prelink -ffmpeg
 app-emulation/wine-vanilla osmesa vkd3d vulkan -realtime -prelink -ffmpeg
 app-emulation/winetricks rar
