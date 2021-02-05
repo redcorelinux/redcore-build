@@ -3,7 +3,7 @@
 sys-apps/busybox mdev
 sys-apps/file -python
 sys-apps/firejail suid
-sys-apps/flatpak kde
+sys-apps/flatpak kde -gtk
 sys-apps/openrc sysv-utils -netifrc
 sys-apps/util-linux -cryptsetup
 sys-apps/xdg-desktop-portal screencast
