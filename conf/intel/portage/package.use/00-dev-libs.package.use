@@ -1,10 +1,10 @@
 # This file has been automatically generated, do not edit.
 
-dev-libs/glib utils
+dev-libs/glib utils static-libs
 dev-libs/libjcat gpg pkcs7
 dev-libs/libnl utils
-dev-libs/libpcre pcre16 pcre32
-dev-libs/libpcre2 pcre16 pcre32
+dev-libs/libpcre pcre16 pcre32 static-libs
+dev-libs/libpcre2 pcre16 pcre32 static-libs
 dev-libs/newt gpm
 dev-libs/nss utils
 dev-libs/xmlsec nss

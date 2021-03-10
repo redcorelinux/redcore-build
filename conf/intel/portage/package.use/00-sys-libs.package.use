@@ -2,4 +2,4 @@
 
 sys-libs/libblockdev device-mapper dmraid lvm
 sys-libs/libseccomp -python
-sys-libs/zlib minizip
+sys-libs/zlib minizip static-libs
