@@ -1,0 +1,7 @@
+# This file has been automatically generated, do not edit.
+
+kde-plasma/discover flatpak
+kde-plasma/kde-cli-tools kdesu
+kde-plasma/plasma-desktop touchpad
+kde-plasma/plasma-meta discover qrcode thunderbolt
+kde-plasma/plasma-nm openconnect

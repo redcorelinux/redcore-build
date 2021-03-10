@@ -1,0 +1,4 @@
+# This file has been automatically generated, do not edit.
+
+x11-apps/radeon-profile::gentoo
+x11-apps/radeon-profile-daemon::gentoo

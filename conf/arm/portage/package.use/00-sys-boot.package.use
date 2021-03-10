@@ -1,0 +1,4 @@
+# This file has been automatically generated, do not edit.
+
+sys-boot/grub device-mapper mount truetype multislot
+sys-boot/plymouth -gtk

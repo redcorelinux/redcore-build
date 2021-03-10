@@ -1,0 +1,4 @@
+# This file has been automatically generated, do not edit.
+
+sys-auth/elogind::gentoo
+sys-auth/polkit-qt::gentoo

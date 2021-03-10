@@ -1,0 +1,10 @@
+# This file has been automatically generated, do not edit.
+
+net-misc/curl http2
+net-misc/dhcp -server
+net-misc/iputils -gcrypt -nettle
+net-misc/modemmanager mbim
+net-misc/networkmanager connection-sharing dhclient ofono resolvconf
+net-misc/openssh -ldap
+net-misc/spice-gtk usbredir
+net-misc/youtube-dl offensive
