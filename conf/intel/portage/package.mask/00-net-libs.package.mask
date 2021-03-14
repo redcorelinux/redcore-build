@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 net-libs/webkit-gtk::gentoo
+>net-libs/libtorrent-rasterbar-1.2.12::gentoo
