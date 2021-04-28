@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
+dev-python/docutils -~amd64
 dev-python/idna -~amd64
