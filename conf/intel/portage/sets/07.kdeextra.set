@@ -10,11 +10,10 @@ kde-apps/kcalc
 kde-apps/okular
 mail-client/thunderbird
 media-gfx/gimp
-media-sound/cantata
+media-plugins/qmmp-plugin-pack
+media-sound/qmmp
 media-video/guvcview
 media-video/mpv
-media-video/simplescreenrecorder
-media-video/vidcutter
 net-irc/konversation
 net-p2p/qbittorrent
 net-vpn/networkmanager-fortisslvpn

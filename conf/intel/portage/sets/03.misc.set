@@ -4,6 +4,7 @@ app-arch/rar
 app-arch/unrar
 app-misc/redcore-live
 app-misc/redcore-skel
+app-emulation/open-vm-tools
 app-emulation/spice-vdagent
 net-misc/ntp
 net-wireless/b43-fwcutter
@@ -12,6 +13,7 @@ sys-apps/usbutils
 sys-boot/os-prober
 sys-firmware/b43-firmware
 sys-firmware/b43legacy-firmware
+sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/ntfs3g
 sys-fs/vhba
