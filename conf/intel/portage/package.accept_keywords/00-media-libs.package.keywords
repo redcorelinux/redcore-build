@@ -1,0 +1,5 @@
+# This file has been automatically generated, do not edit.
+
+media-libs/alsa-lib -~amd64
+media-libs/alsa-topology-conf -~amd64
+media-libs/alsa-ucm-conf -~amd64
