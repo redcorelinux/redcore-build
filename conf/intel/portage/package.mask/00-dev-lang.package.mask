@@ -1,4 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-dev-lang/python:3.9::gentoo
 dev-lang/python:3.10::gentoo
