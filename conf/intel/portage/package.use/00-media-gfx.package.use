@@ -1,6 +1,7 @@
 # This file has been automatically generated, do not edit.
 
 media-gfx/blender player cycles openimageio -oidn
+media-gfx/gimp -xpm
 media-gfx/krita qtmedia vc
 media-gfx/sane-backends usb snmp
 media-gfx/xsane gimp lcms ocr
