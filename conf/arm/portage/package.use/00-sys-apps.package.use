@@ -8,4 +8,3 @@ sys-apps/flatpak kde -gtk
 sys-apps/fwupd amt dell flashrom gnutls nvme synaptics thunderbolt tpm uefi
 sys-apps/openrc sysv-utils -netifrc
 sys-apps/util-linux -cryptsetup
-sys-apps/xdg-desktop-portal screencast
