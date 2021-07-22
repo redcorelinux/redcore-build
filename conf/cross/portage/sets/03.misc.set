@@ -1,0 +1,22 @@
+# This file has been automatically generated, do not edit.
+
+app-arch/rar
+app-arch/unrar
+app-misc/redcore-live
+app-misc/redcore-skel
+app-emulation/spice-vdagent
+net-misc/ntp
+net-wireless/b43-fwcutter
+net-wireless/broadcom-sta
+sys-apps/usbutils
+sys-boot/os-prober
+sys-firmware/b43-firmware
+sys-firmware/b43legacy-firmware
+sys-fs/dosfstools
+sys-fs/ntfs3g
+sys-fs/vhba
+sys-fs/xfsprogs
+sys-power/acpid
+x11-apps/mesa-progs
+x11-apps/setxkbmap
+x11-misc/xdg-user-dirs

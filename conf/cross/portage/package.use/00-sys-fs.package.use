@@ -1,0 +1,5 @@
+# This file has been automatically generated, do not edit.
+
+sys-fs/cryptsetup -gcrypt -nettle
+sys-fs/dosfstools compat
+sys-fs/squashfs-tools lzma lzo

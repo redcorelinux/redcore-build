@@ -1,0 +1,6 @@
+# This file has been automatically generated, do not edit.
+
+x11-libs/libdrm libkms
+x11-libs/libva utils
+x11-libs/motif xft
+x11-libs/wxGTK:3.0 -gstreamer
