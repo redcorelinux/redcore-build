@@ -4,7 +4,7 @@ media-libs/cogl gles2
 media-libs/freetype brotli harfbuzz
 media-libs/libsdl2 haptic gles2
 media-libs/libvpx postproc svc
-media-libs/mesa d3d9 gles1 gles2 openmax osmesa -vulkan -xa -xvmc
+media-libs/mesa d3d9 gles1 gles2 openmax osmesa -vaapi -vulkan -xa -xvmc
 media-libs/mlt frei0r lua melt kdenlive fftw
 media-libs/opus custom-modes
 media-libs/sdl-mixer mad
