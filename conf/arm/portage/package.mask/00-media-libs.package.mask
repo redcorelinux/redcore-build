@@ -1,4 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-INPUT_DEVICES="evdev libinput"
-VIDEO_CARDS="vc4 v3d"
+>media-libs/mesa-21.1.100::gentoo
