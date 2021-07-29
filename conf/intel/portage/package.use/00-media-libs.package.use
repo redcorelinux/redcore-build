@@ -2,6 +2,7 @@
 
 media-libs/cogl gles2
 media-libs/freetype brotli harfbuzz
+media-libs/gexiv2 -python
 media-libs/libsdl2 haptic gles2
 media-libs/libvpx postproc svc
 media-libs/mesa d3d9 gles1 gles2 openmax osmesa vulkan xa
