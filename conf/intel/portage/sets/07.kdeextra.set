@@ -8,6 +8,8 @@ kde-apps/gwenview
 kde-apps/k3b
 kde-apps/kcalc
 kde-apps/okular
+kde-misc/kio-fuse
+kde-misc/kio-gdrive
 mail-client/thunderbird
 media-gfx/gimp
 media-plugins/qmmp-plugin-pack
