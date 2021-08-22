@@ -4,4 +4,4 @@ media-gfx/blender player cycles openimageio -oidn -openvdb
 media-gfx/gimp -xpm
 media-gfx/krita vc
 media-gfx/sane-backends usb snmp
-media-gfx/xsane gimp lcms ocr
+media-gfx/xsane lcms ocr -gimp
