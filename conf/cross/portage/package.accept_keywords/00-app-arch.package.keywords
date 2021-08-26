@@ -1,3 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-app-arch/brotli -~amd64
+app-arch/brotli -~arm64

@@ -1,3 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-sys-apps/fwupd -~amd64
+sys-apps/fwupd -~arm64
