@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 app-editors/emacs gfile gsettings gui harfbuzz imagemagick libxml2 xft
+app-editors/qhexedit2 -python
 app-editors/vim vim-pager
