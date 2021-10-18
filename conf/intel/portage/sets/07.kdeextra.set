@@ -10,7 +10,7 @@ kde-apps/kcalc
 kde-apps/okular
 kde-misc/kio-fuse
 kde-misc/kio-gdrive
-mail-client/thunderbird
+mail-client/mailspring
 media-gfx/gimp
 media-plugins/qmmp-plugin-pack
 media-sound/qmmp
@@ -29,4 +29,4 @@ sys-block/partitionmanager
 sys-boot/etcher
 sys-boot/unetbootin-static
 sys-boot/woeusb
-www-client/firefox
+www-client/chromium
