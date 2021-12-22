@@ -1,4 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 dev-python/click::gentoo
->dev-python/docutils-17::gentoo
+>=dev-python/docutils-0.18::gentoo
