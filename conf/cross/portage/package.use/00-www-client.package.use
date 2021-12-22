@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
-www-client/chromium proprietary-codecs widevine -js-type-check -system-ffmpeg
+www-client/chromium proprietary-codecs widevine -js-type-check -system-ffmpeg -system-png
 www-client/firefox hwaccel system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-sqlite -lto -pgo -system-libvpx -wifi
 www-client/opera proprietary-codecs suid widevine
 www-client/vivaldi proprietary-codecs widevine
