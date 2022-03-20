@@ -5,3 +5,4 @@ kde-plasma/kde-cli-tools kdesu
 kde-plasma/plasma-desktop touchpad
 kde-plasma/plasma-meta discover qrcode thunderbolt
 kde-plasma/plasma-nm openconnect
+kde-plasma/plasma-workspace appstream
