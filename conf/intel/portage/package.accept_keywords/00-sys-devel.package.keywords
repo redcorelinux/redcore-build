@@ -6,3 +6,4 @@ sys-devel/clang-runtime -~amd64
 sys-devel/lld -~amd64
 sys-devel/llvm -~amd64
 sys-devel/llvm-common -~amd64
+sys-devel/llvmgold -~amd64
