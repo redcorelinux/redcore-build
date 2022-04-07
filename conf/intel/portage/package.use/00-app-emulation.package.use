@@ -1,7 +1,6 @@
 # This file has been automatically generated, do not edit.
 
 app-emulation/aqemu vnc
-app-emulation/docker overlay -aufs
 app-emulation/libvirt libssh lvm numa parted virt-network
 app-emulation/open-vm-tools gtkmm multimon
 app-emulation/qemu iscsi numa usb usbredir virgl spice ssh static-user -pam -sdl -sdl2
