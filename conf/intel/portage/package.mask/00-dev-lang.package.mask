@@ -2,3 +2,4 @@
 
 dev-lang/python:3.10::gentoo
 dev-lang/python:3.11::gentoo
+dev-lang/rust:stable/1.60::gentoo
