@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 sys-libs/efivar -~amd64
+sys-libs/libseccomp -~amd64
