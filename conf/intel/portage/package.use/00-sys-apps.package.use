@@ -5,6 +5,6 @@ sys-apps/busybox mdev
 sys-apps/file -python
 sys-apps/firejail suid
 sys-apps/flatpak kde -gtk
-sys-apps/fwupd amt dell flashrom gnutls nvme synaptics thunderbolt tpm uefi
+sys-apps/fwupd amt dell flashrom gnutls gusb modemmanager nvme synaptics thunderbolt tpm uefi
 sys-apps/openrc sysv-utils -netifrc
 sys-apps/util-linux -cryptsetup
