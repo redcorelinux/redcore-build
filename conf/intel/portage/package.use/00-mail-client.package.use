@@ -1,3 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-mail-client/thunderbird hwaccel system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-sqlite -lto -pgo -system-libvpx -wifi
+mail-client/thunderbird hwaccel system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-sqlite libproxy lto pgo -system-libvpx -wifi
