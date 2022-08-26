@@ -4,7 +4,7 @@ net-misc/curl http2
 net-misc/dhcp -server
 net-misc/iputils -gcrypt -nettle
 net-misc/modemmanager mbim
-net-misc/networkmanager connection-sharing dhclient iptables ofono resolvconf
+net-misc/networkmanager connection-sharing dhclient iptables ofono resolvconf -iwd
 net-misc/openssh -ldap
 net-misc/spice-gtk usbredir
 net-misc/youtube-dl offensive
