@@ -2,4 +2,3 @@
 
 sys-libs/binutils-libs::gentoo
 sys-libs/glibc::gentoo
-sys-libs/libseccomp::gentoo
