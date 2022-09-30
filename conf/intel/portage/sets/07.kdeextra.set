@@ -5,17 +5,14 @@ app-office/libreoffice
 games-util/lutris
 kde-apps/ark
 kde-apps/gwenview
-kde-apps/k3b
 kde-apps/kcalc
 kde-apps/okular
 kde-misc/kio-fuse
 kde-misc/kio-gdrive
-mail-client/mailspring
 media-gfx/gimp
 media-plugins/qmmp-plugin-pack
 media-sound/qmmp
 media-video/guvcview
-media-video/mpv
 net-irc/konversation
 net-p2p/qbittorrent
 net-vpn/networkmanager-fortisslvpn
@@ -28,5 +25,4 @@ net-vpn/networkmanager-vpnc
 sys-block/partitionmanager
 sys-boot/etcher
 sys-boot/unetbootin-static
-sys-boot/woeusb
 www-client/chromium
