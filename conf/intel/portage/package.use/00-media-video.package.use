@@ -3,4 +3,4 @@
 media-video/ffmpeg amr amrenc chromium frei0r libdrm librtmp libv4l openh264 snappy twolame
 media-video/mpv cdda cli libmpv -sdl
 media-video/obs-studio imagemagick -python
-media-video/vlc cdda cddb faad gnutls libcaca lua modplug musepack schroedinger skins twolame upnp vlm
+media-video/vlc aom archive aribsub bidi cdda cddb chromecast dav1d dc1394 dts faad fluidsynth gnutls gme ieee1394 kate libcaca lynsis lirc live lua mad modplug musepack rdp sdl-image shout sid speex srt taglib tremor schroedinger skins twolame upnp vlm
