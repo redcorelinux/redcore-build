@@ -8,7 +8,7 @@ media-libs/mesa d3d9 gles1 gles2 osmesa vulkan xa zink -xvmc
 media-libs/mlt frei0r lua melt kdenlive fftw
 media-libs/openh264 utils
 media-libs/opus custom-modes
-media-libs/sdl-mixer mad
-media-libs/sdl2-mixer mad
+media-libs/sdl-mixer mad mod
+media-libs/sdl2-mixer mad mod
 media-libs/sdl-sound -mpeg
 media-libs/vulkan-loader layers
