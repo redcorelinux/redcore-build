@@ -1,0 +1,10 @@
+# This file has been automatically generated, do not edit.
+
+>=dev-libs/libclc-14.99.99
+>=sys-devel/clang-14.99.99
+>=sys-devel/clang-common-14.99.99
+>=sys-devel/clang-runtime-14.99.99
+>=sys-devel/lld-14.99.99
+>=sys-devel/llvm-14.99.99
+>=sys-devel/llvm-common-14.99.99
+>=sys-devel/llvmgold-14.99.99
