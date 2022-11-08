@@ -1,6 +1,7 @@
 # This file has been automatically generated, do not edit.
 
 net-p2p/deluge console gui webinterface
+net-p2p/eiskaltdcpp idn upnp -cli -gtk
 net-p2p/qbittorrent webui
 net-p2p/syncthing tools
 net-p2p/transmission -gtk
