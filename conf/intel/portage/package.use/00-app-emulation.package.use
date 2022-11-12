@@ -5,6 +5,7 @@ app-emulation/open-vm-tools gtkmm multimon
 app-emulation/qemu iscsi numa usb usbredir virgl spice ssh static-user -pam -sdl -sdl2
 app-emulation/virt-manager gui
 app-emulation/virtualbox lvm vnc
-app-emulation/wine-staging osmesa s3tc vkd3d vulkan -realtime -prelink -ffmpeg -mingw
-app-emulation/wine-vanilla osmesa vkd3d vulkan -realtime -prelink -ffmpeg -mingw
+app-emulation/wine-proton osmesa -realtime -prelink -ffmpeg
+app-emulation/wine-staging osmesa mingw -realtime -prelink -ffmpeg
+app-emulation/wine-vanilla osmesa mingw -realtime -prelink -ffmpeg
 app-emulation/winetricks kde rar -gtk
