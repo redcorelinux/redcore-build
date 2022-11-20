@@ -2,4 +2,5 @@
 
 sys-fs/cryptsetup -gcrypt -nettle
 sys-fs/dosfstools compat
+sys-fs/lvm2 lvm thin
 sys-fs/squashfs-tools lzma lzo
