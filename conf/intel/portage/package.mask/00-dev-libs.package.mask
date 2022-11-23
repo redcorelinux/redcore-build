@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
+dev-libs/boost:0/1.80.0::gentoo
 dev-libs/libdbusmenu-qt::gentoo
