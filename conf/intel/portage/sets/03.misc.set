@@ -11,6 +11,7 @@ net-misc/ntp
 net-wireless/b43-fwcutter
 net-wireless/broadcom-sta
 sys-apps/usbutils
+sys-auth/pam_u2f
 sys-boot/os-prober
 sys-firmware/b43-firmware
 sys-firmware/b43legacy-firmware
