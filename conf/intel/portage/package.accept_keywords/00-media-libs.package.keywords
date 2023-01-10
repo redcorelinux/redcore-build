@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 media-libs/libraw -~amd64
+media-libs/zxing-cpp -~amd64
