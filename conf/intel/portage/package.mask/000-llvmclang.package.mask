@@ -1,10 +1,13 @@
 # This file has been automatically generated, do not edit.
 
->=dev-libs/libclc-14.99.99
->=sys-devel/clang-14.99.99
->=sys-devel/clang-common-14.99.99
->=sys-devel/clang-runtime-14.99.99
->=sys-devel/lld-14.99.99
->=sys-devel/llvm-14.99.99
->=sys-devel/llvm-common-14.99.99
->=sys-devel/llvmgold-14.99.99
+>=dev-libs/libclc-15.99.99
+>=sys-devel/clang-15.99.99
+>=sys-devel/clang-common-15.99.99
+>=sys-devel/clang-runtime-15.99.99
+>=sys-devel/clang-toolchain-symlinks-15.99.99
+>=sys-devel/lld-15.99.99
+>=sys-devel/lld-toolchain-symlinks-15.99.99
+>=sys-devel/llvm-15.99.99
+>=sys-devel/llvm-common-15.99.99
+>=sys-devel/llvm-toolchain-symlinks-15.99.99
+>=sys-devel/llvmgold-15.99.99
