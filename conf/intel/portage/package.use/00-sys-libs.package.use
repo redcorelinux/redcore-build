@@ -1,5 +1,6 @@
 # This file has been automatically generated, do not edit.
 
+sys-libs/glibc -hash-sysv-compat
 sys-libs/libblockdev device-mapper dmraid lvm
 sys-libs/libseccomp -python
 sys-libs/libxcrypt static-libs
