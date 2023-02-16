@@ -1,5 +1,6 @@
 # This file has been automatically generated, do not edit.
 
+app-admin/opensnitch
 app-emulation/steam
 app-office/libreoffice
 games-util/lutris
@@ -27,3 +28,4 @@ sys-block/partitionmanager
 sys-boot/etcher
 sys-boot/unetbootin-static
 www-client/chromium
+www-client/firefox
