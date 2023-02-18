@@ -17,7 +17,7 @@ sys-firmware/b43-firmware
 sys-firmware/b43legacy-firmware
 sys-fs/btrfs-progs
 sys-fs/dosfstools
-sys-fs/extfatprogs
+sys-fs/exfatprogs
 sys-fs/ntfs3g
 sys-fs/vhba
 sys-fs/xfsprogs
