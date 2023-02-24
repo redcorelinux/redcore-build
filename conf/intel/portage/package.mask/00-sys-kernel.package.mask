@@ -2,4 +2,4 @@
 
 sys-kernel/dracut::gentoo
 sys-kernel/linux-headers::gentoo
-sys-kernel/dkm::guru
+sys-kernel/dkms::guru
