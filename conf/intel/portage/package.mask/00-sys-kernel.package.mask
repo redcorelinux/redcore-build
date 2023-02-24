@@ -2,3 +2,4 @@
 
 sys-kernel/dracut::gentoo
 sys-kernel/linux-headers::gentoo
+>=sys-kernel/dkms-2.99
