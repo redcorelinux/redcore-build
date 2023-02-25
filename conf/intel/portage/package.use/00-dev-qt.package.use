@@ -4,6 +4,7 @@ dev-qt/qt-creator autotools android baremetal bazaar cmake cvs git ios lsp mercu
 dev-qt/qtdeclarative localstorage
 dev-qt/qtgui:5 accessibility evdev
 dev-qt/qtmultimedia:5 widgets qml
+dev-qt/qtpositioning geoclue
 dev-qt/qtquickcontrols2:5 widgets
 dev-qt/qtscript:5 scripttools
 dev-qt/qtwebchannel:5 qml
