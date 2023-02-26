@@ -1,5 +1,6 @@
 # This file has been automatically generated, do not edit.
 
 dev-lang/fpc source
+dev-lang/ghc binary elfutils ghcmakebinary numa
 dev-lang/perl gdbm ithreads
 dev-lang/rust clippy rls rustfmt rust-src -system-llvm
