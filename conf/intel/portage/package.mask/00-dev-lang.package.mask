@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
+dev-lang/go:0/1.20.1::gentoo
 dev-lang/python:3.11::gentoo
 dev-lang/python:3.12::gentoo
