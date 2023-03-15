@@ -4,6 +4,6 @@ kde-plasma/discover flatpak
 kde-plasma/kde-cli-tools kdesu
 kde-plasma/kwin lock
 kde-plasma/plasma-desktop emoji ibus scim touchpad
-kde-plasma/plasma-meta colord discover qrcode thunderbolt
+kde-plasma/plasma-meta colord discover flatpak qrcode thunderbolt
 kde-plasma/plasma-nm openconnect
 kde-plasma/plasma-workspace appstream
