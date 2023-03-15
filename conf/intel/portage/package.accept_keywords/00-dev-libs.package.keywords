@@ -1,3 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 dev-libs/glib -~amd64
+dev-libs/gobject-introspection -~amd64
+dev-libs/gobject-introspection-common -~amd64
