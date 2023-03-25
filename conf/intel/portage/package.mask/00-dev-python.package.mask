@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 dev-python/click::gentoo
+>dev-python/cryptography-39.9999::gentoo
