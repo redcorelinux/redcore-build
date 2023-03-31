@@ -1,3 +1,0 @@
-# This file has been automatically generated, do not edit.
-
->gui-libs/libadwaita-1.2.99::gentoo
