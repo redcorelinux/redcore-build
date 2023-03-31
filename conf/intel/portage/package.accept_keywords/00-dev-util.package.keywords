@@ -1,4 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-dev-util/gdbus-codegen -~amd64
-dev-util/glib-utils -~amd64
