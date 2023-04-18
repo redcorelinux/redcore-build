@@ -1,5 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-dev-libs/icu -~amd64
-dev-libs/icu-layoutex -~amd64
-dev-libs/icu-le-hb -~amd64
