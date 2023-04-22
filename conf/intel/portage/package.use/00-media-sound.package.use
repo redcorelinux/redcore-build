@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
 media-sound/cantata cddb taglib replaygain
-media-sound/pulseaudio daemon ofono-headset
+media-sound/pulseaudio ofono-headset -daemon
 media-sound/pulseaudio-daemon aptx equalizer fftw ldac lirc orc ofono-headset sox
 media-sound/qmmp qsui
