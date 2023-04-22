@@ -9,3 +9,4 @@ kde-apps/kdenetwork-meta dropbox -webengine
 kde-apps/kdesdk-meta -python
 kde-apps/krfb -wayland
 kde-apps/okular epub
+kde-apps/yakuake absolute-position
