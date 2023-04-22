@@ -7,6 +7,5 @@ kde-apps/k3b encode mad taglib
 kde-apps/kdecore-meta -webengine -webkit
 kde-apps/kdenetwork-meta dropbox -webengine
 kde-apps/kdesdk-meta -python
-kde-apps/krfb -wayland
 kde-apps/okular epub
 kde-apps/yakuake absolute-position
