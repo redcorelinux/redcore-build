@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
-media-gfx/blender player cycles openimageio -osl -oidn -openvdb
+media-gfx/blender player cycles openimageio -osl -oidn -openvdb -openpgl
 media-gfx/gimp -xpm
 media-gfx/krita vc
 media-gfx/sane-backends usb snmp
