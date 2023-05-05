@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 net-libs/gnutls dane
+net-libs/libpsl -idn
 net-libs/nodejs inspector
