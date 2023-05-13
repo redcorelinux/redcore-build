@@ -3,4 +3,4 @@
 sys-libs/binutils-libs::gentoo
 sys-libs/glibc::gentoo
 >sys-libs/ncurses-6.3.9999:0/6::gentoo
->sys-libs/ncurses-compat-6.3.999:0/5::gentoo
+>sys-libs/ncurses-compat-6.3.999:5/5::gentoo
