@@ -1,5 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-sys-devel/binutils::gentoo
-sys-devel/gcc::gentoo
-sys-devel/libtool::gentoo
