@@ -2,7 +2,7 @@
 
 sys-devel/binutils:2.38
 sys-devel/binutils:2.40
-<=sys-devel/binutils-2.38
+<=sys-devel/binutils-2.38.9999
 >=sys-devel/binutils-2.40
 sys-devel/gcc:10
 sys-devel/gcc:11
@@ -18,7 +18,7 @@ sys-libs/binutils-libs:0/2.36.1
 sys-libs/binutils-libs:0/2.37
 sys-libs/binutils-libs:0/2.38
 sys-libs/binutils-libs:0/2.40
-<=sys-libs/binutils-libs-2.38
+<=sys-libs/binutils-libs-2.38.9999
 >=sys-libs/binutils-libs-2.40
 <=sys-libs/glibc-2.35
 >=sys-libs/glibc-2.37
