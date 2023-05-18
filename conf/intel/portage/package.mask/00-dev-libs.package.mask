@@ -1,5 +1,4 @@
 # This file has been automatically generated, do not edit.
 
->=dev-libs/ktextaddons-1.2.99::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 dev-libs/openssl:0/3::gentoo
