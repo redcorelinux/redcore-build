@@ -4,4 +4,4 @@ dev-lang/fpc source
 dev-lang/ghc binary elfutils ghcmakebinary numa
 dev-lang/perl gdbm ithreads
 dev-lang/rust clippy rls rustfmt rust-src -system-llvm
-dev-lang/spidermonkey clang lto
+dev-lang/spidermonkey clang
