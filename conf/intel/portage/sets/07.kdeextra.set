@@ -1,6 +1,7 @@
 # This file has been automatically generated, do not edit.
 
 app-admin/opensnitch
+app-backup/timeshift
 app-emulation/steam
 app-office/libreoffice
 games-util/lutris
@@ -12,11 +13,6 @@ kde-apps/spectacle
 kde-misc/kio-fuse
 kde-misc/kio-gdrive
 media-gfx/gimp
-media-plugins/qmmp-plugin-pack
-media-sound/qmmp
-media-video/guvcview
-net-irc/konversation
-net-p2p/qbittorrent
 net-vpn/networkmanager-fortisslvpn
 net-vpn/networkmanager-libreswan
 net-vpn/networkmanager-openconnect
@@ -25,7 +21,5 @@ net-vpn/networkmanager-pptp
 net-vpn/networkmanager-sstp
 net-vpn/networkmanager-vpnc
 sys-block/partitionmanager
-sys-boot/etcher
 sys-boot/unetbootin-static
-www-client/chromium
 www-client/firefox
