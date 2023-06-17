@@ -3,4 +3,5 @@
 net-dns/avahi mdnsresponder-compat -gtk -utils
 net-dns/bind-tools gssapi
 net-dns/dnsmasq script
+net-dns/resolvconf-symlink -symlink
 net-dns/unbound dnscrypt dnstap ecs gost redis
