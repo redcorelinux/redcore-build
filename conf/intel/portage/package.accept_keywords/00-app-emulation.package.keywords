@@ -1,4 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-app-emulation/libvirt -~amd64
-app-emulation/qemu-guest-agent -~amd64
