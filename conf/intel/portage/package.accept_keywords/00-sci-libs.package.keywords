@@ -1,0 +1,4 @@
+# This file has been automatically generated, do not edit.
+
+sci-libs/colamd -~amd64
+sci-libs/suitesparseconfig -~amd64
