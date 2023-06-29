@@ -1,4 +1,0 @@
-# This file has been automatically generated, do not edit.
-
->sys-libs/ncurses-6.3.9999:0/6::gentoo
->sys-libs/ncurses-compat-6.3.999:5/5::gentoo
