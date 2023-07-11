@@ -1,4 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-virtual/libcrypt static-libs
-virtual/rust rustfmt
+virtual/rust:0/llvm-16::gentoo

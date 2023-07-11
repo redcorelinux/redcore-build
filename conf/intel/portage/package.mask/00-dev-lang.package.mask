@@ -2,3 +2,5 @@
 
 dev-lang/python:3.11::gentoo
 dev-lang/python:3.12::gentoo
+>=dev-lang/rust-1.69.99::gentoo
+>=dev-lang/rust-bin-1.69.99::gentoo
