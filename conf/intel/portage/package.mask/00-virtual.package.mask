@@ -1,3 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-virtual/rust:0/llvm-16::gentoo
+virtual/rust:0/llvm-17::gentoo
