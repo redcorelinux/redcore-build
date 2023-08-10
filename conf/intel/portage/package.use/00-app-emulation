@@ -6,6 +6,6 @@ app-emulation/qemu io-uring iscsi lzo numa usb usbredir vde virtfs vte virgl sna
 app-emulation/virt-manager gui
 app-emulation/virtualbox lvm vnc
 app-emulation/wine-proton osmesa usb
-app-emulation/wine-staging dos osmesa mingw usb wow64 -realtime -prelink -ffmpeg
-app-emulation/wine-vanilla dos osmesa mingw usb wow64 -realtime -prelink -ffmpeg
+app-emulation/wine-staging dos osmesa mingw usb -wow64 -realtime -prelink -ffmpeg
+app-emulation/wine-vanilla dos osmesa mingw usb -wow64 -realtime -prelink -ffmpeg
 app-emulation/winetricks kde rar -gtk
