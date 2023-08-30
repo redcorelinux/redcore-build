@@ -1,8 +1,8 @@
 # This file has been automatically generated, do not edit.
 
-sys-devel/binutils:2.40
+sys-devel/binutils:2.41
 <=sys-devel/binutils-2.39.9999
->=sys-devel/binutils-2.42
+>=sys-devel/binutils-2.41
 sys-devel/gcc:10
 sys-devel/gcc:11
 sys-devel/gcc:12
@@ -13,6 +13,6 @@ sys-devel/gcc:14
 >=sys-kernel/linux-headers-6.2
 sys-libs/binutils-libs:0/2.40
 <=sys-libs/binutils-libs-2.39.9999
->=sys-libs/binutils-libs-2.42
+>=sys-libs/binutils-libs-2.41
 <=sys-libs/glibc-2.36
 >=sys-libs/glibc-2.38
