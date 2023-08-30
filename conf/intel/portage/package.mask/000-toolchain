@@ -11,7 +11,7 @@ sys-devel/gcc:14
 >=sys-devel/gcc-13.2.9999
 <=sys-kernel/linux-headers-6.0
 >=sys-kernel/linux-headers-6.2
-sys-libs/binutils-libs:0/2.40
+sys-libs/binutils-libs:0/2.41
 <=sys-libs/binutils-libs-2.39.9999
 >=sys-libs/binutils-libs-2.41
 <=sys-libs/glibc-2.36
