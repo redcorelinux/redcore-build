@@ -5,9 +5,10 @@ sys-devel/gcc:10
 sys-devel/gcc:11
 sys-devel/gcc:12
 sys-devel/gcc:14
->=sys-devel/gcc-13.2.1
-<=sys-kernel/linux-headers-6.0
->=sys-kernel/linux-headers-6.2
 sys-libs/binutils-libs:0/2.41.0
-<=sys-libs/glibc-2.36
+<sys-devel/gcc-13.2.0
+>=sys-devel/gcc-13.2.1
+<sys-kernel/linux-headers-6.1
+>=sys-kernel/linux-headers-6.2
+<sys-libs/glibc-2.37
 >=sys-libs/glibc-2.38
