@@ -12,14 +12,6 @@ kde-apps/okular
 kde-apps/spectacle
 kde-misc/kio-fuse
 kde-misc/kio-gdrive
-media-gfx/gimp
-net-vpn/networkmanager-fortisslvpn
-net-vpn/networkmanager-libreswan
-net-vpn/networkmanager-openconnect
-net-vpn/networkmanager-openvpn
-net-vpn/networkmanager-pptp
-net-vpn/networkmanager-sstp
-net-vpn/networkmanager-vpnc
+net-misc/warpinator
 sys-block/partitionmanager
-sys-boot/unetbootin-static
 www-client/firefox
