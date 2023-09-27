@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 sys-kernel/dracut::gentoo
+sys-kernel/dkms::gentoo
 sys-kernel/dkms::guru
