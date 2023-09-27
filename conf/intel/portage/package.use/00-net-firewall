@@ -2,3 +2,4 @@
 
 net-firewall/firewalld gui
 net-firewall/iptables nftables
+net-firewall/nftables xtables
