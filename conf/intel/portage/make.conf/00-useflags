@@ -1,7 +1,7 @@
 # This file has been automatically generated, do not edit.
 
 SYSTEM_USE="X acl btrfs cet cryptsetup dbus elogind gcrypt glamor gudev icu introspection jemalloc json libglvnd lto lvm nettle openrc openssl perl pgo policykit polkit python sysvinit threads udev udisks unwind upower vala vulkan wayland xattr"
-CODECS_USE="a52 aac aacplus dts dv faac fdk flac gsm lame lapack mms modplug mp3 mpeg mpg123 nvenc ogg opus theora vorbis vpx wavpack webp x264 x265 xvid"
+CODECS_USE="a52 aac aacplus dav1d dts dv faac fdk flac gsm lame lapack mms modplug mp3 mpeg mpg123 nvenc ogg opus theora vorbis vpx wavpack webp x264 x265 xvid"
 MEDIA_USE="bluetooth bluray cairo dri dri3 drm dvd egl libass matroska mtp opencl opengl rtmp v4l vaapi vdpau xcb xkb xml xvmc"
 IMAGE_USE="apng avif exif gif gphoto2 heif jpeg jpeg2k jpegxl lcms mng mobi openexr pdf png raw svg tiff webp xmp xpm"
 TOOLKIT_USE="gtk gtk3 gui qml qt5 sdl sdl2 tcl tk"
