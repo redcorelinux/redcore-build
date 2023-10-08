@@ -1,4 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-dev-lang/go -~amd64
-dev-lang/ruby -~amd64
+app-pda/libplist -~amd64
