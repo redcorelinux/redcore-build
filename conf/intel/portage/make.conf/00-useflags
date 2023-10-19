@@ -7,7 +7,7 @@ IMAGE_USE="apng avif exif gif gphoto2 heif jpeg jpeg2k jpegxl lcms mng mobi open
 TOOLKIT_USE="gtk gtk3 gui qml qt5 sdl sdl2 tcl tk"
 NETWORK_USE="avahi http ipv6 ldap libproxy modemmanager networkmanager samba sasl sftp teamd zeroconf"
 SOUND_USE="alsa cdda cue ffmpeg gstreamer jack openal pipewire pulseaudio qtmedia sound soxr"
-MISC_USE="apparmor corefonts cups curl designer epub fontconfig gdbm ios ipod kerberos keyring libnotify lz4 lzip lzma postgres screencast sqlite taglib truetype vcd xinerama zstd"
-DONT_USE="-bindist -branding -connman -consolekit -gnome -gtk2 -handbook -kde -libav -mysql -qt3support -qt4 -semantic-desktop -static-libs -systemd -tracker -webkit"
+MISC_USE="apparmor corefonts cups curl designer epub fontconfig gdbm kerberos keyring libnotify lz4 lzip lzma postgres screencast sqlite taglib truetype vcd xinerama zstd"
+DONT_USE="-bindist -branding -connman -consolekit -gnome -gtk2 -handbook -ios -ipod -kde -libav -mysql -qt3support -qt4 -semantic-desktop -static-libs -systemd -tracker -webkit"
 
 USE="${SYSTEM_USE} ${CODECS_USE} ${MEDIA_USE} ${IMAGE_USE} ${TOOLKIT_USE} ${NETWORK_USE} ${SOUND_USE} ${MISC_USE} ${DONT_USE}"
