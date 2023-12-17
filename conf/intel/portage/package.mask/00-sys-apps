@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 sys-apps/baselayout::gentoo
+sys-apps/lsb-release::gentoo
 sys-apps/openrc::gentoo
