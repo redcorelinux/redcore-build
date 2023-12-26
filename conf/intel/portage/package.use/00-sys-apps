@@ -8,4 +8,3 @@ sys-apps/flatpak kde -gtk
 sys-apps/fwupd amt dell flashrom gnutls gusb modemmanager nvme synaptics thunderbolt tpm uefi
 sys-apps/openrc sysv-utils -ncurses -netifrc
 sys-apps/util-linux -cryptsetup
-sys-apps/xdg-desktop-portal flatpak
