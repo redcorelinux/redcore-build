@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
-dev-python/PyQt5 bluetooth declarative designer gui multimedia network positioning printsupport sensors sql webchannel webengine websockets x11extras xmlpatterns widgets
-dev-python/pyside2 designer gui location multimedia network positioning printsupport quick sensors sql webchannel webengine websockets x11extras xmlpatterns widgets 
+dev-python/PyQt5 bluetooth declarative designer gui location multimedia network positioning printsupport sensors serialport speech sql webchannel webengine websockets x11extras xmlpatterns widgets
+dev-python/PyQt6 bluetooth dbus designer geolocation gui multimedia network opengl positioning printsupport qml quick serialport speech sql ssl svg webchannel websockets widgets xml
+dev-python/pyside2 designer gui location multimedia network positioning printsupport quick sensors serialport speech sql webchannel webengine websockets x11extras xmlpatterns widgets
