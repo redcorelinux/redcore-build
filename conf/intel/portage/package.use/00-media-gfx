@@ -4,5 +4,6 @@ media-gfx/blender player cycles openimageio -color-management -osl -oidn -openvd
 media-gfx/digikam addressbook calendar marble scanner panorama
 media-gfx/gimp -xpm
 media-gfx/krita vc
+media-gfx/pstoedit plotutils
 media-gfx/sane-backends usb snmp
 media-gfx/xsane lcms ocr -gimp
