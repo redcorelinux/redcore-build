@@ -2,3 +2,4 @@
 
 app-office/gnucash -python
 app-office/libreoffice base clang firebird googledrive kde java pdfimport
+app-office/scribus scripts
