@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 media-libs/dav1d -~amd64
+media-libs/opencv -~amd64
