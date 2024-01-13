@@ -2,6 +2,7 @@
 
 sys-apps/attr static-libs
 sys-apps/busybox mdev
+sys-apps/debianutils -installkernel
 sys-apps/file -python
 sys-apps/firejail suid
 sys-apps/flatpak kde -gtk
