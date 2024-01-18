@@ -1,6 +1,5 @@
 # This file has been automatically generated, do not edit.
 
-dev-util/cmake server -gui
 dev-util/diffoscope R binutils colord cpio docx dtc e2fsprogs file find gettext gpg haskell hex imagemagick iso java libcaca llvm mono opendocument pascal postscript rpm squashfs ssh tar tcpdump zip
 dev-util/librnp -botan
 dev-util/ostree archive http2 httpd libmount sodium soup
