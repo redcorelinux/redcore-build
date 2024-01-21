@@ -2,3 +2,4 @@
 
 dev-lang/go -~amd64
 dev-lang/ruby -~amd64
+dev-lang/swig -~amd64
