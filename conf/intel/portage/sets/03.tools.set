@@ -7,6 +7,7 @@ app-misc/redcore-skel
 app-emulation/open-vm-tools
 app-emulation/spice-vdagent
 net-misc/ntp
+net-print/cups-meta
 net-wireless/b43-fwcutter
 net-wireless/broadcom-sta
 sys-apps/usbutils
