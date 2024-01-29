@@ -1,5 +1,5 @@
 # This file has been automatically generated, do not edit.
 
-app-containers/cointainerd device-mapper
+app-containers/containerd device-mapper
 app-containers/docker device-mapper overlay -btrfs
 app-containers/podman cgroup-hybrid
