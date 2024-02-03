@@ -1,6 +1,7 @@
 # This file has been automatically generated, do not edit.
 
 dev-libs/boost context
+dev-libs/dbus-c++ glib
 dev-libs/glib utils static-libs
 dev-libs/libclc spirv
 dev-libs/libjcat gpg pkcs7
