@@ -3,5 +3,5 @@
 media-video/ffmpeg amr amrenc chromium frei0r libdrm librtmp libv4l openh264 snappy twolame
 media-video/mpv cdda cli libmpv -sdl
 media-video/obs-studio imagemagick -python
-media-video/pipewire echo-cancel extra gsettings jack-sdk lv2 pipewire-alsa sound-server
+media-video/pipewire echo-cancel extra gsettings ieee1394 jack-sdk lv2 liblc3 pipewire-alsa roc sound-server
 media-video/vlc aom archive aribsub bidi cdda cddb chromaprint chromecast dc1394 dts faad fluidsynth gme gnutls ieee1394 kate libcaca libtar libtiger linsys lirc live lua lynsis mad modplug musepack nfs omxil rdp schroedinger sdl-image shout sid skins speex srt taglib tremor twolame upnp vlm vnc zvbi -vaapi
