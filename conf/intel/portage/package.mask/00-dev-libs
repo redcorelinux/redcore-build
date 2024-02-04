@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 dev-libs/libdbusmenu-qt::gentoo
+dev-libs/protobuf:0/22.5.0::gentoo
 dev-libs/protobuf:0/23.3.0::gentoo
