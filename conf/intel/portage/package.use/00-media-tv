@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 media-tv/kodi airplay css caps lirc nonfree upnp udf webserver -wayland -gbm
+media-tv/tv-lite sopcast -gtk
