@@ -1,4 +1,6 @@
 # This file has been automatically generated, do not edit.
 
 dev-qt/qtbase:6 accessibility evdev
+dev-qt/qtconnectivity:6 nfc
 dev-qt/qtwayland:6 compositor
+dev-qt/qtwebengine:6 geolocation pdfium
