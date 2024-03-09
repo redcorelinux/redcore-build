@@ -2,4 +2,4 @@
 
 virtual/libcrypt static-libs
 virtual/linux-sources firmware
-virtual/rust rustfmt
+virtual/rust profiler rustfmt
