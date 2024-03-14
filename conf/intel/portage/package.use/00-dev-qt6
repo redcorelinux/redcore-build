@@ -2,5 +2,6 @@
 
 dev-qt/qtbase:6 accessibility evdev
 dev-qt/qtconnectivity:6 nfc
-dev-qt/qtwayland:6 compositor
+dev-qt/qtdeclarative:6 accessibility
+dev-qt/qtwayland:6 accessibility compositor
 dev-qt/qtwebengine:6 geolocation pdfium
