@@ -1,5 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 dev-lang/python:3.12::gentoo
->=dev-lang/rust-1.76.99::gentoo
+>=dev-lang/rust-1.77.99::gentoo
 >=dev-lang/rust-bin-1.76.99::gentoo
