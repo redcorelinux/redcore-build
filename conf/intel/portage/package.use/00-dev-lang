@@ -2,7 +2,7 @@
 
 dev-lang/fpc source
 dev-lang/ghc binary elfutils ghcmakebinary numa
-dev-lang/perl gdbm ithreads
+dev-lang/perl gdbm
 dev-lang/ruby -rdoc
 dev-lang/rust clippy profiler rls rustfmt rust-analyzer rust-src system-llvm
 dev-lang/rust-bin clippy profiler rustfmt rust-analyzer rust-src
