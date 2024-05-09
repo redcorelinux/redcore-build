@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
+app-crypt/tpm2-tss -~amd64
 app-crypt/yubikey-manager -~amd64
