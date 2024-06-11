@@ -2,3 +2,4 @@
 
 dev-libs/boost -~amd64
 dev-libs/expat -~amd64
+dev-libs/libliftoff -~amd64
