@@ -1,7 +1,7 @@
 # This file has been automatically generated, do not edit.
 
 kde-plasma/kde-cli-tools kdesu
-kde-plasma/kwin lock
+kde-plasma/kwin accessibility lock
 kde-plasma/plasma-desktop emoji ibus scim touchpad
 kde-plasma/plasma-meta colord discover qrcode thunderbolt
 kde-plasma/plasma-nm openconnect
