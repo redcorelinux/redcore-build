@@ -1,5 +1,3 @@
 # This file has been automatically generated, do not edit.
 
->=media-libs/kcolorpicker-0.3.0::gentoo
->=media-libs/kimageannotator-0.7.0::gentoo
 >=media-libs/opencv-4.9.0::gentoo
