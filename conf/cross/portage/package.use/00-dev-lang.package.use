@@ -1,5 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-dev-lang/fpc source
-dev-lang/perl gdbm ithreads
-dev-lang/rust rls rustfmt rust-src system-llvm

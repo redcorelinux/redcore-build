@@ -1,5 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-x11-drivers/nvidia-drivers acpi
-x11-drivers/xf86-video-intel uxa
-x11-drivers/xf86-video-qxl xspice

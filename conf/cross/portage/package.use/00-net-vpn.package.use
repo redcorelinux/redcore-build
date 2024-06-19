@@ -1,9 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-net-vpn/networkmanager-fortisslvpn -gtk
-net-vpn/networkmanager-libreswan -gtk
-net-vpn/networkmanager-openconnect -gtk
-net-vpn/networkmanager-openvpn -gtk
-net-vpn/networkmanager-pptp -gtk
-net-vpn/networkmanager-sstp -gtk
-net-vpn/networkmanager-vpnc -gtk

@@ -1,5 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-net-print/cnijfilter net servicetools canon_printers_e400 canon_printers_e560 canon_printers_ip2800 canon_printers_ip8700 canon_printers_ix6700 canon_printers_ix6800 canon_printers_mx470 canon_printers_mx530
-net-print/gutenprint ppds
-net-print/hplip fax scanner snmp

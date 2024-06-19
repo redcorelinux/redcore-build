@@ -1,6 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-sys-libs/libblockdev device-mapper dmraid lvm
-sys-libs/libseccomp -python
-sys-libs/libxcrypt static-libs
-sys-libs/zlib minizip static-libs

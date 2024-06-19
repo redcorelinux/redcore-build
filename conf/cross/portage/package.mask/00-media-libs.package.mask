@@ -1,3 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-media-libs/openimageio:0/2.3::gentoo

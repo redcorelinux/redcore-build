@@ -1,4 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-x11-libs/gtk+:2::gentoo
-x11-libs/gtk+:3::gentoo

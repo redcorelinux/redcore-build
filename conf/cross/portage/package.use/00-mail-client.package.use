@@ -1,3 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-mail-client/thunderbird system-harfbuzz system-icu system-jpeg system-libevent system-sqlite -system-libvpx -pgo -lto -crypt -wifi
