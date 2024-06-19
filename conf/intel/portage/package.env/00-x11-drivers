@@ -1,15 +1,15 @@
 # This file has been automatically generated, do not edit.
 
-x11-drivers/xf86-input-evdev pltnonow.conf
-x11-drivers/xf86-input-joystick pltnonow.conf
-x11-drivers/xf86-input-libinput pltnonow.conf
-x11-drivers/xf86-input-synaptics pltnonow.conf
-x11-drivers/xf86-input-wacom pltnonow.conf
-x11-drivers/xf86-video-amdgpu pltnonow.conf
-x11-drivers/xf86-video-ati pltnonow.conf
-x11-drivers/xf86-video-intel pltnonow.conf
-x11-drivers/xf86-video-nouveau pltnonow.conf
-x11-drivers/xf86-video-qxl pltnonow.conf
-x11-drivers/xf86-video-vboxvideo pltnonow.conf
-x11-drivers/xf86-video-vesa pltnonow.conf
-x11-drivers/xf86-video-vmware pltnonow.conf
+x11-drivers/xf86-input-evdev 00-disable-bind-now.conf
+x11-drivers/xf86-input-joystick 00-disable-bind-now.conf
+x11-drivers/xf86-input-libinput 00-disable-bind-now.conf
+x11-drivers/xf86-input-synaptics 00-disable-bind-now.conf
+x11-drivers/xf86-input-wacom 00-disable-bind-now.conf
+x11-drivers/xf86-video-amdgpu 00-disable-bind-now.conf
+x11-drivers/xf86-video-ati 00-disable-bind-now.conf
+x11-drivers/xf86-video-intel 00-disable-bind-now.conf
+x11-drivers/xf86-video-nouveau 00-disable-bind-now.conf
+x11-drivers/xf86-video-qxl 00-disable-bind-now.conf
+x11-drivers/xf86-video-vboxvideo 00-disable-bind-now.conf
+x11-drivers/xf86-video-vesa 00-disable-bind-now.conf
+x11-drivers/xf86-video-vmware 00-disable-bind-now.conf

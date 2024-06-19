@@ -1,4 +1,4 @@
 # This file has been automatically generated, do not edit.
 
-media-libs/libaom nosseavx.conf
-media-libs/x264 noframepointer.conf
+media-libs/libaom 00-disable-sse-avx.conf
+media-libs/x264 00-omit-frame-pointer.conf

@@ -1,4 +1,4 @@
 # This file has been automatically generated, do not edit.
 
-sys-libs/glibc noparallelmake.conf
-sys-libs/libstdc++-v3 nostackprotector.conf
+sys-libs/glibc 00-disable-parallel-make.conf
+sys-libs/libstdc++-v3 00-disable-stack-protector.conf

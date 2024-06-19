@@ -1,4 +1,4 @@
 # This file has been automatically generated, do not edit.
 
-sys-boot/plymouth nostackclashprotection.conf
-sys-boot/syslinux nofcfprotection.conf
+sys-boot/plymouth 00-disable-stack-clash-protection.conf
+sys-boot/syslinux 00-disable-fcf-protection.conf
