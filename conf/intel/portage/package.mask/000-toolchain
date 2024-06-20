@@ -2,7 +2,6 @@
 
 <sys-devel/binutils-2.42
 >=sys-devel/binutils-2.43
-sys-devel/gcc:10
 sys-devel/gcc:11
 sys-devel/gcc:12
 sys-devel/gcc:14
