@@ -1,3 +1,5 @@
 # This file has been automatically generated, do not edit.
 
+BINPKG_FORMAT="gpkg"
+BINPKG_COMPRESS="zstd"
 CLEAN_DELAY="0"
