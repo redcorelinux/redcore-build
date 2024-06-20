@@ -4,8 +4,6 @@ PORTDIR="/usr/ports/gentoo"
 PKGDIR="/var/cache/packages"
 DISTDIR="/var/cache/distfiles"
 
-INSTALL_MASK="/usr/lib/debug
-              /usr/lib64/debug
-              /etc/portage"
+INSTALL_MASK="/etc/portage"
 
 UNINSTALL_IGNORE="${UNINSTALL_IGNORE} /etc/portage"
