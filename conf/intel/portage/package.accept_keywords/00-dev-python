@@ -2,3 +2,4 @@
 
 dev-python/docutils -~amd64
 dev-python/numpy -~amd64
+dev-python/protobuf-python -~amd64
