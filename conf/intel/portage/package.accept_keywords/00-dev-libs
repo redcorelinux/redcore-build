@@ -3,4 +3,4 @@
 dev-libs/boost -~amd64
 dev-libs/expat -~amd64
 dev-libs/libliftoff -~amd64
-dev-libs/profobuf -~amd64
+dev-libs/protobuf -~amd64
