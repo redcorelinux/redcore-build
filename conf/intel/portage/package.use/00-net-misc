@@ -8,3 +8,4 @@ net-misc/modemmanager mbim
 net-misc/networkmanager connection-sharing dhclient iptables ofono psl resolvconf syslog -iwd -vala
 net-misc/openssh -ldap
 net-misc/spice-gtk usbredir
+net-misc/tigervnc java
