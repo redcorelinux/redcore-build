@@ -3,3 +3,4 @@
 net-dns/avahi mdnsresponder-compat
 net-dns/bind gssapi
 net-dns/bind-tools gssapi
+net-dns/dnsmasq script
