@@ -1,0 +1,5 @@
+# This file has been automatically generated, do not edit.
+
+net-wireless/b43-fwcutter
+sys-firmware/b43-firmware
+sys-firmware/b43legacy-firmware
