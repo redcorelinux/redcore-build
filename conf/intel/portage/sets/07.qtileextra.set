@@ -1,15 +1,11 @@
 # This file has been automatically generated, do not edit.
 
-app-arch/lxqt-archiver
 app-backup/timeshift
 app-emulation/steam
 app-office/libreoffice
 app-text/qpdfview
 games-util/lutris
-media-gfx/flameshot
-media-gfx/lximage-qt
 net-misc/warpinator
 sci-calculators/speedcrunch
 sys-block/partitionmanager
-x11-misc/sddm
 www-client/firefox
