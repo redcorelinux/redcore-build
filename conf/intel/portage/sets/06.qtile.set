@@ -1,0 +1,10 @@
+# This file has been automatically generated, do not edit.
+
+app-admin/calamares
+gui-apps/qt6ct
+lxde-base/lxappearance
+x11-misc/qt5ct
+x11-misc/rofi
+x11-themes/kvantum
+x11-terms/alacritty
+x11-wm/qtile
