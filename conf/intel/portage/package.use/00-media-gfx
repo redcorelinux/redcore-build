@@ -7,5 +7,6 @@ media-gfx/digikam calendar marble scanner panorama -addressbook
 media-gfx/gimp -xpm
 media-gfx/krita vc
 media-gfx/pstoedit imagemagick plotutils pptx
+media-gfx/qimgv opencv
 media-gfx/sane-backends usb snmp
 media-gfx/xsane lcms ocr -gimp
