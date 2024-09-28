@@ -1,5 +1,4 @@
 # This file has been automatically generated, do not edit.
 
-USE_PYTHON="3.11"
-PYTHON_TARGETS="python3_11"
+PYTHON_TARGETS="python3_10 python3_11"
 PYTHON_SINGLE_TARGET="python3_11"

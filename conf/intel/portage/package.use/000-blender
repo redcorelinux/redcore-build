@@ -1,0 +1,4 @@
+# This file has been automatically generated, do not edit.
+
+media-gfx/blender:3.6 PYTHON_SINGLE_TARGET: python3_10 -python3_11
+media-gfx/blender:4.0 PYTHON_SINGLE_TARGET: python3_10 -python3_11
