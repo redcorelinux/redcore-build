@@ -4,6 +4,7 @@ app-backup/timeshift
 app-emulation/steam
 app-office/libreoffice
 app-text/qpdfview
+games-util/heroic-bin
 games-util/lutris
 net-misc/warpinator
 sci-calculators/speedcrunch
