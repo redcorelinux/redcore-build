@@ -1,0 +1,22 @@
+2024-10-06 : Sisyphus news delivery system
+
+	Author : Ghiunhan Mamut <venerix@redcorelinux.org>
+
+Bug https://bugs.redcorelinux.org/show_bug.cgi?id=163 has shown that
+not everyone of you are reading the news we post on the website and
+as a result, you may miss important news such as the profile change
+described in the above bug report.
+
+We took the bug-report very seriously, as such changes can completely
+break the system if not acted upon in a timely manner. As such, we've
+been working on a news delivery system, similar to what Portage has.
+
+Important news will be delivered straight to your terminal every time
+you run the 'sisyphus update' command starting with Sisyphus v6.2410.0. 
+You can then list the articles using the 'sisyphus news list' command, 
+mark them as read using the 'sisyphus news read <INDEX>' command, or 
+mark them as unread using the 'sisyphus news unread <INDEX>' command.
+
+For detailed information about the usage, use the 'sisyphus news --help'
+command.
+---
