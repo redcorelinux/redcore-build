@@ -2,21 +2,48 @@
 
 	Author : Ghiunhan Mamut <venerix@redcorelinux.org>
 
-Bug https://bugs.redcorelinux.org/show_bug.cgi?id=163 has shown that
-not everyone of you are reading the news we post on the website and
-as a result, you may miss important news such as the profile change
-described in the above bug report.
+Bug   https://bugs.redcorelinux.org/show_bug.cgi?id=163  has   shown  that   not
+everyone of you are reading the news we post on the website and as a result, you
+may miss important  news such as the  profile change described in  the above bug
+report.
 
-We took the bug-report very seriously, as such changes can completely
-break the system if not acted upon in a timely manner. As such, we've
-been working on a news delivery system, similar to what Portage has.
+We took the bug-report very seriously,  as such changes can completely break the
+system if not  acted upon in a timely  manner. As such, we've been  working on a
+news delivery system, similar to what Portage has.
 
-Important news will be delivered straight to your terminal every time
-you run the 'sisyphus update' command starting with Sisyphus v6.2410.0. 
-You can then list the articles using the 'sisyphus news list' command, 
-mark them as read using the 'sisyphus news read <INDEX>' command, or 
-mark them as unread using the 'sisyphus news unread <INDEX>' command.
+Important news  will be delivered straight  to your terminal every  time you run
+the 'sisyphus  update' command  starting with Sisyphus  v6.2410.0. You  can then
+list the  articles using  the 'sisyphus  news list' command,  mark them  as read
+using the 'sisyphus news read <INDEX>' command, or mark them as unread using the
+'sisyphus news unread <INDEX>' command.
 
-For detailed information about the usage, use the 'sisyphus news --help'
+For  detailed  information about  the  usage,  use  the 'sisyphus  news  --help'
 command.
+---
+2024-10-09 : Clang/LLVM toolchain update
+
+	Author : Ghiunhan Mamut <venerix@redcorelinux.org>
+
+The  system's default  LLVM_SLOT has  been updated  from version  '17' to  '18',
+reflecting the upgrade of the entire Clang/LLVM toolchain to version 18.1.8 from
+17.1.6.
+
+The   upgrade   process  is   generally   seamless,   except  in   cases   where
+media-gfx/blender SLOT 4.0, version 4.0.2-r1, is installed on the system. Due to
+its incompatibility with the new Clang/LLVM toolchain, we have made the decision
+to remove it from the repository.
+
+Therefore, if you have media-gfx/blender  SLOT 4.0, version 4.0.2-r1, installed,
+it  must be  removed  to proceed  with  the upgrade  and  prevent any  potential
+conflicts.
+
+To remove it, run the following command:
+
+	sisyphus uninstall media-gfx/blender:4.0
+
+This should be  done prior to attempting  the system upgrade to  ensure a smooth
+process.
+
+If media-gfx/blender SLOT 4.0, version 4.0.2-r1 is not installed  on your system,
+you can disregard the above instructions.
 ---
