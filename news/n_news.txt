@@ -1,3 +1,4 @@
+
 2024-10-06 : Sisyphus news delivery system
 
 	Author : Ghiunhan Mamut <venerix@redcorelinux.org>
@@ -20,6 +21,7 @@ using the 'sisyphus news read <INDEX>' command, or mark them as unread using the
 For  detailed  information about  the  usage,  use  the 'sisyphus  news  --help'
 command.
 ---
+
 2024-10-09 : Clang/LLVM toolchain update
 
 	Author : Ghiunhan Mamut <venerix@redcorelinux.org>
