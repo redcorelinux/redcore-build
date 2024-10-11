@@ -4,5 +4,3 @@ dev-libs/boost -~amd64
 dev-libs/expat -~amd64
 dev-libs/libliftoff -~amd64
 dev-libs/libphonenumber -~amd64
-dev-libs/protobuf -~amd64
-dev-libs/re2 -~amd64
