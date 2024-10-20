@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
+>=dev-util/bindgen-0.70.0::gentoo
 >=dev-util/ragel-7::gentoo
