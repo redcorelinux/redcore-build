@@ -2,6 +2,7 @@
 
 media-libs/cogl gles2
 media-libs/freetype brotli harfbuzz utils
+media-libs/libffado -qt5
 media-libs/libjpeg-turbo java
 media-libs/libsdl2 haptic gles2
 media-libs/libvpx postproc svc
