@@ -4,4 +4,3 @@ dev-lang/python:3.13::gentoo
 dev-lang/python:3.13t::gentoo
 >=dev-lang/ruby-3.1.4-r4::gentoo
 dev-lang/rust-bin::gentoo
->=dev-lang/rust-1.82.0::gentoo
