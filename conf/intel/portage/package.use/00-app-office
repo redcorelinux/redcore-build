@@ -2,5 +2,5 @@
 
 app-office/calligra activities gemini okular phonon spacenav
 app-office/gnucash -python
-app-office/libreoffice base clang firebird googledrive kde java pdfimport
+app-office/libreoffice base clang googledrive kde java pdfimport
 app-office/scribus scripts
