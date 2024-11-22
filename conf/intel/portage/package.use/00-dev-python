@@ -1,9 +1,9 @@
 # This file has been automatically generated, do not edit.
 
 dev-python/netaddr -cli
-dev-python/PyQt5 bluetooth declarative designer gui multimedia network positioning printsupport sensors serialport speech sql webchannel webengine websockets x11extras xmlpatterns widgets -location
+dev-python/PyQt5 bluetooth declarative designer gui location multimedia network positioning printsupport sensors serialport speech sql webchannel webengine websockets x11extras xmlpatterns widgets
 dev-python/PyQt6 bluetooth dbus designer geolocation gui multimedia network nfc opengl pdfium positioning printsupport qml quick quick3d sensors serialport spatialaudio speech sql ssl svg webchannel websockets widgets xml
 dev-python/PyQt6-WebEngine quick
-dev-python/pyside2 3d charts datavis designer gui multimedia network positioning printsupport quick scxml sensors serialport speech sql webchannel webengine websockets x11extras xmlpatterns widgets -location
+dev-python/pyside2 3d charts datavis designer gui location multimedia network positioning printsupport quick scxml sensors serialport speech sql webchannel webengine websockets x11extras xmlpatterns widgets
 dev-python/pyside6 3d charts designer gui location multimedia network nfc opengl pdfium positioning quick quick3d sensors serialport spatialaudio speech webchannel webengine websockets
 dev-python/QtPy designer gui multimedia network positioning printsupport pyqt5 pyqt6 quick sensors serialport speech sql webchannel webengine websockets
