@@ -2,6 +2,7 @@
 
 dev-libs/glib -~amd64
 dev-libs/gobject-introspection -~amd64
+dev-libs/gobject-introspection-common -~amd64
 dev-libs/libfmt -~amd64
 dev-libs/libliftoff -~amd64
 dev-libs/libphonenumber -~amd64
