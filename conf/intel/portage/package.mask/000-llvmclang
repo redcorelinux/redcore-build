@@ -12,3 +12,4 @@
 >=llvm-core/llvm-toolchain-symlinks-18.99.99
 >=llvm-core/llvmgold-18.99.99
 >=llvm-runtimes/compiler-rt-sanitizers-18.99.99
+>=llvm-runtimes/openmp-18.99.99
