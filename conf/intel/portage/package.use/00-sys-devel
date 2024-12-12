@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
-sys-devel/clang-runtime -compiler-rt -openmp -sanitize -libcxx
-sys-devel/clang -static-analyzer
+llvm-core/clang-runtime -compiler-rt -openmp -sanitize -libcxx
+llvm-core/clang -static-analyzer
+llvm-core/llvm libedit
 sys-devel/gcc go
-sys-devel/llvm libedit
