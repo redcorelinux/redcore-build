@@ -1,14 +1,14 @@
 # This file has been automatically generated, do not edit.
 
->=dev-libs/libclc-18.99.99
->=sys-devel/clang-18.99.99
->=sys-devel/clang-common-18.99.99
->=sys-devel/clang-runtime-18.99.99
->=sys-devel/clang-toolchain-symlinks-18.99.99
->=sys-devel/lld-18.99.99
->=sys-devel/lld-toolchain-symlinks-18.99.99
->=sys-devel/llvm-18.99.99
->=sys-devel/llvm-common-18.99.99
->=sys-devel/llvm-toolchain-symlinks-18.99.99
->=sys-devel/llvmgold-18.99.99
->=sys-libs/compiler-rt-sanitizers-18.99.99
+>=llvm-core/clang-18.99.99
+>=llvm-core/clang-common-18.99.99
+>=llvm-core/clang-runtime-18.99.99
+>=llvm-core/clang-toolchain-symlinks-18.99.99
+>=llvm-core/libclc-18.99.99
+>=llvm-core/lld-18.99.99
+>=llvm-core/lld-toolchain-symlinks-18.99.99
+>=llvm-core/llvm-18.99.99
+>=llvm-core/llvm-common-18.99.99
+>=llvm-core/llvm-toolchain-symlinks-18.99.99
+>=llvm-core/llvmgold-18.99.99
+>=llvm-runtimes/compiler-rt-sanitizers-18.99.99
