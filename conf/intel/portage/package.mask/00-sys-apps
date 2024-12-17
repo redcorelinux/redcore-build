@@ -3,3 +3,4 @@
 sys-apps/baselayout::gentoo
 sys-apps/lsb-release::gentoo
 sys-apps/openrc::gentoo
+>=sys-apps/systemd-utils-256::gentoo
