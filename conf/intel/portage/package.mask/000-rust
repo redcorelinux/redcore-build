@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 >=dev-lang/rust-1.81.99::gentoo
+>=dev-lang/rust-bin-1.81.99::gentoo
