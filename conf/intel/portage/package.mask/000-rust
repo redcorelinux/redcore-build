@@ -2,3 +2,4 @@
 
 >=dev-lang/rust-1.81.99::gentoo
 >=dev-lang/rust-bin-1.81.99::gentoo
+>=dev-lang/rust-common-1.81.99::gentoo
