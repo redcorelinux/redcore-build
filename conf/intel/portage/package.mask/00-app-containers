@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 >=app-containers/containerd-2.0.0::gentoo
+>=app-containers/runc-1.2.2::gentoo
