@@ -3,3 +3,4 @@
 dev-libs/icu:0/76::gentoo
 dev-libs/icu-layoutex:0/76::gentoo
 dev-libs/libdbusmenu-qt::gentoo
+>=dev-libs/libfmt-9.1.99::gentoo
