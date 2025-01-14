@@ -1,0 +1,9 @@
+# This file has been automatically generated, do not edit.
+
+dev-libs/hyprland-protocols -~amd64
+dev-libs/hyprlang -~amd64
+dev-util/hyprwayland-scanner -~amd64
+gui-libs/aquamarine -~amd64
+gui-libs/hyprcursor -~amd64
+gui-libs/hyprutils -~amd64
+gui-wm/hyprland -~amd64
