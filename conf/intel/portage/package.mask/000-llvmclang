@@ -1,5 +1,6 @@
 # This file has been automatically generated, do not edit.
 
+>=dev-util/spirv-llvm-translator-18.99.99
 >=llvm-core/clang-18.99.99
 >=llvm-core/clang-common-18.99.99
 >=llvm-core/clang-runtime-18.99.99
