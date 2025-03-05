@@ -1,3 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-net-wireless/wpa_supplicant eap-sim fasteap macsec p2p smartcard tdls tkip uncommon-eap-types wep wps -qt5
+net-wireless/wpa_supplicant eap-sim fasteap macsec p2p smartcard tdls tkip uncommon-eap-types wep wps -gui -qt5 -qt6
