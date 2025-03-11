@@ -12,6 +12,6 @@ media-libs/opencv contrib contribdnn contribfreetype contribsfm contribxfeatures
 media-libs/openh264 utils
 media-libs/opus custom-modes
 media-libs/sdl-mixer mad mod
-media-libs/sdl2-mixer mad mod
+media-libs/sdl2-mixer mad mod -xmp
 media-libs/sdl-sound -mpeg
 media-libs/vulkan-loader layers
