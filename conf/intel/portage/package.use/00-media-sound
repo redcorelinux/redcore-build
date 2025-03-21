@@ -1,6 +1,7 @@
 # This file has been automatically generated, do not edit.
 
 media-sound/cantata cddb taglib replaygain
+media-sounds/easyeffects calf mda-lv2 zamaudio
 media-sound/mixxx hid keyfinder lv2 mp4 qtkeychain shout
 media-sound/pulseaudio ofono-headset -daemon
 media-sound/pulseaudio-daemon aptx equalizer fftw ldac lirc orc ofono-headset sox

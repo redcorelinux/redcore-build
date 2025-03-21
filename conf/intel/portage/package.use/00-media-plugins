@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 media-plugins/audacious-plugins -libnotify
+media-plugins/calf lv2
 media-plugins/frei0r-plugins -facedetect
