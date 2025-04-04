@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
-net-misc/curl http2 -adns
+net-misc/curl http2 adns
 net-misc/dhcp -server
 net-misc/freerdp client
 net-misc/iputils -gcrypt -nettle
