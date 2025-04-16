@@ -2,3 +2,4 @@
 
 dev-libs/libdbusmenu-qt::gentoo
 >=dev-libs/libfmt-9.1.99::gentoo
+>=dev-libs/protobuf-29.4.99::gentoo
