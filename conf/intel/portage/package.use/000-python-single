@@ -1,5 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 #python3.11
-app-emulation/virtualbox PYTHON_SINGLE_TARGET: python3_11 -python3_10
 media-gfx/blender:4.3 PYTHON_SINGLE_TARGET: python3_11 -python3_12
