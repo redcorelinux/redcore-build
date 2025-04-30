@@ -1,6 +1,7 @@
 # This file has been automatically generated, do not edit.
 
 media-gfx/blender:4.3 player cycles openimageio openvdb -color-management -nanovdb -osl -oidn -opengl -openpgl
+media-gfx/blender:4.4 player cycles openimageio openvdb -color-management -nanovdb -osl -oidn -opengl -openpgl
 media-gfx/digikam calendar marble scanner panorama -addressbook
 media-gfx/gimp -xpm
 media-gfx/krita vc
