@@ -3,4 +3,3 @@
 >=dev-libs/hyprlang-0.6.0::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 >=dev-libs/libfmt-9.1.99::gentoo
->=dev-libs/protobuf-29.4.99::gentoo
