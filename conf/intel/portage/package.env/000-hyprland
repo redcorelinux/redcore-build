@@ -6,6 +6,5 @@ dev-libs/libliftoff 00-compiler-clang.conf
 dev-util/hyprwayland-scanner 00-compiler-clang.conf
 gui-libs/aquamarine 00-compiler-clang.conf
 gui-libs/hyprcursor 00-compiler-clang.conf
-gui-libs/hyprland-qtutils 00-compiler-clang.conf
 gui-libs/hyprutils 00-compiler-clang.conf
 gui-wm/hyprland 00-compiler-clang.conf
