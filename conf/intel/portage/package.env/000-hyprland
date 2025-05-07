@@ -1,6 +1,5 @@
 # This file has been automatically generated, do not edit.
 
-dev-libs/hyprgraphics 00-compiler-clang.conf
 dev-libs/hyprland-protocols 00-compiler-clang.conf
 dev-libs/hyprlang 00-compiler-clang.conf
 dev-libs/libliftoff 00-compiler-clang.conf
