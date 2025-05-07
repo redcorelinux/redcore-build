@@ -1,0 +1,10 @@
+# This file has been automatically generated, do not edit.
+
+dev-libs/hyprland-protocols 00-compiler-clang.conf
+dev-libs/hyprlang 00-compiler-clang.conf
+dev-libs/libliftoff 00-compiler-clang.conf
+dev-util/hyprwayland-scanner 00-compiler-clang.conf
+gui-libs/aquamarine 00-compiler-clang.conf
+gui-libs/hyprcursor 00-compiler-clang.conf
+gui-libs/hyprutils 00-compiler-clang.conf
+gui-wm/hyprland 00-compiler-clang.conf
