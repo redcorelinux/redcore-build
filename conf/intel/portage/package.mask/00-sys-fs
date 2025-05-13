@@ -2,5 +2,4 @@
 
 sys-fs/cryptsetup::gentoo
 sys-fs/vhba::gentoo
-sys-fs/xfsprogs::gentoo
 sys-fs/zfs::gentoo
