@@ -1,5 +1,4 @@
 # This file has been automatically generated, do not edit.
 
->=dev-libs/hyprlang-0.6.0::gentoo
 dev-libs/libdbusmenu-qt::gentoo
 >=dev-libs/libfmt-9.1.99::gentoo
