@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
-dev-qt/qtbase:6 accessibility evdev test
+dev-qt/qtbase:6 evdev test
 dev-qt/qtconnectivity:6 nfc
 dev-qt/qtdeclarative:6 accessibility
 dev-qt/qtwayland:6 accessibility compositor
