@@ -1,4 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-media-libs/opencv -~amd64
 media-libs/openimageio -~amd64
