@@ -2,5 +2,6 @@
 
 sys-fs/cryptsetup::gentoo
 sys-fs/cryfs::gentoo
+sys-fs/encfs::gentoo
 sys-fs/vhba::gentoo
 sys-fs/zfs::gentoo
