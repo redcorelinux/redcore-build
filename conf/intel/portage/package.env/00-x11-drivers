@@ -10,6 +10,5 @@ x11-drivers/xf86-video-ati 00-disable-bind-now.conf
 x11-drivers/xf86-video-intel 00-disable-bind-now.conf
 x11-drivers/xf86-video-nouveau 00-disable-bind-now.conf
 x11-drivers/xf86-video-qxl 00-disable-bind-now.conf
-x11-drivers/xf86-video-vboxvideo 00-disable-bind-now.conf
 x11-drivers/xf86-video-vesa 00-disable-bind-now.conf
 x11-drivers/xf86-video-vmware 00-disable-bind-now.conf
