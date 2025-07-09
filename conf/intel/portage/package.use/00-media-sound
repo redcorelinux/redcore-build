@@ -1,5 +1,6 @@
 # This file has been automatically generated, do not edit.
 
+media-sound/amarok mariadb
 media-sound/cantata cddb taglib replaygain
 media-sound/easyeffects calf mda-lv2 zamaudio
 media-sound/mixxx hid keyfinder lv2 mp4 qtkeychain shout
