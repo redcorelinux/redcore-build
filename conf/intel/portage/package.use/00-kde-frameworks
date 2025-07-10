@@ -1,3 +1,7 @@
 # This file has been automatically generated, do not edit.
 
+kde-frameworks/kconfigwidgets -man
+kde-frameworks/kded -man
 kde-frameworks/kfilemetadata taglib -mobi
+kde-frameworks/kservice -man
+kde-frameworks/kwallet-runtime -man
