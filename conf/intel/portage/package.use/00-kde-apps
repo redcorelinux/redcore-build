@@ -8,4 +8,5 @@ kde-apps/kdecore-meta -webengine -webkit
 kde-apps/kdeedu-meta -qt5
 kde-apps/kdenetwork-meta dropbox -webengine
 kde-apps/kdesdk-meta -python
+kde-apps/ktouch handbook
 kde-apps/okular epub
