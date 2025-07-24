@@ -6,6 +6,6 @@ sys-apps/debianutils -installkernel
 sys-apps/file -python
 sys-apps/firejail suid
 sys-apps/flatpak kde -gtk
-sys-apps/fwupd amt dell flashrom gnutls gusb modemmanager nvme synaptics thunderbolt tpm uefi
+sys-apps/fwupd amdgpu amt cbor dell flashrom gnutls gusb logitech nvme spi synaptics thunderbolt tpm uefi -modemmanager
 sys-apps/openrc sysv-utils -ncurses -netifrc
 sys-apps/util-linux -cryptsetup
