@@ -2,4 +2,5 @@
 
 dev-python/cryptography -~amd64
 dev-python/cython -~amd64
+dev-python/docutils -~amd64
 dev-python/resolvelib -~amd64
