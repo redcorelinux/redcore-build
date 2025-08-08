@@ -3,6 +3,7 @@
 dev-libs/boost context
 dev-libs/dbus-c++ glib
 dev-libs/glib utils static-libs
+dev-libs/libdnet -python
 dev-libs/libjcat gpg pkcs7
 dev-libs/libnl utils
 dev-libs/libpcre pcre16 pcre32 static-libs
