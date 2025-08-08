@@ -46,6 +46,44 @@ To remove it, run the following command:
 This should be  done prior to attempting  the system upgrade to  ensure a smooth
 process.
 
-If media-gfx/blender SLOT 4.0, version 4.0.2-r1 is not installed  on your system,
+If media-gfx/blender SLOT 4.0, version 4.0.2-r1 is not installed on your system,
 you can disregard the above instructions.
 ---
+
+2025-08-08 : Clang/LLVM toolchain upgrade and Blender package removal
+
+	Author : Ghiunhan Mamut venerix@redcorelinux.org
+
+We are preparing to upgrade the system Clang/LLVM toolchain from LLVM_SLOT=19 to
+LLVM_SLOT=20,  bringing improved  performance, updated  language standards,  and
+better compatibility  with modern software. However,  this transition introduces
+compatibility issues with certain packages, most notably media-gfx/blender.
+
+Blender has caused compatibility issues  with newer Clang/LLVM toolchain updates
+previously,  and patching  or  maintaining  a working  native  build has  become
+increasingly unsustainable.  As a  result, the native  package media-gfx/blender
+has been permanently removed from the Redcore Linux repositories.
+
+If you currently  have Blender installed natively, you must  mark it for removal
+before proceeding with the system upgrade. To do so, run:
+
+	emerge --deselect media-gfx/blender
+
+Failing to remove  it may result in failed builds  or broken dependencies during
+the upgrade process.
+
+Once the  system upgrade is  complete, you  must cleanup the  orphaned packages,
+which now will include Blender. To do so, run:
+
+	sisyphus autoremove
+
+If you  still need  Blender, we  strongly recommend  installing it  via Flatpak,
+which  provides  an  upstream-maintained  and fully  sandboxed  version  of  the
+application. To install Blender via Flatpak, use the following command:
+
+	flatpak install flathub org.blender.Blender
+
+Or, if you prefer a graphical interface, use Plasma Discover.
+
+Using Flatpak  ensures continued compatibility, independent  of system toolchain
+changes, and provides faster access to the latest Blender releases.
