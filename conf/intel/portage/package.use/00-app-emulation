@@ -4,7 +4,7 @@ app-emulation/libvirt libssh lvm numa parted virt-network
 app-emulation/open-vm-tools gtkmm multimon
 app-emulation/qemu io-uring iscsi lzo numa usb usbredir vde virtfs vte virgl snappy spice ssh static-user -doc -pam -sdl -sdl2
 app-emulation/virt-manager gui
-app-emulation/virtualbox lvm vnc
+app-emulation/virtualbox lvm vnc -python
 app-emulation/wine-proton osmesa usb
 app-emulation/wine-staging dos osmesa mingw usb -wow64 -realtime -prelink -ffmpeg
 app-emulation/wine-vanilla dos osmesa mingw usb -wow64 -realtime -prelink -ffmpeg
