@@ -1,17 +1,17 @@
 # This file has been automatically generated, do not edit.
 
->=dev-util/spirv-llvm-translator-19.99.99
->=llvm-core/clang-19.99.99
->=llvm-core/clang-common-19.99.99
->=llvm-core/clang-runtime-19.99.99
->=llvm-core/clang-toolchain-symlinks-19.99.99
->=llvm-core/libclc-19.99.99
->=llvm-core/lld-19.99.99
->=llvm-core/lld-toolchain-symlinks-19.99.99
->=llvm-core/llvm-19.99.99
->=llvm-core/llvm-common-19.99.99
->=llvm-core/llvm-toolchain-symlinks-19.99.99
->=llvm-core/llvmgold-19.99.99
->=llvm-runtimes/compiler-rt-19.99.99
->=llvm-runtimes/compiler-rt-sanitizers-19.99.99
->=llvm-runtimes/openmp-19.99.99
+>=dev-util/spirv-llvm-translator-20.99.99
+>=llvm-core/clang-20.99.99
+>=llvm-core/clang-common-20.99.99
+>=llvm-core/clang-runtime-20.99.99
+>=llvm-core/clang-toolchain-symlinks-20.99.99
+>=llvm-core/libclc-20.99.99
+>=llvm-core/lld-20.99.99
+>=llvm-core/lld-toolchain-symlinks-20.99.99
+>=llvm-core/llvm-20.99.99
+>=llvm-core/llvm-common-20.99.99
+>=llvm-core/llvm-toolchain-symlinks-20.99.99
+>=llvm-core/llvmgold-20.99.99
+>=llvm-runtimes/compiler-rt-20.99.99
+>=llvm-runtimes/compiler-rt-sanitizers-20.99.99
+>=llvm-runtimes/openmp-20.99.99

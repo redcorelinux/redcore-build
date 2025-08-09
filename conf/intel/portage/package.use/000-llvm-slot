@@ -1,4 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 #llvm18
+dev-lang/spidermonkey LLVM_SLOT: 18
 dev-lang/zig LLVM_SLOT: 18
