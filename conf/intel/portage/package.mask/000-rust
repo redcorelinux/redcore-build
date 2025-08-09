@@ -3,3 +3,6 @@
 >=dev-lang/rust-1.88.99::gentoo
 >=dev-lang/rust-bin-1.88.99::gentoo
 >=dev-lang/rust-common-1.88.99::gentoo
+<dev-lang/rust-1.87.99::gentoo
+<dev-lang/rust-bin-1.87.99::gentoo
+<dev-lang/rust-1.87.99::gentoo
