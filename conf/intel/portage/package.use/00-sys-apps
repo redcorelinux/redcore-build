@@ -3,7 +3,7 @@
 sys-apps/attr static-libs
 sys-apps/busybox mdev
 sys-apps/debianutils -installkernel
-sys-apps/file -python
+sys-apps/file -python -seccomp
 sys-apps/firejail suid
 sys-apps/flatpak kde -gtk
 sys-apps/fwupd amdgpu amt cbor dell flashrom gnutls gusb logitech nvme spi synaptics thunderbolt tpm uefi -modemmanager
