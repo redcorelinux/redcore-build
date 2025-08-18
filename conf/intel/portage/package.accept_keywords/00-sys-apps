@@ -1,4 +1,0 @@
-# This file has been automatically generated, do not edit.
-
-sys-apps/amdgpu_top -~amd64
-sys-apps/kbd -~amd64
