@@ -1,4 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-sys-auth/elogind audit
 sys-auth/polkit -gtk
