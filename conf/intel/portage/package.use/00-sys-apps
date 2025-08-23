@@ -7,5 +7,5 @@ sys-apps/file -python -seccomp
 sys-apps/firejail suid
 sys-apps/flatpak kde -gtk
 sys-apps/fwupd amdgpu amt cbor dell flashrom gnutls gusb logitech nvme spi synaptics thunderbolt tpm uefi -modemmanager
-sys-apps/openrc sysv-utils -ncurses -netifrc
+sys-apps/openrc audit sysv-utils -netifrc -newnet
 sys-apps/util-linux -cryptsetup
