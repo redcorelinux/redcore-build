@@ -1,12 +1,13 @@
 # This file has been automatically generated, do not edit.
 
 app-backup/timeshift
+app-editors/featherpad
 app-emulation/steam
 app-office/libreoffice
 app-text/qpdfview
 games-util/heroic-bin
 games-util/lutris
+kde-apps/kcalc
 net-misc/warpinator
-sci-calculators/speedcrunch
 sys-block/partitionmanager
 www-client/firefox
