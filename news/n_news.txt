@@ -86,4 +86,30 @@ application. To install Blender via Flatpak, use the following command:
 Or, if you prefer a graphical interface, use Plasma Discover.
 
 Using Flatpak  ensures continued compatibility, independent  of system toolchain
-changes, and provides faster access to the latest Blender releases.
+changes,  and  provides  faster  access  to the  latest  Blender  releases.
+---
+
+2025-09-16 : xf86-video-vmware driver removal
+
+ Author : Ghiunhan Mamut <venerix@redcorelinux.org>
+
+With   the   introduction   of   newer  Mesa   releases,   the   legacy   driver
+x11-drivers/xf86-video-vmware  has   become  incompatible   and  is   no  longer
+maintained. Keeping  this driver installed  will cause conflicts  when updating,
+and in some cases,  may break the OpenGL stack or  prevent proper functioning of
+the graphical environment.
+
+To ensure a  smooth upgrade process, the  package  must  be  marked  for removal
+before running updates. To do so, please run the following command:
+
+	emerge --deselect x11-drivers/xf86-video-vmware
+
+Once  the system  update  is complete,  remember to  also  cleanup the  orphaned
+packages by running:
+
+	sisyphus autoremove
+
+Modern versions  of Mesa and the  Linux kernel already provide  built-in support
+for VMware  virtual graphics adapters through  the vmwgfx driver in  the kernel,
+making  xf86-video-vmware unnecessary.  Removing it  will prevent  conflicts and
+ensure continued compatibility with future Mesa updates.
