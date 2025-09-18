@@ -1,5 +1,5 @@
 # This file has been automatically generated, do not edit.
 
-#llvm18
-dev-lang/spidermonkey:128 LLVM_SLOT: 18
-dev-lang/zig:0.13 LLVM_SLOT: 18
+#llvm19
+dev-lang/spidermonkey:128 LLVM_SLOT: 19
+dev-lang/zig:0.14 LLVM_SLOT: 18
