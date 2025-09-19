@@ -91,7 +91,7 @@ changes,  and  provides  faster  access  to the  latest  Blender  releases.
 
 2025-09-16 : xf86-video-vmware driver removal
 
- Author : Ghiunhan Mamut <venerix@redcorelinux.org>
+	Author : Ghiunhan Mamut <venerix@redcorelinux.org>
 
 With   the   introduction   of   newer  Mesa   releases,   the   legacy   driver
 x11-drivers/xf86-video-vmware  has   become  incompatible   and  is   no  longer
@@ -113,3 +113,29 @@ Modern versions  of Mesa and the  Linux kernel already provide  built-in support
 for VMware  virtual graphics adapters through  the vmwgfx driver in  the kernel,
 making  xf86-video-vmware unnecessary.  Removing it  will prevent  conflicts and
 ensure continued compatibility with future Mesa updates.
+---
+
+2025-09-19 : Introduction of Hermes Update Notifier
+
+        Author : Ghiunhan Mamut venerix@redcorelinux.org
+
+The  Hermes  daemon has  been  added  to  Redcore  Linux to  provide  background
+monitoring of package updates. Running quietly in the background, Hermes informs
+the user whenever  updates are available and integrates into  the desktop with a
+system tray application for easy access.
+
+Hermes is available in the Redcore repositories. To install it, run:
+
+        sisyphus install app-portage/hermes
+
+Once installed, the Hermes daemon must be enabled at startup:
+
+        rc-update add hermesd default
+
+After enabling the  daemon, reboot the system to ensure  the service is properly
+started. Once the system has restarted,  launch the Hermes tray application from
+the desktop menu. From here, users will receive update notifications directly in
+the system tray.
+
+For convenience, Hermes can also be configured to run at every login by enabling
+the autostart option from its tray menu.
