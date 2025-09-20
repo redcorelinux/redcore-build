@@ -117,7 +117,7 @@ ensure continued compatibility with future Mesa updates.
 
 2025-09-19 : Introduction of Hermes Update Notifier
 
-        Author : Ghiunhan Mamut venerix@redcorelinux.org
+        Author : Ghiunhan Mamut <venerix@redcorelinux.org>
 
 The  Hermes  daemon has  been  added  to  Redcore  Linux to  provide  background
 monitoring of package updates. Running quietly in the background, Hermes informs
