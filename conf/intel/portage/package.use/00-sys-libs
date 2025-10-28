@@ -2,6 +2,7 @@
 
 sys-libs/glibc hash-sysv-compat
 sys-libs/libblockdev device-mapper dmraid lvm
+sys-libs/libcap static-libs tools
 sys-libs/libseccomp -python
 sys-libs/libxcrypt static-libs
 sys-libs/zlib minizip static-libs
