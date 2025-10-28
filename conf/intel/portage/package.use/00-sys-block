@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
 sys-block/parted device-mapper
+sys-block/thin-provisioning-tools -io-uring
