@@ -3,3 +3,4 @@
 virtual/libcrypt static-libs
 virtual/linux-sources firmware
 virtual/rust profiler rustfmt
+virtual/zlib static-libs
