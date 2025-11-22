@@ -1,0 +1,9 @@
+# This file has been automatically generated, do not edit.
+
+kde-frameworks/kcompletion:5 -designer
+kde-frameworks/kconfigwidgets:5 -designer
+kde-frameworks/kiconthemes:5 -designer
+kde-frameworks/kio:5 -designer
+kde-frameworks/kitemviews:5 -designer
+kde-frameworks/kwidgetsaddons:5 -designer
+kde-frameworks/kxmlgui:5 -designer
