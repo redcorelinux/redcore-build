@@ -139,3 +139,34 @@ the system tray.
 
 For convenience, Hermes can also be configured to run at every login by enabling
 the autostart option from its tray menu.
+---
+
+2025-11-22 : Qt 6.10 Incompatibilities
+
+	Author : Ghiunhan Mamut venerix@redcorelinux.org
+
+With  the  arrival  of  Qt  6.10, several  Qt-based  utilities  and  third-party
+applications  are  no  longer   compatible.  Leaving  these  packages  installed
+will  cause  conflicts,  prevent  successful upgrades,  or  break  core  desktop
+functionality.
+
+To ensure a smooth transition, you must remove these packages before upgrading:
+
+1st Step (avoid file collisions):
+
+	sisyphus uninstall designer --force
+
+2nd Step (mark incompatible apps and utilities for removal):
+
+	emerge --deselect qtcurve sqlitestudio xwaylandvideobridge
+
+Once these steps are complete, you can safely upgrade your system with:
+
+	sisyphus upgrade
+or
+	sisyphus upgrade --ebuild
+
+Once  the system  update  is complete,  remember to  also  cleanup the  orphaned
+packages by running:
+
+	sisyphus autoremove
