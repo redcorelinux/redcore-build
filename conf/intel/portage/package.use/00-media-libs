@@ -9,7 +9,7 @@ media-libs/libvpx postproc svc
 media-libs/lsp-plugins ladspa vst
 media-libs/mesa d3d9 gles1 gles2 lm-sensors osmesa vulkan vulkan-overlay xa zink -xvmc
 media-libs/mlt frei0r lua melt kdenlive fftw
-media-libs/opencv contrib contribdnn contribfreetype contribsfm contribxfeatures2d download features2d gdal gflags glog ieee1394 lapack tesseract -gtk3 
+media-libs/opencv contrib contribdnn contribfreetype contribsfm contribxfeatures2d download features2d gflags glog ieee1394 lapack tesseract -gtk3 -gdal 
 media-libs/openh264 utils
 media-libs/opensubdiv tbb
 media-libs/opus custom-modes
