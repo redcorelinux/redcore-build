@@ -158,7 +158,7 @@ To ensure a smooth transition, you must remove these packages before upgrading:
 
 2nd Step (mark incompatible apps and utilities for removal):
 
-	emerge --deselect qtcurve sqlitestudio xwaylandvideobridge
+	emerge --deselect sqlitestudio xwaylandvideobridge
 
 Once these steps are complete, you can safely upgrade your system with:
 
