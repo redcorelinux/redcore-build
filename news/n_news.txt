@@ -152,15 +152,9 @@ functionality.
 
 To ensure a smooth transition, you must remove these packages before upgrading:
 
-1st Step (avoid file collisions):
+	emerge --deselect xwaylandvideobridge
 
-	sisyphus uninstall designer --force
-
-2nd Step (mark incompatible apps and utilities for removal):
-
-	emerge --deselect sqlitestudio xwaylandvideobridge
-
-Once these steps are complete, you can safely upgrade your system with:
+Once this step is complete, you can safely upgrade your system with:
 
 	sisyphus upgrade
 or
