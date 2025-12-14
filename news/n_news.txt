@@ -164,3 +164,31 @@ Once  the system  update  is complete,  remember to  also  cleanup the  orphaned
 packages by running:
 
 	sisyphus autoremove
+---
+2025-12-14 : Sisyphus-Qt Now Optional
+
+	Author : Ghiunhan Mamut venerix@redcorelinux.org
+
+With  the  latest  system  updates, Sisyphus-Qt,  the  graphical  interface  for
+Sisyphus,  is now  an optional  component instead  of part  of the  core default
+install.  It  remains fully  supported  and  will  continue to  receive  updates
+alongside the CLI package manager.
+
+Users who  wish to keep  the graphical interface must  explicitly mark it  to be
+kept before running the next upgrade by executing:
+
+	emerge --noreplace sisyphus-qt
+
+If  you prefer  to  rely solely  on  the command-line  interface,  no action  is
+required; the Sisyphus-Qt package will simply  not be pulled in by default going
+forward.
+
+Once this step is complete, you can safely upgrade your system with:
+
+	sisyphus upgrade
+or
+	sisyphus upgrade --ebuild
+
+After the upgrade finishes, remember to clean up orphaned packages by running:
+
+	sisyphus autoremove
