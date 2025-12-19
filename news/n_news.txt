@@ -192,3 +192,30 @@ or
 After the upgrade finishes, remember to clean up orphaned packages by running:
 
 	sisyphus autoremove
+---
+2025-12-19 : Power Profiles Stack Replaced by TLP
+
+	Author : Ghiunhan Mamut venerix@redcorelinux.org
+
+With the latest system updates, the previous power management stack built around
+power-profiles-daemon and  laptop-mode-tools has  been removed from  the default
+install and replaced  by TLP as the primary userland  power management solution.
+TLP provides a  comprehensive feature set for laptop power  saving and now fully
+covers the use cases previously handled by the deprecated tools.
+
+Users are  advised to explicitly  deselect the legacy power  management packages
+before running the next upgrade by executing:
+
+	emerge --deselect power-profiles-daemon laptop-mode-tools
+
+No additional action  is required to enable the new  power management stack; TLP
+will be  pulled in automatically  as part  of the standard  system configuration
+going forward.
+
+Once this step is complete, you can safely upgrade your system with:
+
+	sisyphus upgrade or sisyphus upgrade --ebuild
+
+After the upgrade finishes, remember to clean up orphaned packages by running:
+
+	sisyphus autoremove
