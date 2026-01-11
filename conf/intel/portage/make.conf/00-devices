@@ -1,5 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 INPUT_DEVICES="evdev synaptics libinput"
-VIDEO_CARDS="intel i915 i965 iris lavapipe nouveau nvk r100 r200 r300 r600 vesa amdgpu radeonsi radeon vmware virgl swrast zink"
+VIDEO_CARDS="intel i915 i965 iris lavapipe nouveau nvk r100 r200 r300 r600 vesa amdgpu radeonsi radeon virgl swrast zink"
 LIRC_DEVICES="audio audio_alsa serial pctv"
