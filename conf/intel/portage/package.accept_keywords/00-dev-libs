@@ -2,7 +2,6 @@
 
 dev-libs/boost -~amd64
 dev-libs/botan -~amd64
-dev-libs/icu -~amd64
 dev-libs/libfmt -~amd64
 dev-libs/quazip -~amd64
 dev-libs/spdlog -~amd64
