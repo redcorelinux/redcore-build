@@ -1,5 +1,5 @@
 # This file has been automatically generated, do not edit.
 
->=dev-lang/rust-1.90.99::gentoo
->=dev-lang/rust-bin-1.90.99::gentoo
->=dev-lang/rust-common-1.90.99::gentoo
+>=dev-lang/rust-1.91.99::gentoo
+>=dev-lang/rust-bin-1.91.99::gentoo
+>=dev-lang/rust-common-1.91.99::gentoo
