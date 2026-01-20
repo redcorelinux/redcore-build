@@ -13,6 +13,8 @@ media-libs/opencv contrib contribdnn contribfreetype contribsfm contribxfeatures
 media-libs/openh264 utils
 media-libs/opensubdiv tbb
 media-libs/opus custom-modes
+media-libs/quirc opencv tools
+media-libs/rubberband ladspa lv2 vamp
 media-libs/sdl-mixer mad mod
 media-libs/sdl2-mixer mad mod
 media-libs/sdl-sound -mpeg
