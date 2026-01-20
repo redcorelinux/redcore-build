@@ -1,7 +1,7 @@
 # This file has been automatically generated, do not edit.
 
-media-video/ffmpeg amr amrenc chromium frei0r libdrm librtmp libv4l openh264 snappy twolame
+media-video/ffmpeg amf amr amrenc cdio chromaprint chromium codec2 flite frei0r fribidi gme gmp iec61883 ieee1394 kvazaar ladspa libaribb24 libcaca libilbc liblc3 libplacebo librtmp libsoxr lv2 openh264 qrcode qsv quirc rav1e rubberband shaderc snappy sndio srt ssh svt-av1 twolame vidstab zeromq zimg zvbi
 media-video/mpv cdda cli libmpv -sdl
 media-video/obs-studio imagemagick -python
 media-video/pipewire echo-cancel extra gsettings ieee1394 jack-sdk lv2 liblc3 pipewire-alsa roc sound-server
-media-video/vlc aom archive aribsub bidi cdda cddb chromaprint chromecast dc1394 dts faad fluidsynth gme gnutls ieee1394 kate libcaca libtar libtiger linsys lirc live lua lynsis mad modplug musepack nfs omxil rdp schroedinger sdl-image shout sid skins speex srt taglib tremor twolame upnp vlm vnc zvbi -vaapi
+media-video/vlc aom archive aribsub bidi cdda cddb chromaprint chromecast dc1394 dts faad fluidsynth gme gnutls ieee1394 kate libcaca libtar libtiger linsys lirc live lua lynsis mad modplug musepack nfs omxil rdp schroedinger sdl-image shout sid skins speex srt taglib tremor twolame upnp vaapi vlm vnc zvbi
