@@ -1,6 +1,6 @@
 # This file has been automatically generated, do not edit.
 
-media-video/ffmpeg amf amr amrenc bs2b cdio chromaprint chromium codec2 dvd drm flite frei0r fribidi gme iec61883 ieee1394 kvazaar ladspa libaribb24 libcaca libilbc liblc3 libplacebo librtmp libsoxr lv2 openh264 qrcode qsv quirc rav1e rubberband shaderc snappy sndio speex srt ssh svt-av1 twolame vidstab zeromq zimg zvbi -gmp
+media-video/ffmpeg amf amr amrenc bs2b cdio chromaprint chromium codec2 dvd drm flite frei0r fribidi gme iec61883 ieee1394 kvazaar ladspa libaribb24 libcaca libilbc liblc3 libplacebo librtmp libsoxr lv2 nvenc openh264 openmpt qrcode qsv quirc rabbitmq rav1e rubberband shaderc snappy sndio speex srt ssh svt-av1 twolame vidstab zeromq zimg zvbi -gmp
 media-video/mpv cdda cli libmpv -sdl
 media-video/obs-studio imagemagick -python
 media-video/pipewire echo-cancel extra gsettings ieee1394 jack-sdk lv2 liblc3 pipewire-alsa roc sound-server
