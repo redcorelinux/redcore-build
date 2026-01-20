@@ -1,5 +1,6 @@
 # This file has been automatically generated, do not edit.
 
+media-libs/avidemux-plugins aften amr dcaenc twolame
 media-libs/cogl gles2
 media-libs/freetype brotli harfbuzz utils
 media-libs/libffado -qt5
