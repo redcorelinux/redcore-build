@@ -2,6 +2,6 @@
 
 app-admin/calamares branding config
 app-admin/conky hddtemp bundled-toluapp imlib iostats irc lua-cairo lua-imlib lua-rsvg math mpd rss thinkpad weather-metar weather-xoap wifi
-app-admin/keepassxc autotype http -yubikey
+app-admin/keepassxc autotype browser keeshare yubikey
 app-admin/sudo -sendmail -gcrypt
 app-admin/testdisk ntfs -ewf
