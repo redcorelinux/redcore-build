@@ -3,5 +3,6 @@
 net-libs/gnutls dane tools pkcs11
 net-libs/libnma -vala
 net-libs/libpsl -idn
+net-libs/ngtcp2 gnutls
 net-libs/nodejs inspector
 net-libs/webkit-gtk -gstreamer
