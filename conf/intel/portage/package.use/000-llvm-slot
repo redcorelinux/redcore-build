@@ -2,4 +2,6 @@
 
 #llvm19
 dev-lang/spidermonkey:128 LLVM_SLOT: 19
-dev-lang/zig:0.14 LLVM_SLOT: 19
+
+#llvm20
+dev-lang/zig:0.15 LLVM_SLOT: 20
