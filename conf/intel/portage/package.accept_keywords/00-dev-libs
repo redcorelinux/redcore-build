@@ -5,3 +5,4 @@ dev-libs/botan -~amd64
 dev-libs/libfmt -~amd64
 dev-libs/quazip -~amd64
 dev-libs/spdlog -~amd64
+dev-libs/zxcvbn-c -~amd64
