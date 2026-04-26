@@ -4,4 +4,4 @@ dev-python/netaddr -cli
 dev-python/pyqt6 bluetooth dbus geolocation gui multimedia network nfc opengl pdfium positioning printsupport qml quick quick3d sensors serialport spatialaudio speech sql ssl svg webchannel websockets widgets xml -designer
 dev-python/pyqt6-webengine quick
 dev-python/pyside 3d bluetooth charts dbus gui location multimedia nfc pdfium positioning quick quick3d sensors serialbus serialport spatialaudio speech tools webchannel webengine websockets webview -designer
-dev-python/qtpy gui multimedia network positioning printsupport pyqt5 pyqt6 quick sensors serialport speech sql webchannel webengine websockets -designer
+dev-python/qtpy gui multimedia network nfc pdfium positioning printsupport quick quick3d sensors serialport spatialaudio speech sql webchannel webengine websockets -designer
