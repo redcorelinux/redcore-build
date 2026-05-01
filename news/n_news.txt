@@ -219,3 +219,49 @@ Once this step is complete, you can safely upgrade your system with:
 After the upgrade finishes, remember to clean up orphaned packages by running:
 
 	sisyphus autoremove
+---
+2026-05-01 : NVIDIA Driver Sub-slots and GPU Compatibility
+
+	Author : Ghiunhan Mamut venerix@redcorelinux.org
+
+With  recent updates,  Redcore Linux  has  introduced sub-SLOTS  for all  NVIDIA
+drivers. This  change allows us  to provide newer  drivers to users  with modern
+hardware  while  maintaining  backwards  compatibility  for  older  generations.
+Previously, SLOT  5 only contained v580,  but it is  not fair to keep  owners of
+newer  cards on  an older  driver. Consequently,  the upgrade  process will  now
+automatically pull version 595.
+
+This update introduces hardware-specific requirements:
+
+    GTX 50xx (Blackwell) and higher: These  cards require version 595 (or newer)
+to function correctly.
+
+    GTX 1650  up to  RTX 40xx:  These cards are  compatible with  both versions.
+However, if version  595 causes stability issues, you  should manually downgrade
+to v580.
+
+    GTX 1000 Series (Pascal): Support has  been dropped in version 595. Updating
+to this version will break your system.
+
+    Legacy Slots 3 and 4: Users  running  version  390 (SLOT 3)  or  version 470 
+(SLOT 4) for legacy hardware are unaffected and can safely ignore this message.
+
+Users  with 1000  series hardware,  or those  on 16xx/RTX  hardware experiencing
+issues with the  new stack, must follow  these mitigation steps to  pin the v580
+driver:
+
+First, deselect the current drivers:
+
+	emerge --deselect nvidia-drivers
+
+Next, perform the system upgrade and clean up:
+
+	sisyphus upgrade --ebuild
+	sisyphus autoremove
+
+Finally, explicitly install the compatible driver version:
+
+	sisyphus install nvidia-drivers:5/580
+
+This ensures the correct driver is pinned and system stability is maintained for
+older hardware generations.
