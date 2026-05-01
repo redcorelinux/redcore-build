@@ -233,12 +233,12 @@ automatically pull version 595.
 
 This update introduces hardware-specific requirements:
 
-    GTX 50xx (Blackwell) and higher: These  cards require version 595 (or newer)
+    RTX 50xx (Blackwell) and higher: These  cards require version 595 (or newer)
 to function correctly.
 
-    GTX 1650  up to  RTX 40xx:  These cards are  compatible with  both versions.
-However, if version  595 causes stability issues, you  should manually downgrade
-to v580.
+    GTX 1650  up  to  RTX 40xx (Turing / Ampere / Ada Lovelace): These cards are
+compatible with  both versions. However, if version  595 causes stability issues,
+you  should manually downgrade to v580.
 
     GTX 1000 Series (Pascal): Support has  been dropped in version 595. Updating
 to this version will break your system.
