@@ -1,9 +1,3 @@
 # This file has been automatically generated, do not edit.
 
-if [ -f /etc/sisyphus/sisyphus-binhost-amd64.conf ]; then
-    source /etc/sisyphus/sisyphus-binhost-amd64.conf
-elif [ -f /etc/sisyphus/sisyphus-mirrors-amd64.conf ]; then
-    source /etc/sisyphus/sisyphus-mirrors-amd64.conf
-elif [ -f /etc/sisyphus/mirrors.conf ]; then
-    source /etc/sisyphus/mirrors.conf
-fi
+source /etc/sisyphus/mirrors.conf
