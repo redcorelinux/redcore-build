@@ -1,3 +1,4 @@
 # This file has been automatically generated, do not edit.
 
+>=sys-auth/elogind-255.22::gentoo
 sys-auth/polkit-qt::gentoo
