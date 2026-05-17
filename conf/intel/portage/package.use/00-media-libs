@@ -5,6 +5,7 @@ media-libs/cogl gles2
 media-libs/freetype brotli harfbuzz utils
 media-libs/libjpeg-turbo java
 media-libs/libsdl2 haptic gles2
+media-libs/libvlc aom archive aribsub bidi cdda cddb chromaprint chromecast dc1394 dts faad fluidsynth gme gnutls ieee1394 kate libcaca libtar libtiger linsys lirc live lua lynsis mad modplug musepack nfs omxil rdp schroedinger sdl-image shout sid skins speex srt taglib tremor twolame upnp vaapi vlm vnc zvbi
 media-libs/libvpx postproc svc
 media-libs/lsp-plugins ladspa vst
 media-libs/mesa d3d9 gles1 gles2 lm-sensors osmesa vulkan vulkan-overlay xa zink -xvmc
