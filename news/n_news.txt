@@ -265,3 +265,24 @@ Finally, explicitly install the compatible driver version:
 
 This ensures the correct driver is pinned and system stability is maintained for
 older hardware generations.
+---
+2026-05-18 : Qt5 Removal and Incompatibilities
+
+	Author : Ghiunhan Mamut venerix@redcorelinux.org
+
+With the full  transition to the Qt6 ecosystem, Qt5  and its remaining dependent
+applications  are no  longer supported  in Redcore  Linux. Leaving  these legacy
+packages installed will cause dependency conflicts, prevent successful upgrades,
+or lead to system instability.
+
+To ensure a smooth transition, you must remove these packages before upgrading:
+
+	emerge --deselect qt5ct firetools
+
+Once this step is complete, you can safely upgrade your system with:
+
+	sisyphus upgrade or sisyphus upgrade --ebuild
+
+After the upgrade finishes, remember to clean up orphaned packages by running:
+
+	sisyphus autoremove
