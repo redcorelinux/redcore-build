@@ -3,6 +3,7 @@
 dev-libs/boost -~amd64
 dev-libs/botan -~amd64
 dev-libs/libfmt -~amd64
+dev-libs/protobuf -~amd64
 dev-libs/quazip -~amd64
 dev-libs/spdlog -~amd64
 dev-libs/zxcvbn-c -~amd64
