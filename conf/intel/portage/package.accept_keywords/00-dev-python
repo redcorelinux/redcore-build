@@ -1,3 +1,5 @@
 # This file has been automatically generated, do not edit.
 
 dev-python/cryptography -~amd64
+dev-python/docutils -~amd64
+dev-python/service-identify -~amd64
