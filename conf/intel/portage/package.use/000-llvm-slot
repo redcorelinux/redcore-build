@@ -2,5 +2,4 @@
 
 #llvm20
 dev-lang/ghc LLVM_SLOT: 20
-dev-lang/spidermonkey:140 LLVM_SLOT: 20
 dev-lang/zig:0.15 LLVM_SLOT: 20
