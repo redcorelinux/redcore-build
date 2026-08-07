@@ -2,5 +2,6 @@
 
 dev-python/cryptography -~amd64
 dev-python/docutils -~amd64
+dev-python/flit-core -~amd64
 dev-python/pyopenssl -~amd64
 dev-python/service-identity -~amd64
