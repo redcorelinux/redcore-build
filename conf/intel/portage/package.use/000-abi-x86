@@ -2,4 +2,4 @@
 
 # WoW64
 app-emulation/wine-staging ABI_X86: 64 -32
-app-emulation/wine-vanille ABI_X86: 64 -32
+app-emulation/wine-vanilla ABI_X86: 64 -32
