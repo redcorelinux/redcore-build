@@ -1,0 +1,5 @@
+# This file has been automatically generated, do not edit.
+
+# WoW64
+app-emulation/wine-staging ABI_X86: 64 -32
+app-emulation/wine-vanille ABI_X86: 64 -32
