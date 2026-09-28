@@ -5,6 +5,7 @@ sys-devel/gcc:11
 sys-devel/gcc:12
 sys-devel/gcc:13
 sys-devel/gcc:14
+sys-devel/gcc:16
 <sys-kernel/linux-headers-6.18
 >=sys-kernel/linux-headers-6.19
 >=sys-libs/binutils-libs-2.46
