@@ -3,5 +3,6 @@
 dev-lang/python:3.13t::gentoo
 dev-lang/python:3.14::gentoo
 dev-lang/python:3.14t::gentoo
+dev-lang/python:3.15::gentoo
 dev-lang/ruby:3.3::gentoo
 dev-lang/ruby:3.4::gentoo
