@@ -1,9 +1,9 @@
 if [[ "${CATEGORY}/${PN}" == "x11-drivers/nvidia-drivers" ]]; then
-    if [[ ! -f /usr/src/linux/Makefile ]]; then
-        _fallback_kernel="$(ls -1dt /usr/src/linux-[0-9]* 2>/dev/null | head -n 1)"
-        if [[ -n "${_fallback_kernel}" && -f "${_fallback_kernel}/Makefile" ]]; then
-            export KERNEL_DIR="${_fallback_kernel}"
-            einfo "Symlink invalid: dynamically overriding KERNEL_DIR to ${_fallback_kernel}"
-        fi
-    fi
+	if [[ ! -f /usr/src/linux/Makefile ]]; then
+		_fallback_kernel="$(ls -1dt /usr/src/linux-[0-9]* 2>/dev/null | head -n 1)"
+		if [[ -n "${_fallback_kernel}" && -f "${_fallback_kernel}/Makefile" ]]; then
+			export KERNEL_DIR="${_fallback_kernel}"
+			einfo "KERNEL_DIR: ${_fallback_kernel}"
+		fi
+	fi
 fi
