@@ -1,6 +1,5 @@
 # This file has been automatically generated, do not edit.
 
-x11-drivers/nvidia-drivers 00-use-proc-config-gz.conf
 x11-drivers/xf86-input-evdev 00-disable-bind-now.conf
 x11-drivers/xf86-input-joystick 00-disable-bind-now.conf
 x11-drivers/xf86-input-libinput 00-disable-bind-now.conf

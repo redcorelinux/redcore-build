@@ -1,0 +1,5 @@
+if [[ "${CATEGORY}/${PN}" == "x11-drivers/nvidia-drivers" ]]; then
+    linux_config_src_exists() {
+        return 1
+    }
+fi
