@@ -2,5 +2,4 @@
 
 x11-misc/picom -doc
 x11-misc/polybar i3wm ipc mpd network
-x11-misc/sddm branding
 x11-misc/xmobar mpd mpris timezone wifi xft
